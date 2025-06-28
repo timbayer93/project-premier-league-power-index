@@ -102,7 +102,7 @@ Promise.all([
     // === Get user inputs ===
     const activeGWInput = document.getElementById("active-gw");
     const activeGW = activeGWInput ? parseInt(activeGWInput.value, 10) : config.active_gw;
-    console.log(activeGW)
+    
     const numGwsToShow = parseInt(document.getElementById("num-gws").value);
     const useDecay = document.getElementById("use-decay").checked;
     const isCompact = document.getElementById("compact-toggle").checked;
