@@ -1,0 +1,423 @@
+.fixture-ticker-container {
+  background-color: white;
+  padding-top: 1.5rem;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+  padding-bottom: 0.5rem;
+}
+
+.fixture-ticker-table-container {
+  overflow-x: auto;
+  width: 100%;
+}
+
+/* Table Styling */
+#fixture-ticker-table {
+  border-collapse: collapse;
+  width: 100%;
+/*  table-layout: fixed;*/
+/*  min-width: max-content;*/
+/*  border-radius: 8px;*/
+/*  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);*/
+}
+
+/* main header border */
+#fixture-ticker-table thead {
+  border-bottom: 1.5px solid black; /* thick black bottom border on the entire header row */
+  z-index: 10;  /* ensure border is on top */
+}
+
+/* Custom sticky border */
+.ticker-cell-rank::after,
+.ticker-cell-team::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  height: 0;
+  width: 100%;
+  border-bottom: 1px dotted #ccc;
+  z-index: 3;
+}
+
+/* table headers  */
+#fixture-ticker-table thead th {
+  font-size: 0.8rem;
+  color: #777;
+  font-weight: 500;
+}
+
+#fixture-ticker-table thead th.ticker-header-team {
+  text-align: left;
+}
+
+/* Freeze sticky cols, prevent scroling */
+.sticky-col-rank {
+  position: sticky;
+  left: 0rem;
+  background-color: white;
+  z-index: 2;
+}
+
+.ticker-team-container {
+  width: 5rem;
+}
+
+.sticky-col-team {
+  /* sticky attributes, set bg and zorder */
+  position: sticky;
+  left: 1.4rem;
+  background-color: white;
+  z-index: 2;
+}
+
+.ticker-cell-rank {
+  font-family: 'Lato', sans-serif;
+  width: 2rem;
+  text-align: center;
+  padding-right: 0.5rem;
+  font-weight: 500;
+  color: #666;
+  font-size: 0.8rem;
+  /* sticky attributes, set bg and zorder */
+  position: sticky;
+  left: 0;
+  background-color: white;
+  z-index: 2;
+}
+
+.ticker-team-container {
+  width: 6rem;
+}
+
+.ticker-team-cols {
+  /* DO NOT REMOVE - NEEDED FOR ROW STYLING */
+  display: flex;
+  align-items: center; 
+  gap: 6px;
+}
+
+.ticker-cell-team {
+  /* sticky attributes, set bg and zorder */
+  position: sticky;
+  left: 1.4rem;
+  background-color: white;
+  z-index: 2;
+}
+
+/* Team Logo  */
+.ticker-team-logo {
+  height: 19px;           
+  width: auto;
+  vertical-align: middle;
+}
+
+.ticker-team-name {
+  margin-left: 6px;
+  vertical-align: middle;
+  color: #111; 
+  font-weight: 600;
+/*  font-weight: 500;*/
+/*font-weight: bold;*/
+}
+
+
+.ticker-team-meta {
+  font-family: Lato;
+  font-size: 0.6rem;
+  color: #888;
+  margin-top: 0.1rem;
+}
+
+/* Compact mode: shrink logo/text, hide metadata */
+.ticker-team-container.compact .ticker-team-meta {
+  display: none;
+}
+
+.ticker-team-container.compact .ticker-team-name {
+  font-size: 0.75rem;
+  margin-left: 0.25rem;
+}
+
+.ticker-team-container.compact .ticker-team-logo {
+  width: 20px;
+  height: 20px;
+}
+
+.ticker-blank-gw {
+  text-align: center;
+  color: #777;
+/*  background-color: white;
+  background-image: repeating-linear-gradient(
+    -45deg,
+    #b0b0b0 2px,
+    #b0b0b0 3px,
+    transparent 2px,
+    transparent 6px
+  );*/
+/*  font-weight: 300;*/
+}
+
+.ticker-double-gw {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 1px;
+}
+
+
+.ticker-double-gw.compact {
+  flex-direction: row;
+}
+
+.ticker-double-gw-span-0 {
+  flex: 1 1 0;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 3px 0px;
+  font-size: 0.75rem;
+/*  overflow: hidden;
+  white-space: nowrap;*/
+  gap: 2px;
+}
+
+.ticker-double-gw-span-1 {
+  flex: 1 1 0;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 0.75rem;  
+  padding: 3px 0px;
+/*  overflow: hidden;
+  white-space: nowrap;*/
+  gap: 2px;
+}
+
+/* Default non-compact view */
+.ticker-single-gw {
+   min-height: 43px;
+}
+
+/* Compact view: reduce min-height */
+.ticker-single-gw.compact {
+  min-height: 23px;
+}
+
+.ticker-single-gw {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 0.8em;
+  font-weight: 300;
+/*  padding: 3px 12px;*/
+/*  border-radius: 0px;*/
+/*  width: 100%;*/
+/*  box-sizing: border-box;*/
+/*  white-space: nowrap;*/
+/* gap == space between opp and home label  */
+  gap: 4px;
+/*  line-height: 1;*/
+}
+
+.ticker-single-gw-opp-label {
+  font-size: 1em;
+}
+
+.ticker-single-gw-home-label {
+  font-size: 0.6rem;
+  opacity: 0.8;
+}
+
+.ticker-double-gw-opp-label {
+  font-size: 0.8em;
+}
+
+.ticker-double-gw-home-label {
+  font-size: 0.5rem;
+  opacity: 0.8;
+}
+
+
+/* Hover Effects */
+td:hover {
+  background-color: #ecf0f1;
+  cursor: pointer;
+}
+
+.ticker-tooltip {
+  position: absolute;
+  background-color: white;
+  color: #111;
+  padding: 10px 14px;
+  font-size: 13px;
+  pointer-events: none;
+  z-index: 999;
+  white-space: nowrap;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1); /* subtle grey shadow */
+  border: 1px solid #ddd;
+  pointer-events: none;
+}
+
+/* Tooltip header layout */
+.ticker-tooltip-header {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  margin-bottom: 6px;
+}
+
+/* Tooltip logo image */
+.ticker-tooltip-header img {
+  width: 16px;
+  height: 16px;
+  object-fit: contain;
+  border-radius: 4px;
+}
+
+/* Tooltip separator */
+.ticker-tooltip hr {
+  margin: 6px 0;
+  border: none;
+  border-top: 1px solid #eee;
+}
+
+/* 600 px Responsive Design */
+@media screen and (max-width: 600px) {
+
+  /* table header stlying  */
+  #fixture-ticker-table thead th {
+    font-size: 0.7rem;
+  }
+
+/*  .ticker-team-cols {
+    min-width: 45px;
+    max-width: 50px;
+  }*/
+
+  .ticker-header-team {
+    width: 5rem;
+  }
+
+  .ticker-team-logo {
+    height: 18px;
+  }
+
+  .ticker-team-name {
+    font-size: 1rem;
+    margin-left: 2px;
+    margin-right: 5px;
+  }
+
+  .ticker-single-gw {
+    gap: 1.5px;
+  }
+
+  .ticker-single-gw-opp-label {
+    font-size: .85em;
+  }
+
+  .ticker-single-gw-home-label {
+    font-size: 0.5rem;
+  }
+
+  .ticker-double-gw-opp-label {
+    font-size: 0.85em;
+  }
+
+  .ticker-double-gw-home-label {
+    font-size: 0.5rem;
+  }
+
+}
+
+
+/** 430px Responsive Design */
+@media screen and (max-width: 430px) {
+  
+  .fixture-ticker-container {
+    background-color: white;
+    padding-left: 0.3rem;
+    padding-right: 0.3rem;
+    padding-bottom: 0.8rem;
+    padding-top: 0.8rem;
+  }
+
+  /* table header stlying  */
+  #fixture-ticker-table thead th {
+    font-size: 0.6rem;
+  }
+
+  .ticker-cell-rank {
+    text-align: right;
+    width: 1rem;
+    font-size: 0.65rem;
+  }
+
+  .ticker-team-container {
+    width: 5rem;
+  }
+
+  .ticker-team-logo {
+    height: 18px;
+  }
+
+  .ticker-team-name {
+    font-size: 1rem;
+    margin-left: 2px;
+    margin-right: 5px;
+  }
+
+  .ticker-team-container.compact .ticker-team-name {
+    font-size: .85rem;
+    margin-left: 0.25rem;
+  }
+
+  .ticker-team-container.compact .ticker-team-logo {
+    width: 16px;
+    height: 16px;
+  }
+
+  .ticker-team-meta {
+    font-size: 0.45rem;
+  }
+
+  .ticker-single-gw {
+    gap: 1.5px;
+  }
+
+  .ticker-single-gw-opp-label {
+    font-size: .8em;
+  }
+
+  .ticker-single-gw-home-label {
+    font-size: 0.4rem;
+  }
+
+  .ticker-double-gw-opp-label {
+    font-size: 0.8em;
+  }
+
+  .ticker-double-gw-home-label {
+    font-size: 0.4rem;
+  }
+
+  .ticker-tooltip {
+    font-size: 10px;
+    padding: 6px 6px;
+  }
+
+  .ticker-tooltip-header {
+    gap: 3px;
+    margin-bottom: 0px;
+  }
+
+  .ticker-tooltip-header img {
+    width: 13px;
+    height: 13px;
+  }
+
+}

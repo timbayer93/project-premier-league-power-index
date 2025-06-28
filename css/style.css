@@ -1,0 +1,390 @@
+/* Global Styles */
+body {
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  padding: 1rem;
+  background-color: #f4f7f6;
+  color: #333;
+  overflow-x: auto;
+/*  min-width: 700px;*/
+}
+
+.page-container {
+  max-width: 800px;
+/*  margin: 0 auto;*/
+  padding: 1rem;
+  width: 100%;
+}
+
+.dashboard-heading {
+  text-align: left;
+  margin-bottom: 1rem;
+}
+
+.dashboard-heading h1 {
+/*  font-weight: 700;*/
+  font-size: 3.5rem;
+  margin-bottom: 0.75rem; /* Adds vertical space to subheading */
+  padding-bottom: 0.5rem;
+  border-bottom: 2px solid #1abc9c; /* Stylish accent */
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+.subheading {
+  font-size: 1.5rem;
+  color: #2c3e50; /* Match main header tone */
+  text-transform: uppercase;
+}
+
+.subheading .header-highlight {
+  color: #1abc9c;
+  font-weight: 600;
+}
+
+.last-updated-wrapper {
+  text-align: center;
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.last-updated {
+  font-size: 0.75rem;
+  color: #666;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  margin: 0.5rem 0;
+}
+
+.update-indicator {
+  width: 0.6rem;
+  height: 0.6rem;
+  border-radius: 50%;
+  display: inline-block;
+  background-color: grey; /* default, will be overridden */
+}
+
+.last-update-divider-line {
+  height: 1px;
+  width: 50%;
+  background-color: #ddd;
+  margin: 0.2rem auto;
+}
+
+.socials {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  margin-top: 0.5rem;
+  margin-bottom: 1.5rem;
+  flex-wrap: wrap;
+}
+
+.social-icons a {
+  display: inline-block;
+  margin: 0 0.25rem;
+  transition: transform 0.2s ease;
+}
+
+.social-icons img {
+  width: 20px;
+  height: 20px;
+  opacity: 0.7;
+  filter: grayscale(100%);
+}
+
+.social-icons a:hover img {
+  transform: scale(1.1);
+  opacity: 1;
+  filter: none;
+}
+
+.ticker-config {
+  background: white;
+  display: flex;
+  flex-direction: column;
+/*  gap: 0.75rem;*/
+/*  padding: 1rem 1.25rem;*/
+  padding-top: 1rem;
+  padding-left: 1.25rem;
+  padding-right: 1.25rem;
+  padding-bottom: 1rem;
+  margin-bottom: 1rem;
+  border-top: 1px solid #ddd;
+  border-bottom: 1px solid #ddd;
+}
+
+.ticker-dashboard-header {
+  font-weight: 600;
+  color: #333;
+  font-size: 1.2rem;
+  margin-bottom: 0.rem;
+}
+
+.favourable {
+  color: #02c969;
+  font-weight: 700;
+}
+
+.unfavourable {
+  color: #38003c;
+  font-weight: 700;
+}
+
+#controls {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  align-items: center;
+  justify-content: flex-start;
+  margin-bottom: 0.75rem;
+}
+
+/* Each control-group should take only as much width as needed */
+.control-group {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  flex-wrap: nowrap;
+}
+
+/* Inputs should have consistent sizing */
+.control-group input[type="number"] {
+  width: 4rem; /* Adjust this as needed */
+  padding: 0.25rem 0.5rem;
+  font-size: 0.9rem;
+}
+
+.hover-info {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  font-size: 0.875rem;
+  color: #666;
+}
+
+.info-tooltip-hint {
+  display: flex;
+  align-items: center;
+  gap: 0.25rem;
+  margin-top: 0.25rem;
+}
+
+.info-tooltip-hint img {
+  width: 14px;
+  height: 14px;
+  object-fit: contain;
+}
+
+.fixture-ticker-watermark {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 0.65rem;
+  color: #888;
+  padding-top: 0.5rem;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+  padding-bottom: 0.5rem;
+  border-bottom: 2.5px solid #ddd;
+  background-color: white;
+}
+
+.fixture-ticker-watermark .left,
+.fixture-ticker-watermark .right {
+  white-space: nowrap;
+}
+
+.notes-box {
+  background-color: white;
+  padding-top: 1.5rem;
+  padding-left: 1.5rem;
+  padding-right: 2rem;
+  padding-bottom: 1rem;
+  margin-top: 0rem;
+  font-size: 0.75rem;
+/*  font-style: italic;*/
+  color: #555;
+}
+
+.notes-header {
+  font-weight: 600;
+  color: #333;
+  font-size: 0.8rem;
+  margin-bottom: 0.5rem;
+}
+
+.time-decay-toggle {
+  font-size: 0.75rem;
+  background-color: white;
+}
+
+.time-decay-toggle label {
+  font-size: 0.72rem;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.decay-explainer {
+  display: block;
+  margin-top: 0.5rem; /* vertical space */
+  padding-left: 0rem; /* align left */
+  font-size: 0.72rem;
+  color: #666;
+}
+
+.page-footer {
+  background-color: #2c3e50;
+  color: white;
+  padding: 1rem 1.5rem;
+  margin-top: 2rem;
+  text-align: left;
+  font-size: 0.85rem;
+}
+
+.page-footer a {
+  color: #1abc9c;
+  text-decoration: none;
+}
+
+.page-footer a:hover {
+  text-decoration: underline;
+}
+
+.footer-content p {
+  margin: 0.5rem 0;
+}
+
+
+
+/* 600 px Responsive Design */
+@media screen and (max-width: 600px) {
+
+  body {
+    padding: 0.5rem;
+  }
+
+  .page-container {
+    max-width: 100%;
+    padding: 0.8rem;
+  }
+
+  .intro {
+    font-size: 0.85rem;
+/*    padding-left: 1.5rem;
+    padding-right: 1.5rem;*/
+  }
+
+}
+
+@media screen and (max-width: 500px) {
+  .fixture-ticker-watermark {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.25rem;
+  }
+}
+
+
+/** 430px Responsive Design */
+@media screen and (max-width: 430px) {
+  
+  body {
+    padding: 0rem;
+  }
+
+  .dashboard-heading h1 {
+    font-size: 1.8rem;
+    line-height: 1;
+    margin: 0;
+/*    letter-spacing: 1.5px;*/
+  }
+
+  .subheading {
+    font-size: 0.9rem;
+    padding-top: 0.25rem;
+  }
+
+  .page-container {
+    max-width: 100%;
+    padding: 0.8rem;
+  }
+
+  .intro {
+    font-size: 0.8rem;
+  }
+
+  .ticker-description {
+    font-size: 0.8rem;
+  }
+
+  #controls {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.5rem;
+    margin-bottom: 0.2rem;
+  }
+
+  .control-group {
+    margin-bottom: 0.0rem; /* reduce space between each group */
+  }
+
+  .controls-wrapper {
+    gap: 0.0rem; /* reduce spacing between controls and hover-info */
+  }
+
+  .control-group label {
+    flex: 1;
+    font-size: .8rem;
+  }
+
+  .hover-info {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    font-size: 0.7rem;
+    color: #666;
+  }
+
+  .fixture-ticker-watermark {
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.25rem;
+  }
+
+  .notes-box {
+    padding-top: 0.5rem;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+    font-size: 0.75rem;
+  }
+
+  .notes-header {
+    font-size: 0.7rem;
+  }
+
+  .time-decay-toggle label {
+    font-size: 0.65rem;
+  }
+
+  .decay-explainer {
+    font-size: 0.5rem;
+  }
+
+  .decay-explainer {
+    font-size: 0.6rem;
+  }
+
+  .footer-content {
+    font-size: 0.7rem;
+  }
+
+
+}

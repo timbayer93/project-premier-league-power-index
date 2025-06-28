@@ -1,0 +1,6172 @@
+[
+  {
+    "team_code": 54,
+    "fixtures": {
+      "gw1": [
+        {
+          "opponent": 1,
+          "home": 0,
+          "home_label": "a",
+          "finished": true
+        }
+      ],
+      "gw2": [
+        {
+          "opponent": 13,
+          "home": 1,
+          "home_label": "h",
+          "finished": true
+        }
+      ],
+      "gw3": [
+        {
+          "opponent": 40,
+          "home": 0,
+          "home_label": "a",
+          "finished": true
+        }
+      ],
+      "gw4": [
+        {
+          "opponent": 21,
+          "home": 1,
+          "home_label": "h",
+          "finished": true
+        }
+      ],
+      "gw5": [
+        {
+          "opponent": 4,
+          "home": 1,
+          "home_label": "h",
+          "finished": true
+        }
+      ],
+      "gw6": [
+        {
+          "opponent": 17,
+          "home": 0,
+          "home_label": "a",
+          "finished": true
+        }
+      ],
+      "gw7": [
+        {
+          "opponent": 43,
+          "home": 0,
+          "home_label": "a",
+          "finished": true
+        }
+      ],
+      "gw8": [
+        {
+          "opponent": 7,
+          "home": 1,
+          "home_label": "h",
+          "finished": true
+        }
+      ],
+      "gw9": [
+        {
+          "opponent": 11,
+          "home": 0,
+          "home_label": "a",
+          "finished": true
+        }
+      ],
+      "gw10": [
+        {
+          "opponent": 94,
+          "home": 1,
+          "home_label": "h",
+          "finished": true
+        }
+      ],
+      "gw11": [
+        {
+          "opponent": 31,
+          "home": 0,
+          "home_label": "a",
+          "finished": true
+        }
+      ],
+      "gw12": [
+        {
+          "opponent": 39,
+          "home": 1,
+          "home_label": "h",
+          "finished": true
+        }
+      ],
+      "gw13": [
+        {
+          "opponent": 6,
+          "home": 0,
+          "home_label": "a",
+          "finished": true
+        }
+      ],
+      "gw14": [
+        {
+          "opponent": 36,
+          "home": 1,
+          "home_label": "h",
+          "finished": true
+        }
+      ],
+      "gw15": [
+        {
+          "opponent": 3,
+          "home": 1,
+          "home_label": "h",
+          "finished": true
+        }
+      ],
+      "gw16": [
+        {
+          "opponent": 14,
+          "home": 0,
+          "home_label": "a",
+          "finished": true
+        }
+      ],
+      "gw17": [
+        {
+          "opponent": 20,
+          "home": 1,
+          "home_label": "h",
+          "finished": true
+        }
+      ],
+      "gw18": [
+        {
+          "opponent": 8,
+          "home": 0,
+          "home_label": "a",
+          "finished": true
+        }
+      ],
+      "gw19": [
+        {
+          "opponent": 91,
+          "home": 1,
+          "home_label": "h",
+          "finished": true
+        }
+      ],
+      "gw20": [
+        {
+          "opponent": 40,
+          "home": 1,
+          "home_label": "h",
+          "finished": true
+        }
+      ],
+      "gw21": [
+        {
+          "opponent": 21,
+          "home": 0,
+          "home_label": "a",
+          "finished": true
+        }
+      ],
+      "gw22": [
+        {
+          "opponent": 13,
+          "home": 0,
+          "home_label": "a",
+          "finished": true
+        }
+      ],
+      "gw23": [
+        {
+          "opponent": 1,
+          "home": 1,
+          "home_label": "h",
+          "finished": true
+        }
+      ],
+      "gw24": [
+        {
+          "opponent": 4,
+          "home": 0,
+          "home_label": "a",
+          "finished": true
+        }
+      ],
+      "gw25": [
+        {
+          "opponent": 17,
+          "home": 1,
+          "home_label": "h",
+          "finished": true
+        }
+      ],
+      "gw26": [
+        {
+          "opponent": 31,
+          "home": 1,
+          "home_label": "h",
+          "finished": true
+        }
+      ],
+      "gw27": [
+        {
+          "opponent": 39,
+          "home": 0,
+          "home_label": "a",
+          "finished": true
+        }
+      ],
+      "gw28": [
+        {
+          "opponent": 36,
+          "home": 0,
+          "home_label": "a",
+          "finished": true
+        }
+      ],
+      "gw29": [
+        {
+          "opponent": 6,
+          "home": 1,
+          "home_label": "h",
+          "finished": true
+        }
+      ],
+      "gw30": [
+        {
+          "opponent": 3,
+          "home": 0,
+          "home_label": "a",
+          "finished": true
+        }
+      ],
+      "gw31": [
+        {
+          "opponent": 14,
+          "home": 1,
+          "home_label": "h",
+          "finished": true
+        }
+      ],
+      "gw32": [
+        {
+          "opponent": 91,
+          "home": 0,
+          "home_label": "a",
+          "finished": true
+        }
+      ],
+      "gw33": [
+        {
+          "opponent": 8,
+          "home": 1,
+          "home_label": "h",
+          "finished": true
+        }
+      ],
+      "gw34": [
+        {
+          "opponent": 20,
+          "home": 0,
+          "home_label": "a",
+          "finished": true
+        }
+      ],
+      "gw35": [
+        {
+          "opponent": 7,
+          "home": 0,
+          "home_label": "a",
+          "finished": true
+        }
+      ],
+      "gw36": [
+        {
+          "opponent": 11,
+          "home": 1,
+          "home_label": "h",
+          "finished": true
+        }
+      ],
+      "gw37": [
+        {
+          "opponent": 94,
+          "home": 0,
+          "home_label": "a",
+          "finished": true
+        }
+      ],
+      "gw38": [
+        {
+          "opponent": 43,
+          "home": 1,
+          "home_label": "h",
+          "finished": true
+        }
+      ]
+    }
+  },
+  {
+    "team_code": 1,
+    "fixtures": {
+      "gw1": [
+        {
+          "opponent": 54,
+          "home": 1,
+          "home_label": "h",
+          "finished": true
+        }
+      ],
+      "gw2": [
+        {
+          "opponent": 36,
+          "home": 0,
+          "home_label": "a",
+          "finished": true
+        }
+      ],
+      "gw3": [
+        {
+          "opponent": 14,
+          "home": 1,
+          "home_label": "h",
+          "finished": true
+        }
+      ],
+      "gw4": [
+        {
+          "opponent": 20,
+          "home": 0,
+          "home_label": "a",
+          "finished": true
+        }
+      ],
+      "gw5": [
+        {
+          "opponent": 31,
+          "home": 0,
+          "home_label": "a",
+          "finished": true
+        }
+      ],
+      "gw6": [
+        {
+          "opponent": 6,
+          "home": 1,
+          "home_label": "h",
+          "finished": true
+        }
+      ],
+      "gw7": [
+        {
+          "opponent": 7,
+          "home": 0,
+          "home_label": "a",
+          "finished": true
+        }
+      ],
+      "gw8": [
+        {
+          "opponent": 94,
+          "home": 1,
+          "home_label": "h",
+          "finished": true
+        }
+      ],
+      "gw9": [
+        {
+          "opponent": 21,
+          "home": 0,
+          "home_label": "a",
+          "finished": true
+        }
+      ],
+      "gw10": [
+        {
+          "opponent": 8,
+          "home": 1,
+          "home_label": "h",
+          "finished": true
+        }
+      ],
+      "gw11": [
+        {
+          "opponent": 13,
+          "home": 1,
+          "home_label": "h",
+          "finished": true
+        }
+      ],
+      "gw12": [
+        {
+          "opponent": 40,
+          "home": 0,
+          "home_label": "a",
+          "finished": true
+        }
+      ],
+      "gw13": [
+        {
+          "opponent": 11,
+          "home": 1,
+          "home_label": "h",
+          "finished": true
+        }
+      ],
+      "gw14": [
+        {
+          "opponent": 3,
+          "home": 0,
+          "home_label": "a",
+          "finished": true
+        }
+      ],
+      "gw15": [
+        {
+          "opponent": 17,
+          "home": 1,
+          "home_label": "h",
+          "finished": true
+        }
+      ],
+      "gw16": [
+        {
+          "opponent": 43,
+          "home": 0,
+          "home_label": "a",
+          "finished": true
+        }
+      ],
+      "gw17": [
+        {
+          "opponent": 91,
+          "home": 1,
+          "home_label": "h",
+          "finished": true
+        }
+      ],
+      "gw18": [
+        {
+          "opponent": 39,
+          "home": 0,
+          "home_label": "a",
+          "finished": true
+        }
+      ],
+      "gw19": [
+        {
+          "opponent": 4,
+          "home": 1,
+          "home_label": "h",
+          "finished": true
+        }
+      ],
+      "gw20": [
+        {
+          "opponent": 14,
+          "home": 0,
+          "home_label": "a",
+          "finished": true
+        }
+      ],
+      "gw21": [
+        {
+          "opponent": 20,
+          "home": 1,
+          "home_label": "h",
+          "finished": true
+        }
+      ],
+      "gw22": [
+        {
+          "opponent": 36,
+          "home": 1,
+          "home_label": "h",
+          "finished": true
+        }
+      ],
+      "gw23": [
+        {
+          "opponent": 54,
+          "home": 0,
+          "home_label": "a",
+          "finished": true
+        }
+      ],
+      "gw24": [
+        {
+          "opponent": 31,
+          "home": 1,
+          "home_label": "h",
+          "finished": true
+        }
+      ],
+      "gw25": [
+        {
+          "opponent": 6,
+          "home": 0,
+          "home_label": "a",
+          "finished": true
+        }
+      ],
+      "gw26": [
+        {
+          "opponent": 11,
+          "home": 0,
+          "home_label": "a",
+          "finished": true
+        }
+      ],
+      "gw27": [
+        {
+          "opponent": 40,
+          "home": 1,
+          "home_label": "h",
+          "finished": true
+        }
+      ],
+      "gw28": [
+        {
+          "opponent": 3,
+          "home": 1,
+          "home_label": "h",
+          "finished": true
+        }
+      ],
+      "gw29": [
+        {
+          "opponent": 13,
+          "home": 0,
+          "home_label": "a",
+          "finished": true
+        }
+      ],
+      "gw30": [
+        {
+          "opponent": 17,
+          "home": 0,
+          "home_label": "a",
+          "finished": true
+        }
+      ],
+      "gw31": [
+        {
+          "opponent": 43,
+          "home": 1,
+          "home_label": "h",
+          "finished": true
+        }
+      ],
+      "gw32": [
+        {
+          "opponent": 4,
+          "home": 0,
+          "home_label": "a",
+          "finished": true
+        }
+      ],
+      "gw33": [
+        {
+          "opponent": 39,
+          "home": 1,
+          "home_label": "h",
+          "finished": true
+        }
+      ],
+      "gw34": [
+        {
+          "opponent": 91,
+          "home": 0,
+          "home_label": "a",
+          "finished": true
+        }
+      ],
+      "gw35": [
+        {
+          "opponent": 94,
+          "home": 0,
+          "home_label": "a",
+          "finished": true
+        }
+      ],
+      "gw36": [
+        {
+          "opponent": 21,
+          "home": 1,
+          "home_label": "h",
+          "finished": true
+        }
+      ],
+      "gw37": [
+        {
+          "opponent": 8,
+          "home": 0,
+          "home_label": "a",
+          "finished": true
+        }
+      ],
+      "gw38": [
+        {
+          "opponent": 7,
+          "home": 1,
+          "home_label": "h",
+          "finished": true
+        }
+      ]
+    }
+  },
+  {
+    "team_code": 40,
+    "fixtures": {
+      "gw1": [
+        {
+          "opponent": 14,
+          "home": 1,
+          "home_label": "h",
+          "finished": true
+        }
+      ],
+      "gw2": [
+        {
+          "opponent": 43,
+          "home": 0,
+          "home_label": "a",
+          "finished": true
+        }
+      ],
+      "gw3": [
+        {
+          "opponent": 54,
+          "home": 1,
+          "home_label": "h",
+          "finished": true
+        }
+      ],
+      "gw4": [
+        {
+          "opponent": 36,
+          "home": 0,
+          "home_label": "a",
+          "finished": true
+        }
+      ],
+      "gw5": [
+        {
+          "opponent": 20,
+          "home": 0,
+          "home_label": "a",
+          "finished": true
+        }
+      ],
+      "gw6": [
+        {
+          "opponent": 7,
+          "home": 1,
+          "home_label": "h",
+          "finished": true
+        }
+      ],
+      "gw7": [
+        {
+          "opponent": 21,
+          "home": 0,
+          "home_label": "a",
+          "finished": true
+        }
+      ],
+      "gw8": [
+        {
+          "opponent": 11,
+          "home": 1,
+          "home_label": "h",
+          "finished": true
+        }
+      ],
+      "gw9": [
+        {
+          "opponent": 94,
+          "home": 0,
+          "home_label": "a",
+          "finished": true
+        }
+      ],
+      "gw10": [
+        {
+          "opponent": 13,
+          "home": 1,
+          "home_label": "h",
+          "finished": true
+        }
+      ],
+      "gw11": [
+        {
+          "opponent": 6,
+          "home": 0,
+          "home_label": "a",
+          "finished": true
+        }
+      ],
+      "gw12": [
+        {
+          "opponent": 1,
+          "home": 1,
+          "home_label": "h",
+          "finished": true
+        }
+      ],
+      "gw13": [
+        {
+          "opponent": 17,
+          "home": 0,
+          "home_label": "a",
+          "finished": true
+        }
+      ],
+      "gw14": [
+        {
+          "opponent": 31,
+          "home": 1,
+          "home_label": "h",
+          "finished": true
+        }
+      ],
+      "gw15": [
+        {
+          "opponent": 91,
+          "home": 1,
+          "home_label": "h",
+          "finished": true
+        }
+      ],
+      "gw16": [
+        {
+          "opponent": 39,
+          "home": 0,
+          "home_label": "a",
+          "finished": true
+        }
+      ],
+      "gw17": [
+        {
+          "opponent": 4,
+          "home": 1,
+          "home_label": "h",
+          "finished": true
+        }
+      ],
+      "gw18": [
+        {
+          "opponent": 3,
+          "home": 0,
+          "home_label": "a",
+          "finished": true
+        }
+      ],
+      "gw19": [
+        {
+          "opponent": 8,
+          "home": 1,
+          "home_label": "h",
+          "finished": true
+        }
+      ],
+      "gw20": [
+        {
+          "opponent": 54,
+          "home": 0,
+          "home_label": "a",
+          "finished": true
+        }
+      ],
+      "gw21": [
+        {
+          "opponent": 36,
+          "home": 1,
+          "home_label": "h",
+          "finished": true
+        }
+      ],
+      "gw22": [
+        {
+          "opponent": 43,
+          "home": 1,
+          "home_label": "h",
+          "finished": true
+        }
+      ],
+      "gw23": [
+        {
+          "opponent": 14,
+          "home": 0,
+          "home_label": "a",
+          "finished": true
+        }
+      ],
+      "gw24": [
+        {
+          "opponent": 20,
+          "home": 1,
+          "home_label": "h",
+          "finished": true
+        }
+      ],
+      "gw25": [
+        {
+          "opponent": 7,
+          "home": 0,
+          "home_label": "a",
+          "finished": true
+        }
+      ],
+      "gw26": [
+        {
+          "opponent": 6,
+          "home": 1,
+          "home_label": "h",
+          "finished": true
+        }
+      ],
+      "gw27": [
+        {
+          "opponent": 1,
+          "home": 0,
+          "home_label": "a",
+          "finished": true
+        }
+      ],
+      "gw28": [
+        {
+          "opponent": 31,
+          "home": 0,
+          "home_label": "a",
+          "finished": true
+        }
+      ],
+      "gw29": [
+        {
+          "opponent": 17,
+          "home": 1,
+          "home_label": "h",
+          "finished": true
+        }
+      ],
+      "gw30": [
+        {
+          "opponent": 91,
+          "home": 0,
+          "home_label": "a",
+          "finished": true
+        }
+      ],
+      "gw31": [
+        {
+          "opponent": 39,
+          "home": 1,
+          "home_label": "h",
+          "finished": true
+        }
+      ],
+      "gw32": [
+        {
+          "opponent": 8,
+          "home": 0,
+          "home_label": "a",
+          "finished": true
+        }
+      ],
+      "gw33": [
+        {
+          "opponent": 3,
+          "home": 1,
+          "home_label": "h",
+          "finished": true
+        }
+      ],
+      "gw34": [
+        {
+          "opponent": 4,
+          "home": 0,
+          "home_label": "a",
+          "finished": true
+        }
+      ],
+      "gw35": [
+        {
+          "opponent": 11,
+          "home": 0,
+          "home_label": "a",
+          "finished": true
+        }
+      ],
+      "gw36": [
+        {
+          "opponent": 94,
+          "home": 1,
+          "home_label": "h",
+          "finished": true
+        }
+      ],
+      "gw37": [
+        {
+          "opponent": 13,
+          "home": 0,
+          "home_label": "a",
+          "finished": true
+        }
+      ],
+      "gw38": [
+        {
+          "opponent": 21,
+          "home": 1,
+          "home_label": "h",
+          "finished": true
+        }
+      ]
+    }
+  },
+  {
+    "team_code": 14,
+    "fixtures": {
+      "gw1": [
+        {
+          "opponent": 40,
+          "home": 0,
+          "home_label": "a",
+          "finished": true
+        }
+      ],
+      "gw2": [
+        {
+          "opponent": 94,
+          "home": 1,
+          "home_label": "h",
+          "finished": true
+        }
+      ],
+      "gw3": [
+        {
+          "opponent": 1,
+          "home": 0,
+          "home_label": "a",
+          "finished": true
+        }
+      ],
+      "gw4": [
+        {
+          "opponent": 17,
+          "home": 1,
+          "home_label": "h",
+          "finished": true
+        }
+      ],
+      "gw5": [
+        {
+          "opponent": 91,
+          "home": 1,
+          "home_label": "h",
+          "finished": true
+        }
+      ],
+      "gw6": [
+        {
+          "opponent": 39,
+          "home": 0,
+          "home_label": "a",
+          "finished": true
+        }
+      ],
+      "gw7": [
+        {
+          "opponent": 31,
+          "home": 0,
+          "home_label": "a",
+          "finished": true
+        }
+      ],
+      "gw8": [
+        {
+          "opponent": 8,
+          "home": 1,
+          "home_label": "h",
+          "finished": true
+        }
+      ],
+      "gw9": [
+        {
+          "opponent": 3,
+          "home": 0,
+          "home_label": "a",
+          "finished": true
+        }
+      ],
+      "gw10": [
+        {
+          "opponent": 36,
+          "home": 1,
+          "home_label": "h",
+          "finished": true
+        }
+      ],
+      "gw11": [
+        {
+          "opponent": 7,
+          "home": 1,
+          "home_label": "h",
+          "finished": true
+        }
+      ],
+      "gw12": [
+        {
+          "opponent": 20,
+          "home": 0,
+          "home_label": "a",
+          "finished": true
+        }
+      ],
+      "gw13": [
+        {
+          "opponent": 43,
+          "home": 1,
+          "home_label": "h",
+          "finished": true
+        }
+      ],
+      "gw14": [
+        {
+          "opponent": 4,
+          "home": 0,
+          "home_label": "a",
+          "finished": true
+        }
+      ],
+      "gw15": [],
+      "gw16": [
+        {
+          "opponent": 54,
+          "home": 1,
+          "home_label": "h",
+          "finished": true
+        }
+      ],
+      "gw17": [
+        {
+          "opponent": 6,
+          "home": 0,
+          "home_label": "a",
+          "finished": true
+        }
+      ],
+      "gw18": [
+        {
+          "opponent": 13,
+          "home": 1,
+          "home_label": "h",
+          "finished": true
+        }
+      ],
+      "gw19": [
+        {
+          "opponent": 21,
+          "home": 0,
+          "home_label": "a",
+          "finished": true
+        }
+      ],
+      "gw20": [
+        {
+          "opponent": 1,
+          "home": 1,
+          "home_label": "h",
+          "finished": true
+        }
+      ],
+      "gw21": [
+        {
+          "opponent": 17,
+          "home": 0,
+          "home_label": "a",
+          "finished": true
+        }
+      ],
+      "gw22": [
+        {
+          "opponent": 94,
+          "home": 0,
+          "home_label": "a",
+          "finished": true
+        }
+      ],
+      "gw23": [
+        {
+          "opponent": 40,
+          "home": 1,
+          "home_label": "h",
+          "finished": true
+        }
+      ],
+      "gw24": [
+        {
+          "opponent": 91,
+          "home": 0,
+          "home_label": "a",
+          "finished": true
+        },
+        {
+          "opponent": 11,
+          "home": 0,
+          "home_label": "a",
+          "finished": true
+        }
+      ],
+      "gw25": [
+        {
+          "opponent": 39,
+          "home": 1,
+          "home_label": "h",
+          "finished": true
+        },
+        {
+          "opponent": 7,
+          "home": 0,
+          "home_label": "a",
+          "finished": true
+        }
+      ],
+      "gw26": [
+        {
+          "opponent": 43,
+          "home": 0,
+          "home_label": "a",
+          "finished": true
+        }
+      ],
+      "gw27": [
+        {
+          "opponent": 4,
+          "home": 1,
+          "home_label": "h",
+          "finished": true
+        }
+      ],
+      "gw28": [
+        {
+          "opponent": 20,
+          "home": 1,
+          "home_label": "h",
+          "finished": true
+        }
+      ],
+      "gw29": [],
+      "gw30": [
+        {
+          "opponent": 11,
+          "home": 1,
+          "home_label": "h",
+          "finished": true
+        }
+      ],
+      "gw31": [
+        {
+          "opponent": 54,
+          "home": 0,
+          "home_label": "a",
+          "finished": true
+        }
+      ],
+      "gw32": [
+        {
+          "opponent": 21,
+          "home": 1,
+          "home_label": "h",
+          "finished": true
+        }
+      ],
+      "gw33": [
+        {
+          "opponent": 13,
+          "home": 0,
+          "home_label": "a",
+          "finished": true
+        }
+      ],
+      "gw34": [
+        {
+          "opponent": 6,
+          "home": 1,
+          "home_label": "h",
+          "finished": true
+        }
+      ],
+      "gw35": [
+        {
+          "opponent": 8,
+          "home": 0,
+          "home_label": "a",
+          "finished": true
+        }
+      ],
+      "gw36": [
+        {
+          "opponent": 3,
+          "home": 1,
+          "home_label": "h",
+          "finished": true
+        }
+      ],
+      "gw37": [
+        {
+          "opponent": 36,
+          "home": 0,
+          "home_label": "a",
+          "finished": true
+        }
+      ],
+      "gw38": [
+        {
+          "opponent": 31,
+          "home": 1,
+          "home_label": "h",
+          "finished": true
+        }
+      ]
+    }
+  },
+  {
+    "team_code": 3,
+    "fixtures": {
+      "gw1": [
+        {
+          "opponent": 39,
+          "home": 1,
+          "home_label": "h",
+          "finished": true
+        }
+      ],
+      "gw2": [
+        {
+          "opponent": 7,
+          "home": 0,
+          "home_label": "a",
+          "finished": true
+        }
+      ],
+      "gw3": [
+        {
+          "opponent": 36,
+          "home": 1,
+          "home_label": "h",
+          "finished": true
+        }
+      ],
+      "gw4": [
+        {
+          "opponent": 6,
+          "home": 0,
+          "home_label": "a",
+          "finished": true
+        }
+      ],
+      "gw5": [
+        {
+          "opponent": 43,
+          "home": 0,
+          "home_label": "a",
+          "finished": true
+        }
+      ],
+      "gw6": [
+        {
+          "opponent": 13,
+          "home": 1,
+          "home_label": "h",
+          "finished": true
+        }
+      ],
+      "gw7": [
+        {
+          "opponent": 20,
+          "home": 1,
+          "home_label": "h",
+          "finished": true
+        }
+      ],
+      "gw8": [
+        {
+          "opponent": 91,
+          "home": 0,
+          "home_label": "a",
+          "finished": true
+        }
+      ],
+      "gw9": [
+        {
+          "opponent": 14,
+          "home": 1,
+          "home_label": "h",
+          "finished": true
+        }
+      ],
+      "gw10": [
+        {
+          "opponent": 4,
+          "home": 0,
+          "home_label": "a",
+          "finished": true
+        }
+      ],
+      "gw11": [
+        {
+          "opponent": 8,
+          "home": 0,
+          "home_label": "a",
+          "finished": true
+        }
+      ],
+      "gw12": [
+        {
+          "opponent": 17,
+          "home": 1,
+          "home_label": "h",
+          "finished": true
+        }
+      ],
+      "gw13": [
+        {
+          "opponent": 21,
+          "home": 0,
+          "home_label": "a",
+          "finished": true
+        }
+      ],
+      "gw14": [
+        {
+          "opponent": 1,
+          "home": 1,
+          "home_label": "h",
+          "finished": true
+        }
+      ],
+      "gw15": [
+        {
+          "opponent": 54,
+          "home": 0,
+          "home_label": "a",
+          "finished": true
+        }
+      ],
+      "gw16": [
+        {
+          "opponent": 11,
+          "home": 1,
+          "home_label": "h",
+          "finished": true
+        }
+      ],
+      "gw17": [
+        {
+          "opponent": 31,
+          "home": 0,
+          "home_label": "a",
+          "finished": true
+        }
+      ],
+      "gw18": [
+        {
+          "opponent": 40,
+          "home": 1,
+          "home_label": "h",
+          "finished": true
+        }
+      ],
+      "gw19": [
+        {
+          "opponent": 94,
+          "home": 0,
+          "home_label": "a",
+          "finished": true
+        }
+      ],
+      "gw20": [
+        {
+          "opponent": 36,
+          "home": 0,
+          "home_label": "a",
+          "finished": true
+        }
+      ],
+      "gw21": [
+        {
+          "opponent": 6,
+          "home": 1,
+          "home_label": "h",
+          "finished": true
+        }
+      ],
+      "gw22": [
+        {
+          "opponent": 7,
+          "home": 1,
+          "home_label": "h",
+          "finished": true
+        }
+      ],
+      "gw23": [
+        {
+          "opponent": 39,
+          "home": 0,
+          "home_label": "a",
+          "finished": true
+        }
+      ],
+      "gw24": [
+        {
+          "opponent": 43,
+          "home": 1,
+          "home_label": "h",
+          "finished": true
+        }
+      ],
+      "gw25": [
+        {
+          "opponent": 13,
+          "home": 0,
+          "home_label": "a",
+          "finished": true
+        }
+      ],
+      "gw26": [
+        {
+          "opponent": 21,
+          "home": 1,
+          "home_label": "h",
+          "finished": true
+        }
+      ],
+      "gw27": [
+        {
+          "opponent": 17,
+          "home": 0,
+          "home_label": "a",
+          "finished": true
+        }
+      ],
+      "gw28": [
+        {
+          "opponent": 1,
+          "home": 0,
+          "home_label": "a",
+          "finished": true
+        }
+      ],
+      "gw29": [
+        {
+          "opponent": 8,
+          "home": 1,
+          "home_label": "h",
+          "finished": true
+        }
+      ],
+      "gw30": [
+        {
+          "opponent": 54,
+          "home": 1,
+          "home_label": "h",
+          "finished": true
+        }
+      ],
+      "gw31": [
+        {
+          "opponent": 11,
+          "home": 0,
+          "home_label": "a",
+          "finished": true
+        }
+      ],
+      "gw32": [
+        {
+          "opponent": 94,
+          "home": 1,
+          "home_label": "h",
+          "finished": true
+        }
+      ],
+      "gw33": [
+        {
+          "opponent": 40,
+          "home": 0,
+          "home_label": "a",
+          "finished": true
+        },
+        {
+          "opponent": 31,
+          "home": 1,
+          "home_label": "h",
+          "finished": true
+        }
+      ],
+      "gw34": [],
+      "gw35": [
+        {
+          "opponent": 91,
+          "home": 1,
+          "home_label": "h",
+          "finished": true
+        }
+      ],
+      "gw36": [
+        {
+          "opponent": 14,
+          "home": 0,
+          "home_label": "a",
+          "finished": true
+        }
+      ],
+      "gw37": [
+        {
+          "opponent": 4,
+          "home": 1,
+          "home_label": "h",
+          "finished": true
+        }
+      ],
+      "gw38": [
+        {
+          "opponent": 20,
+          "home": 0,
+          "home_label": "a",
+          "finished": true
+        }
+      ]
+    }
+  },
+  {
+    "team_code": 91,
+    "fixtures": {
+      "gw1": [
+        {
+          "opponent": 17,
+          "home": 0,
+          "home_label": "a",
+          "finished": true
+        }
+      ],
+      "gw2": [
+        {
+          "opponent": 4,
+          "home": 1,
+          "home_label": "h",
+          "finished": true
+        }
+      ],
+      "gw3": [
+        {
+          "opponent": 11,
+          "home": 0,
+          "home_label": "a",
+          "finished": true
+        }
+      ],
+      "gw4": [
+        {
+          "opponent": 8,
+          "home": 1,
+          "home_label": "h",
+          "finished": true
+        }
+      ],
+      "gw5": [
+        {
+          "opponent": 14,
+          "home": 0,
+          "home_label": "a",
+          "finished": true
+        }
+      ],
+      "gw6": [
+        {
+          "opponent": 20,
+          "home": 1,
+          "home_label": "h",
+          "finished": true
+        }
+      ],
+      "gw7": [
+        {
+          "opponent": 13,
+          "home": 0,
+          "home_label": "a",
+          "finished": true
+        }
+      ],
+      "gw8": [
+        {
+          "opponent": 3,
+          "home": 1,
+          "home_label": "h",
+          "finished": true
+        }
+      ],
+      "gw9": [
+        {
+          "opponent": 7,
+          "home": 0,
+          "home_label": "a",
+          "finished": true
+        }
+      ],
+      "gw10": [
+        {
+          "opponent": 43,
+          "home": 1,
+          "home_label": "h",
+          "finished": true
+        }
+      ],
+      "gw11": [
+        {
+          "opponent": 94,
+          "home": 0,
+          "home_label": "a",
+          "finished": true
+        }
+      ],
+      "gw12": [
+        {
+          "opponent": 36,
+          "home": 1,
+          "home_label": "h",
+          "finished": true
+        }
+      ],
+      "gw13": [
+        {
+          "opponent": 39,
+          "home": 0,
+          "home_label": "a",
+          "finished": true
+        }
+      ],
+      "gw14": [
+        {
+          "opponent": 6,
+          "home": 1,
+          "home_label": "h",
+          "finished": true
+        }
+      ],
+      "gw15": [
+        {
+          "opponent": 40,
+          "home": 0,
+          "home_label": "a",
+          "finished": true
+        }
+      ],
+      "gw16": [
+        {
+          "opponent": 21,
+          "home": 1,
+          "home_label": "h",
+          "finished": true
+        }
+      ],
+      "gw17": [
+        {
+          "opponent": 1,
+          "home": 0,
+          "home_label": "a",
+          "finished": true
+        }
+      ],
+      "gw18": [
+        {
+          "opponent": 31,
+          "home": 1,
+          "home_label": "h",
+          "finished": true
+        }
+      ],
+      "gw19": [
+        {
+          "opponent": 54,
+          "home": 0,
+          "home_label": "a",
+          "finished": true
+        }
+      ],
+      "gw20": [
+        {
+          "opponent": 11,
+          "home": 1,
+          "home_label": "h",
+          "finished": true
+        }
+      ],
+      "gw21": [
+        {
+          "opponent": 8,
+          "home": 0,
+          "home_label": "a",
+          "finished": true
+        }
+      ],
+      "gw22": [
+        {
+          "opponent": 4,
+          "home": 0,
+          "home_label": "a",
+          "finished": true
+        }
+      ],
+      "gw23": [
+        {
+          "opponent": 17,
+          "home": 1,
+          "home_label": "h",
+          "finished": true
+        }
+      ],
+      "gw24": [
+        {
+          "opponent": 14,
+          "home": 1,
+          "home_label": "h",
+          "finished": true
+        }
+      ],
+      "gw25": [
+        {
+          "opponent": 20,
+          "home": 0,
+          "home_label": "a",
+          "finished": true
+        }
+      ],
+      "gw26": [
+        {
+          "opponent": 39,
+          "home": 1,
+          "home_label": "h",
+          "finished": true
+        }
+      ],
+      "gw27": [
+        {
+          "opponent": 36,
+          "home": 0,
+          "home_label": "a",
+          "finished": true
+        }
+      ],
+      "gw28": [
+        {
+          "opponent": 6,
+          "home": 0,
+          "home_label": "a",
+          "finished": true
+        }
+      ],
+      "gw29": [
+        {
+          "opponent": 94,
+          "home": 1,
+          "home_label": "h",
+          "finished": true
+        }
+      ],
+      "gw30": [
+        {
+          "opponent": 40,
+          "home": 1,
+          "home_label": "h",
+          "finished": true
+        }
+      ],
+      "gw31": [
+        {
+          "opponent": 21,
+          "home": 0,
+          "home_label": "a",
+          "finished": true
+        }
+      ],
+      "gw32": [
+        {
+          "opponent": 54,
+          "home": 1,
+          "home_label": "h",
+          "finished": true
+        }
+      ],
+      "gw33": [
+        {
+          "opponent": 31,
+          "home": 0,
+          "home_label": "a",
+          "finished": true
+        }
+      ],
+      "gw34": [
+        {
+          "opponent": 1,
+          "home": 1,
+          "home_label": "h",
+          "finished": true
+        }
+      ],
+      "gw35": [
+        {
+          "opponent": 3,
+          "home": 0,
+          "home_label": "a",
+          "finished": true
+        }
+      ],
+      "gw36": [
+        {
+          "opponent": 7,
+          "home": 1,
+          "home_label": "h",
+          "finished": true
+        }
+      ],
+      "gw37": [
+        {
+          "opponent": 43,
+          "home": 0,
+          "home_label": "a",
+          "finished": true
+        }
+      ],
+      "gw38": [
+        {
+          "opponent": 13,
+          "home": 1,
+          "home_label": "h",
+          "finished": true
+        }
+      ]
+    }
+  },
+  {
+    "team_code": 36,
+    "fixtures": {
+      "gw1": [
+        {
+          "opponent": 11,
+          "home": 0,
+          "home_label": "a",
+          "finished": true
+        }
+      ],
+      "gw2": [
+        {
+          "opponent": 1,
+          "home": 1,
+          "home_label": "h",
+          "finished": true
+        }
+      ],
+      "gw3": [
+        {
+          "opponent": 3,
+          "home": 0,
+          "home_label": "a",
+          "finished": true
+        }
+      ],
+      "gw4": [
+        {
+          "opponent": 40,
+          "home": 1,
+          "home_label": "h",
+          "finished": true
+        }
+      ],
+      "gw5": [
+        {
+          "opponent": 17,
+          "home": 1,
+          "home_label": "h",
+          "finished": true
+        }
+      ],
+      "gw6": [
+        {
+          "opponent": 8,
+          "home": 0,
+          "home_label": "a",
+          "finished": true
+        }
+      ],
+      "gw7": [
+        {
+          "opponent": 6,
+          "home": 1,
+          "home_label": "h",
+          "finished": true
+        }
+      ],
+      "gw8": [
+        {
+          "opponent": 4,
+          "home": 0,
+          "home_label": "a",
+          "finished": true
+        }
+      ],
+      "gw9": [
+        {
+          "opponent": 39,
+          "home": 1,
+          "home_label": "h",
+          "finished": true
+        }
+      ],
+      "gw10": [
+        {
+          "opponent": 14,
+          "home": 0,
+          "home_label": "a",
+          "finished": true
+        }
+      ],
+      "gw11": [
+        {
+          "opponent": 43,
+          "home": 1,
+          "home_label": "h",
+          "finished": true
+        }
+      ],
+      "gw12": [
+        {
+          "opponent": 91,
+          "home": 0,
+          "home_label": "a",
+          "finished": true
+        }
+      ],
+      "gw13": [
+        {
+          "opponent": 20,
+          "home": 1,
+          "home_label": "h",
+          "finished": true
+        }
+      ],
+      "gw14": [
+        {
+          "opponent": 54,
+          "home": 0,
+          "home_label": "a",
+          "finished": true
+        }
+      ],
+      "gw15": [
+        {
+          "opponent": 13,
+          "home": 0,
+          "home_label": "a",
+          "finished": true
+        }
+      ],
+      "gw16": [
+        {
+          "opponent": 31,
+          "home": 1,
+          "home_label": "h",
+          "finished": true
+        }
+      ],
+      "gw17": [
+        {
+          "opponent": 21,
+          "home": 0,
+          "home_label": "a",
+          "finished": true
+        }
+      ],
+      "gw18": [
+        {
+          "opponent": 94,
+          "home": 1,
+          "home_label": "h",
+          "finished": true
+        }
+      ],
+      "gw19": [
+        {
+          "opponent": 7,
+          "home": 0,
+          "home_label": "a",
+          "finished": true
+        }
+      ],
+      "gw20": [
+        {
+          "opponent": 3,
+          "home": 1,
+          "home_label": "h",
+          "finished": true
+        }
+      ],
+      "gw21": [
+        {
+          "opponent": 40,
+          "home": 0,
+          "home_label": "a",
+          "finished": true
+        }
+      ],
+      "gw22": [
+        {
+          "opponent": 1,
+          "home": 0,
+          "home_label": "a",
+          "finished": true
+        }
+      ],
+      "gw23": [
+        {
+          "opponent": 11,
+          "home": 1,
+          "home_label": "h",
+          "finished": true
+        }
+      ],
+      "gw24": [
+        {
+          "opponent": 17,
+          "home": 0,
+          "home_label": "a",
+          "finished": true
+        }
+      ],
+      "gw25": [
+        {
+          "opponent": 8,
+          "home": 1,
+          "home_label": "h",
+          "finished": true
+        }
+      ],
+      "gw26": [
+        {
+          "opponent": 20,
+          "home": 0,
+          "home_label": "a",
+          "finished": true
+        }
+      ],
+      "gw27": [
+        {
+          "opponent": 91,
+          "home": 1,
+          "home_label": "h",
+          "finished": true
+        }
+      ],
+      "gw28": [
+        {
+          "opponent": 54,
+          "home": 1,
+          "home_label": "h",
+          "finished": true
+        }
+      ],
+      "gw29": [
+        {
+          "opponent": 43,
+          "home": 0,
+          "home_label": "a",
+          "finished": true
+        }
+      ],
+      "gw30": [
+        {
+          "opponent": 7,
+          "home": 1,
+          "home_label": "h",
+          "finished": true
+        }
+      ],
+      "gw31": [
+        {
+          "opponent": 31,
+          "home": 0,
+          "home_label": "a",
+          "finished": true
+        }
+      ],
+      "gw32": [
+        {
+          "opponent": 13,
+          "home": 1,
+          "home_label": "h",
+          "finished": true
+        }
+      ],
+      "gw33": [
+        {
+          "opponent": 94,
+          "home": 0,
+          "home_label": "a",
+          "finished": true
+        }
+      ],
+      "gw34": [
+        {
+          "opponent": 21,
+          "home": 1,
+          "home_label": "h",
+          "finished": true
+        }
+      ],
+      "gw35": [
+        {
+          "opponent": 4,
+          "home": 1,
+          "home_label": "h",
+          "finished": true
+        }
+      ],
+      "gw36": [
+        {
+          "opponent": 39,
+          "home": 0,
+          "home_label": "a",
+          "finished": true
+        }
+      ],
+      "gw37": [
+        {
+          "opponent": 14,
+          "home": 1,
+          "home_label": "h",
+          "finished": true
+        }
+      ],
+      "gw38": [
+        {
+          "opponent": 6,
+          "home": 0,
+          "home_label": "a",
+          "finished": true
+        }
+      ]
+    }
+  },
+  {
+    "team_code": 11,
+    "fixtures": {
+      "gw1": [
+        {
+          "opponent": 36,
+          "home": 1,
+          "home_label": "h",
+          "finished": true
+        }
+      ],
+      "gw2": [
+        {
+          "opponent": 6,
+          "home": 0,
+          "home_label": "a",
+          "finished": true
+        }
+      ],
+      "gw3": [
+        {
+          "opponent": 91,
+          "home": 1,
+          "home_label": "h",
+          "finished": true
+        }
+      ],
+      "gw4": [
+        {
+          "opponent": 7,
+          "home": 0,
+          "home_label": "a",
+          "finished": true
+        }
+      ],
+      "gw5": [
+        {
+          "opponent": 13,
+          "home": 0,
+          "home_label": "a",
+          "finished": true
+        }
+      ],
+      "gw6": [
+        {
+          "opponent": 31,
+          "home": 1,
+          "home_label": "h",
+          "finished": true
+        }
+      ],
+      "gw7": [
+        {
+          "opponent": 4,
+          "home": 1,
+          "home_label": "h",
+          "finished": true
+        }
+      ],
+      "gw8": [
+        {
+          "opponent": 40,
+          "home": 0,
+          "home_label": "a",
+          "finished": true
+        }
+      ],
+      "gw9": [
+        {
+          "opponent": 54,
+          "home": 1,
+          "home_label": "h",
+          "finished": true
+        }
+      ],
+      "gw10": [
+        {
+          "opponent": 20,
+          "home": 0,
+          "home_label": "a",
+          "finished": true
+        }
+      ],
+      "gw11": [
+        {
+          "opponent": 21,
+          "home": 0,
+          "home_label": "a",
+          "finished": true
+        }
+      ],
+      "gw12": [
+        {
+          "opponent": 94,
+          "home": 1,
+          "home_label": "h",
+          "finished": true
+        }
+      ],
+      "gw13": [
+        {
+          "opponent": 1,
+          "home": 0,
+          "home_label": "a",
+          "finished": true
+        }
+      ],
+      "gw14": [
+        {
+          "opponent": 39,
+          "home": 1,
+          "home_label": "h",
+          "finished": true
+        }
+      ],
+      "gw15": [],
+      "gw16": [
+        {
+          "opponent": 3,
+          "home": 0,
+          "home_label": "a",
+          "finished": true
+        }
+      ],
+      "gw17": [
+        {
+          "opponent": 8,
+          "home": 1,
+          "home_label": "h",
+          "finished": true
+        }
+      ],
+      "gw18": [
+        {
+          "opponent": 43,
+          "home": 0,
+          "home_label": "a",
+          "finished": true
+        }
+      ],
+      "gw19": [
+        {
+          "opponent": 17,
+          "home": 1,
+          "home_label": "h",
+          "finished": true
+        }
+      ],
+      "gw20": [
+        {
+          "opponent": 91,
+          "home": 0,
+          "home_label": "a",
+          "finished": true
+        }
+      ],
+      "gw21": [
+        {
+          "opponent": 7,
+          "home": 1,
+          "home_label": "h",
+          "finished": true
+        }
+      ],
+      "gw22": [
+        {
+          "opponent": 6,
+          "home": 1,
+          "home_label": "h",
+          "finished": true
+        }
+      ],
+      "gw23": [
+        {
+          "opponent": 36,
+          "home": 0,
+          "home_label": "a",
+          "finished": true
+        }
+      ],
+      "gw24": [
+        {
+          "opponent": 13,
+          "home": 1,
+          "home_label": "h",
+          "finished": true
+        },
+        {
+          "opponent": 14,
+          "home": 1,
+          "home_label": "h",
+          "finished": true
+        }
+      ],
+      "gw25": [
+        {
+          "opponent": 31,
+          "home": 0,
+          "home_label": "a",
+          "finished": true
+        }
+      ],
+      "gw26": [
+        {
+          "opponent": 1,
+          "home": 1,
+          "home_label": "h",
+          "finished": true
+        }
+      ],
+      "gw27": [
+        {
+          "opponent": 94,
+          "home": 0,
+          "home_label": "a",
+          "finished": true
+        }
+      ],
+      "gw28": [
+        {
+          "opponent": 39,
+          "home": 0,
+          "home_label": "a",
+          "finished": true
+        }
+      ],
+      "gw29": [
+        {
+          "opponent": 21,
+          "home": 1,
+          "home_label": "h",
+          "finished": true
+        }
+      ],
+      "gw30": [
+        {
+          "opponent": 14,
+          "home": 0,
+          "home_label": "a",
+          "finished": true
+        }
+      ],
+      "gw31": [
+        {
+          "opponent": 3,
+          "home": 1,
+          "home_label": "h",
+          "finished": true
+        }
+      ],
+      "gw32": [
+        {
+          "opponent": 17,
+          "home": 0,
+          "home_label": "a",
+          "finished": true
+        }
+      ],
+      "gw33": [
+        {
+          "opponent": 43,
+          "home": 1,
+          "home_label": "h",
+          "finished": true
+        }
+      ],
+      "gw34": [
+        {
+          "opponent": 8,
+          "home": 0,
+          "home_label": "a",
+          "finished": true
+        }
+      ],
+      "gw35": [
+        {
+          "opponent": 40,
+          "home": 1,
+          "home_label": "h",
+          "finished": true
+        }
+      ],
+      "gw36": [
+        {
+          "opponent": 54,
+          "home": 0,
+          "home_label": "a",
+          "finished": true
+        }
+      ],
+      "gw37": [
+        {
+          "opponent": 20,
+          "home": 1,
+          "home_label": "h",
+          "finished": true
+        }
+      ],
+      "gw38": [
+        {
+          "opponent": 4,
+          "home": 0,
+          "home_label": "a",
+          "finished": true
+        }
+      ]
+    }
+  },
+  {
+    "team_code": 4,
+    "fixtures": {
+      "gw1": [
+        {
+          "opponent": 20,
+          "home": 1,
+          "home_label": "h",
+          "finished": true
+        }
+      ],
+      "gw2": [
+        {
+          "opponent": 91,
+          "home": 0,
+          "home_label": "a",
+          "finished": true
+        }
+      ],
+      "gw3": [
+        {
+          "opponent": 6,
+          "home": 1,
+          "home_label": "h",
+          "finished": true
+        }
+      ],
+      "gw4": [
+        {
+          "opponent": 39,
+          "home": 0,
+          "home_label": "a",
+          "finished": true
+        }
+      ],
+      "gw5": [
+        {
+          "opponent": 54,
+          "home": 0,
+          "home_label": "a",
+          "finished": true
+        }
+      ],
+      "gw6": [
+        {
+          "opponent": 43,
+          "home": 1,
+          "home_label": "h",
+          "finished": true
+        }
+      ],
+      "gw7": [
+        {
+          "opponent": 11,
+          "home": 0,
+          "home_label": "a",
+          "finished": true
+        }
+      ],
+      "gw8": [
+        {
+          "opponent": 36,
+          "home": 1,
+          "home_label": "h",
+          "finished": true
+        }
+      ],
+      "gw9": [
+        {
+          "opponent": 8,
+          "home": 0,
+          "home_label": "a",
+          "finished": true
+        }
+      ],
+      "gw10": [
+        {
+          "opponent": 3,
+          "home": 1,
+          "home_label": "h",
+          "finished": true
+        }
+      ],
+      "gw11": [
+        {
+          "opponent": 17,
+          "home": 0,
+          "home_label": "a",
+          "finished": true
+        }
+      ],
+      "gw12": [
+        {
+          "opponent": 21,
+          "home": 1,
+          "home_label": "h",
+          "finished": true
+        }
+      ],
+      "gw13": [
+        {
+          "opponent": 31,
+          "home": 0,
+          "home_label": "a",
+          "finished": true
+        }
+      ],
+      "gw14": [
+        {
+          "opponent": 14,
+          "home": 1,
+          "home_label": "h",
+          "finished": true
+        }
+      ],
+      "gw15": [
+        {
+          "opponent": 94,
+          "home": 0,
+          "home_label": "a",
+          "finished": true
+        }
+      ],
+      "gw16": [
+        {
+          "opponent": 13,
+          "home": 1,
+          "home_label": "h",
+          "finished": true
+        }
+      ],
+      "gw17": [
+        {
+          "opponent": 40,
+          "home": 0,
+          "home_label": "a",
+          "finished": true
+        }
+      ],
+      "gw18": [
+        {
+          "opponent": 7,
+          "home": 1,
+          "home_label": "h",
+          "finished": true
+        }
+      ],
+      "gw19": [
+        {
+          "opponent": 1,
+          "home": 0,
+          "home_label": "a",
+          "finished": true
+        }
+      ],
+      "gw20": [
+        {
+          "opponent": 6,
+          "home": 0,
+          "home_label": "a",
+          "finished": true
+        }
+      ],
+      "gw21": [
+        {
+          "opponent": 39,
+          "home": 1,
+          "home_label": "h",
+          "finished": true
+        }
+      ],
+      "gw22": [
+        {
+          "opponent": 91,
+          "home": 1,
+          "home_label": "h",
+          "finished": true
+        }
+      ],
+      "gw23": [
+        {
+          "opponent": 20,
+          "home": 0,
+          "home_label": "a",
+          "finished": true
+        }
+      ],
+      "gw24": [
+        {
+          "opponent": 54,
+          "home": 1,
+          "home_label": "h",
+          "finished": true
+        }
+      ],
+      "gw25": [
+        {
+          "opponent": 43,
+          "home": 0,
+          "home_label": "a",
+          "finished": true
+        }
+      ],
+      "gw26": [
+        {
+          "opponent": 17,
+          "home": 1,
+          "home_label": "h",
+          "finished": true
+        }
+      ],
+      "gw27": [
+        {
+          "opponent": 14,
+          "home": 0,
+          "home_label": "a",
+          "finished": true
+        }
+      ],
+      "gw28": [
+        {
+          "opponent": 21,
+          "home": 0,
+          "home_label": "a",
+          "finished": true
+        }
+      ],
+      "gw29": [],
+      "gw30": [
+        {
+          "opponent": 94,
+          "home": 1,
+          "home_label": "h",
+          "finished": true
+        }
+      ],
+      "gw31": [
+        {
+          "opponent": 13,
+          "home": 0,
+          "home_label": "a",
+          "finished": true
+        }
+      ],
+      "gw32": [
+        {
+          "opponent": 1,
+          "home": 1,
+          "home_label": "h",
+          "finished": true
+        },
+        {
+          "opponent": 31,
+          "home": 1,
+          "home_label": "h",
+          "finished": true
+        }
+      ],
+      "gw33": [
+        {
+          "opponent": 7,
+          "home": 0,
+          "home_label": "a",
+          "finished": true
+        }
+      ],
+      "gw34": [
+        {
+          "opponent": 40,
+          "home": 1,
+          "home_label": "h",
+          "finished": true
+        }
+      ],
+      "gw35": [
+        {
+          "opponent": 36,
+          "home": 0,
+          "home_label": "a",
+          "finished": true
+        }
+      ],
+      "gw36": [
+        {
+          "opponent": 8,
+          "home": 1,
+          "home_label": "h",
+          "finished": true
+        }
+      ],
+      "gw37": [
+        {
+          "opponent": 3,
+          "home": 0,
+          "home_label": "a",
+          "finished": true
+        }
+      ],
+      "gw38": [
+        {
+          "opponent": 11,
+          "home": 1,
+          "home_label": "h",
+          "finished": true
+        }
+      ]
+    }
+  },
+  {
+    "team_code": 17,
+    "fixtures": {
+      "gw1": [
+        {
+          "opponent": 91,
+          "home": 1,
+          "home_label": "h",
+          "finished": true
+        }
+      ],
+      "gw2": [
+        {
+          "opponent": 20,
+          "home": 0,
+          "home_label": "a",
+          "finished": true
+        }
+      ],
+      "gw3": [
+        {
+          "opponent": 39,
+          "home": 1,
+          "home_label": "h",
+          "finished": true
+        }
+      ],
+      "gw4": [
+        {
+          "opponent": 14,
+          "home": 0,
+          "home_label": "a",
+          "finished": true
+        }
+      ],
+      "gw5": [
+        {
+          "opponent": 36,
+          "home": 0,
+          "home_label": "a",
+          "finished": true
+        }
+      ],
+      "gw6": [
+        {
+          "opponent": 54,
+          "home": 1,
+          "home_label": "h",
+          "finished": true
+        }
+      ],
+      "gw7": [
+        {
+          "opponent": 8,
+          "home": 0,
+          "home_label": "a",
+          "finished": true
+        }
+      ],
+      "gw8": [
+        {
+          "opponent": 31,
+          "home": 1,
+          "home_label": "h",
+          "finished": true
+        }
+      ],
+      "gw9": [
+        {
+          "opponent": 13,
+          "home": 0,
+          "home_label": "a",
+          "finished": true
+        }
+      ],
+      "gw10": [
+        {
+          "opponent": 21,
+          "home": 1,
+          "home_label": "h",
+          "finished": true
+        }
+      ],
+      "gw11": [
+        {
+          "opponent": 4,
+          "home": 1,
+          "home_label": "h",
+          "finished": true
+        }
+      ],
+      "gw12": [
+        {
+          "opponent": 3,
+          "home": 0,
+          "home_label": "a",
+          "finished": true
+        }
+      ],
+      "gw13": [
+        {
+          "opponent": 40,
+          "home": 1,
+          "home_label": "h",
+          "finished": true
+        }
+      ],
+      "gw14": [
+        {
+          "opponent": 43,
+          "home": 0,
+          "home_label": "a",
+          "finished": true
+        }
+      ],
+      "gw15": [
+        {
+          "opponent": 1,
+          "home": 0,
+          "home_label": "a",
+          "finished": true
+        }
+      ],
+      "gw16": [
+        {
+          "opponent": 7,
+          "home": 1,
+          "home_label": "h",
+          "finished": true
+        }
+      ],
+      "gw17": [
+        {
+          "opponent": 94,
+          "home": 0,
+          "home_label": "a",
+          "finished": true
+        }
+      ],
+      "gw18": [
+        {
+          "opponent": 6,
+          "home": 1,
+          "home_label": "h",
+          "finished": true
+        }
+      ],
+      "gw19": [
+        {
+          "opponent": 11,
+          "home": 0,
+          "home_label": "a",
+          "finished": true
+        }
+      ],
+      "gw20": [
+        {
+          "opponent": 39,
+          "home": 0,
+          "home_label": "a",
+          "finished": true
+        }
+      ],
+      "gw21": [
+        {
+          "opponent": 14,
+          "home": 1,
+          "home_label": "h",
+          "finished": true
+        }
+      ],
+      "gw22": [
+        {
+          "opponent": 20,
+          "home": 1,
+          "home_label": "h",
+          "finished": true
+        }
+      ],
+      "gw23": [
+        {
+          "opponent": 91,
+          "home": 0,
+          "home_label": "a",
+          "finished": true
+        }
+      ],
+      "gw24": [
+        {
+          "opponent": 36,
+          "home": 1,
+          "home_label": "h",
+          "finished": true
+        }
+      ],
+      "gw25": [
+        {
+          "opponent": 54,
+          "home": 0,
+          "home_label": "a",
+          "finished": true
+        }
+      ],
+      "gw26": [
+        {
+          "opponent": 4,
+          "home": 0,
+          "home_label": "a",
+          "finished": true
+        }
+      ],
+      "gw27": [
+        {
+          "opponent": 3,
+          "home": 1,
+          "home_label": "h",
+          "finished": true
+        }
+      ],
+      "gw28": [
+        {
+          "opponent": 43,
+          "home": 1,
+          "home_label": "h",
+          "finished": true
+        }
+      ],
+      "gw29": [
+        {
+          "opponent": 40,
+          "home": 0,
+          "home_label": "a",
+          "finished": true
+        }
+      ],
+      "gw30": [
+        {
+          "opponent": 1,
+          "home": 1,
+          "home_label": "h",
+          "finished": true
+        }
+      ],
+      "gw31": [
+        {
+          "opponent": 7,
+          "home": 0,
+          "home_label": "a",
+          "finished": true
+        }
+      ],
+      "gw32": [
+        {
+          "opponent": 11,
+          "home": 1,
+          "home_label": "h",
+          "finished": true
+        }
+      ],
+      "gw33": [
+        {
+          "opponent": 6,
+          "home": 0,
+          "home_label": "a",
+          "finished": true
+        }
+      ],
+      "gw34": [
+        {
+          "opponent": 94,
+          "home": 1,
+          "home_label": "h",
+          "finished": true
+        }
+      ],
+      "gw35": [
+        {
+          "opponent": 31,
+          "home": 0,
+          "home_label": "a",
+          "finished": true
+        }
+      ],
+      "gw36": [
+        {
+          "opponent": 13,
+          "home": 1,
+          "home_label": "h",
+          "finished": true
+        }
+      ],
+      "gw37": [
+        {
+          "opponent": 21,
+          "home": 0,
+          "home_label": "a",
+          "finished": true
+        }
+      ],
+      "gw38": [
+        {
+          "opponent": 8,
+          "home": 1,
+          "home_label": "h",
+          "finished": true
+        }
+      ]
+    }
+  },
+  {
+    "team_code": 20,
+    "fixtures": {
+      "gw1": [
+        {
+          "opponent": 4,
+          "home": 0,
+          "home_label": "a",
+          "finished": true
+        }
+      ],
+      "gw2": [
+        {
+          "opponent": 17,
+          "home": 1,
+          "home_label": "h",
+          "finished": true
+        }
+      ],
+      "gw3": [
+        {
+          "opponent": 94,
+          "home": 0,
+          "home_label": "a",
+          "finished": true
+        }
+      ],
+      "gw4": [
+        {
+          "opponent": 1,
+          "home": 1,
+          "home_label": "h",
+          "finished": true
+        }
+      ],
+      "gw5": [
+        {
+          "opponent": 40,
+          "home": 1,
+          "home_label": "h",
+          "finished": true
+        }
+      ],
+      "gw6": [
+        {
+          "opponent": 91,
+          "home": 0,
+          "home_label": "a",
+          "finished": true
+        }
+      ],
+      "gw7": [
+        {
+          "opponent": 3,
+          "home": 0,
+          "home_label": "a",
+          "finished": true
+        }
+      ],
+      "gw8": [
+        {
+          "opponent": 13,
+          "home": 1,
+          "home_label": "h",
+          "finished": true
+        }
+      ],
+      "gw9": [
+        {
+          "opponent": 43,
+          "home": 0,
+          "home_label": "a",
+          "finished": true
+        }
+      ],
+      "gw10": [
+        {
+          "opponent": 11,
+          "home": 1,
+          "home_label": "h",
+          "finished": true
+        }
+      ],
+      "gw11": [
+        {
+          "opponent": 39,
+          "home": 0,
+          "home_label": "a",
+          "finished": true
+        }
+      ],
+      "gw12": [
+        {
+          "opponent": 14,
+          "home": 1,
+          "home_label": "h",
+          "finished": true
+        }
+      ],
+      "gw13": [
+        {
+          "opponent": 36,
+          "home": 0,
+          "home_label": "a",
+          "finished": true
+        }
+      ],
+      "gw14": [
+        {
+          "opponent": 8,
+          "home": 1,
+          "home_label": "h",
+          "finished": true
+        }
+      ],
+      "gw15": [
+        {
+          "opponent": 7,
+          "home": 0,
+          "home_label": "a",
+          "finished": true
+        }
+      ],
+      "gw16": [
+        {
+          "opponent": 6,
+          "home": 1,
+          "home_label": "h",
+          "finished": true
+        }
+      ],
+      "gw17": [
+        {
+          "opponent": 54,
+          "home": 0,
+          "home_label": "a",
+          "finished": true
+        }
+      ],
+      "gw18": [
+        {
+          "opponent": 21,
+          "home": 1,
+          "home_label": "h",
+          "finished": true
+        }
+      ],
+      "gw19": [
+        {
+          "opponent": 31,
+          "home": 0,
+          "home_label": "a",
+          "finished": true
+        }
+      ],
+      "gw20": [
+        {
+          "opponent": 94,
+          "home": 1,
+          "home_label": "h",
+          "finished": true
+        }
+      ],
+      "gw21": [
+        {
+          "opponent": 1,
+          "home": 0,
+          "home_label": "a",
+          "finished": true
+        }
+      ],
+      "gw22": [
+        {
+          "opponent": 17,
+          "home": 0,
+          "home_label": "a",
+          "finished": true
+        }
+      ],
+      "gw23": [
+        {
+          "opponent": 4,
+          "home": 1,
+          "home_label": "h",
+          "finished": true
+        }
+      ],
+      "gw24": [
+        {
+          "opponent": 40,
+          "home": 0,
+          "home_label": "a",
+          "finished": true
+        }
+      ],
+      "gw25": [
+        {
+          "opponent": 91,
+          "home": 1,
+          "home_label": "h",
+          "finished": true
+        }
+      ],
+      "gw26": [
+        {
+          "opponent": 36,
+          "home": 1,
+          "home_label": "h",
+          "finished": true
+        }
+      ],
+      "gw27": [
+        {
+          "opponent": 8,
+          "home": 0,
+          "home_label": "a",
+          "finished": true
+        }
+      ],
+      "gw28": [
+        {
+          "opponent": 14,
+          "home": 0,
+          "home_label": "a",
+          "finished": true
+        }
+      ],
+      "gw29": [
+        {
+          "opponent": 39,
+          "home": 1,
+          "home_label": "h",
+          "finished": true
+        }
+      ],
+      "gw30": [
+        {
+          "opponent": 31,
+          "home": 1,
+          "home_label": "h",
+          "finished": true
+        }
+      ],
+      "gw31": [
+        {
+          "opponent": 6,
+          "home": 0,
+          "home_label": "a",
+          "finished": true
+        }
+      ],
+      "gw32": [
+        {
+          "opponent": 7,
+          "home": 1,
+          "home_label": "h",
+          "finished": true
+        }
+      ],
+      "gw33": [
+        {
+          "opponent": 21,
+          "home": 0,
+          "home_label": "a",
+          "finished": true
+        }
+      ],
+      "gw34": [
+        {
+          "opponent": 54,
+          "home": 1,
+          "home_label": "h",
+          "finished": true
+        }
+      ],
+      "gw35": [
+        {
+          "opponent": 13,
+          "home": 0,
+          "home_label": "a",
+          "finished": true
+        }
+      ],
+      "gw36": [
+        {
+          "opponent": 43,
+          "home": 1,
+          "home_label": "h",
+          "finished": true
+        }
+      ],
+      "gw37": [
+        {
+          "opponent": 11,
+          "home": 0,
+          "home_label": "a",
+          "finished": true
+        }
+      ],
+      "gw38": [
+        {
+          "opponent": 3,
+          "home": 1,
+          "home_label": "h",
+          "finished": true
+        }
+      ]
+    }
+  },
+  {
+    "team_code": 39,
+    "fixtures": {
+      "gw1": [
+        {
+          "opponent": 3,
+          "home": 0,
+          "home_label": "a",
+          "finished": true
+        }
+      ],
+      "gw2": [
+        {
+          "opponent": 8,
+          "home": 1,
+          "home_label": "h",
+          "finished": true
+        }
+      ],
+      "gw3": [
+        {
+          "opponent": 17,
+          "home": 0,
+          "home_label": "a",
+          "finished": true
+        }
+      ],
+      "gw4": [
+        {
+          "opponent": 4,
+          "home": 1,
+          "home_label": "h",
+          "finished": true
+        }
+      ],
+      "gw5": [
+        {
+          "opponent": 7,
+          "home": 0,
+          "home_label": "a",
+          "finished": true
+        }
+      ],
+      "gw6": [
+        {
+          "opponent": 14,
+          "home": 1,
+          "home_label": "h",
+          "finished": true
+        }
+      ],
+      "gw7": [
+        {
+          "opponent": 94,
+          "home": 0,
+          "home_label": "a",
+          "finished": true
+        }
+      ],
+      "gw8": [
+        {
+          "opponent": 43,
+          "home": 1,
+          "home_label": "h",
+          "finished": true
+        }
+      ],
+      "gw9": [
+        {
+          "opponent": 36,
+          "home": 0,
+          "home_label": "a",
+          "finished": true
+        }
+      ],
+      "gw10": [
+        {
+          "opponent": 31,
+          "home": 1,
+          "home_label": "h",
+          "finished": true
+        }
+      ],
+      "gw11": [
+        {
+          "opponent": 20,
+          "home": 1,
+          "home_label": "h",
+          "finished": true
+        }
+      ],
+      "gw12": [
+        {
+          "opponent": 54,
+          "home": 0,
+          "home_label": "a",
+          "finished": true
+        }
+      ],
+      "gw13": [
+        {
+          "opponent": 91,
+          "home": 1,
+          "home_label": "h",
+          "finished": true
+        }
+      ],
+      "gw14": [
+        {
+          "opponent": 11,
+          "home": 0,
+          "home_label": "a",
+          "finished": true
+        }
+      ],
+      "gw15": [
+        {
+          "opponent": 21,
+          "home": 0,
+          "home_label": "a",
+          "finished": true
+        }
+      ],
+      "gw16": [
+        {
+          "opponent": 40,
+          "home": 1,
+          "home_label": "h",
+          "finished": true
+        }
+      ],
+      "gw17": [
+        {
+          "opponent": 13,
+          "home": 0,
+          "home_label": "a",
+          "finished": true
+        }
+      ],
+      "gw18": [
+        {
+          "opponent": 1,
+          "home": 1,
+          "home_label": "h",
+          "finished": true
+        }
+      ],
+      "gw19": [
+        {
+          "opponent": 6,
+          "home": 0,
+          "home_label": "a",
+          "finished": true
+        }
+      ],
+      "gw20": [
+        {
+          "opponent": 17,
+          "home": 1,
+          "home_label": "h",
+          "finished": true
+        }
+      ],
+      "gw21": [
+        {
+          "opponent": 4,
+          "home": 0,
+          "home_label": "a",
+          "finished": true
+        }
+      ],
+      "gw22": [
+        {
+          "opponent": 8,
+          "home": 0,
+          "home_label": "a",
+          "finished": true
+        }
+      ],
+      "gw23": [
+        {
+          "opponent": 3,
+          "home": 1,
+          "home_label": "h",
+          "finished": true
+        }
+      ],
+      "gw24": [
+        {
+          "opponent": 7,
+          "home": 1,
+          "home_label": "h",
+          "finished": true
+        }
+      ],
+      "gw25": [
+        {
+          "opponent": 14,
+          "home": 0,
+          "home_label": "a",
+          "finished": true
+        }
+      ],
+      "gw26": [
+        {
+          "opponent": 91,
+          "home": 0,
+          "home_label": "a",
+          "finished": true
+        }
+      ],
+      "gw27": [
+        {
+          "opponent": 54,
+          "home": 1,
+          "home_label": "h",
+          "finished": true
+        }
+      ],
+      "gw28": [
+        {
+          "opponent": 11,
+          "home": 1,
+          "home_label": "h",
+          "finished": true
+        }
+      ],
+      "gw29": [
+        {
+          "opponent": 20,
+          "home": 0,
+          "home_label": "a",
+          "finished": true
+        }
+      ],
+      "gw30": [
+        {
+          "opponent": 21,
+          "home": 1,
+          "home_label": "h",
+          "finished": true
+        }
+      ],
+      "gw31": [
+        {
+          "opponent": 40,
+          "home": 0,
+          "home_label": "a",
+          "finished": true
+        }
+      ],
+      "gw32": [
+        {
+          "opponent": 6,
+          "home": 1,
+          "home_label": "h",
+          "finished": true
+        }
+      ],
+      "gw33": [
+        {
+          "opponent": 1,
+          "home": 0,
+          "home_label": "a",
+          "finished": true
+        }
+      ],
+      "gw34": [
+        {
+          "opponent": 13,
+          "home": 1,
+          "home_label": "h",
+          "finished": true
+        }
+      ],
+      "gw35": [
+        {
+          "opponent": 43,
+          "home": 0,
+          "home_label": "a",
+          "finished": true
+        }
+      ],
+      "gw36": [
+        {
+          "opponent": 36,
+          "home": 1,
+          "home_label": "h",
+          "finished": true
+        }
+      ],
+      "gw37": [
+        {
+          "opponent": 31,
+          "home": 0,
+          "home_label": "a",
+          "finished": true
+        }
+      ],
+      "gw38": [
+        {
+          "opponent": 94,
+          "home": 1,
+          "home_label": "h",
+          "finished": true
+        }
+      ]
+    }
+  },
+  {
+    "team_code": 7,
+    "fixtures": {
+      "gw1": [
+        {
+          "opponent": 21,
+          "home": 0,
+          "home_label": "a",
+          "finished": true
+        }
+      ],
+      "gw2": [
+        {
+          "opponent": 3,
+          "home": 1,
+          "home_label": "h",
+          "finished": true
+        }
+      ],
+      "gw3": [
+        {
+          "opponent": 13,
+          "home": 0,
+          "home_label": "a",
+          "finished": true
+        }
+      ],
+      "gw4": [
+        {
+          "opponent": 11,
+          "home": 1,
+          "home_label": "h",
+          "finished": true
+        }
+      ],
+      "gw5": [
+        {
+          "opponent": 39,
+          "home": 1,
+          "home_label": "h",
+          "finished": true
+        }
+      ],
+      "gw6": [
+        {
+          "opponent": 40,
+          "home": 0,
+          "home_label": "a",
+          "finished": true
+        }
+      ],
+      "gw7": [
+        {
+          "opponent": 1,
+          "home": 1,
+          "home_label": "h",
+          "finished": true
+        }
+      ],
+      "gw8": [
+        {
+          "opponent": 54,
+          "home": 0,
+          "home_label": "a",
+          "finished": true
+        }
+      ],
+      "gw9": [
+        {
+          "opponent": 91,
+          "home": 1,
+          "home_label": "h",
+          "finished": true
+        }
+      ],
+      "gw10": [
+        {
+          "opponent": 6,
+          "home": 0,
+          "home_label": "a",
+          "finished": true
+        }
+      ],
+      "gw11": [
+        {
+          "opponent": 14,
+          "home": 0,
+          "home_label": "a",
+          "finished": true
+        }
+      ],
+      "gw12": [
+        {
+          "opponent": 31,
+          "home": 1,
+          "home_label": "h",
+          "finished": true
+        }
+      ],
+      "gw13": [
+        {
+          "opponent": 8,
+          "home": 0,
+          "home_label": "a",
+          "finished": true
+        }
+      ],
+      "gw14": [
+        {
+          "opponent": 94,
+          "home": 1,
+          "home_label": "h",
+          "finished": true
+        }
+      ],
+      "gw15": [
+        {
+          "opponent": 20,
+          "home": 1,
+          "home_label": "h",
+          "finished": true
+        }
+      ],
+      "gw16": [
+        {
+          "opponent": 17,
+          "home": 0,
+          "home_label": "a",
+          "finished": true
+        }
+      ],
+      "gw17": [
+        {
+          "opponent": 43,
+          "home": 1,
+          "home_label": "h",
+          "finished": true
+        }
+      ],
+      "gw18": [
+        {
+          "opponent": 4,
+          "home": 0,
+          "home_label": "a",
+          "finished": true
+        }
+      ],
+      "gw19": [
+        {
+          "opponent": 36,
+          "home": 1,
+          "home_label": "h",
+          "finished": true
+        }
+      ],
+      "gw20": [
+        {
+          "opponent": 13,
+          "home": 1,
+          "home_label": "h",
+          "finished": true
+        }
+      ],
+      "gw21": [
+        {
+          "opponent": 11,
+          "home": 0,
+          "home_label": "a",
+          "finished": true
+        }
+      ],
+      "gw22": [
+        {
+          "opponent": 3,
+          "home": 0,
+          "home_label": "a",
+          "finished": true
+        }
+      ],
+      "gw23": [
+        {
+          "opponent": 21,
+          "home": 1,
+          "home_label": "h",
+          "finished": true
+        }
+      ],
+      "gw24": [
+        {
+          "opponent": 39,
+          "home": 0,
+          "home_label": "a",
+          "finished": true
+        }
+      ],
+      "gw25": [
+        {
+          "opponent": 40,
+          "home": 1,
+          "home_label": "h",
+          "finished": true
+        },
+        {
+          "opponent": 14,
+          "home": 1,
+          "home_label": "h",
+          "finished": true
+        }
+      ],
+      "gw26": [
+        {
+          "opponent": 8,
+          "home": 1,
+          "home_label": "h",
+          "finished": true
+        }
+      ],
+      "gw27": [
+        {
+          "opponent": 31,
+          "home": 0,
+          "home_label": "a",
+          "finished": true
+        }
+      ],
+      "gw28": [
+        {
+          "opponent": 94,
+          "home": 0,
+          "home_label": "a",
+          "finished": true
+        }
+      ],
+      "gw29": [],
+      "gw30": [
+        {
+          "opponent": 36,
+          "home": 0,
+          "home_label": "a",
+          "finished": true
+        }
+      ],
+      "gw31": [
+        {
+          "opponent": 17,
+          "home": 1,
+          "home_label": "h",
+          "finished": true
+        }
+      ],
+      "gw32": [
+        {
+          "opponent": 20,
+          "home": 0,
+          "home_label": "a",
+          "finished": true
+        }
+      ],
+      "gw33": [
+        {
+          "opponent": 4,
+          "home": 1,
+          "home_label": "h",
+          "finished": true
+        },
+        {
+          "opponent": 43,
+          "home": 0,
+          "home_label": "a",
+          "finished": true
+        }
+      ],
+      "gw34": [],
+      "gw35": [
+        {
+          "opponent": 54,
+          "home": 1,
+          "home_label": "h",
+          "finished": true
+        }
+      ],
+      "gw36": [
+        {
+          "opponent": 91,
+          "home": 0,
+          "home_label": "a",
+          "finished": true
+        }
+      ],
+      "gw37": [
+        {
+          "opponent": 6,
+          "home": 1,
+          "home_label": "h",
+          "finished": true
+        }
+      ],
+      "gw38": [
+        {
+          "opponent": 1,
+          "home": 0,
+          "home_label": "a",
+          "finished": true
+        }
+      ]
+    }
+  },
+  {
+    "team_code": 21,
+    "fixtures": {
+      "gw1": [
+        {
+          "opponent": 7,
+          "home": 1,
+          "home_label": "h",
+          "finished": true
+        }
+      ],
+      "gw2": [
+        {
+          "opponent": 31,
+          "home": 0,
+          "home_label": "a",
+          "finished": true
+        }
+      ],
+      "gw3": [
+        {
+          "opponent": 43,
+          "home": 1,
+          "home_label": "h",
+          "finished": true
+        }
+      ],
+      "gw4": [
+        {
+          "opponent": 54,
+          "home": 0,
+          "home_label": "a",
+          "finished": true
+        }
+      ],
+      "gw5": [
+        {
+          "opponent": 8,
+          "home": 1,
+          "home_label": "h",
+          "finished": true
+        }
+      ],
+      "gw6": [
+        {
+          "opponent": 94,
+          "home": 0,
+          "home_label": "a",
+          "finished": true
+        }
+      ],
+      "gw7": [
+        {
+          "opponent": 40,
+          "home": 1,
+          "home_label": "h",
+          "finished": true
+        }
+      ],
+      "gw8": [
+        {
+          "opponent": 6,
+          "home": 0,
+          "home_label": "a",
+          "finished": true
+        }
+      ],
+      "gw9": [
+        {
+          "opponent": 1,
+          "home": 1,
+          "home_label": "h",
+          "finished": true
+        }
+      ],
+      "gw10": [
+        {
+          "opponent": 17,
+          "home": 0,
+          "home_label": "a",
+          "finished": true
+        }
+      ],
+      "gw11": [
+        {
+          "opponent": 11,
+          "home": 1,
+          "home_label": "h",
+          "finished": true
+        }
+      ],
+      "gw12": [
+        {
+          "opponent": 4,
+          "home": 0,
+          "home_label": "a",
+          "finished": true
+        }
+      ],
+      "gw13": [
+        {
+          "opponent": 3,
+          "home": 1,
+          "home_label": "h",
+          "finished": true
+        }
+      ],
+      "gw14": [
+        {
+          "opponent": 13,
+          "home": 0,
+          "home_label": "a",
+          "finished": true
+        }
+      ],
+      "gw15": [
+        {
+          "opponent": 39,
+          "home": 1,
+          "home_label": "h",
+          "finished": true
+        }
+      ],
+      "gw16": [
+        {
+          "opponent": 91,
+          "home": 0,
+          "home_label": "a",
+          "finished": true
+        }
+      ],
+      "gw17": [
+        {
+          "opponent": 36,
+          "home": 1,
+          "home_label": "h",
+          "finished": true
+        }
+      ],
+      "gw18": [
+        {
+          "opponent": 20,
+          "home": 0,
+          "home_label": "a",
+          "finished": true
+        }
+      ],
+      "gw19": [
+        {
+          "opponent": 14,
+          "home": 1,
+          "home_label": "h",
+          "finished": true
+        }
+      ],
+      "gw20": [
+        {
+          "opponent": 43,
+          "home": 0,
+          "home_label": "a",
+          "finished": true
+        }
+      ],
+      "gw21": [
+        {
+          "opponent": 54,
+          "home": 1,
+          "home_label": "h",
+          "finished": true
+        }
+      ],
+      "gw22": [
+        {
+          "opponent": 31,
+          "home": 1,
+          "home_label": "h",
+          "finished": true
+        }
+      ],
+      "gw23": [
+        {
+          "opponent": 7,
+          "home": 0,
+          "home_label": "a",
+          "finished": true
+        }
+      ],
+      "gw24": [
+        {
+          "opponent": 8,
+          "home": 0,
+          "home_label": "a",
+          "finished": true
+        }
+      ],
+      "gw25": [
+        {
+          "opponent": 94,
+          "home": 1,
+          "home_label": "h",
+          "finished": true
+        }
+      ],
+      "gw26": [
+        {
+          "opponent": 3,
+          "home": 0,
+          "home_label": "a",
+          "finished": true
+        }
+      ],
+      "gw27": [
+        {
+          "opponent": 13,
+          "home": 1,
+          "home_label": "h",
+          "finished": true
+        }
+      ],
+      "gw28": [
+        {
+          "opponent": 4,
+          "home": 1,
+          "home_label": "h",
+          "finished": true
+        }
+      ],
+      "gw29": [
+        {
+          "opponent": 11,
+          "home": 0,
+          "home_label": "a",
+          "finished": true
+        }
+      ],
+      "gw30": [
+        {
+          "opponent": 39,
+          "home": 0,
+          "home_label": "a",
+          "finished": true
+        }
+      ],
+      "gw31": [
+        {
+          "opponent": 91,
+          "home": 1,
+          "home_label": "h",
+          "finished": true
+        }
+      ],
+      "gw32": [
+        {
+          "opponent": 14,
+          "home": 0,
+          "home_label": "a",
+          "finished": true
+        }
+      ],
+      "gw33": [
+        {
+          "opponent": 20,
+          "home": 1,
+          "home_label": "h",
+          "finished": true
+        }
+      ],
+      "gw34": [
+        {
+          "opponent": 36,
+          "home": 0,
+          "home_label": "a",
+          "finished": true
+        }
+      ],
+      "gw35": [
+        {
+          "opponent": 6,
+          "home": 1,
+          "home_label": "h",
+          "finished": true
+        }
+      ],
+      "gw36": [
+        {
+          "opponent": 1,
+          "home": 0,
+          "home_label": "a",
+          "finished": true
+        }
+      ],
+      "gw37": [
+        {
+          "opponent": 17,
+          "home": 1,
+          "home_label": "h",
+          "finished": true
+        }
+      ],
+      "gw38": [
+        {
+          "opponent": 40,
+          "home": 0,
+          "home_label": "a",
+          "finished": true
+        }
+      ]
+    }
+  },
+  {
+    "team_code": 94,
+    "fixtures": {
+      "gw1": [
+        {
+          "opponent": 31,
+          "home": 1,
+          "home_label": "h",
+          "finished": true
+        }
+      ],
+      "gw2": [
+        {
+          "opponent": 14,
+          "home": 0,
+          "home_label": "a",
+          "finished": true
+        }
+      ],
+      "gw3": [
+        {
+          "opponent": 20,
+          "home": 1,
+          "home_label": "h",
+          "finished": true
+        }
+      ],
+      "gw4": [
+        {
+          "opponent": 43,
+          "home": 0,
+          "home_label": "a",
+          "finished": true
+        }
+      ],
+      "gw5": [
+        {
+          "opponent": 6,
+          "home": 0,
+          "home_label": "a",
+          "finished": true
+        }
+      ],
+      "gw6": [
+        {
+          "opponent": 21,
+          "home": 1,
+          "home_label": "h",
+          "finished": true
+        }
+      ],
+      "gw7": [
+        {
+          "opponent": 39,
+          "home": 1,
+          "home_label": "h",
+          "finished": true
+        }
+      ],
+      "gw8": [
+        {
+          "opponent": 1,
+          "home": 0,
+          "home_label": "a",
+          "finished": true
+        }
+      ],
+      "gw9": [
+        {
+          "opponent": 40,
+          "home": 1,
+          "home_label": "h",
+          "finished": true
+        }
+      ],
+      "gw10": [
+        {
+          "opponent": 54,
+          "home": 0,
+          "home_label": "a",
+          "finished": true
+        }
+      ],
+      "gw11": [
+        {
+          "opponent": 91,
+          "home": 1,
+          "home_label": "h",
+          "finished": true
+        }
+      ],
+      "gw12": [
+        {
+          "opponent": 11,
+          "home": 0,
+          "home_label": "a",
+          "finished": true
+        }
+      ],
+      "gw13": [
+        {
+          "opponent": 13,
+          "home": 1,
+          "home_label": "h",
+          "finished": true
+        }
+      ],
+      "gw14": [
+        {
+          "opponent": 7,
+          "home": 0,
+          "home_label": "a",
+          "finished": true
+        }
+      ],
+      "gw15": [
+        {
+          "opponent": 4,
+          "home": 1,
+          "home_label": "h",
+          "finished": true
+        }
+      ],
+      "gw16": [
+        {
+          "opponent": 8,
+          "home": 0,
+          "home_label": "a",
+          "finished": true
+        }
+      ],
+      "gw17": [
+        {
+          "opponent": 17,
+          "home": 1,
+          "home_label": "h",
+          "finished": true
+        }
+      ],
+      "gw18": [
+        {
+          "opponent": 36,
+          "home": 0,
+          "home_label": "a",
+          "finished": true
+        }
+      ],
+      "gw19": [
+        {
+          "opponent": 3,
+          "home": 1,
+          "home_label": "h",
+          "finished": true
+        }
+      ],
+      "gw20": [
+        {
+          "opponent": 20,
+          "home": 0,
+          "home_label": "a",
+          "finished": true
+        }
+      ],
+      "gw21": [
+        {
+          "opponent": 43,
+          "home": 1,
+          "home_label": "h",
+          "finished": true
+        }
+      ],
+      "gw22": [
+        {
+          "opponent": 14,
+          "home": 1,
+          "home_label": "h",
+          "finished": true
+        }
+      ],
+      "gw23": [
+        {
+          "opponent": 31,
+          "home": 0,
+          "home_label": "a",
+          "finished": true
+        }
+      ],
+      "gw24": [
+        {
+          "opponent": 6,
+          "home": 1,
+          "home_label": "h",
+          "finished": true
+        }
+      ],
+      "gw25": [
+        {
+          "opponent": 21,
+          "home": 0,
+          "home_label": "a",
+          "finished": true
+        }
+      ],
+      "gw26": [
+        {
+          "opponent": 13,
+          "home": 0,
+          "home_label": "a",
+          "finished": true
+        }
+      ],
+      "gw27": [
+        {
+          "opponent": 11,
+          "home": 1,
+          "home_label": "h",
+          "finished": true
+        }
+      ],
+      "gw28": [
+        {
+          "opponent": 7,
+          "home": 1,
+          "home_label": "h",
+          "finished": true
+        }
+      ],
+      "gw29": [
+        {
+          "opponent": 91,
+          "home": 0,
+          "home_label": "a",
+          "finished": true
+        }
+      ],
+      "gw30": [
+        {
+          "opponent": 4,
+          "home": 0,
+          "home_label": "a",
+          "finished": true
+        }
+      ],
+      "gw31": [
+        {
+          "opponent": 8,
+          "home": 1,
+          "home_label": "h",
+          "finished": true
+        }
+      ],
+      "gw32": [
+        {
+          "opponent": 3,
+          "home": 0,
+          "home_label": "a",
+          "finished": true
+        }
+      ],
+      "gw33": [
+        {
+          "opponent": 36,
+          "home": 1,
+          "home_label": "h",
+          "finished": true
+        }
+      ],
+      "gw34": [
+        {
+          "opponent": 17,
+          "home": 0,
+          "home_label": "a",
+          "finished": true
+        }
+      ],
+      "gw35": [
+        {
+          "opponent": 1,
+          "home": 1,
+          "home_label": "h",
+          "finished": true
+        }
+      ],
+      "gw36": [
+        {
+          "opponent": 40,
+          "home": 0,
+          "home_label": "a",
+          "finished": true
+        }
+      ],
+      "gw37": [
+        {
+          "opponent": 54,
+          "home": 1,
+          "home_label": "h",
+          "finished": true
+        }
+      ],
+      "gw38": [
+        {
+          "opponent": 39,
+          "home": 0,
+          "home_label": "a",
+          "finished": true
+        }
+      ]
+    }
+  },
+  {
+    "team_code": 31,
+    "fixtures": {
+      "gw1": [
+        {
+          "opponent": 94,
+          "home": 0,
+          "home_label": "a",
+          "finished": true
+        }
+      ],
+      "gw2": [
+        {
+          "opponent": 21,
+          "home": 1,
+          "home_label": "h",
+          "finished": true
+        }
+      ],
+      "gw3": [
+        {
+          "opponent": 8,
+          "home": 0,
+          "home_label": "a",
+          "finished": true
+        }
+      ],
+      "gw4": [
+        {
+          "opponent": 13,
+          "home": 1,
+          "home_label": "h",
+          "finished": true
+        }
+      ],
+      "gw5": [
+        {
+          "opponent": 1,
+          "home": 1,
+          "home_label": "h",
+          "finished": true
+        }
+      ],
+      "gw6": [
+        {
+          "opponent": 11,
+          "home": 0,
+          "home_label": "a",
+          "finished": true
+        }
+      ],
+      "gw7": [
+        {
+          "opponent": 14,
+          "home": 1,
+          "home_label": "h",
+          "finished": true
+        }
+      ],
+      "gw8": [
+        {
+          "opponent": 17,
+          "home": 0,
+          "home_label": "a",
+          "finished": true
+        }
+      ],
+      "gw9": [
+        {
+          "opponent": 6,
+          "home": 1,
+          "home_label": "h",
+          "finished": true
+        }
+      ],
+      "gw10": [
+        {
+          "opponent": 39,
+          "home": 0,
+          "home_label": "a",
+          "finished": true
+        }
+      ],
+      "gw11": [
+        {
+          "opponent": 54,
+          "home": 1,
+          "home_label": "h",
+          "finished": true
+        }
+      ],
+      "gw12": [
+        {
+          "opponent": 7,
+          "home": 0,
+          "home_label": "a",
+          "finished": true
+        }
+      ],
+      "gw13": [
+        {
+          "opponent": 4,
+          "home": 1,
+          "home_label": "h",
+          "finished": true
+        }
+      ],
+      "gw14": [
+        {
+          "opponent": 40,
+          "home": 0,
+          "home_label": "a",
+          "finished": true
+        }
+      ],
+      "gw15": [
+        {
+          "opponent": 43,
+          "home": 1,
+          "home_label": "h",
+          "finished": true
+        }
+      ],
+      "gw16": [
+        {
+          "opponent": 36,
+          "home": 0,
+          "home_label": "a",
+          "finished": true
+        }
+      ],
+      "gw17": [
+        {
+          "opponent": 3,
+          "home": 1,
+          "home_label": "h",
+          "finished": true
+        }
+      ],
+      "gw18": [
+        {
+          "opponent": 91,
+          "home": 0,
+          "home_label": "a",
+          "finished": true
+        }
+      ],
+      "gw19": [
+        {
+          "opponent": 20,
+          "home": 1,
+          "home_label": "h",
+          "finished": true
+        }
+      ],
+      "gw20": [
+        {
+          "opponent": 8,
+          "home": 1,
+          "home_label": "h",
+          "finished": true
+        }
+      ],
+      "gw21": [
+        {
+          "opponent": 13,
+          "home": 0,
+          "home_label": "a",
+          "finished": true
+        }
+      ],
+      "gw22": [
+        {
+          "opponent": 21,
+          "home": 0,
+          "home_label": "a",
+          "finished": true
+        }
+      ],
+      "gw23": [
+        {
+          "opponent": 94,
+          "home": 1,
+          "home_label": "h",
+          "finished": true
+        }
+      ],
+      "gw24": [
+        {
+          "opponent": 1,
+          "home": 0,
+          "home_label": "a",
+          "finished": true
+        }
+      ],
+      "gw25": [
+        {
+          "opponent": 11,
+          "home": 1,
+          "home_label": "h",
+          "finished": true
+        }
+      ],
+      "gw26": [
+        {
+          "opponent": 54,
+          "home": 0,
+          "home_label": "a",
+          "finished": true
+        }
+      ],
+      "gw27": [
+        {
+          "opponent": 7,
+          "home": 1,
+          "home_label": "h",
+          "finished": true
+        }
+      ],
+      "gw28": [
+        {
+          "opponent": 40,
+          "home": 1,
+          "home_label": "h",
+          "finished": true
+        }
+      ],
+      "gw29": [],
+      "gw30": [
+        {
+          "opponent": 20,
+          "home": 0,
+          "home_label": "a",
+          "finished": true
+        }
+      ],
+      "gw31": [
+        {
+          "opponent": 36,
+          "home": 1,
+          "home_label": "h",
+          "finished": true
+        }
+      ],
+      "gw32": [
+        {
+          "opponent": 43,
+          "home": 0,
+          "home_label": "a",
+          "finished": true
+        },
+        {
+          "opponent": 4,
+          "home": 0,
+          "home_label": "a",
+          "finished": true
+        }
+      ],
+      "gw33": [
+        {
+          "opponent": 91,
+          "home": 1,
+          "home_label": "h",
+          "finished": true
+        },
+        {
+          "opponent": 3,
+          "home": 0,
+          "home_label": "a",
+          "finished": true
+        }
+      ],
+      "gw34": [],
+      "gw35": [
+        {
+          "opponent": 17,
+          "home": 1,
+          "home_label": "h",
+          "finished": true
+        }
+      ],
+      "gw36": [
+        {
+          "opponent": 6,
+          "home": 0,
+          "home_label": "a",
+          "finished": true
+        }
+      ],
+      "gw37": [
+        {
+          "opponent": 39,
+          "home": 1,
+          "home_label": "h",
+          "finished": true
+        }
+      ],
+      "gw38": [
+        {
+          "opponent": 14,
+          "home": 0,
+          "home_label": "a",
+          "finished": true
+        }
+      ]
+    }
+  },
+  {
+    "team_code": 8,
+    "fixtures": {
+      "gw1": [
+        {
+          "opponent": 43,
+          "home": 1,
+          "home_label": "h",
+          "finished": true
+        }
+      ],
+      "gw2": [
+        {
+          "opponent": 39,
+          "home": 0,
+          "home_label": "a",
+          "finished": true
+        }
+      ],
+      "gw3": [
+        {
+          "opponent": 31,
+          "home": 1,
+          "home_label": "h",
+          "finished": true
+        }
+      ],
+      "gw4": [
+        {
+          "opponent": 91,
+          "home": 0,
+          "home_label": "a",
+          "finished": true
+        }
+      ],
+      "gw5": [
+        {
+          "opponent": 21,
+          "home": 0,
+          "home_label": "a",
+          "finished": true
+        }
+      ],
+      "gw6": [
+        {
+          "opponent": 36,
+          "home": 1,
+          "home_label": "h",
+          "finished": true
+        }
+      ],
+      "gw7": [
+        {
+          "opponent": 17,
+          "home": 1,
+          "home_label": "h",
+          "finished": true
+        }
+      ],
+      "gw8": [
+        {
+          "opponent": 14,
+          "home": 0,
+          "home_label": "a",
+          "finished": true
+        }
+      ],
+      "gw9": [
+        {
+          "opponent": 4,
+          "home": 1,
+          "home_label": "h",
+          "finished": true
+        }
+      ],
+      "gw10": [
+        {
+          "opponent": 1,
+          "home": 0,
+          "home_label": "a",
+          "finished": true
+        }
+      ],
+      "gw11": [
+        {
+          "opponent": 3,
+          "home": 1,
+          "home_label": "h",
+          "finished": true
+        }
+      ],
+      "gw12": [
+        {
+          "opponent": 13,
+          "home": 0,
+          "home_label": "a",
+          "finished": true
+        }
+      ],
+      "gw13": [
+        {
+          "opponent": 7,
+          "home": 1,
+          "home_label": "h",
+          "finished": true
+        }
+      ],
+      "gw14": [
+        {
+          "opponent": 20,
+          "home": 0,
+          "home_label": "a",
+          "finished": true
+        }
+      ],
+      "gw15": [
+        {
+          "opponent": 6,
+          "home": 0,
+          "home_label": "a",
+          "finished": true
+        }
+      ],
+      "gw16": [
+        {
+          "opponent": 94,
+          "home": 1,
+          "home_label": "h",
+          "finished": true
+        }
+      ],
+      "gw17": [
+        {
+          "opponent": 11,
+          "home": 0,
+          "home_label": "a",
+          "finished": true
+        }
+      ],
+      "gw18": [
+        {
+          "opponent": 54,
+          "home": 1,
+          "home_label": "h",
+          "finished": true
+        }
+      ],
+      "gw19": [
+        {
+          "opponent": 40,
+          "home": 0,
+          "home_label": "a",
+          "finished": true
+        }
+      ],
+      "gw20": [
+        {
+          "opponent": 31,
+          "home": 0,
+          "home_label": "a",
+          "finished": true
+        }
+      ],
+      "gw21": [
+        {
+          "opponent": 91,
+          "home": 1,
+          "home_label": "h",
+          "finished": true
+        }
+      ],
+      "gw22": [
+        {
+          "opponent": 39,
+          "home": 1,
+          "home_label": "h",
+          "finished": true
+        }
+      ],
+      "gw23": [
+        {
+          "opponent": 43,
+          "home": 0,
+          "home_label": "a",
+          "finished": true
+        }
+      ],
+      "gw24": [
+        {
+          "opponent": 21,
+          "home": 1,
+          "home_label": "h",
+          "finished": true
+        }
+      ],
+      "gw25": [
+        {
+          "opponent": 36,
+          "home": 0,
+          "home_label": "a",
+          "finished": true
+        }
+      ],
+      "gw26": [
+        {
+          "opponent": 7,
+          "home": 0,
+          "home_label": "a",
+          "finished": true
+        }
+      ],
+      "gw27": [
+        {
+          "opponent": 20,
+          "home": 1,
+          "home_label": "h",
+          "finished": true
+        }
+      ],
+      "gw28": [
+        {
+          "opponent": 13,
+          "home": 1,
+          "home_label": "h",
+          "finished": true
+        }
+      ],
+      "gw29": [
+        {
+          "opponent": 3,
+          "home": 0,
+          "home_label": "a",
+          "finished": true
+        }
+      ],
+      "gw30": [
+        {
+          "opponent": 6,
+          "home": 1,
+          "home_label": "h",
+          "finished": true
+        }
+      ],
+      "gw31": [
+        {
+          "opponent": 94,
+          "home": 0,
+          "home_label": "a",
+          "finished": true
+        }
+      ],
+      "gw32": [
+        {
+          "opponent": 40,
+          "home": 1,
+          "home_label": "h",
+          "finished": true
+        }
+      ],
+      "gw33": [
+        {
+          "opponent": 54,
+          "home": 0,
+          "home_label": "a",
+          "finished": true
+        }
+      ],
+      "gw34": [
+        {
+          "opponent": 11,
+          "home": 1,
+          "home_label": "h",
+          "finished": true
+        }
+      ],
+      "gw35": [
+        {
+          "opponent": 14,
+          "home": 1,
+          "home_label": "h",
+          "finished": true
+        }
+      ],
+      "gw36": [
+        {
+          "opponent": 4,
+          "home": 0,
+          "home_label": "a",
+          "finished": true
+        }
+      ],
+      "gw37": [
+        {
+          "opponent": 1,
+          "home": 1,
+          "home_label": "h",
+          "finished": true
+        }
+      ],
+      "gw38": [
+        {
+          "opponent": 17,
+          "home": 0,
+          "home_label": "a",
+          "finished": true
+        }
+      ]
+    }
+  },
+  {
+    "team_code": 43,
+    "fixtures": {
+      "gw1": [
+        {
+          "opponent": 8,
+          "home": 0,
+          "home_label": "a",
+          "finished": true
+        }
+      ],
+      "gw2": [
+        {
+          "opponent": 40,
+          "home": 1,
+          "home_label": "h",
+          "finished": true
+        }
+      ],
+      "gw3": [
+        {
+          "opponent": 21,
+          "home": 0,
+          "home_label": "a",
+          "finished": true
+        }
+      ],
+      "gw4": [
+        {
+          "opponent": 94,
+          "home": 1,
+          "home_label": "h",
+          "finished": true
+        }
+      ],
+      "gw5": [
+        {
+          "opponent": 3,
+          "home": 1,
+          "home_label": "h",
+          "finished": true
+        }
+      ],
+      "gw6": [
+        {
+          "opponent": 4,
+          "home": 0,
+          "home_label": "a",
+          "finished": true
+        }
+      ],
+      "gw7": [
+        {
+          "opponent": 54,
+          "home": 1,
+          "home_label": "h",
+          "finished": true
+        }
+      ],
+      "gw8": [
+        {
+          "opponent": 39,
+          "home": 0,
+          "home_label": "a",
+          "finished": true
+        }
+      ],
+      "gw9": [
+        {
+          "opponent": 20,
+          "home": 1,
+          "home_label": "h",
+          "finished": true
+        }
+      ],
+      "gw10": [
+        {
+          "opponent": 91,
+          "home": 0,
+          "home_label": "a",
+          "finished": true
+        }
+      ],
+      "gw11": [
+        {
+          "opponent": 36,
+          "home": 0,
+          "home_label": "a",
+          "finished": true
+        }
+      ],
+      "gw12": [
+        {
+          "opponent": 6,
+          "home": 1,
+          "home_label": "h",
+          "finished": true
+        }
+      ],
+      "gw13": [
+        {
+          "opponent": 14,
+          "home": 0,
+          "home_label": "a",
+          "finished": true
+        }
+      ],
+      "gw14": [
+        {
+          "opponent": 17,
+          "home": 1,
+          "home_label": "h",
+          "finished": true
+        }
+      ],
+      "gw15": [
+        {
+          "opponent": 31,
+          "home": 0,
+          "home_label": "a",
+          "finished": true
+        }
+      ],
+      "gw16": [
+        {
+          "opponent": 1,
+          "home": 1,
+          "home_label": "h",
+          "finished": true
+        }
+      ],
+      "gw17": [
+        {
+          "opponent": 7,
+          "home": 0,
+          "home_label": "a",
+          "finished": true
+        }
+      ],
+      "gw18": [
+        {
+          "opponent": 11,
+          "home": 1,
+          "home_label": "h",
+          "finished": true
+        }
+      ],
+      "gw19": [
+        {
+          "opponent": 13,
+          "home": 0,
+          "home_label": "a",
+          "finished": true
+        }
+      ],
+      "gw20": [
+        {
+          "opponent": 21,
+          "home": 1,
+          "home_label": "h",
+          "finished": true
+        }
+      ],
+      "gw21": [
+        {
+          "opponent": 94,
+          "home": 0,
+          "home_label": "a",
+          "finished": true
+        }
+      ],
+      "gw22": [
+        {
+          "opponent": 40,
+          "home": 0,
+          "home_label": "a",
+          "finished": true
+        }
+      ],
+      "gw23": [
+        {
+          "opponent": 8,
+          "home": 1,
+          "home_label": "h",
+          "finished": true
+        }
+      ],
+      "gw24": [
+        {
+          "opponent": 3,
+          "home": 0,
+          "home_label": "a",
+          "finished": true
+        }
+      ],
+      "gw25": [
+        {
+          "opponent": 4,
+          "home": 1,
+          "home_label": "h",
+          "finished": true
+        }
+      ],
+      "gw26": [
+        {
+          "opponent": 14,
+          "home": 1,
+          "home_label": "h",
+          "finished": true
+        }
+      ],
+      "gw27": [
+        {
+          "opponent": 6,
+          "home": 0,
+          "home_label": "a",
+          "finished": true
+        }
+      ],
+      "gw28": [
+        {
+          "opponent": 17,
+          "home": 0,
+          "home_label": "a",
+          "finished": true
+        }
+      ],
+      "gw29": [
+        {
+          "opponent": 36,
+          "home": 1,
+          "home_label": "h",
+          "finished": true
+        }
+      ],
+      "gw30": [
+        {
+          "opponent": 13,
+          "home": 1,
+          "home_label": "h",
+          "finished": true
+        }
+      ],
+      "gw31": [
+        {
+          "opponent": 1,
+          "home": 0,
+          "home_label": "a",
+          "finished": true
+        }
+      ],
+      "gw32": [
+        {
+          "opponent": 31,
+          "home": 1,
+          "home_label": "h",
+          "finished": true
+        }
+      ],
+      "gw33": [
+        {
+          "opponent": 11,
+          "home": 0,
+          "home_label": "a",
+          "finished": true
+        },
+        {
+          "opponent": 7,
+          "home": 1,
+          "home_label": "h",
+          "finished": true
+        }
+      ],
+      "gw34": [],
+      "gw35": [
+        {
+          "opponent": 39,
+          "home": 1,
+          "home_label": "h",
+          "finished": true
+        }
+      ],
+      "gw36": [
+        {
+          "opponent": 20,
+          "home": 0,
+          "home_label": "a",
+          "finished": true
+        }
+      ],
+      "gw37": [
+        {
+          "opponent": 91,
+          "home": 1,
+          "home_label": "h",
+          "finished": true
+        }
+      ],
+      "gw38": [
+        {
+          "opponent": 54,
+          "home": 0,
+          "home_label": "a",
+          "finished": true
+        }
+      ]
+    }
+  },
+  {
+    "team_code": 13,
+    "fixtures": {
+      "gw1": [
+        {
+          "opponent": 6,
+          "home": 1,
+          "home_label": "h",
+          "finished": true
+        }
+      ],
+      "gw2": [
+        {
+          "opponent": 54,
+          "home": 0,
+          "home_label": "a",
+          "finished": true
+        }
+      ],
+      "gw3": [
+        {
+          "opponent": 7,
+          "home": 1,
+          "home_label": "h",
+          "finished": true
+        }
+      ],
+      "gw4": [
+        {
+          "opponent": 31,
+          "home": 0,
+          "home_label": "a",
+          "finished": true
+        }
+      ],
+      "gw5": [
+        {
+          "opponent": 11,
+          "home": 1,
+          "home_label": "h",
+          "finished": true
+        }
+      ],
+      "gw6": [
+        {
+          "opponent": 3,
+          "home": 0,
+          "home_label": "a",
+          "finished": true
+        }
+      ],
+      "gw7": [
+        {
+          "opponent": 91,
+          "home": 1,
+          "home_label": "h",
+          "finished": true
+        }
+      ],
+      "gw8": [
+        {
+          "opponent": 20,
+          "home": 0,
+          "home_label": "a",
+          "finished": true
+        }
+      ],
+      "gw9": [
+        {
+          "opponent": 17,
+          "home": 1,
+          "home_label": "h",
+          "finished": true
+        }
+      ],
+      "gw10": [
+        {
+          "opponent": 40,
+          "home": 0,
+          "home_label": "a",
+          "finished": true
+        }
+      ],
+      "gw11": [
+        {
+          "opponent": 1,
+          "home": 0,
+          "home_label": "a",
+          "finished": true
+        }
+      ],
+      "gw12": [
+        {
+          "opponent": 8,
+          "home": 1,
+          "home_label": "h",
+          "finished": true
+        }
+      ],
+      "gw13": [
+        {
+          "opponent": 94,
+          "home": 0,
+          "home_label": "a",
+          "finished": true
+        }
+      ],
+      "gw14": [
+        {
+          "opponent": 21,
+          "home": 1,
+          "home_label": "h",
+          "finished": true
+        }
+      ],
+      "gw15": [
+        {
+          "opponent": 36,
+          "home": 1,
+          "home_label": "h",
+          "finished": true
+        }
+      ],
+      "gw16": [
+        {
+          "opponent": 4,
+          "home": 0,
+          "home_label": "a",
+          "finished": true
+        }
+      ],
+      "gw17": [
+        {
+          "opponent": 39,
+          "home": 1,
+          "home_label": "h",
+          "finished": true
+        }
+      ],
+      "gw18": [
+        {
+          "opponent": 14,
+          "home": 0,
+          "home_label": "a",
+          "finished": true
+        }
+      ],
+      "gw19": [
+        {
+          "opponent": 43,
+          "home": 1,
+          "home_label": "h",
+          "finished": true
+        }
+      ],
+      "gw20": [
+        {
+          "opponent": 7,
+          "home": 0,
+          "home_label": "a",
+          "finished": true
+        }
+      ],
+      "gw21": [
+        {
+          "opponent": 31,
+          "home": 1,
+          "home_label": "h",
+          "finished": true
+        }
+      ],
+      "gw22": [
+        {
+          "opponent": 54,
+          "home": 1,
+          "home_label": "h",
+          "finished": true
+        }
+      ],
+      "gw23": [
+        {
+          "opponent": 6,
+          "home": 0,
+          "home_label": "a",
+          "finished": true
+        }
+      ],
+      "gw24": [
+        {
+          "opponent": 11,
+          "home": 0,
+          "home_label": "a",
+          "finished": true
+        }
+      ],
+      "gw25": [
+        {
+          "opponent": 3,
+          "home": 1,
+          "home_label": "h",
+          "finished": true
+        }
+      ],
+      "gw26": [
+        {
+          "opponent": 94,
+          "home": 1,
+          "home_label": "h",
+          "finished": true
+        }
+      ],
+      "gw27": [
+        {
+          "opponent": 21,
+          "home": 0,
+          "home_label": "a",
+          "finished": true
+        }
+      ],
+      "gw28": [
+        {
+          "opponent": 8,
+          "home": 0,
+          "home_label": "a",
+          "finished": true
+        }
+      ],
+      "gw29": [
+        {
+          "opponent": 1,
+          "home": 1,
+          "home_label": "h",
+          "finished": true
+        }
+      ],
+      "gw30": [
+        {
+          "opponent": 43,
+          "home": 0,
+          "home_label": "a",
+          "finished": true
+        }
+      ],
+      "gw31": [
+        {
+          "opponent": 4,
+          "home": 1,
+          "home_label": "h",
+          "finished": true
+        }
+      ],
+      "gw32": [
+        {
+          "opponent": 36,
+          "home": 0,
+          "home_label": "a",
+          "finished": true
+        }
+      ],
+      "gw33": [
+        {
+          "opponent": 14,
+          "home": 1,
+          "home_label": "h",
+          "finished": true
+        }
+      ],
+      "gw34": [
+        {
+          "opponent": 39,
+          "home": 0,
+          "home_label": "a",
+          "finished": true
+        }
+      ],
+      "gw35": [
+        {
+          "opponent": 20,
+          "home": 1,
+          "home_label": "h",
+          "finished": true
+        }
+      ],
+      "gw36": [
+        {
+          "opponent": 17,
+          "home": 0,
+          "home_label": "a",
+          "finished": true
+        }
+      ],
+      "gw37": [
+        {
+          "opponent": 40,
+          "home": 1,
+          "home_label": "h",
+          "finished": true
+        }
+      ],
+      "gw38": [
+        {
+          "opponent": 91,
+          "home": 0,
+          "home_label": "a",
+          "finished": true
+        }
+      ]
+    }
+  },
+  {
+    "team_code": 6,
+    "fixtures": {
+      "gw1": [
+        {
+          "opponent": 13,
+          "home": 0,
+          "home_label": "a",
+          "finished": true
+        }
+      ],
+      "gw2": [
+        {
+          "opponent": 11,
+          "home": 1,
+          "home_label": "h",
+          "finished": true
+        }
+      ],
+      "gw3": [
+        {
+          "opponent": 4,
+          "home": 0,
+          "home_label": "a",
+          "finished": true
+        }
+      ],
+      "gw4": [
+        {
+          "opponent": 3,
+          "home": 1,
+          "home_label": "h",
+          "finished": true
+        }
+      ],
+      "gw5": [
+        {
+          "opponent": 94,
+          "home": 1,
+          "home_label": "h",
+          "finished": true
+        }
+      ],
+      "gw6": [
+        {
+          "opponent": 1,
+          "home": 0,
+          "home_label": "a",
+          "finished": true
+        }
+      ],
+      "gw7": [
+        {
+          "opponent": 36,
+          "home": 0,
+          "home_label": "a",
+          "finished": true
+        }
+      ],
+      "gw8": [
+        {
+          "opponent": 21,
+          "home": 1,
+          "home_label": "h",
+          "finished": true
+        }
+      ],
+      "gw9": [
+        {
+          "opponent": 31,
+          "home": 0,
+          "home_label": "a",
+          "finished": true
+        }
+      ],
+      "gw10": [
+        {
+          "opponent": 7,
+          "home": 1,
+          "home_label": "h",
+          "finished": true
+        }
+      ],
+      "gw11": [
+        {
+          "opponent": 40,
+          "home": 1,
+          "home_label": "h",
+          "finished": true
+        }
+      ],
+      "gw12": [
+        {
+          "opponent": 43,
+          "home": 0,
+          "home_label": "a",
+          "finished": true
+        }
+      ],
+      "gw13": [
+        {
+          "opponent": 54,
+          "home": 1,
+          "home_label": "h",
+          "finished": true
+        }
+      ],
+      "gw14": [
+        {
+          "opponent": 91,
+          "home": 0,
+          "home_label": "a",
+          "finished": true
+        }
+      ],
+      "gw15": [
+        {
+          "opponent": 8,
+          "home": 1,
+          "home_label": "h",
+          "finished": true
+        }
+      ],
+      "gw16": [
+        {
+          "opponent": 20,
+          "home": 0,
+          "home_label": "a",
+          "finished": true
+        }
+      ],
+      "gw17": [
+        {
+          "opponent": 14,
+          "home": 1,
+          "home_label": "h",
+          "finished": true
+        }
+      ],
+      "gw18": [
+        {
+          "opponent": 17,
+          "home": 0,
+          "home_label": "a",
+          "finished": true
+        }
+      ],
+      "gw19": [
+        {
+          "opponent": 39,
+          "home": 1,
+          "home_label": "h",
+          "finished": true
+        }
+      ],
+      "gw20": [
+        {
+          "opponent": 4,
+          "home": 1,
+          "home_label": "h",
+          "finished": true
+        }
+      ],
+      "gw21": [
+        {
+          "opponent": 3,
+          "home": 0,
+          "home_label": "a",
+          "finished": true
+        }
+      ],
+      "gw22": [
+        {
+          "opponent": 11,
+          "home": 0,
+          "home_label": "a",
+          "finished": true
+        }
+      ],
+      "gw23": [
+        {
+          "opponent": 13,
+          "home": 1,
+          "home_label": "h",
+          "finished": true
+        }
+      ],
+      "gw24": [
+        {
+          "opponent": 94,
+          "home": 0,
+          "home_label": "a",
+          "finished": true
+        }
+      ],
+      "gw25": [
+        {
+          "opponent": 1,
+          "home": 1,
+          "home_label": "h",
+          "finished": true
+        }
+      ],
+      "gw26": [
+        {
+          "opponent": 40,
+          "home": 0,
+          "home_label": "a",
+          "finished": true
+        }
+      ],
+      "gw27": [
+        {
+          "opponent": 43,
+          "home": 1,
+          "home_label": "h",
+          "finished": true
+        }
+      ],
+      "gw28": [
+        {
+          "opponent": 91,
+          "home": 1,
+          "home_label": "h",
+          "finished": true
+        }
+      ],
+      "gw29": [
+        {
+          "opponent": 54,
+          "home": 0,
+          "home_label": "a",
+          "finished": true
+        }
+      ],
+      "gw30": [
+        {
+          "opponent": 8,
+          "home": 0,
+          "home_label": "a",
+          "finished": true
+        }
+      ],
+      "gw31": [
+        {
+          "opponent": 20,
+          "home": 1,
+          "home_label": "h",
+          "finished": true
+        }
+      ],
+      "gw32": [
+        {
+          "opponent": 39,
+          "home": 0,
+          "home_label": "a",
+          "finished": true
+        }
+      ],
+      "gw33": [
+        {
+          "opponent": 17,
+          "home": 1,
+          "home_label": "h",
+          "finished": true
+        }
+      ],
+      "gw34": [
+        {
+          "opponent": 14,
+          "home": 0,
+          "home_label": "a",
+          "finished": true
+        }
+      ],
+      "gw35": [
+        {
+          "opponent": 21,
+          "home": 0,
+          "home_label": "a",
+          "finished": true
+        }
+      ],
+      "gw36": [
+        {
+          "opponent": 31,
+          "home": 1,
+          "home_label": "h",
+          "finished": true
+        }
+      ],
+      "gw37": [
+        {
+          "opponent": 7,
+          "home": 0,
+          "home_label": "a",
+          "finished": true
+        }
+      ],
+      "gw38": [
+        {
+          "opponent": 36,
+          "home": 1,
+          "home_label": "h",
+          "finished": true
+        }
+      ]
+    }
+  }
+]
