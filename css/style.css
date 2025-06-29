@@ -10,10 +10,10 @@ body {
 }
 
 .page-container {
-  max-width: 800px;
-/*  margin: 0 auto;*/
+  max-width: 900px;
   padding: 1rem;
   width: 100%;
+  margin: 0 auto;  
 }
 
 .dashboard-heading {
