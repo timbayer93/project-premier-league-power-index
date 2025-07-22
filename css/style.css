@@ -179,7 +179,7 @@ body {
   object-fit: contain;
 }
 
-.fixture-ticker-watermark {
+.chart-watermark {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -193,8 +193,8 @@ body {
   background-color: white;
 }
 
-.fixture-ticker-watermark .left,
-.fixture-ticker-watermark .right {
+.chart-watermark .left,
+.chart-watermark .right {
   white-space: nowrap;
 }
 

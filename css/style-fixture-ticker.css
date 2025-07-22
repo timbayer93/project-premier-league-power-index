@@ -40,6 +40,27 @@
   z-index: 3;
 }
 
+.ticker-cell-rank,
+.ticker-header-rank {
+    min-width: 1rem;
+    width: 1rem;
+    max-width: 1rem;
+}
+
+.ticker-cell-team,
+.ticker-header-team {
+  min-width: 7.3rem;
+  width: 7.3rem;
+  max-width: 7.3rem;
+}
+
+.ticker-cell-team.compact,
+.ticker-header-team.compact {
+  min-width: 4.6rem;
+  width: 4.6rem;
+  max-width: 4.6rem;
+}
+
 /* table headers  */
 #fixture-ticker-table thead th {
   font-size: 0.8rem;
@@ -59,14 +80,14 @@
   z-index: 2;
 }
 
-.ticker-team-container {
+/*.ticker-team-container {
   width: 5rem;
-}
+}*/
 
 .sticky-col-team {
   /* sticky attributes, set bg and zorder */
   position: sticky;
-  left: 1.4rem;
+  left: 1.45rem;
   background-color: white;
   z-index: 2;
 }
@@ -86,9 +107,11 @@
   z-index: 2;
 }
 
-.ticker-team-container {
-  width: 6rem;
-}
+/*.ticker-team-container {
+  min-width: 10rem;
+  width: 10rem;
+  max-width: 10rem;
+}*/
 
 .ticker-team-cols {
   /* DO NOT REMOVE - NEEDED FOR ROW STYLING */
@@ -100,7 +123,7 @@
 .ticker-cell-team {
   /* sticky attributes, set bg and zorder */
   position: sticky;
-  left: 1.4rem;
+  left: 1.45rem;
   background-color: white;
   z-index: 2;
 }
@@ -290,7 +313,7 @@ td:hover {
 
   /* table header stlying  */
   #fixture-ticker-table thead th {
-    font-size: 0.7rem;
+    font-size: 0.8rem;
   }
 
 /*  .ticker-team-cols {
@@ -348,7 +371,14 @@ td:hover {
 
   /* table header stlying  */
   #fixture-ticker-table thead th {
-    font-size: 0.6rem;
+    font-size: 0.7rem;
+  }
+
+  .ticker-cell-team,
+  .ticker-header-team {
+    min-width: 5.5rem;
+    width: 5.5rem;
+    max-width: 5.5rem;
   }
 
   .ticker-cell-rank {
@@ -382,7 +412,7 @@ td:hover {
   }
 
   .ticker-team-meta {
-    font-size: 0.45rem;
+    font-size: 0.5rem;
   }
 
   .ticker-single-gw {

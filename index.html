@@ -19,7 +19,8 @@
   <script src="https://d3js.org/d3.v7.min.js"></script>
   <link rel="stylesheet" href="css/style.css">
   <link rel="stylesheet" href="css/style-fixture-ticker.css">
-  <link rel="stylesheet" href="css/style-fixture-trend.css">
+  <link rel="stylesheet" href="css/style-fixture-xg-table.css">
+  <link rel="stylesheet" href="css/style-match-forecasts.css">
 </head>
 <body>
   <div class="page-container">
@@ -41,7 +42,7 @@
       <div class="last-update-divider-line"></div>
       <div class="last-updated">
         <span class="update-indicator" id="update-indicator"></span>
-        Last updated: <span id="last-updated-text">June 28, 2025</span>
+        Last Updated: <span id="last-updated-text">-</span>
       </div>
       <div class="last-update-divider-line"></div>
     </div>
@@ -59,11 +60,17 @@
          <a href="https://youtube.com/@timbeau11" target="_blank" aria-label="YouTube">
           <img src="icons/youtube.svg" alt="YouTube" />
         </a>
+        <a href="https://www.instagram.com/timbayer93fc/" target="_blank" aria-label="Instagram">
+          <img src="icons/instagram.svg" alt="Instagram" />
+        </a>
+        <a href="https://www.twitch.com/timbeau11/" target="_blank" aria-label="Twitch">
+          <img src="icons/twitch.svg" alt="Twitch" />
+        </a>
         <!-- Add more as needed -->
       </div>
     </div>
   
-    <!-- Dashboard Config -->
+    <!-- Fixture Ticker Config -->
     <div class="ticker-config">
       <div class="ticker-dashboard-header">Fixture Ticker</div>
           <p class="ticker-description">
@@ -75,12 +82,12 @@
       <!-- Controls -->
         <div id="controls">
           <div class="control-group">
-            <input type="number" id="active-gw" min="1" max="38">
-            <label for="active-gw">Select the current or future GW</label>
+            <input type="number" id="active-gw-input" min="1" max="38">
+            <label for="active-gw-input">Select the current or future GW</label>
           </div>
           <div class="control-group">
-            <input type="number" id="num-gws" min="1" max="10" value="5">
-            <label for="num-gws">the number of GWs to show</label>
+            <input type="number" id="num-gws-input" min="1" max="10" value="5">
+            <label for="num-gws-input">the number of GWs to show</label>
           </div>
 
           <div class="controls-wrapper">
@@ -109,8 +116,8 @@
     </div>
 
     <!-- Ticker Watermark -->
-    <div class="fixture-ticker-watermark">
-      <div class="left">DESIGN | TIM BAYER</div>
+    <div class="chart-watermark">
+      <div class="left">DESIGN | @timbayer93</div>
       <div class="right">DATA | OPTA POWER RANKINGS & FANTASY PREMIER LEAGUE</div>
     </div>
 
@@ -124,32 +131,141 @@
         </label>
       </div>
       <span class="decay-explainer">
-        The fixture difficulty uses a time decay which means sooner fixtures are more important than those in the future. E.g., GW1 fixtures carry more weight than GW2, GW3, and so on. If you like to view the difficulty of fixtures regardless of when they take place turn the toggle OFF.
+        The fixture difficulty uses a time decay which means fixtures "now" carry more weight than those in the future. E.g., GW1 fixtures are weighted higher than GW2 which in return are slightly higher weighted than GW3, and so on. If you like to view the difficulty of fixtures regardless of when they take place turn the toggle OFF.
       </span>
     </div>
 
-    <!-- Tooltip -->
+    <!-- Fixture Expected Goals Config -->
+    <div class="fixture-xg-table-config">
+      <div class="fixture-xg-header">Forecasted Expected Goals & Clean Sheet Probabilities by Gameweek</div>
+      <p class="fixture-xg-description">
+        The below table ranks teams based on the total Expected Goals (xG) or the total Expected number of Clean Sheets (xCS) over the next n matches. Select between <span class="explainer-att"><strong>"Attack"</strong> to view Expected Goals</span> or <span class="explainer-def"><strong>"Defense"</strong> to view Clean Sheet probabilities.</span>
+      </p>
+
+      <div id="controls">
+
+        <!-- Row 1: Number inputs -->
+        <div class="controls-row">
+          <div class="control-group">
+            <input type="number" id="active-gw-input-copy" min="1" max="38">
+            <label for="active-gw">Select the current or future GW</label>
+          </div>
+
+          <div class="control-group">
+            <input type="number" id="num-gws-input-copy" min="1" max="10" value="5">
+            <label for="num-gws-input-copy">The number of GWs to show</label>
+          </div>
+        </div>
+
+        <!-- Row 2: Attack/Defense toggle -->
+        <div class="controls-row">
+          <div class="metric-selector-container" id="metric-selector-toggle">
+            <div class="toggle-option" data-value="attack">ATTACK</div>
+            <div class="toggle-option" data-value="defense">DEFENSE</div>
+          </div>
+        </div>
+
+        <!-- Row 3: Compact view toggle + hover info -->
+        <div>
+          <div class="control-group toggle">
+            <label>
+              <input type="checkbox" id="compact-toggle-copy" />
+              Compact View
+            </label>
+          </div>
+
+          <div class="hover-info">
+            <div class="info-tooltip-hint">
+              <img src="icons/mouse-click.svg" alt="Mouse icon" />
+              <span>Tap or hover for more fixture info</span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="hover-info">↑↓ Click on the column header to sort the table </div>
+    </div>
+
+    <!-- Fixture Expected Goals Table -->
+    <div class="fixture-expected-goals-container">
+      <div class="fixture-xg-gameweeks-label"></div> 
+      <div class="fixture-xg-table-container">
+        <table id="fixture-xg-table"></table>
+      </div>
+    </div>
+
+     <!-- Chart Watermark -->
+    <div class="chart-watermark">
+      <div class="left">DESIGN | @timbayer93</div>
+      <div class="right">DATA | FBREF & FANTASY PREMIER LEAGUE</div>
+    </div>
+
+    <!-- XG (below table) -->
+    <div class="notes-box">
+      <div class="notes-header">Notes:</div>
+      <span class="xg-explainer">
+        Team Strength Ratings <strong>(OFF | DEF)</strong> are derived from historical matches using shot-based xG (fbref) and Adjusted Goals scored (i.e., goals are downweighted when the opponent had an on-field disadvantage such as red cards and goals late in a match when  already leading).
+        <br>
+        <br>
+        Match Predictions are then made using Team Strength Ratings using a Poisson model.
+      </span>
+    </div>
+
+
+    <!-- Match Forecasts Config -->
+    <div class="match-forecasts-config">
+      <div class="match-forecasts-header">Match Forecasts</div>
+          <p class="match-forecasts-description"> 
+              For each upcoming match, we calculate the expected number of goals each team would score based on their Offense & Defense ratings, a home advantage and a league strength factor.
+              <br>
+              <br>
+              We then simulate match scores by using a Poisson distribution to get the full probability distribution for 0, 1, 2, 3, and 4+ goals for each team.
+          </p>
+          <label for="match-selector">Select Match:</label>
+          <select id="match-selector"></select>
+    </div>
+
+    <!-- Match Forecasts Matrix Header -->
+    <div class="match-forecasts-matrix-header"> </div>
+
+    <!-- Match Forecasts Matrix -->
+    <div class="match-forecasts-container">
+      <div class="match-forecasts-matrix-container">
+        <svg id="match-forecasts-matrix" viewBox="0 0 700 700" preserveAspectRatio="xMidYMid meet"></svg>
+      </div>
+    </div>
+
+    <!-- Chart Watermark -->
+    <div class="chart-watermark">
+      <div class="left">DESIGN | @timbayer93</div>
+      <div class="right">DATA | FBREF & FANTASY PREMIER LEAGUE</div>
+    </div>
+
+
+
+    <!-- Tooltips -->
     <div id="tooltip" class="ticker-tooltip" style="display: none;"></div>
+    <div class="xg-table-tooltip" style="display:none;"></div>
 
 
-    <!-- Fixture Trend Chart -->
-    <div id="fixture-trend" class="fixture-trend-chart-container"></div>
-
-
+    <!-- Footer / Credits -->
     <footer class="page-footer">
       <div class="footer-content">
         <p>DESIGN & DEV | TIM BAYER </p>
-        <p>DATA | <a href="https://theanalyst.com/articles/who-are-the-best-football-team-in-the-world-opta-power-rankings" target="_blank">OPTA POWER RANKINGS</a> AND <a href="https://fantasy.premierleague.com/" target="_blank">FANTASY PREMIER LEAGUE</a>.</p>
-        <p>DESIGN INSPIRATION | PETER MCKEEVER | TODD WHITEHEAD | KINSEY MILLER </p>
-        <p>Built with ❤️ using D3.js | <a href="https://github.com/timbayer93" target="_blank">GitHub</a></p>
+        <!-- <p>DATA | <a href="https://theanalyst.com/articles/who-are-the-best-football-team-in-the-world-opta-power-rankings" target="_blank">OPTA POWER RANKINGS</a> AND <a href="https://fantasy.premierleague.com/" target="_blank">FANTASY PREMIER LEAGUE</a>.</p> -->
+        <p>DESIGN INSPIRATION | FIVETHIRTYEIGHT | PETER MCKEEVER (THE ANALYST) </p>
+        <!-- <p>Built with ❤️ using D3.js | <a href="https://github.com/timbayer93" target="_blank">GitHub</a></p> -->
       </div>
     </footer>
   
-    <!-- Scripts -->
-    <script src="js/utils.js"></script>
-    <script src="js/fixture-ticker.js"></script>
-    <script src="js/fixutre-trend.js"></script>
-
   </div>
+
+  <!-- Scripts -->
+  <script src="js/utils.js"></script>
+  <script src="js/helpers.js"></script>
+  <script src="js/fixture-ticker.js"></script>
+  <script src="js/fixture-xg-table.js"></script>
+  <script src="js/match-forecasts.js"></script>
+
+  </script>
 </body>
 </html>

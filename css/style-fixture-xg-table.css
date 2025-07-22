@@ -1,0 +1,375 @@
+.fixture-xg-table-config {
+  background: white;
+  display: flex;
+  flex-direction: column;
+/*  gap: 0.75rem;*/
+/*  padding: 1rem 1.25rem;*/
+  padding-top: 1rem;
+  padding-left: 1.25rem;
+  padding-right: 1.25rem;
+  padding-bottom: 1rem;
+  margin-bottom: 1rem;
+  border-top: 1px solid #ddd;
+  border-bottom: 1px solid #ddd;
+  margin-bottom: 1rem;
+  margin-top: 2rem;
+}
+
+/* Controls block */
+#controls {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+/* Each row: horizontal layout for grouped items */
+.controls-row {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: left;
+  gap: .5rem;
+}
+
+/* Optional: prevent inputs from stretching full width */
+/*.control-group input[type="number"] {
+  width: 80px;
+}*/
+
+/* Toggle styling */
+.metric-selector-container {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.toggle-option {
+  padding: 0.5rem 1rem;
+  background-color: #eee;
+  border-radius: 4px;
+  cursor: pointer;
+  user-select: none;
+  transition: background-color 0.2s;
+}
+
+.toggle-option.active {
+  background-color: #4CAF50;
+  color: white;
+}
+
+
+/* Blue background for attack */
+.toggle-option.active[data-value="attack"] {
+  background-color: rgb(60, 144, 220);
+}
+
+/* Pink background for defense */
+.toggle-option.active[data-value="defense"] {
+  background-color: rgb(217, 22, 137);
+}
+
+/* Hover style when not active */
+.toggle-option:not(.active):hover {
+  background-color: #d0d0d0;
+}
+
+.explainer-att {
+  color: rgb(60, 144, 220);
+}
+
+.explainer-def {
+  color: rgb(217, 22, 137);
+}
+
+
+.fixture-xg-header {
+  font-weight: 600;
+  color: #333;
+  font-size: 1.2rem;
+  margin-bottom: 0.rem;
+}
+
+.fixture-expected-goals-container {
+  background-color: white;
+  padding-top: 1.5rem;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+  padding-bottom: 0.5rem;
+}
+
+.fixture-xg-table-container {
+  overflow-x: auto;
+  width: 100%;
+}
+
+.fixture-xg-gameweeks-label {
+  position: sticky;
+  margin-left: 13.7rem;
+  z-index: 5;
+  background: white;
+  font-weight: bold;
+  text-align: center;
+  border-bottom: 1px solid darkgrey;
+  color: grey;
+  font-size: .8rem;
+  margin-top: 1rem;
+  margin-bottom: 0.5rem;
+}
+
+.fixture-xg-gameweeks-label.compact {
+  position: sticky;
+  margin-left: 10.5rem;
+  /*left: 200px; /* width of your 3 static columns */
+  z-index: 5;
+  background: white;
+  font-weight: bold;
+  text-align: center;
+  /*padding: 4px;*/
+  border-bottom: 1px solid darkgrey;
+  color: grey;
+  font-size: .8rem;
+  margin-top: 1rem;
+  margin-bottom: 0.5rem;
+}
+
+/* Specific to xG table */
+.fixture-xg-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+/* Bottom borders for all rows */
+/*.fixture-xg-table th,*/
+.fixture-xg-table td {
+  padding: 6px 8px;
+  border-bottom: 1px solid #ddd;
+}
+
+/* Main teable headers */
+.fixture-xg-table th {
+  color: #777;
+  font-weight: 500;
+  padding: 6px 8px;
+  vertical-align: bottom;
+  border-bottom: 1.5px solid black;
+  font-size: 0.8rem;
+}
+
+
+/* STICKY HEADERS SIZING & STYLING*/
+
+
+
+/* Common sticky style */
+.fixture-xg-table__cell--sticky {
+  position: sticky;
+  background: #fff; /* or your table's bg color */
+  z-index: 2;
+}
+
+/* First Header and corresponding column */
+.sticky-header--0 {
+  width: .5rem;
+  position: sticky;
+  left: 0rem;
+  background: #fff;
+  z-index: 11;
+}
+
+.fixture-xg-table_rank-col--sticky {
+  left: 0rem;
+  z-index: 11; 
+}
+
+/* Second Header and corresponding column  */
+.sticky-header--1 {
+  position: sticky;
+  left: 1.9rem;
+  background: #fff;
+  z-index: 11;
+}
+
+.fixture-xg-table_team-col--sticky {
+  left: 1.9rem;
+}
+
+.sticky-header--1.compact {
+  text-align: left;
+  position: sticky;
+  left: 1.9rem;
+  background: #fff;
+  z-index: 11;
+}
+
+.fixture-xg-table_team-col--sticky.compact {
+  left: 1.9rem;
+}
+
+
+/* Third Header and corresponding column */
+.sticky-header--2 {
+  text-align: left;
+  position: sticky;
+  left: 10.1rem;
+  background: #fff;
+  z-index: 11;
+  border-bottom: 2px solid #ccc;
+}
+
+.fixture-xg-table_metric-col--sticky {
+  left: 10.1rem;
+}
+
+.sticky-header--2.compact {
+  position: sticky;
+  left: 6.8rem;
+  background: #fff;
+  z-index: 11;
+}
+
+.fixture-xg-table_metric-col--sticky.compact {
+  left: 6.8rem; 
+}
+
+
+.fixture-xg-table__header--team,
+.fixture-xg-table__cell--team {
+  min-width: 7.3rem;
+  width: 7.3rem;
+  max-width: 7.3rem;
+  text-align: left;
+}
+
+
+.fixture-xg-table__header--team.compact,
+.fixture-xg-table__cell--team.compact {
+  min-width: 4rem;
+  width: 4rem;
+  max-width: 4rem;
+  text-align: left;
+}
+
+
+.fixture-xg-table__header--metric,
+.fixture-xg-table__col--metric {
+  text-align: center;
+  min-width: 2rem;
+  width: 2rem;
+  max-width: 2rem;
+}
+
+
+.fixture-xg-table__cell--rank {
+  font-family: 'Lato', sans-serif;
+  font-size: .7rem;
+  text-align: center;
+}
+
+
+
+/* CELL STYLING / FONTS / SIZING */
+
+
+
+.fixture-xg-table__col--team {
+  display: flex;
+  align-items: center;
+}
+
+.fixture-xg-table__team-name {
+  font-weight: 600;
+}
+
+.fixture-xg-table__team-meta {
+  font-family: 'Lato', sans-serif;
+  font-size: 0.75rem;
+  color: #777;
+}
+
+.fixture-xg-table__col--metric {
+  font-family: 'Lato', sans-serif;
+  font-weight: bold;
+  /*text-align: center;*/
+  /*font-size: 0.75rem;*/
+  /*color: #777;*/
+}
+
+.fixture-xg-table__team-logo {
+  width: 20px;
+  height: 20px;
+  object-fit: contain;
+  margin-right: 6px;
+}
+
+.fixture-xg-table__fixture-box {
+  font-weight: bold;
+  font-size: 0.8em;
+  text-align: center;
+  width: 100%;
+  box-sizing: border-box;
+  display: block;
+  border: 0.5px solid black;
+}
+
+
+.xg-table-tooltip {
+  position: absolute;
+  background-color: white;
+  color: #111;
+  padding: 10px 14px;
+  font-size: 13px;
+  pointer-events: none;
+  z-index: 999;
+  white-space: nowrap;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  border: 1px solid #ddd;
+  pointer-events: none;
+}
+
+
+
+/* 600 px Responsive Design */
+@media screen and (max-width: 600px) {
+
+
+}
+
+/** 430px Responsive Design */
+@media screen and (max-width: 430px) {
+  .fixture-xg-gameweeks-label {
+    margin-left: 12.8rem;
+  }
+
+  .fixture-xg-table__team-logo {
+    height: 18px;
+  }
+
+  .fixture-xg-table__team-meta {
+    font-size: 0.65rem;
+  }
+
+  .fixture-xg-table__header--team,
+  .fixture-xg-table__cell--team {
+    min-width: 6.5rem;
+    width: 6.5rem;
+    max-width: 6.5rem;
+    text-align: left;
+  }
+
+  .sticky-header--1 {
+    left: 1.9rem;
+  }
+
+  .fixture-xg-table_team-col--sticky {
+    left: 1.9rem;
+  }
+
+  .sticky-header--2 {
+    left: 9.3rem;
+  }
+
+  .fixture-xg-table_metric-col--sticky {
+    left: 9.3rem;
+  }
+
+
+}

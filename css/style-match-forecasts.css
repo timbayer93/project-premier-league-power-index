@@ -1,0 +1,266 @@
+.match-forecasts-config {
+  background: white;
+  display: flex;
+  flex-direction: column;
+/*  gap: 0.75rem;*/
+/*  padding: 1rem 1.25rem;*/
+  padding-top: 1rem;
+  padding-left: 1.25rem;
+  padding-right: 1.25rem;
+  padding-bottom: 1rem;
+  margin-bottom: 1rem;
+  border-top: 1px solid #ddd;
+  border-bottom: 1px solid #ddd;
+  margin-bottom: 1rem;
+  margin-top: 2rem;
+}
+
+.match-forecasts-header {
+  font-weight: 600;
+  color: #333;
+  font-size: 1.2rem;
+  margin-bottom: 0.rem;
+}
+
+.match-forecasts-container {
+  background-color: white;
+  /*padding-top: 1.5rem;*/
+  /*padding-left: 1.5rem;*/
+  /*padding-right: 1.5rem;*/
+  /*padding-bottom: 0.5rem;*/
+  /*display: flex;*/
+  justify-content: center;
+  align-items: center;
+  /*width: 100%;*/
+  aspect-ratio: 1 / 1; /* Keeps it square */
+}
+
+
+.match-forecasts-matrix-header {
+    background: white;
+    padding-top: 1.25rem;
+    padding-left: 1.25rem;
+    /*margin-bottom: 1rem;*/
+}
+
+.match-forecasts__title {
+  font-size: 1.5rem;
+  font-weight: bold;
+  fill: #333;
+}
+
+.match-forecasts__sub-title {
+  font-size: 1rem;
+  color: #666;
+  /*padding-left: 1.2rem;:*/
+  /*margin-top: 0.25rem;*/
+}
+
+.match-forecasts__team-logo-title {
+  height: 30px;
+  width: 30px;
+  object-fit: contain;
+  vertical-align: top;
+  /*vertical-align: top;*/
+  /*margin: 0 0px;*/
+}
+
+
+svg {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.match-forecasts__tick-label {
+  font-size: 1rem !important;
+}
+
+
+.match-forecasts__bar-header {
+  /*font-weight: bold;*/
+  font-size: 1rem;
+}
+
+/*.match-forecasts__bar-label {
+  stroke: white;
+  stroke-width: .05rem;
+}*/
+
+.match-forecasts__summary-subtext {
+  font-size: .5rem; 
+}
+
+.match-forecasts__summary-axis-title {
+  font-size: .75rem;
+  color: lightblue;
+  /*font-weight: bold;*/
+}
+
+/* 700 px Responsive Design */
+@media screen and (max-width: 700px) {
+
+  .match-forecasts__tick-label {
+    font-size: 0.8rem !important;
+  }
+
+  .match-forecasts__matrix-label {
+    font-size: 0.85rem !important;
+  }
+
+  .match-forecasts__bar-label {
+    font-size: 0.8rem;
+  }
+
+  .match-forecasts__bar-header {
+    font-size: .8rem;
+  }
+
+  .match-forecasts__summary-label {
+    font-size: .75rem; 
+  }
+
+  .match-forecasts__summary-axis-title {
+    font-size: .65rem; 
+  }
+
+}
+
+
+/* 600 px Responsive Design */
+@media screen and (max-width: 600px) {
+  .match-forecasts__title {
+    font-size: 1.1rem;
+  }
+
+  .match-forecasts__sub-title {
+    font-size: 0.8rem;
+  }
+
+  .match-forecasts__team-logo-title {
+    height: 20px;
+    width: 20px;
+  }
+
+
+  .match-forecasts__tick-label {
+    font-size: 0.75rem !important;
+  }
+
+  .match-forecasts__matrix-label {
+    font-size: 0.8rem !important;
+  }
+
+  .match-forecasts__bar-label {
+    font-size: 0.75rem;
+  }
+
+  .match-forecasts__bar-header {
+    font-size: .75rem;
+  }
+
+  .match-forecasts__summary-label {
+    font-size: .7rem; 
+  }
+
+  .match-forecasts__summary-axis-title {
+    font-size: .6rem; 
+  }
+
+}
+
+/* 490 px Responsive Design */
+@media screen and (max-width: 490px) {
+  .match-forecasts__title {
+    font-size: .9rem;
+  }
+
+  .match-forecasts__sub-title {
+    font-size: 0.65rem;
+  }
+
+  .match-forecasts__team-logo-title {
+    height: 17px;
+    width: 17px;
+  }
+
+
+  .match-forecasts__tick-label {
+    font-size: 0.65rem !important;
+  }
+
+  .match-forecasts__matrix-label {
+    font-size: 0.7rem !important;
+  }
+
+  .match-forecasts__bar-label {
+    font-size: 0.65rem;
+  }
+
+  .match-forecasts__bar-header {
+    font-size: .65rem;
+  }
+
+  .match-forecasts__summary-label {
+    font-size: .6rem; 
+  }
+
+  .match-forecasts__summary-axis-title {
+    font-size: .5rem; 
+  }
+
+}
+
+/** 430px Responsive Design */
+@media screen and (max-width: 430px) {
+  .match-forecasts__title {
+    font-size: 0.8rem;
+  }
+
+  .match-forecasts__sub-title {
+    font-size: 0.6rem;
+  }
+
+  .match-forecasts__team-logo-title {
+    height: 15px;
+    width: 15px;
+  }
+
+
+  .match-forecasts__tick-label {
+    font-size: 0.5rem !important;
+  }
+
+  .match-forecasts__matrix-label {
+    font-size: 0.65rem !important;
+  }
+
+  .match-forecasts__bar-label {
+    font-size: 0.6rem;
+  }
+
+  .match-forecasts__bar-header {
+    font-size: .5rem;
+  }
+
+  .match-forecasts__summary-value {
+    font-size: .65rem; 
+  }
+
+  .match-forecasts__summary-label {
+    font-size: .45rem; 
+  }
+
+  .summary_box__team-names {
+    font-size: .5rem; 
+  }
+
+  .match-forecasts__summary-subtext {
+    font-size: .25rem; 
+  }
+
+  .match-forecasts__summary-axis-title {
+    font-size: .35rem; 
+  }
+  
+}

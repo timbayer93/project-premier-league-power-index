@@ -1,19 +1,21 @@
-// TODO: row highlighting`
-
 Promise.all([
-  d3.json("data/teams.json"),
-  d3.json("data/gameweeks.json"),
-  d3.json("data/fixtures.json"),
-  d3.json("data/config.json")
+  d3.json("data/d3_teams.json"),
+  d3.json("data/d3_gameweeks.json"),
+  d3.json("data/d3_fixtures.json"),
+  d3.json("data/d3_config.json")
 ]).then(([teamsData, gameweeks, fixturesData, config]) => {
   // Set gameweek configs
-  // const activeGW = 29   // config.active_gw; // e.g., "GW3"
   const maxGwNum = 38;
   const numGwsToShow = 5;
   // elo calculations 
-  const time_decay_lambda = 0.3;        // Time decay constant
-  const homeAdvantageAdjustment = 0;    // reduce opponent Elo by 15 if home
-  const awayAdvantageAdjustment = 0;    // no change if away
+  const time_decay_lambda = 0.3;         // Time decay constant
+  const homeAdvantageAdjustment = -2;    // reduce opponent Elo by N if home
+  const awayAdvantageAdjustment = 0;     // no change if away
+
+  // Compute median, min max Elo
+  const medianElo = 90;
+  const maxElo = 100;
+  const minElo = 80;
 
   // Prepare a lookup for team info
   const teamMap = new Map(
@@ -23,20 +25,15 @@ Promise.all([
         team_code: team.team_code,
         team_name: team.team,
         team_name_short: team.team_short,
-        team_logo_path: team.team_logo_path,
+        league_pos: team.league_position,
         elo: team.elo_opta,  
       }
     ])
   );
 
-  // Compute median, min max Elo
-  const medianElo = 90;
-  const maxElo = 100;
-  const minElo = 80;
-
   // Create a diverging scale with median in the middle
   const colorScale = d3.scaleDiverging()
-    .domain([minElo, medianElo, maxElo])
+    .domain([82, medianElo, 98])
     .interpolator(customDivergingInterpolatorGreenPurple)  // green to grey to purple
 
   
@@ -44,13 +41,14 @@ Promise.all([
   const fixturesByTeam = d3.group(fixturesData, d => d.team_code);
 
   // Helper to get average opponent Elo per GW, counting blanks as maxElo
-  function getOpponentElo(teamFixtures, gwNum) {
+  function getAVGOpponentElo(teamFixtures, gwNum) {
     const gwKey = `gw${gwNum}`;
     const matches = teamFixtures?.fixtures?.[gwKey] || [];
+    
     if (matches.length === 0) return maxElo * 1.06;
 
     const adjustedElos = matches.map(match => {
-      const opp = teamMap.get(match.opponent);
+      const opp = teamMap.get(match.opponent_code);
       if (!opp) return maxElo;
       
       let elo = opp.elo;
@@ -63,7 +61,7 @@ Promise.all([
       }
 
       // Ensure Elo doesn’t go below a minimum threshold (optional)
-      return Math.max(elo, 70);  // avoid negative or unrealistically low Elo
+      return Math.max(elo, 80);  // avoid negative or unrealistically low Elo
     });
 
     return d3.mean(adjustedElos);
@@ -71,12 +69,12 @@ Promise.all([
 
   // Compute mean Elo of all opponents for this team across selected GWs
   function getMeanElo(teamFixtures, gwList) {
-    return d3.mean(gwList.map(gw => getOpponentElo(teamFixtures, gw.gwNum)));
+    return d3.mean(gwList.map(gw => getAVGOpponentElo(teamFixtures, gw.gwNum)));
   };
 
   // Compute median Elo of all opponents for this team across selected GWs
   function getMedianOpponentElo(teamFixtures, gwList) {
-    return d3.median(gwList.map(gw => getOpponentElo(teamFixtures, gw.gwNum)));
+    return d3.median(gwList.map(gw => getAVGOpponentElo(teamFixtures, gw.gwNum)));
   };
 
   // Compute time-weighted mean Elo of all opponents for this team across selected GWs
@@ -86,7 +84,7 @@ Promise.all([
 
       gwList.forEach((gw, i) => {
         const weight = Math.exp(-time_decay_lambda * i);
-        const elo = getOpponentElo(teamFixtures, gw.gwNum);
+        const elo = getAVGOpponentElo(teamFixtures, gw.gwNum);
         weightedSum += elo * weight;
         weightTotal += weight;
       });
@@ -94,16 +92,31 @@ Promise.all([
       return weightedSum / weightTotal;
   };
 
+  // Helper function to get league position text val
+  function getOrdinalSuffix(n) {
+    const s = ["TH", "ST", "ND", "RD"];
+    const v = n % 100;
+    return s[(v - 20) % 10] || s[v] || s[0];
+  }
+
 
   function renderTickerChart() {
     // === Clear table ===
     d3.select("#fixture-ticker-table").selectAll("*").remove();
 
     // === Get user inputs ===
-    const activeGWInput = document.getElementById("active-gw");
-    const activeGW = activeGWInput ? parseInt(activeGWInput.value, 10) : config.active_gw;
-    
-    const numGwsToShow = parseInt(document.getElementById("num-gws").value);
+    const activeGWInput = document.getElementById("active-gw-input");
+
+    let activeGW;
+    if (activeGWInput && activeGWInput.value !== "") {
+      activeGW = parseInt(activeGWInput.value, 10);
+    } else {
+      // If active-gw not set (first load, fall back to config.js)
+      activeGW = config.active_gw + 1;
+    }
+
+
+    const numGwsToShow = parseInt(document.getElementById("num-gws-input").value);
     const useDecay = document.getElementById("use-decay").checked;
     const isCompact = document.getElementById("compact-toggle").checked;
     const compactClass = isCompact ? "compact" : "";
@@ -123,11 +136,6 @@ Promise.all([
         const teamFixturesB = fixturesByTeam.get(b.team_code)?.[0];
         return getMetric(teamFixturesA, gameweeksToShow) - getMetric(teamFixturesB, gameweeksToShow);
     });
-
-    // Sort teams alphabetically by display name
-    // const sortedTeams = Array.from(teamMap.values())
-    //   .sort((a, b) => d3.ascending(a.team_name, b.team_name));
-
 
     // 
     // VIZ - FIXTURE TICKER //
@@ -163,7 +171,8 @@ Promise.all([
 
       // Add team logo and name in the next cell/column
       const teamLogoURL = getTeamLogoURL(team.team_code);
-      const cell = row.append("td").attr("class", "ticker-cell-team");
+      const leaguePosition = `${team.league_pos}${getOrdinalSuffix(team.league_pos)}`;
+      const cell = row.append("td").attr("class", `ticker-cell-team ${compactClass}`);
       // cell.html(`
       //   <div class="ticker-team-cols">
       //     <img class="ticker-team-logo" src="${teamLogoURL}" alt="${team.team_name_short}"/>
@@ -177,7 +186,7 @@ Promise.all([
             <span class="ticker-team-name">${team.team_name_short}</span>
           </div>
           <div class="ticker-team-meta">
-            POS: 4TH | ELO: ${team.elo.toFixed(1)}
+            POS: ${leaguePosition} | ELO: ${team.elo.toFixed(1)}
           </div>
         </div>
       `);
@@ -193,6 +202,7 @@ Promise.all([
         // fixturesByTeam is a Map keyed by team_code, with an array of fixtures
         const teamFixtures = fixturesByTeam.get(team.team_code)?.[0];
         const matches = teamFixtures?.fixtures?.[gwKey] || [];
+
         // fill cell values
         const cell = row.append("td");
 
@@ -203,10 +213,10 @@ Promise.all([
 
         } else if (matches.length === 1) {
           // normal gw - with 1 match
-          // TODO: home/away/blank adjustment
            const opponents = matches.map(match => {
-            const opp = teamMap.get(match.opponent);
-            const color = colorScale(opp.elo);
+            const opp = teamMap.get(match.opponent_code);
+            const opp_elo_color = match.home_label === "h" ? opp.elo + homeAdvantageAdjustment : opp.elo;
+            const color = colorScale(opp_elo_color);
             const textColor = getTextColor(color);
             // cell.style("border", "1px solid red");
             
@@ -224,8 +234,9 @@ Promise.all([
         } else if (matches.length === 2) {
           // double gw
            const opponents = matches.map((match, index) => {
-            const opp = teamMap.get(match.opponent);
-            const color = colorScale(opp.elo);
+            const opp = teamMap.get(match.opponent_code);
+            const opp_elo_color = match.home_label === "h" ? opp.elo + homeAdvantageAdjustment : opp.elo;
+            const color = colorScale(opp_elo_color);
             // const color = "#FF5A5F";
             const textColor = getTextColor(color);
             return `<span class="ticker-double-gw-span-${index}" 
@@ -421,7 +432,7 @@ Promise.all([
   });
 
   // Set active GW input from config loaded via Promise.all, then render chart
-  const activeGwInput = document.getElementById("active-gw");
+  const activeGwInput = document.getElementById("active-gw-input");
   if (activeGwInput && config.active_gw) {
     activeGwInput.value = config.active_gw;
   }
@@ -431,9 +442,19 @@ Promise.all([
 
 
   // Automatically update chart when any input changes
-  document.getElementById("active-gw").addEventListener("input", renderTickerChart);
-  document.getElementById("num-gws").addEventListener("input", renderTickerChart);
+  document.getElementById("active-gw-input").addEventListener("input", renderTickerChart);
+  document.getElementById("num-gws-input").addEventListener("input", renderTickerChart);
   document.getElementById("use-decay").addEventListener("change", renderTickerChart);
   document.getElementById("compact-toggle").addEventListener("change", renderTickerChart);
+
+  // User Input Syncs
+  window.addEventListener("activeGwUpdated", (e) => {
+    renderTickerChart();
+  });
+
+  window.addEventListener("numGwsUpdated", (e) => {
+    renderTickerChart();
+  });
+
 
 });
