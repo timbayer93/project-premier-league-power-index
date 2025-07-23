@@ -25,16 +25,17 @@
 <body>
   <div class="page-container">
     <div class="dashboard-heading">
-      <h1>Premier League</h1>
+      <h1> Premier League Power Index</h1>
       <div class="subheading">
-        <span class="season-name header-highlight">2024-25 SEASON</span> | FIXTURES RANKED BY DIFFICULTY
+       FIXTURE GUIDE AND MATCH PREDICTIONS <br>FOR ALL PREMIER LEAGUE TEAMS
       </div>
     </div>
     <p class="intro">
-      Tracking Premier League fixtures using Opta's Power Rankings. All teams are ranked and fixtures are scored based on the opponent's ELO ratings. Use the charts below to find out who has the easiest or hardes set of matches.
+      Use the charts below to find out who has the easiest or hardest set of matches based on the <strong>Premier League Power Index (PPI)</strong>. The PPI is inspired by <strong>FiveThirtyEight's</strong> Soccer Power Index (SPI) and follows a very similar methology that computes Team Strength Ratings based on past performances using xG and Adjsuted Goals.
       <br>
       <br>
-      Data Sources | Opta Power Rankings (ELO Ratings) | Fantasy Premier League (Fixtures)
+      <span class="intro-author">Created by @timbayer93</span>
+      <span class="intro-data-source">Data Sources | Fantasy Premier League | Fbref</span>
     </p>
 
       <!-- Last Updated Section -->
@@ -82,12 +83,20 @@
       <!-- Controls -->
         <div id="controls">
           <div class="control-group">
-            <input type="number" id="active-gw-input" min="1" max="38">
+            <div class="number-input-controls" data-target="active-gw-input">
+              <button type="button" class="decrement">−</button>
+              <input type="number" id="active-gw-input" min="1" max="38">
+              <button type="button" class="increment">+</button>
+            </div>
             <label for="active-gw-input">Select the current or future GW</label>
           </div>
           <div class="control-group">
-            <input type="number" id="num-gws-input" min="1" max="10" value="5">
-            <label for="num-gws-input">the number of GWs to show</label>
+            <div class="number-input-controls" data-target="num-gws-input">
+              <button type="button" class="decrement">−</button>
+              <input type="number" id="num-gws-input" min="1" max="10" value="5">
+              <button type="button" class="increment">+</button>
+              <label for="num-gws-input">The number of GWs to show</label>
+              </div>
           </div>
 
           <div class="controls-wrapper">
@@ -118,7 +127,7 @@
     <!-- Ticker Watermark -->
     <div class="chart-watermark">
       <div class="left">DESIGN | @timbayer93</div>
-      <div class="right">DATA | OPTA POWER RANKINGS & FANTASY PREMIER LEAGUE</div>
+      <div class="right">DATA | FANTASY PREMIER LEAGUE & FBREF</div>
     </div>
 
     <!-- Time Decay Toggle (below table) -->
@@ -135,11 +144,14 @@
       </span>
     </div>
 
+    <!-- Section Divider -->
+    <div class="section-divider"></div>
+
     <!-- Fixture Expected Goals Config -->
     <div class="fixture-xg-table-config">
       <div class="fixture-xg-header">Forecasted Expected Goals & Clean Sheet Probabilities by Gameweek</div>
       <p class="fixture-xg-description">
-        The below table ranks teams based on the total Expected Goals (xG) or the total Expected number of Clean Sheets (xCS) over the next n matches. Select between <span class="explainer-att"><strong>"Attack"</strong> to view Expected Goals</span> or <span class="explainer-def"><strong>"Defense"</strong> to view Clean Sheet probabilities.</span>
+        The below table ranks teams based on the total Expected Goals (xG) or the total Expected Clean Sheets (xCS) over the next n matches. Select between <span class="explainer-att"><strong>"Attack"</strong> to view Expected Goals</span> or <span class="explainer-def"><strong>"Defense"</strong> to view Clean Sheet probabilities.</span>
       </p>
 
       <div id="controls">
@@ -147,13 +159,21 @@
         <!-- Row 1: Number inputs -->
         <div class="controls-row">
           <div class="control-group">
-            <input type="number" id="active-gw-input-copy" min="1" max="38">
+            <div class="number-input-controls" data-target="active-gw-input-copy">
+              <button type="button" class="decrement">−</button>
+              <input type="number" id="active-gw-input-copy" min="1" max="38">
+              <button type="button" class="increment">+</button>
+            </div>
             <label for="active-gw">Select the current or future GW</label>
           </div>
 
           <div class="control-group">
-            <input type="number" id="num-gws-input-copy" min="1" max="10" value="5">
-            <label for="num-gws-input-copy">The number of GWs to show</label>
+            <div class="number-input-controls" data-target="num-gws-input-copy">
+              <button type="button" class="decrement">−</button>
+              <input type="number" id="num-gws-input-copy" min="1" max="10" value="5">
+              <button type="button" class="increment">+</button>
+              <label for="num-gws-input-copy">The number of GWs to show</label>
+            </div>
           </div>
         </div>
 
@@ -210,6 +230,8 @@
       </span>
     </div>
 
+    <!-- Section Divider -->
+    <div class="section-divider"></div>
 
     <!-- Match Forecasts Config -->
     <div class="match-forecasts-config">
@@ -252,7 +274,7 @@
       <div class="footer-content">
         <p>DESIGN & DEV | TIM BAYER </p>
         <!-- <p>DATA | <a href="https://theanalyst.com/articles/who-are-the-best-football-team-in-the-world-opta-power-rankings" target="_blank">OPTA POWER RANKINGS</a> AND <a href="https://fantasy.premierleague.com/" target="_blank">FANTASY PREMIER LEAGUE</a>.</p> -->
-        <p>DESIGN INSPIRATION | FIVETHIRTYEIGHT | PETER MCKEEVER (THE ANALYST) </p>
+        <p>INSPIRATION | FIVETHIRTYEIGHT </p>
         <!-- <p>Built with ❤️ using D3.js | <a href="https://github.com/timbayer93" target="_blank">GitHub</a></p> -->
       </div>
     </footer>

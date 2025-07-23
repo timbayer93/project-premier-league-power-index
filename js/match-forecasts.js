@@ -523,9 +523,9 @@ Promise.all([
         .text(text);
     }
 
-    addLabel(centerHome.x, centerHome.y, `${Math.round(homeWinProb * 100)}%`, isHomeMax, isHomeMax);
+    addLabel(centerHome.x, centerHome.y, `${Math.round(homeWinProb * 100)}%`, isHomeMax, true);
     addLabel(centerDraw, centerDraw, `${Math.round(drawProb * 100)}%`, isDrawMax);
-    addLabel(centerAway.x, centerAway.y, `${Math.round(awayWinProb * 100)}%`, isAwayMax, isAwayMax);
+    addLabel(centerAway.x, centerAway.y, `${Math.round(awayWinProb * 100)}%`, isAwayMax, true);
 
     // Add vertical axis title on bottom-left (for Away team prob)
     miniMatrixGroup.append("text")
@@ -629,7 +629,7 @@ Promise.all([
   const resizeObserver = new ResizeObserver(entries => {
     for (let entry of entries) {
       if (entry.contentBoxSize) {
-        drawMatchForecast(currentFixtureId); // ✅ now uses latest selection
+        drawMatchForecast(currentFixtureId); 
       }
     }
   });
@@ -637,7 +637,7 @@ Promise.all([
   resizeObserver.observe(container);
 
   selector.on("change", function () {
-    currentFixtureId = +this.value;           // ✅ update the tracked ID
+    currentFixtureId = +this.value;     
     drawMatchForecast(currentFixtureId);
   });
 
@@ -645,108 +645,5 @@ Promise.all([
 
   
 
-
-
 });
-
-
-
-
-  // === Summary Box ===
-  // const summaryGroup = svg.append("g")
-  //   .attr("transform", `translate(${paddingLeft}, ${paddingLeft})`);
-
-  // const maxValue = Math.max(homeWinProb, awayWinProb, drawProb);
-  // const isHomeMax = homeWinProb === maxValue;
-  // const isAwayMax = awayWinProb === maxValue;
-  // const isDrawMax = drawProb === maxValue;
-
-  // const summaryWidth = barChartSize;
-  // const rowHeights = {
-  //   header: barChartSize * 0.15,
-  //   winRow: barChartSize * 0.425,
-  //   drawRow: barChartSize * 0.425
-  // };
-
-  // function drawSummaryText(x, y, label, value, isMax) {
-  //   // Probability Percent Text
-  //   summaryGroup.append("text")
-  //     .attr("x", x)
-  //     .attr("y", y)
-  //     .attr("text-anchor", "middle")
-  //     .attr("class", "match-forecasts__summary-label")
-  //     .attr("fill", isMax ? "white" : "black")
-  //     .attr("font-weight", isMax ? "bold" : "normal")
-  //     .text(`${Math.round(value * 100)}%`);
-
-  //   // Sub title
-  //   summaryGroup.append("text")
-  //     .attr("x", x)
-  //     .attr("y", y + 10)
-  //     .attr("text-anchor", "middle")
-  //     .attr("class", "match-forecasts__summary-subtext")
-  //     // .attr("font-size", "6px")
-  //     .attr("fill", isMax ? "white" : "black")
-  //     .text(label);
-  // }
-
-  // // Summary Box Header - Home Team
-  // summaryGroup.append("text")
-  //   .attr("class", "summary_box__team-names")
-  //   .attr("x", summaryWidth * 0.25)
-  //   .attr("y", rowHeights.header / 2 + 0)
-  //   .attr("text-anchor", "middle")
-  //   .text(homeTeamName.slice(0, 3).toUpperCase());
-
-  // // Summary Box Header - Away Team
-  // summaryGroup.append("text")
-  //   .attr("class", "summary_box__team-names")
-  //   .attr("x", summaryWidth * 0.75)
-  //   .attr("y", rowHeights.header / 2 + 0)
-  //   .attr("text-anchor", "middle")
-  //   .text(awayTeamName.slice(0, 3).toUpperCase());
-
-  // // Home Background
-  // summaryGroup.append("rect")
-  //   .attr("x", 0)
-  //   .attr("y", rowHeights.header)
-  //   .attr("width", summaryWidth / 2)
-  //   .attr("height", rowHeights.winRow)
-  //   .attr("fill", isHomeMax ? COLORS.purple : "none")
-  //   .attr("stroke", "#ccc")
-  //   .attr("stroke-width", 0.5);
-
-  // // Away Background
-  // summaryGroup.append("rect")
-  //   .attr("x", summaryWidth / 2)
-  //   .attr("y", rowHeights.header)
-  //   .attr("width", summaryWidth / 2)
-  //   .attr("height", rowHeights.winRow)
-  //   .attr("fill", isAwayMax ? COLORS.purple : "none")
-  //   .attr("stroke", "#ccc")
-  //   .attr("stroke-width", 0.5);
-
-  // // Draw Background
-  // summaryGroup.append("rect")
-  //   .attr("x", 0)
-  //   .attr("y", rowHeights.header + rowHeights.winRow)
-  //   .attr("width", summaryWidth)
-  //   .attr("height", rowHeights.drawRow)
-  //   .attr("fill", isDrawMax ? COLORS.purple : "none")
-  //   .attr("stroke", "#ccc")
-  //   .attr("stroke-width", 0.5);
-
-  // // Summary Box Divider Line (border)
-  // summaryGroup.append("line")
-  //   .attr("x1", -.5)
-  //   .attr("x2", summaryWidth+0.5)
-  //   .attr("y1", rowHeights.header)
-  //   .attr("y2", rowHeights.header)
-  //   .attr("stroke", "black")
-  //   .attr("stroke-width", 2);
-
-  // drawSummaryText(summaryWidth * 0.25, rowHeights.header + rowHeights.winRow / 2, "(Home Win)", homeWinProb, isHomeMax);
-  // drawSummaryText(summaryWidth * 0.75, rowHeights.header + rowHeights.winRow / 2, "(Away Win)", awayWinProb, isAwayMax);
-  // drawSummaryText(summaryWidth / 2, rowHeights.header + rowHeights.winRow + rowHeights.drawRow / 2, "(Draw)", drawProb, isDrawMax);
-
 

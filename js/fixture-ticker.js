@@ -1,23 +1,45 @@
 Promise.all([
   d3.json("data/d3_teams.json"),
-  d3.json("data/d3_gameweeks.json"),
+  d3.json("data/d3_team_ratings.json"),
   d3.json("data/d3_fixtures.json"),
   d3.json("data/d3_config.json")
-]).then(([teamsData, gameweeks, fixturesData, config]) => {
+]).then(([teamsData, teamRatings, fixturesData, config]) => {
   // Set gameweek configs
   const maxGwNum = 38;
   const numGwsToShow = 5;
-  // elo calculations 
-  const time_decay_lambda = 0.3;         // Time decay constant
-  const homeAdvantageAdjustment = -2;    // reduce opponent Elo by N if home
-  const awayAdvantageAdjustment = 0;     // no change if away
+  const time_decay_lambda = 0.4;         // Time decay constant
 
+  const eloValues = teamRatings.map(team => team.spi).filter(d => d != null);
+
+  // Sort for median calculation
+  eloValues.sort((a, b) => a - b);
+
+  // Compute min and max
+  const minElo = d3.min(eloValues);
+  const maxElo = d3.max(eloValues);
+
+  // Compute median
+  const mid = Math.floor(eloValues.length / 2);
+  const medianElo = eloValues.length % 2 === 0
+    ? (eloValues[mid - 1] + eloValues[mid]) / 2
+    : eloValues[mid];
+
+  // Calculate a home advantage based on Elo
+  const homeAdvantageAdjustment = -(medianElo * .08);    // reduce opponent Elo by N if home
+  const awayAdvantageAdjustment = 0;     // no change if away
+  // console.log(homeAdvantageAdjustment)
+
+  // console.log(minElo, medianElo, maxElo)
   // Compute median, min max Elo
-  const medianElo = 90;
-  const maxElo = 100;
-  const minElo = 80;
+  // const medianElo = 90.5;
+  // const maxElo = 100;
+  // const minElo = 80;
 
   // Prepare a lookup for team info
+  const teamRatingsMap = new Map(
+    teamRatings.map(r => [r.team_code, r.spi])
+  );
+
   const teamMap = new Map(
     teamsData.map(team => [
       team.team_code,
@@ -26,14 +48,15 @@ Promise.all([
         team_name: team.team,
         team_name_short: team.team_short,
         league_pos: team.league_position,
-        elo: team.elo_opta,  
+        elo: teamRatingsMap.get(team.team_code) ?? null
       }
     ])
   );
 
   // Create a diverging scale with median in the middle
   const colorScale = d3.scaleDiverging()
-    .domain([82, medianElo, 98])
+    // .domain([minElo * .98, medianElo * .98, maxElo * .98])  // shift scale slightly towards green
+    .domain([minElo * .92, medianElo * .92, maxElo * .92])  // // shift scale slightly towards green
     .interpolator(customDivergingInterpolatorGreenPurple)  // green to grey to purple
 
   
@@ -61,7 +84,7 @@ Promise.all([
       }
 
       // Ensure Elo doesn’t go below a minimum threshold (optional)
-      return Math.max(elo, 80);  // avoid negative or unrealistically low Elo
+      return Math.max(elo, minElo);  // avoid negative or unrealistically low Elo
     });
 
     return d3.mean(adjustedElos);
@@ -171,7 +194,7 @@ Promise.all([
 
       // Add team logo and name in the next cell/column
       const teamLogoURL = getTeamLogoURL(team.team_code);
-      const leaguePosition = `${team.league_pos}${getOrdinalSuffix(team.league_pos)}`;
+      const leaguePosition = getOrdinalSuffix(team.league_pos)
       const cell = row.append("td").attr("class", `ticker-cell-team ${compactClass}`);
       // cell.html(`
       //   <div class="ticker-team-cols">
@@ -186,7 +209,7 @@ Promise.all([
             <span class="ticker-team-name">${team.team_name_short}</span>
           </div>
           <div class="ticker-team-meta">
-            POS: ${leaguePosition} | ELO: ${team.elo.toFixed(1)}
+            POS: ${team.league_pos}<span class="ordinal-suffix">${leaguePosition}</span> | PPI: ${team.elo.toFixed(1)}
           </div>
         </div>
       `);
@@ -458,3 +481,5 @@ Promise.all([
 
 
 });
+
+// window.renderTickerChart = renderTickerChart;

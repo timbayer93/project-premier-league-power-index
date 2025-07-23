@@ -152,6 +152,13 @@
   margin-top: 0.1rem;
 }
 
+.ordinal-suffix {
+  font-size: 0.6em;
+  /*vertical-align: super;*/
+  color: #888;           
+}
+
+
 /* Compact mode: shrink logo/text, hide metadata */
 .ticker-team-container.compact .ticker-team-meta {
   display: none;

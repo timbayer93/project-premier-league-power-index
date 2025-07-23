@@ -17,7 +17,7 @@ body {
 }
 
 .dashboard-heading {
-  text-align: left;
+  text-align: center;
   margin-bottom: 1rem;
 }
 
@@ -26,7 +26,7 @@ body {
   font-size: 3.5rem;
   margin-bottom: 0.75rem; /* Adds vertical space to subheading */
   padding-bottom: 0.5rem;
-  border-bottom: 2px solid #1abc9c; /* Stylish accent */
+  border-bottom: 1.5px solid grey;
   letter-spacing: 1px;
   text-transform: uppercase;
 }
@@ -35,12 +35,32 @@ body {
   font-size: 1.5rem;
   color: #2c3e50; /* Match main header tone */
   text-transform: uppercase;
+  margin-top: 1.5rem;
 }
 
 .subheading .header-highlight {
   color: #1abc9c;
   font-weight: 600;
 }
+
+.intro {
+  text-align: center;
+}
+
+.intro-author {
+  margin-top: 10.5rem;
+  font-size: 0.75rem;
+  color: #666;  
+}
+
+.intro-data-source {
+  display: block;
+  font-size: 0.75rem;
+  color: #666;  
+  margin-top: .5rem;
+  line-height: 1.4;
+}
+
 
 .last-updated-wrapper {
   text-align: center;
@@ -134,6 +154,7 @@ body {
 }
 
 #controls {
+  font-size: 1rem;
   display: flex;
   flex-wrap: wrap;
   gap: 1rem;
@@ -178,6 +199,34 @@ body {
   height: 14px;
   object-fit: contain;
 }
+
+.number-input-controls {
+  display: flex;
+  align-items: center;
+  gap: 0.3rem;
+}
+
+.number-input-controls input[type="number"] {
+  width: 3.5rem;
+  /*height: 2rem;*/
+  /*text-align: center;*/
+  /*font-size: 0.9rem;*/
+  /*padding: 0.2rem;*/
+}
+
+.number-input-controls button {
+  height: 1.6rem;
+  width: 1.6rem;
+  padding: 0;
+  font-size: 1rem;
+  line-height: 1;
+  background: #f2f2f2;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+
 
 .chart-watermark {
   display: flex;
@@ -238,7 +287,7 @@ body {
 }
 
 .page-footer {
-  background-color: #2c3e50;
+  background-color: #232b2b;
   color: white;
   padding: 1rem 1.5rem;
   margin-top: 2rem;
@@ -246,10 +295,10 @@ body {
   font-size: 0.85rem;
 }
 
-.page-footer a {
+/*.page-footer a {
   color: #1abc9c;
   text-decoration: none;
-}
+}*/
 
 .page-footer a:hover {
   text-decoration: underline;
@@ -282,11 +331,18 @@ body {
 }
 
 @media screen and (max-width: 500px) {
-  .fixture-ticker-watermark {
+  .chart-watermark {
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
     flex-direction: column;
     align-items: flex-start;
     gap: 0.25rem;
   }
+
+  #controls {
+    font-size: .9rem;
+  }
+
 }
 
 
@@ -295,6 +351,10 @@ body {
   
   body {
     padding: 0rem;
+  }
+
+  .dashboard-heading {
+    margin-top: 1rem;
   }
 
   .dashboard-heading h1 {
@@ -307,6 +367,7 @@ body {
   .subheading {
     font-size: 0.9rem;
     padding-top: 0.25rem;
+    margin-top: .8rem;
   }
 
   .page-container {
@@ -318,15 +379,21 @@ body {
     font-size: 0.8rem;
   }
 
+  .intro-data-source {
+    font-size: 0.6rem;
+  }
+
+
   .ticker-description {
     font-size: 0.8rem;
   }
 
   #controls {
+    font-size: .65rem;
     flex-direction: column;
     align-items: flex-start;
     gap: 0.5rem;
-    margin-bottom: 0.2rem;
+    margin-bottom: 0.1rem;
   }
 
   .control-group {
@@ -349,14 +416,6 @@ body {
     flex-wrap: wrap;
     font-size: 0.7rem;
     color: #666;
-  }
-
-  .fixture-ticker-watermark {
-    padding-left: 0.5rem;
-    padding-right: 0.5rem;
-    flex-direction: column;
-    align-items: flex-start;
-    gap: 0.25rem;
   }
 
   .notes-box {

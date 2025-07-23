@@ -58,6 +58,37 @@ document.addEventListener("DOMContentLoaded", () => {
 });
 
 
+document.querySelectorAll('.number-input-controls').forEach(wrapper => {
+  const inputId = wrapper.dataset.target;
+  const input = document.getElementById(inputId);
+
+  const incrementBtn = wrapper.querySelector('.increment');
+  const decrementBtn = wrapper.querySelector('.decrement');
+
+  const min = parseInt(input.min, 10) || 1;
+  const max = parseInt(input.max, 10) || 100;
+
+  incrementBtn.addEventListener('click', () => {
+    let current = parseInt(input.value) || min;
+    if (current < max) {
+      input.value = current + 1;
+      input.dispatchEvent(new Event('input'));
+    }
+  });
+
+  decrementBtn.addEventListener('click', () => {
+    let current = parseInt(input.value) || min;
+    if (current > min) {
+      input.value = current - 1;
+      input.dispatchEvent(new Event('input'));
+    }
+  });
+});
+
+
+
+
+
 function syncUserInputs(inputId1, inputId2, eventName) {
   const input1 = document.getElementById(inputId1);
   const input2 = document.getElementById(inputId2);
