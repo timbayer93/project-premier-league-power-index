@@ -111,8 +111,13 @@ Promise.all([
     return { activeGW, numGWs, compactToggle , metric_type };
   }
 
+  // function to define how many gameweeks to show in table
   function getGameweeksToShow(activeGW, numGWs) {
-    return Array.from({ length: numGWs }, (_, i) => activeGW + i);
+    const endGW = Math.min(activeGW + numGWs - 1, 38);
+    return Array.from(
+      { length: endGW - activeGW + 1 },
+      (_, i) => activeGW + i
+    );
   }
 
   function computeTeamMetrics(teamsMap, gameweeks, metricType) {

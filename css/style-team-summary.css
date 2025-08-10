@@ -1,0 +1,136 @@
+.team-card-scroll-container {
+  position: relative;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  overflow: hidden;
+}
+
+.card-container {
+  display: flex;
+  overflow-x: auto;
+  gap: 10px;
+  padding: 10px;
+  scroll-behavior: smooth;
+}
+
+.team-card-list {
+  display: flex;
+  gap: 12px;
+  overflow-x: auto;
+  scroll-behavior: smooth;
+  padding: 10px 0;
+}
+
+/* Hide scrollbar */
+.team-card-list::-webkit-scrollbar {
+  display: none;
+}
+.team-card-list {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+.team-card-header .team-short {
+  font-weight: bold;
+  font-size: 1rem;
+}
+
+.team-card {
+  flex: 0 0 120px; /* narrower */
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  background: white;
+  padding: 8px;
+  font-family: 'Poppins', sans-serif;
+}
+
+.team-card {
+  position: relative; /* so rank badge can be positioned */
+}
+
+.rank-badge {
+  position: absolute;
+  top: 6px;
+  right: 6px;
+  background: #f0f0f0;
+  color: #333;
+  font-size: 0.75rem;
+  /*font-weight: 700;*/
+  padding: 2px 6px;
+  border-radius: 12px;
+  font-family: 'Lato', sans-serif;
+}
+
+.team-card-header {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  margin-bottom: 6px;
+}
+
+.team-card-header img {
+  width: 20px;
+  height: 20px;
+  object-fit: contain;
+}
+
+.team-card-header .team-short {
+  font-weight: 600;
+  font-size: 0.9rem;
+}
+
+.team-card .stat {
+  font-size: 0.85rem;
+  margin-top: 4px;
+}
+
+.stat-row {
+  display: flex;
+  justify-content: space-between;
+  font-family: 'Lato', sans-serif;
+  font-size: 0.85rem;
+  padding: 4px 0;
+  border-bottom: 1px solid #eee;
+}
+
+.stat-row:last-child {
+  border-bottom: none;
+}
+
+.stat-label {
+  color: #666;
+}
+
+.stat-value {
+  font-weight: 700;
+}
+
+.stat-value {
+  padding: 0 8px;  /* 8px left and right padding */
+  border-radius: 4px;
+  display: inline-block; /* helps padding work nicely */
+  min-width: 40px; /* optional: keeps the box from shrinking too much */
+  text-align: right; /* keeps the number right aligned */
+  font-family: 'Lato', sans-serif;
+}
+
+
+.scroll-btn {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background: rgba(255,255,255,0.8);
+  border: none;
+  cursor: pointer;
+  padding: 6px 10px;
+  border-radius: 50%;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+  z-index: 10;
+}
+.scroll-btn:hover {
+  background: rgba(255,255,255,1);
+}
+
+.scroll-btn.left { left: 0; }
+.scroll-btn.right { right: 0; }

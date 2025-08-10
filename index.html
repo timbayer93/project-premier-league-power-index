@@ -14,10 +14,11 @@
 
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Premier League Fixtures Dashboard</title>
+  <title>Premier League Power Index</title>
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&family=Lato:wght@400;700&display=swap" rel="stylesheet">
   <script src="https://d3js.org/d3.v7.min.js"></script>
   <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/style-team-summary.css">
   <link rel="stylesheet" href="css/style-fixture-ticker.css">
   <link rel="stylesheet" href="css/style-fixture-xg-table.css">
   <link rel="stylesheet" href="css/style-match-forecasts.css">
@@ -31,7 +32,7 @@
       </div>
     </div>
     <p class="intro">
-      Use the charts below to find out who has the easiest or hardest set of matches based on the <strong>Premier League Power Index (PPI)</strong>. The PPI is inspired by <strong>FiveThirtyEight's</strong> Soccer Power Index (SPI) and follows a very similar methology that computes Team Strength Ratings based on past performances using xG and Adjsuted Goals.
+      Use the charts below to find out who has the easiest or hardest set of matches based on the <strong>Premier League Power Index (PPI)</strong>. The PPI is inspired by <strong>FiveThirtyEight's</strong> Soccer Power Index (SPI) and follows a very similar methology that computes Team Strength Ratings based on past performances using xG and Adjsuted Goals. Each team has an offense and defense rating which measure the expected goals scored/conceded against an average team in the leauge on neutral ground. Combined, these ratings create the Power Index (PPI).
       <br>
       <br>
       <span class="intro-author">Created by @timbayer93</span>
@@ -70,6 +71,15 @@
         <!-- Add more as needed -->
       </div>
     </div>
+
+    <!-- Team Summary -->
+    <!-- <div id="team-summary" class="team-summary"></div> -->
+    <div class="team-card-scroll-container">
+      <button class="scroll-btn left" id="scroll-left">&#10094;</button>
+      <div class="team-card-list" id="team-card-list"></div>
+      <button class="scroll-btn right" id="scroll-right">&#10095;</button>
+    </div>
+
   
     <!-- Fixture Ticker Config -->
     <div class="ticker-config">
@@ -78,7 +88,8 @@
               The below table ranks the fixtures of Premier League teams from 
               <span class="favourable">most favourable</span> to 
               <span class="unfavourable">least favourable</span> 
-              using Opta's Power Ranking ELO scores.
+              using the Premier League Power Index (PPI). The PPI is a measure of team strength and represents the percentage
+              of points a team would be expected to win against an avg. team on neutral ground. The higher the PPI the harder the fixture.
           </p>
       <!-- Controls -->
         <div id="controls">
@@ -225,8 +236,11 @@
       <span class="xg-explainer">
         Team Strength Ratings <strong>(OFF | DEF)</strong> are derived from historical matches using shot-based xG (fbref) and Adjusted Goals scored (i.e., goals are downweighted when the opponent had an on-field disadvantage such as red cards and goals late in a match when  already leading).
         <br>
+        OFF: Offensive Team Strength representing the avg. number of goals is expected to score against the average team in the league on neutral ground (higher is better).
+        DEF: Defensive Team Strength representing the avg. number of goals is expected to concede against the average team in the league on neutral ground (lower is better).
         <br>
-        Match Predictions are then made using Team Strength Ratings using a Poisson model.
+        <br>
+        Match Predictions are then made using Team Strength Ratings using a Poisson model. See individual match predictions below.
       </span>
     </div>
 
@@ -284,6 +298,7 @@
   <!-- Scripts -->
   <script src="js/utils.js"></script>
   <script src="js/helpers.js"></script>
+  <script src="js/team-summary.js"></script>
   <script src="js/fixture-ticker.js"></script>
   <script src="js/fixture-xg-table.js"></script>
   <script src="js/match-forecasts.js"></script>

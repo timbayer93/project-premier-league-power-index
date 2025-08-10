@@ -97,6 +97,14 @@ svg {
   /*font-weight: bold;*/
 }
 
+
+/* 730 px Responsive Design */
+@media screen and (max-width: 730px) {
+  .match-forecasts__bar-header {
+    font-size: .9rem;
+  }
+}
+
 /* 700 px Responsive Design */
 @media screen and (max-width: 700px) {
 
@@ -169,6 +177,15 @@ svg {
 
 }
 
+/* 530 px Responsive Design */
+@media screen and (max-width: 560px) {
+  .match-forecasts__summary-axis-title {
+    font-size: .55rem; 
+  }
+
+}
+
+
 /* 490 px Responsive Design */
 @media screen and (max-width: 490px) {
   .match-forecasts__title {
@@ -206,7 +223,7 @@ svg {
   }
 
   .match-forecasts__summary-axis-title {
-    font-size: .5rem; 
+    font-size: .45rem; 
   }
 
 }
@@ -261,6 +278,23 @@ svg {
 
   .match-forecasts__summary-axis-title {
     font-size: .35rem; 
+  }
+  
+}
+
+/** 360px Responsive Design */
+@media screen and (max-width: 350px) {
+
+  .match-forecasts__bar-header {
+    font-size: .4rem;
+  }
+
+  .match-forecasts__tick-label {
+    font-size: 0.4rem !important;
+  }
+
+  .match-forecasts__summary-label {
+    font-size: .4rem; 
   }
   
 }

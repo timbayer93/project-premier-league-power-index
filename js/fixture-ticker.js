@@ -7,7 +7,7 @@ Promise.all([
   // Set gameweek configs
   const maxGwNum = 38;
   const numGwsToShow = 5;
-  const time_decay_lambda = 0.4;         // Time decay constant
+  const time_decay_lambda = 0.4;
 
   const eloValues = teamRatings.map(team => team.spi).filter(d => d != null);
 
@@ -17,15 +17,19 @@ Promise.all([
   // Compute min and max
   const minElo = d3.min(eloValues);
   const maxElo = d3.max(eloValues);
+  const eloMean = d3.mean(eloValues);
+  const eloMedian = d3.median(eloValues);
+  const elo10th = d3.quantile(eloValues, 0.075);
+  const elo90th = d3.quantile(eloValues, 0.8);
 
   // Compute median
-  const mid = Math.floor(eloValues.length / 2);
-  const medianElo = eloValues.length % 2 === 0
-    ? (eloValues[mid - 1] + eloValues[mid]) / 2
-    : eloValues[mid];
+  // const mid = Math.floor(eloValues.length / 2);
+  // const medianElo = eloValues.length % 2 === 0
+  //   ? (eloValues[mid - 1] + eloValues[mid]) / 2
+  //   : eloValues[mid];
 
   // Calculate a home advantage based on Elo
-  const homeAdvantageAdjustment = -(medianElo * .08);    // reduce opponent Elo by N if home
+  const homeAdvantageAdjustment = -(eloMedian * .08);    // reduce opponent Elo by N if home
   const awayAdvantageAdjustment = 0;     // no change if away
   // console.log(homeAdvantageAdjustment)
 
@@ -56,8 +60,8 @@ Promise.all([
   // Create a diverging scale with median in the middle
   const colorScale = d3.scaleDiverging()
     // .domain([minElo * .98, medianElo * .98, maxElo * .98])  // shift scale slightly towards green
-    .domain([minElo * .92, medianElo * .92, maxElo * .92])  // // shift scale slightly towards green
-    .interpolator(customDivergingInterpolatorGreenPurple)  // green to grey to purple
+    .domain([elo10th, eloMedian * .95, elo90th])  
+    .interpolator(customDivergingInterpolatorGreenPurple)
 
   
   // Group fixtures by team
@@ -67,7 +71,7 @@ Promise.all([
   function getAVGOpponentElo(teamFixtures, gwNum) {
     const gwKey = `gw${gwNum}`;
     const matches = teamFixtures?.fixtures?.[gwKey] || [];
-    
+
     if (matches.length === 0) return maxElo * 1.06;
 
     const adjustedElos = matches.map(match => {
@@ -90,9 +94,12 @@ Promise.all([
     return d3.mean(adjustedElos);
   };
 
-  // Compute mean Elo of all opponents for this team across selected GWs
+  // Compute mean (mean of mean and median) Elo of all opponents for this team across selected GWs
   function getMeanElo(teamFixtures, gwList) {
-    return d3.mean(gwList.map(gw => getAVGOpponentElo(teamFixtures, gw.gwNum)));
+    const values = gwList.map(gw => getAVGOpponentElo(teamFixtures, gw.gwNum));
+    const mean = d3.mean(values);
+    const median = d3.median(values);
+    return (mean + median) / 2;
   };
 
   // Compute median Elo of all opponents for this team across selected GWs
@@ -102,17 +109,33 @@ Promise.all([
 
   // Compute time-weighted mean Elo of all opponents for this team across selected GWs
   function getWeightedMeanElo(teamFixtures, gwList) {
-      let weightedSum = 0;
-      let weightTotal = 0;
+    const weightedValues = [];
+    const weights = [];
 
-      gwList.forEach((gw, i) => {
-        const weight = Math.exp(-time_decay_lambda * i);
-        const elo = getAVGOpponentElo(teamFixtures, gw.gwNum);
-        weightedSum += elo * weight;
-        weightTotal += weight;
-      });
+    gwList.forEach((gw, i) => {
+      const weight = Math.exp(-time_decay_lambda * i);
+      weightedValues.push(getAVGOpponentElo(teamFixtures, gw.gwNum));
+      weights.push(weight);
+    });
 
-      return weightedSum / weightTotal;
+    const weightedMean = d3.sum(weightedValues.map((v, i) => v * weights[i])) / d3.sum(weights);
+
+    // Weighted median → needs to consider weights when finding the middle
+    const weightedPairs = weightedValues.map((v, i) => ({ value: v, weight: weights[i] }))
+                                        .sort((a, b) => a.value - b.value);
+
+    const totalWeight = d3.sum(weights);
+    let runningWeight = 0;
+    let weightedMedian = weightedPairs[0].value;
+    for (const pair of weightedPairs) {
+      runningWeight += pair.weight;
+      if (runningWeight >= totalWeight / 2) {
+        weightedMedian = pair.value;
+        break;
+      }
+  }
+
+  return (weightedMean + weightedMedian) / 2;
   };
 
   // Helper function to get league position text val
@@ -159,6 +182,7 @@ Promise.all([
         const teamFixturesB = fixturesByTeam.get(b.team_code)?.[0];
         return getMetric(teamFixturesA, gameweeksToShow) - getMetric(teamFixturesB, gameweeksToShow);
     });
+    
 
     // 
     // VIZ - FIXTURE TICKER //
@@ -188,6 +212,7 @@ Promise.all([
     // === Team Rows with Fixture Data ===
     sortedTeams.forEach(team => {
       const row = tbody.append("tr");
+      console.log(getMetric(fixturesByTeam.get(team.team_code)?.[0], gameweeksToShow))
 
       // Add rank number
       row.append("td").text(`${sortedTeams.indexOf(team) + 1}.`).attr("class", "ticker-cell-rank");

@@ -106,8 +106,8 @@ Promise.all([
     const paddingLeft = cellSize * 1.25;
     const paddingRight = cellSize * 0.5; 
 
-    const barChartSize = cellSize * 2;
-    const gap = cellSize * 0.95;
+    const barChartSize = cellSize * 1.75;
+    const gap = cellSize * 0.75;
     const barThickness = cellSize * 0.4;
     const barOffset = (cellSize - barThickness) / 2;
     
@@ -160,6 +160,8 @@ Promise.all([
       .attr("x", (d, i) => i * cellSize)
       .attr("width", cellSize)
       .attr("height", cellSize)
+      .attr("stroke", "white")
+      .attr("stroke-width", 8.5)
       .attr("fill", d => colorScale(d));
 
     // Draw diagonal borders as separate rects
@@ -172,8 +174,8 @@ Promise.all([
       .attr("width", cellSize)
       .attr("height", cellSize)
       .attr("fill", "none")
-      .attr("stroke", "#000")
-      .attr("stroke-width", .75);
+      .attr("stroke", "black")
+      .attr("stroke-width", 1.25);
 
 
     // Draw Border Around Entire Matrix
@@ -197,42 +199,6 @@ Promise.all([
       .attr("class", "match-forecasts__matrix-label")
       .style("fill", d => getTextColor(colorScale(d)))
       .text(d => d < 0.01 ? "<1%" : `${Math.round(d * 100)}%`);
-
-    // Matrix labels with scorelines
-    // matrixGroup.selectAll(".matrix-text-row")
-    //   .data(groupedMatrix).enter().append("g")
-    //   .attr("transform", (d, i) => `translate(0, ${i * cellSize})`)
-    //   .selectAll("text")
-    //   .data((row, rowIndex) => row.map((value, colIndex) => ({
-    //     value,
-    //     row: rowIndex,
-    //     col: colIndex
-    //   })))
-    //   .enter().append("text")
-    //   .attr("x", d => d.col * cellSize + cellSize / 2)
-    //   .attr("y", cellSize / 2)
-    //   .attr("text-anchor", "middle")
-    //   .attr("class", "match-forecasts__matrix-label")
-    //   .style("fill", d => getTextColor(colorScale(d.value)))
-    //   .each(function(d) {
-    //     const percent = d.value < 0.01 ? "<1%" : `${Math.round(d.value * 100)}%`;
-    //     const formatGoal = g => g === 4 ? "4+" : g;
-    //     const scoreline = `${formatGoal(d.row)}–${formatGoal(d.col)}`;
-
-
-    //     d3.select(this)
-    //       .append("tspan")
-    //       .attr("x", d.col * cellSize + cellSize / 2)
-    //       // .attr("dy", "-0.4em") // upward shift
-    //       .text(percent);
-
-    //     d3.select(this)
-    //       .append("tspan")
-    //       .attr("x", d.col * cellSize + cellSize / 2)
-    //       .attr("dy", "2em") // downward shift for second line
-    //       .attr("font-size", "0.5rem")
-    //       .text(`(${scoreline})`);
-    //   });
 
     function drawMatrixAxisLabels({ 
         svg, 
