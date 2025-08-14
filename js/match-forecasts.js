@@ -13,7 +13,9 @@ Promise.all([
   const matrix = fixture.score_matrix;
 
   const selector = d3.select("#match-selector");
-  const filteredFixtures = fixtures.filter(d => d.gw === config.active_gw + 1);
+  const filteredFixtures = fixtures.filter(
+    d => d.gw === config.active_gw + 1 && d.match_date >= Date.now()
+  )
 
   selector.selectAll("option")
     .data(filteredFixtures)
@@ -118,7 +120,7 @@ Promise.all([
     
     // Colors
     const colorScale = d3.scaleLinear()
-      .domain([0, d3.max(groupedMatrix.flat())])
+      .domain([0.025, d3.max(groupedMatrix.flat())])
       .range(["#fff", COLORS.purple]);
 
     // Bar Scale Config
@@ -160,8 +162,8 @@ Promise.all([
       .attr("x", (d, i) => i * cellSize)
       .attr("width", cellSize)
       .attr("height", cellSize)
-      .attr("stroke", "white")
-      .attr("stroke-width", 8.5)
+      .attr("stroke", "#cccccc")
+      .attr("stroke-width", .25)
       .attr("fill", d => colorScale(d));
 
     // Draw diagonal borders as separate rects

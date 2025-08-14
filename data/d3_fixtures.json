@@ -1,314 +1,5 @@
 [
   {
-    "team_code": 91,
-    "fixtures": {
-      "gw1": [
-        {
-          "opponent_code": 14,
-          "home": 0,
-          "home_label": "a",
-          "finished": false
-        }
-      ],
-      "gw2": [
-        {
-          "opponent_code": 39,
-          "home": 1,
-          "home_label": "h",
-          "finished": false
-        }
-      ],
-      "gw3": [
-        {
-          "opponent_code": 6,
-          "home": 0,
-          "home_label": "a",
-          "finished": false
-        }
-      ],
-      "gw4": [
-        {
-          "opponent_code": 36,
-          "home": 1,
-          "home_label": "h",
-          "finished": false
-        }
-      ],
-      "gw5": [
-        {
-          "opponent_code": 4,
-          "home": 1,
-          "home_label": "h",
-          "finished": false
-        }
-      ],
-      "gw6": [
-        {
-          "opponent_code": 2,
-          "home": 0,
-          "home_label": "a",
-          "finished": false
-        }
-      ],
-      "gw7": [
-        {
-          "opponent_code": 54,
-          "home": 1,
-          "home_label": "h",
-          "finished": false
-        }
-      ],
-      "gw8": [
-        {
-          "opponent_code": 31,
-          "home": 0,
-          "home_label": "a",
-          "finished": false
-        }
-      ],
-      "gw9": [
-        {
-          "opponent_code": 17,
-          "home": 1,
-          "home_label": "h",
-          "finished": false
-        }
-      ],
-      "gw10": [
-        {
-          "opponent_code": 43,
-          "home": 0,
-          "home_label": "a",
-          "finished": false
-        }
-      ],
-      "gw11": [
-        {
-          "opponent_code": 7,
-          "home": 0,
-          "home_label": "a",
-          "finished": false
-        }
-      ],
-      "gw12": [
-        {
-          "opponent_code": 21,
-          "home": 1,
-          "home_label": "h",
-          "finished": false
-        }
-      ],
-      "gw13": [
-        {
-          "opponent_code": 56,
-          "home": 0,
-          "home_label": "a",
-          "finished": false
-        }
-      ],
-      "gw14": [
-        {
-          "opponent_code": 11,
-          "home": 1,
-          "home_label": "h",
-          "finished": false
-        }
-      ],
-      "gw15": [
-        {
-          "opponent_code": 8,
-          "home": 1,
-          "home_label": "h",
-          "finished": false
-        }
-      ],
-      "gw16": [
-        {
-          "opponent_code": 1,
-          "home": 0,
-          "home_label": "a",
-          "finished": false
-        }
-      ],
-      "gw17": [
-        {
-          "opponent_code": 90,
-          "home": 1,
-          "home_label": "h",
-          "finished": false
-        }
-      ],
-      "gw18": [
-        {
-          "opponent_code": 94,
-          "home": 0,
-          "home_label": "a",
-          "finished": false
-        }
-      ],
-      "gw19": [
-        {
-          "opponent_code": 8,
-          "home": 0,
-          "home_label": "a",
-          "finished": false
-        }
-      ],
-      "gw20": [
-        {
-          "opponent_code": 3,
-          "home": 1,
-          "home_label": "h",
-          "finished": false
-        }
-      ],
-      "gw21": [
-        {
-          "opponent_code": 6,
-          "home": 1,
-          "home_label": "h",
-          "finished": false
-        }
-      ],
-      "gw22": [
-        {
-          "opponent_code": 36,
-          "home": 0,
-          "home_label": "a",
-          "finished": false
-        }
-      ],
-      "gw23": [
-        {
-          "opponent_code": 14,
-          "home": 1,
-          "home_label": "h",
-          "finished": false
-        }
-      ],
-      "gw24": [
-        {
-          "opponent_code": 39,
-          "home": 0,
-          "home_label": "a",
-          "finished": false
-        }
-      ],
-      "gw25": [
-        {
-          "opponent_code": 7,
-          "home": 1,
-          "home_label": "h",
-          "finished": false
-        }
-      ],
-      "gw26": [
-        {
-          "opponent_code": 11,
-          "home": 0,
-          "home_label": "a",
-          "finished": false
-        }
-      ],
-      "gw27": [
-        {
-          "opponent_code": 21,
-          "home": 0,
-          "home_label": "a",
-          "finished": false
-        }
-      ],
-      "gw28": [
-        {
-          "opponent_code": 56,
-          "home": 1,
-          "home_label": "h",
-          "finished": false
-        }
-      ],
-      "gw29": [
-        {
-          "opponent_code": 94,
-          "home": 1,
-          "home_label": "h",
-          "finished": false
-        }
-      ],
-      "gw30": [
-        {
-          "opponent_code": 90,
-          "home": 0,
-          "home_label": "a",
-          "finished": false
-        }
-      ],
-      "gw31": [
-        {
-          "opponent_code": 1,
-          "home": 1,
-          "home_label": "h",
-          "finished": false
-        }
-      ],
-      "gw32": [
-        {
-          "opponent_code": 3,
-          "home": 0,
-          "home_label": "a",
-          "finished": false
-        }
-      ],
-      "gw33": [
-        {
-          "opponent_code": 4,
-          "home": 0,
-          "home_label": "a",
-          "finished": false
-        }
-      ],
-      "gw34": [
-        {
-          "opponent_code": 2,
-          "home": 1,
-          "home_label": "h",
-          "finished": false
-        }
-      ],
-      "gw35": [
-        {
-          "opponent_code": 31,
-          "home": 1,
-          "home_label": "h",
-          "finished": false
-        }
-      ],
-      "gw36": [
-        {
-          "opponent_code": 54,
-          "home": 0,
-          "home_label": "a",
-          "finished": false
-        }
-      ],
-      "gw37": [
-        {
-          "opponent_code": 43,
-          "home": 1,
-          "home_label": "h",
-          "finished": false
-        }
-      ],
-      "gw38": [
-        {
-          "opponent_code": 17,
-          "home": 0,
-          "home_label": "a",
-          "finished": false
-        }
-      ]
-    }
-  },
-  {
     "team_code": 14,
     "fixtures": {
       "gw1": [
@@ -618,9 +309,41 @@
     }
   },
   {
-    "team_code": 7,
+    "team_code": 91,
     "fixtures": {
       "gw1": [
+        {
+          "opponent_code": 14,
+          "home": 0,
+          "home_label": "a",
+          "finished": false
+        }
+      ],
+      "gw2": [
+        {
+          "opponent_code": 39,
+          "home": 1,
+          "home_label": "h",
+          "finished": false
+        }
+      ],
+      "gw3": [
+        {
+          "opponent_code": 6,
+          "home": 0,
+          "home_label": "a",
+          "finished": false
+        }
+      ],
+      "gw4": [
+        {
+          "opponent_code": 36,
+          "home": 1,
+          "home_label": "h",
+          "finished": false
+        }
+      ],
+      "gw5": [
         {
           "opponent_code": 4,
           "home": 1,
@@ -628,49 +351,17 @@
           "finished": false
         }
       ],
-      "gw2": [
-        {
-          "opponent_code": 94,
-          "home": 0,
-          "home_label": "a",
-          "finished": false
-        }
-      ],
-      "gw3": [
-        {
-          "opponent_code": 31,
-          "home": 1,
-          "home_label": "h",
-          "finished": false
-        }
-      ],
-      "gw4": [
-        {
-          "opponent_code": 11,
-          "home": 0,
-          "home_label": "a",
-          "finished": false
-        }
-      ],
-      "gw5": [
-        {
-          "opponent_code": 56,
-          "home": 0,
-          "home_label": "a",
-          "finished": false
-        }
-      ],
       "gw6": [
         {
-          "opponent_code": 54,
-          "home": 1,
-          "home_label": "h",
+          "opponent_code": 2,
+          "home": 0,
+          "home_label": "a",
           "finished": false
         }
       ],
       "gw7": [
         {
-          "opponent_code": 90,
+          "opponent_code": 54,
           "home": 1,
           "home_label": "h",
           "finished": false
@@ -678,7 +369,7 @@
       ],
       "gw8": [
         {
-          "opponent_code": 6,
+          "opponent_code": 31,
           "home": 0,
           "home_label": "a",
           "finished": false
@@ -686,7 +377,7 @@
       ],
       "gw9": [
         {
-          "opponent_code": 43,
+          "opponent_code": 17,
           "home": 1,
           "home_label": "h",
           "finished": false
@@ -694,7 +385,7 @@
       ],
       "gw10": [
         {
-          "opponent_code": 14,
+          "opponent_code": 43,
           "home": 0,
           "home_label": "a",
           "finished": false
@@ -702,93 +393,29 @@
       ],
       "gw11": [
         {
-          "opponent_code": 91,
-          "home": 1,
-          "home_label": "h",
+          "opponent_code": 7,
+          "home": 0,
+          "home_label": "a",
           "finished": false
         }
       ],
       "gw12": [
         {
-          "opponent_code": 2,
-          "home": 0,
-          "home_label": "a",
+          "opponent_code": 21,
+          "home": 1,
+          "home_label": "h",
           "finished": false
         }
       ],
       "gw13": [
         {
-          "opponent_code": 39,
-          "home": 1,
-          "home_label": "h",
+          "opponent_code": 56,
+          "home": 0,
+          "home_label": "a",
           "finished": false
         }
       ],
       "gw14": [
-        {
-          "opponent_code": 36,
-          "home": 0,
-          "home_label": "a",
-          "finished": false
-        }
-      ],
-      "gw15": [
-        {
-          "opponent_code": 3,
-          "home": 1,
-          "home_label": "h",
-          "finished": false
-        }
-      ],
-      "gw16": [
-        {
-          "opponent_code": 21,
-          "home": 0,
-          "home_label": "a",
-          "finished": false
-        }
-      ],
-      "gw17": [
-        {
-          "opponent_code": 1,
-          "home": 1,
-          "home_label": "h",
-          "finished": false
-        }
-      ],
-      "gw18": [
-        {
-          "opponent_code": 8,
-          "home": 0,
-          "home_label": "a",
-          "finished": false
-        }
-      ],
-      "gw19": [
-        {
-          "opponent_code": 3,
-          "home": 0,
-          "home_label": "a",
-          "finished": false
-        }
-      ],
-      "gw20": [
-        {
-          "opponent_code": 17,
-          "home": 1,
-          "home_label": "h",
-          "finished": false
-        }
-      ],
-      "gw21": [
-        {
-          "opponent_code": 31,
-          "home": 0,
-          "home_label": "a",
-          "finished": false
-        }
-      ],
-      "gw22": [
         {
           "opponent_code": 11,
           "home": 1,
@@ -796,55 +423,7 @@
           "finished": false
         }
       ],
-      "gw23": [
-        {
-          "opponent_code": 4,
-          "home": 0,
-          "home_label": "a",
-          "finished": false
-        }
-      ],
-      "gw24": [
-        {
-          "opponent_code": 94,
-          "home": 1,
-          "home_label": "h",
-          "finished": false
-        }
-      ],
-      "gw25": [
-        {
-          "opponent_code": 91,
-          "home": 0,
-          "home_label": "a",
-          "finished": false
-        }
-      ],
-      "gw26": [
-        {
-          "opponent_code": 36,
-          "home": 1,
-          "home_label": "h",
-          "finished": false
-        }
-      ],
-      "gw27": [
-        {
-          "opponent_code": 2,
-          "home": 1,
-          "home_label": "h",
-          "finished": false
-        }
-      ],
-      "gw28": [
-        {
-          "opponent_code": 39,
-          "home": 0,
-          "home_label": "a",
-          "finished": false
-        }
-      ],
-      "gw29": [
+      "gw15": [
         {
           "opponent_code": 8,
           "home": 1,
@@ -852,7 +431,7 @@
           "finished": false
         }
       ],
-      "gw30": [
+      "gw16": [
         {
           "opponent_code": 1,
           "home": 0,
@@ -860,39 +439,39 @@
           "finished": false
         }
       ],
-      "gw31": [
+      "gw17": [
         {
-          "opponent_code": 21,
+          "opponent_code": 90,
           "home": 1,
           "home_label": "h",
           "finished": false
         }
       ],
-      "gw32": [
+      "gw18": [
         {
-          "opponent_code": 17,
+          "opponent_code": 94,
           "home": 0,
           "home_label": "a",
           "finished": false
         }
       ],
-      "gw33": [
+      "gw19": [
         {
-          "opponent_code": 56,
+          "opponent_code": 8,
+          "home": 0,
+          "home_label": "a",
+          "finished": false
+        }
+      ],
+      "gw20": [
+        {
+          "opponent_code": 3,
           "home": 1,
           "home_label": "h",
           "finished": false
         }
       ],
-      "gw34": [
-        {
-          "opponent_code": 54,
-          "home": 0,
-          "home_label": "a",
-          "finished": false
-        }
-      ],
-      "gw35": [
+      "gw21": [
         {
           "opponent_code": 6,
           "home": 1,
@@ -900,15 +479,15 @@
           "finished": false
         }
       ],
-      "gw36": [
+      "gw22": [
         {
-          "opponent_code": 90,
+          "opponent_code": 36,
           "home": 0,
           "home_label": "a",
           "finished": false
         }
       ],
-      "gw37": [
+      "gw23": [
         {
           "opponent_code": 14,
           "home": 1,
@@ -916,9 +495,121 @@
           "finished": false
         }
       ],
-      "gw38": [
+      "gw24": [
+        {
+          "opponent_code": 39,
+          "home": 0,
+          "home_label": "a",
+          "finished": false
+        }
+      ],
+      "gw25": [
+        {
+          "opponent_code": 7,
+          "home": 1,
+          "home_label": "h",
+          "finished": false
+        }
+      ],
+      "gw26": [
+        {
+          "opponent_code": 11,
+          "home": 0,
+          "home_label": "a",
+          "finished": false
+        }
+      ],
+      "gw27": [
+        {
+          "opponent_code": 21,
+          "home": 0,
+          "home_label": "a",
+          "finished": false
+        }
+      ],
+      "gw28": [
+        {
+          "opponent_code": 56,
+          "home": 1,
+          "home_label": "h",
+          "finished": false
+        }
+      ],
+      "gw29": [
+        {
+          "opponent_code": 94,
+          "home": 1,
+          "home_label": "h",
+          "finished": false
+        }
+      ],
+      "gw30": [
+        {
+          "opponent_code": 90,
+          "home": 0,
+          "home_label": "a",
+          "finished": false
+        }
+      ],
+      "gw31": [
+        {
+          "opponent_code": 1,
+          "home": 1,
+          "home_label": "h",
+          "finished": false
+        }
+      ],
+      "gw32": [
+        {
+          "opponent_code": 3,
+          "home": 0,
+          "home_label": "a",
+          "finished": false
+        }
+      ],
+      "gw33": [
+        {
+          "opponent_code": 4,
+          "home": 0,
+          "home_label": "a",
+          "finished": false
+        }
+      ],
+      "gw34": [
+        {
+          "opponent_code": 2,
+          "home": 1,
+          "home_label": "h",
+          "finished": false
+        }
+      ],
+      "gw35": [
+        {
+          "opponent_code": 31,
+          "home": 1,
+          "home_label": "h",
+          "finished": false
+        }
+      ],
+      "gw36": [
+        {
+          "opponent_code": 54,
+          "home": 0,
+          "home_label": "a",
+          "finished": false
+        }
+      ],
+      "gw37": [
         {
           "opponent_code": 43,
+          "home": 1,
+          "home_label": "h",
+          "finished": false
+        }
+      ],
+      "gw38": [
+        {
+          "opponent_code": 17,
           "home": 0,
           "home_label": "a",
           "finished": false
@@ -1236,9 +927,65 @@
     }
   },
   {
-    "team_code": 90,
+    "team_code": 7,
     "fixtures": {
       "gw1": [
+        {
+          "opponent_code": 4,
+          "home": 1,
+          "home_label": "h",
+          "finished": false
+        }
+      ],
+      "gw2": [
+        {
+          "opponent_code": 94,
+          "home": 0,
+          "home_label": "a",
+          "finished": false
+        }
+      ],
+      "gw3": [
+        {
+          "opponent_code": 31,
+          "home": 1,
+          "home_label": "h",
+          "finished": false
+        }
+      ],
+      "gw4": [
+        {
+          "opponent_code": 11,
+          "home": 0,
+          "home_label": "a",
+          "finished": false
+        }
+      ],
+      "gw5": [
+        {
+          "opponent_code": 56,
+          "home": 0,
+          "home_label": "a",
+          "finished": false
+        }
+      ],
+      "gw6": [
+        {
+          "opponent_code": 54,
+          "home": 1,
+          "home_label": "h",
+          "finished": false
+        }
+      ],
+      "gw7": [
+        {
+          "opponent_code": 90,
+          "home": 1,
+          "home_label": "h",
+          "finished": false
+        }
+      ],
+      "gw8": [
         {
           "opponent_code": 6,
           "home": 0,
@@ -1246,31 +993,95 @@
           "finished": false
         }
       ],
-      "gw2": [
+      "gw9": [
         {
-          "opponent_code": 56,
+          "opponent_code": 43,
           "home": 1,
           "home_label": "h",
           "finished": false
         }
       ],
-      "gw3": [
+      "gw10": [
         {
-          "opponent_code": 1,
+          "opponent_code": 14,
           "home": 0,
           "home_label": "a",
           "finished": false
         }
       ],
-      "gw4": [
+      "gw11": [
         {
-          "opponent_code": 14,
+          "opponent_code": 91,
           "home": 1,
           "home_label": "h",
           "finished": false
         }
       ],
-      "gw5": [
+      "gw12": [
+        {
+          "opponent_code": 2,
+          "home": 0,
+          "home_label": "a",
+          "finished": false
+        }
+      ],
+      "gw13": [
+        {
+          "opponent_code": 39,
+          "home": 1,
+          "home_label": "h",
+          "finished": false
+        }
+      ],
+      "gw14": [
+        {
+          "opponent_code": 36,
+          "home": 0,
+          "home_label": "a",
+          "finished": false
+        }
+      ],
+      "gw15": [
+        {
+          "opponent_code": 3,
+          "home": 1,
+          "home_label": "h",
+          "finished": false
+        }
+      ],
+      "gw16": [
+        {
+          "opponent_code": 21,
+          "home": 0,
+          "home_label": "a",
+          "finished": false
+        }
+      ],
+      "gw17": [
+        {
+          "opponent_code": 1,
+          "home": 1,
+          "home_label": "h",
+          "finished": false
+        }
+      ],
+      "gw18": [
+        {
+          "opponent_code": 8,
+          "home": 0,
+          "home_label": "a",
+          "finished": false
+        }
+      ],
+      "gw19": [
+        {
+          "opponent_code": 3,
+          "home": 0,
+          "home_label": "a",
+          "finished": false
+        }
+      ],
+      "gw20": [
         {
           "opponent_code": 17,
           "home": 1,
@@ -1278,7 +1089,164 @@
           "finished": false
         }
       ],
-      "gw6": [
+      "gw21": [
+        {
+          "opponent_code": 31,
+          "home": 0,
+          "home_label": "a",
+          "finished": false
+        }
+      ],
+      "gw22": [
+        {
+          "opponent_code": 11,
+          "home": 1,
+          "home_label": "h",
+          "finished": false
+        }
+      ],
+      "gw23": [
+        {
+          "opponent_code": 4,
+          "home": 0,
+          "home_label": "a",
+          "finished": false
+        }
+      ],
+      "gw24": [
+        {
+          "opponent_code": 94,
+          "home": 1,
+          "home_label": "h",
+          "finished": false
+        }
+      ],
+      "gw25": [
+        {
+          "opponent_code": 91,
+          "home": 0,
+          "home_label": "a",
+          "finished": false
+        }
+      ],
+      "gw26": [
+        {
+          "opponent_code": 36,
+          "home": 1,
+          "home_label": "h",
+          "finished": false
+        }
+      ],
+      "gw27": [
+        {
+          "opponent_code": 2,
+          "home": 1,
+          "home_label": "h",
+          "finished": false
+        }
+      ],
+      "gw28": [
+        {
+          "opponent_code": 39,
+          "home": 0,
+          "home_label": "a",
+          "finished": false
+        }
+      ],
+      "gw29": [
+        {
+          "opponent_code": 8,
+          "home": 1,
+          "home_label": "h",
+          "finished": false
+        }
+      ],
+      "gw30": [
+        {
+          "opponent_code": 1,
+          "home": 0,
+          "home_label": "a",
+          "finished": false
+        }
+      ],
+      "gw31": [
+        {
+          "opponent_code": 21,
+          "home": 1,
+          "home_label": "h",
+          "finished": false
+        }
+      ],
+      "gw32": [
+        {
+          "opponent_code": 17,
+          "home": 0,
+          "home_label": "a",
+          "finished": false
+        }
+      ],
+      "gw33": [
+        {
+          "opponent_code": 56,
+          "home": 1,
+          "home_label": "h",
+          "finished": false
+        }
+      ],
+      "gw34": [
+        {
+          "opponent_code": 54,
+          "home": 0,
+          "home_label": "a",
+          "finished": false
+        }
+      ],
+      "gw35": [
+        {
+          "opponent_code": 6,
+          "home": 1,
+          "home_label": "h",
+          "finished": false
+        }
+      ],
+      "gw36": [
+        {
+          "opponent_code": 90,
+          "home": 0,
+          "home_label": "a",
+          "finished": false
+        }
+      ],
+      "gw37": [
+        {
+          "opponent_code": 14,
+          "home": 1,
+          "home_label": "h",
+          "finished": false
+        }
+      ],
+      "gw38": [
+        {
+          "opponent_code": 43,
+          "home": 0,
+          "home_label": "a",
+          "finished": false
+        }
+      ]
+    }
+  },
+  {
+    "team_code": 6,
+    "fixtures": {
+      "gw1": [
+        {
+          "opponent_code": 90,
+          "home": 1,
+          "home_label": "h",
+          "finished": false
+        }
+      ],
+      "gw2": [
         {
           "opponent_code": 43,
           "home": 0,
@@ -1286,9 +1254,41 @@
           "finished": false
         }
       ],
+      "gw3": [
+        {
+          "opponent_code": 91,
+          "home": 1,
+          "home_label": "h",
+          "finished": false
+        }
+      ],
+      "gw4": [
+        {
+          "opponent_code": 21,
+          "home": 0,
+          "home_label": "a",
+          "finished": false
+        }
+      ],
+      "gw5": [
+        {
+          "opponent_code": 36,
+          "home": 0,
+          "home_label": "a",
+          "finished": false
+        }
+      ],
+      "gw6": [
+        {
+          "opponent_code": 39,
+          "home": 1,
+          "home_label": "h",
+          "finished": false
+        }
+      ],
       "gw7": [
         {
-          "opponent_code": 7,
+          "opponent_code": 2,
           "home": 0,
           "home_label": "a",
           "finished": false
@@ -1296,7 +1296,7 @@
       ],
       "gw8": [
         {
-          "opponent_code": 2,
+          "opponent_code": 7,
           "home": 1,
           "home_label": "h",
           "finished": false
@@ -1304,7 +1304,7 @@
       ],
       "gw9": [
         {
-          "opponent_code": 39,
+          "opponent_code": 11,
           "home": 0,
           "home_label": "a",
           "finished": false
@@ -1312,7 +1312,7 @@
       ],
       "gw10": [
         {
-          "opponent_code": 3,
+          "opponent_code": 8,
           "home": 1,
           "home_label": "h",
           "finished": false
@@ -1320,213 +1320,13 @@
       ],
       "gw11": [
         {
-          "opponent_code": 21,
-          "home": 0,
-          "home_label": "a",
-          "finished": false
-        }
-      ],
-      "gw12": [
-        {
-          "opponent_code": 8,
-          "home": 1,
-          "home_label": "h",
-          "finished": false
-        }
-      ],
-      "gw13": [
-        {
-          "opponent_code": 94,
-          "home": 0,
-          "home_label": "a",
-          "finished": false
-        }
-      ],
-      "gw14": [
-        {
-          "opponent_code": 31,
-          "home": 1,
-          "home_label": "h",
-          "finished": false
-        }
-      ],
-      "gw15": [
-        {
-          "opponent_code": 4,
-          "home": 0,
-          "home_label": "a",
-          "finished": false
-        }
-      ],
-      "gw16": [
-        {
-          "opponent_code": 54,
-          "home": 1,
-          "home_label": "h",
-          "finished": false
-        }
-      ],
-      "gw17": [
-        {
-          "opponent_code": 91,
-          "home": 0,
-          "home_label": "a",
-          "finished": false
-        }
-      ],
-      "gw18": [
-        {
-          "opponent_code": 11,
-          "home": 1,
-          "home_label": "h",
-          "finished": false
-        }
-      ],
-      "gw19": [
-        {
-          "opponent_code": 4,
-          "home": 1,
-          "home_label": "h",
-          "finished": false
-        }
-      ],
-      "gw20": [
-        {
-          "opponent_code": 36,
-          "home": 0,
-          "home_label": "a",
-          "finished": false
-        }
-      ],
-      "gw21": [
-        {
           "opponent_code": 1,
           "home": 1,
           "home_label": "h",
           "finished": false
         }
       ],
-      "gw22": [
-        {
-          "opponent_code": 14,
-          "home": 0,
-          "home_label": "a",
-          "finished": false
-        }
-      ],
-      "gw23": [
-        {
-          "opponent_code": 6,
-          "home": 1,
-          "home_label": "h",
-          "finished": false
-        }
-      ],
-      "gw24": [
-        {
-          "opponent_code": 56,
-          "home": 0,
-          "home_label": "a",
-          "finished": false
-        }
-      ],
-      "gw25": [
-        {
-          "opponent_code": 21,
-          "home": 1,
-          "home_label": "h",
-          "finished": false
-        }
-      ],
-      "gw26": [
-        {
-          "opponent_code": 31,
-          "home": 0,
-          "home_label": "a",
-          "finished": false
-        }
-      ],
-      "gw27": [
-        {
-          "opponent_code": 8,
-          "home": 0,
-          "home_label": "a",
-          "finished": false
-        }
-      ],
-      "gw28": [
-        {
-          "opponent_code": 94,
-          "home": 1,
-          "home_label": "h",
-          "finished": false
-        }
-      ],
-      "gw29": [
-        {
-          "opponent_code": 11,
-          "home": 0,
-          "home_label": "a",
-          "finished": false
-        }
-      ],
-      "gw30": [
-        {
-          "opponent_code": 91,
-          "home": 1,
-          "home_label": "h",
-          "finished": false
-        }
-      ],
-      "gw31": [
-        {
-          "opponent_code": 54,
-          "home": 0,
-          "home_label": "a",
-          "finished": false
-        }
-      ],
-      "gw32": [
-        {
-          "opponent_code": 36,
-          "home": 1,
-          "home_label": "h",
-          "finished": false
-        }
-      ],
-      "gw33": [
-        {
-          "opponent_code": 17,
-          "home": 0,
-          "home_label": "a",
-          "finished": false
-        }
-      ],
-      "gw34": [
-        {
-          "opponent_code": 43,
-          "home": 1,
-          "home_label": "h",
-          "finished": false
-        }
-      ],
-      "gw35": [
-        {
-          "opponent_code": 2,
-          "home": 0,
-          "home_label": "a",
-          "finished": false
-        }
-      ],
-      "gw36": [
-        {
-          "opponent_code": 7,
-          "home": 1,
-          "home_label": "h",
-          "finished": false
-        }
-      ],
-      "gw37": [
+      "gw12": [
         {
           "opponent_code": 3,
           "home": 0,
@@ -1534,9 +1334,518 @@
           "finished": false
         }
       ],
-      "gw38": [
+      "gw13": [
+        {
+          "opponent_code": 54,
+          "home": 1,
+          "home_label": "h",
+          "finished": false
+        }
+      ],
+      "gw14": [
+        {
+          "opponent_code": 4,
+          "home": 0,
+          "home_label": "a",
+          "finished": false
+        }
+      ],
+      "gw15": [
+        {
+          "opponent_code": 94,
+          "home": 1,
+          "home_label": "h",
+          "finished": false
+        }
+      ],
+      "gw16": [
+        {
+          "opponent_code": 17,
+          "home": 0,
+          "home_label": "a",
+          "finished": false
+        }
+      ],
+      "gw17": [
+        {
+          "opponent_code": 14,
+          "home": 1,
+          "home_label": "h",
+          "finished": false
+        }
+      ],
+      "gw18": [
+        {
+          "opponent_code": 31,
+          "home": 0,
+          "home_label": "a",
+          "finished": false
+        }
+      ],
+      "gw19": [
+        {
+          "opponent_code": 94,
+          "home": 0,
+          "home_label": "a",
+          "finished": false
+        }
+      ],
+      "gw20": [
+        {
+          "opponent_code": 56,
+          "home": 1,
+          "home_label": "h",
+          "finished": false
+        }
+      ],
+      "gw21": [
+        {
+          "opponent_code": 91,
+          "home": 0,
+          "home_label": "a",
+          "finished": false
+        }
+      ],
+      "gw22": [
+        {
+          "opponent_code": 21,
+          "home": 1,
+          "home_label": "h",
+          "finished": false
+        }
+      ],
+      "gw23": [
+        {
+          "opponent_code": 90,
+          "home": 0,
+          "home_label": "a",
+          "finished": false
+        }
+      ],
+      "gw24": [
+        {
+          "opponent_code": 43,
+          "home": 1,
+          "home_label": "h",
+          "finished": false
+        }
+      ],
+      "gw25": [
+        {
+          "opponent_code": 1,
+          "home": 0,
+          "home_label": "a",
+          "finished": false
+        }
+      ],
+      "gw26": [
+        {
+          "opponent_code": 4,
+          "home": 1,
+          "home_label": "h",
+          "finished": false
+        }
+      ],
+      "gw27": [
+        {
+          "opponent_code": 3,
+          "home": 1,
+          "home_label": "h",
+          "finished": false
+        }
+      ],
+      "gw28": [
+        {
+          "opponent_code": 54,
+          "home": 0,
+          "home_label": "a",
+          "finished": false
+        }
+      ],
+      "gw29": [
+        {
+          "opponent_code": 31,
+          "home": 1,
+          "home_label": "h",
+          "finished": false
+        }
+      ],
+      "gw30": [
+        {
+          "opponent_code": 14,
+          "home": 0,
+          "home_label": "a",
+          "finished": false
+        }
+      ],
+      "gw31": [
+        {
+          "opponent_code": 17,
+          "home": 1,
+          "home_label": "h",
+          "finished": false
+        }
+      ],
+      "gw32": [
+        {
+          "opponent_code": 56,
+          "home": 0,
+          "home_label": "a",
+          "finished": false
+        }
+      ],
+      "gw33": [
+        {
+          "opponent_code": 36,
+          "home": 1,
+          "home_label": "h",
+          "finished": false
+        }
+      ],
+      "gw34": [
         {
           "opponent_code": 39,
+          "home": 0,
+          "home_label": "a",
+          "finished": false
+        }
+      ],
+      "gw35": [
+        {
+          "opponent_code": 7,
+          "home": 0,
+          "home_label": "a",
+          "finished": false
+        }
+      ],
+      "gw36": [
+        {
+          "opponent_code": 2,
+          "home": 1,
+          "home_label": "h",
+          "finished": false
+        }
+      ],
+      "gw37": [
+        {
+          "opponent_code": 8,
+          "home": 0,
+          "home_label": "a",
+          "finished": false
+        }
+      ],
+      "gw38": [
+        {
+          "opponent_code": 11,
+          "home": 1,
+          "home_label": "h",
+          "finished": false
+        }
+      ]
+    }
+  },
+  {
+    "team_code": 21,
+    "fixtures": {
+      "gw1": [
+        {
+          "opponent_code": 56,
+          "home": 0,
+          "home_label": "a",
+          "finished": false
+        }
+      ],
+      "gw2": [
+        {
+          "opponent_code": 8,
+          "home": 1,
+          "home_label": "h",
+          "finished": false
+        }
+      ],
+      "gw3": [
+        {
+          "opponent_code": 17,
+          "home": 0,
+          "home_label": "a",
+          "finished": false
+        }
+      ],
+      "gw4": [
+        {
+          "opponent_code": 6,
+          "home": 1,
+          "home_label": "h",
+          "finished": false
+        }
+      ],
+      "gw5": [
+        {
+          "opponent_code": 31,
+          "home": 1,
+          "home_label": "h",
+          "finished": false
+        }
+      ],
+      "gw6": [
+        {
+          "opponent_code": 11,
+          "home": 0,
+          "home_label": "a",
+          "finished": false
+        }
+      ],
+      "gw7": [
+        {
+          "opponent_code": 3,
+          "home": 0,
+          "home_label": "a",
+          "finished": false
+        }
+      ],
+      "gw8": [
+        {
+          "opponent_code": 94,
+          "home": 1,
+          "home_label": "h",
+          "finished": false
+        }
+      ],
+      "gw9": [
+        {
+          "opponent_code": 2,
+          "home": 0,
+          "home_label": "a",
+          "finished": false
+        }
+      ],
+      "gw10": [
+        {
+          "opponent_code": 4,
+          "home": 1,
+          "home_label": "h",
+          "finished": false
+        }
+      ],
+      "gw11": [
+        {
+          "opponent_code": 90,
+          "home": 1,
+          "home_label": "h",
+          "finished": false
+        }
+      ],
+      "gw12": [
+        {
+          "opponent_code": 91,
+          "home": 0,
+          "home_label": "a",
+          "finished": false
+        }
+      ],
+      "gw13": [
+        {
+          "opponent_code": 14,
+          "home": 1,
+          "home_label": "h",
+          "finished": false
+        }
+      ],
+      "gw14": [
+        {
+          "opponent_code": 1,
+          "home": 0,
+          "home_label": "a",
+          "finished": false
+        }
+      ],
+      "gw15": [
+        {
+          "opponent_code": 36,
+          "home": 0,
+          "home_label": "a",
+          "finished": false
+        }
+      ],
+      "gw16": [
+        {
+          "opponent_code": 7,
+          "home": 1,
+          "home_label": "h",
+          "finished": false
+        }
+      ],
+      "gw17": [
+        {
+          "opponent_code": 43,
+          "home": 0,
+          "home_label": "a",
+          "finished": false
+        }
+      ],
+      "gw18": [
+        {
+          "opponent_code": 54,
+          "home": 1,
+          "home_label": "h",
+          "finished": false
+        }
+      ],
+      "gw19": [
+        {
+          "opponent_code": 36,
+          "home": 1,
+          "home_label": "h",
+          "finished": false
+        }
+      ],
+      "gw20": [
+        {
+          "opponent_code": 39,
+          "home": 0,
+          "home_label": "a",
+          "finished": false
+        }
+      ],
+      "gw21": [
+        {
+          "opponent_code": 17,
+          "home": 1,
+          "home_label": "h",
+          "finished": false
+        }
+      ],
+      "gw22": [
+        {
+          "opponent_code": 6,
+          "home": 0,
+          "home_label": "a",
+          "finished": false
+        }
+      ],
+      "gw23": [
+        {
+          "opponent_code": 56,
+          "home": 1,
+          "home_label": "h",
+          "finished": false
+        }
+      ],
+      "gw24": [
+        {
+          "opponent_code": 8,
+          "home": 0,
+          "home_label": "a",
+          "finished": false
+        }
+      ],
+      "gw25": [
+        {
+          "opponent_code": 90,
+          "home": 0,
+          "home_label": "a",
+          "finished": false
+        }
+      ],
+      "gw26": [
+        {
+          "opponent_code": 1,
+          "home": 1,
+          "home_label": "h",
+          "finished": false
+        }
+      ],
+      "gw27": [
+        {
+          "opponent_code": 91,
+          "home": 1,
+          "home_label": "h",
+          "finished": false
+        }
+      ],
+      "gw28": [
+        {
+          "opponent_code": 14,
+          "home": 0,
+          "home_label": "a",
+          "finished": false
+        }
+      ],
+      "gw29": [
+        {
+          "opponent_code": 54,
+          "home": 0,
+          "home_label": "a",
+          "finished": false
+        }
+      ],
+      "gw30": [
+        {
+          "opponent_code": 43,
+          "home": 1,
+          "home_label": "h",
+          "finished": false
+        }
+      ],
+      "gw31": [
+        {
+          "opponent_code": 7,
+          "home": 0,
+          "home_label": "a",
+          "finished": false
+        }
+      ],
+      "gw32": [
+        {
+          "opponent_code": 39,
+          "home": 1,
+          "home_label": "h",
+          "finished": false
+        }
+      ],
+      "gw33": [
+        {
+          "opponent_code": 31,
+          "home": 0,
+          "home_label": "a",
+          "finished": false
+        }
+      ],
+      "gw34": [
+        {
+          "opponent_code": 11,
+          "home": 1,
+          "home_label": "h",
+          "finished": false
+        }
+      ],
+      "gw35": [
+        {
+          "opponent_code": 94,
+          "home": 0,
+          "home_label": "a",
+          "finished": false
+        }
+      ],
+      "gw36": [
+        {
+          "opponent_code": 3,
+          "home": 1,
+          "home_label": "h",
+          "finished": false
+        }
+      ],
+      "gw37": [
+        {
+          "opponent_code": 4,
+          "home": 0,
+          "home_label": "a",
+          "finished": false
+        }
+      ],
+      "gw38": [
+        {
+          "opponent_code": 2,
           "home": 1,
           "home_label": "h",
           "finished": false
@@ -2472,320 +2781,11 @@
     }
   },
   {
-    "team_code": 6,
+    "team_code": 90,
     "fixtures": {
       "gw1": [
         {
-          "opponent_code": 90,
-          "home": 1,
-          "home_label": "h",
-          "finished": false
-        }
-      ],
-      "gw2": [
-        {
-          "opponent_code": 43,
-          "home": 0,
-          "home_label": "a",
-          "finished": false
-        }
-      ],
-      "gw3": [
-        {
-          "opponent_code": 91,
-          "home": 1,
-          "home_label": "h",
-          "finished": false
-        }
-      ],
-      "gw4": [
-        {
-          "opponent_code": 21,
-          "home": 0,
-          "home_label": "a",
-          "finished": false
-        }
-      ],
-      "gw5": [
-        {
-          "opponent_code": 36,
-          "home": 0,
-          "home_label": "a",
-          "finished": false
-        }
-      ],
-      "gw6": [
-        {
-          "opponent_code": 39,
-          "home": 1,
-          "home_label": "h",
-          "finished": false
-        }
-      ],
-      "gw7": [
-        {
-          "opponent_code": 2,
-          "home": 0,
-          "home_label": "a",
-          "finished": false
-        }
-      ],
-      "gw8": [
-        {
-          "opponent_code": 7,
-          "home": 1,
-          "home_label": "h",
-          "finished": false
-        }
-      ],
-      "gw9": [
-        {
-          "opponent_code": 11,
-          "home": 0,
-          "home_label": "a",
-          "finished": false
-        }
-      ],
-      "gw10": [
-        {
-          "opponent_code": 8,
-          "home": 1,
-          "home_label": "h",
-          "finished": false
-        }
-      ],
-      "gw11": [
-        {
-          "opponent_code": 1,
-          "home": 1,
-          "home_label": "h",
-          "finished": false
-        }
-      ],
-      "gw12": [
-        {
-          "opponent_code": 3,
-          "home": 0,
-          "home_label": "a",
-          "finished": false
-        }
-      ],
-      "gw13": [
-        {
-          "opponent_code": 54,
-          "home": 1,
-          "home_label": "h",
-          "finished": false
-        }
-      ],
-      "gw14": [
-        {
-          "opponent_code": 4,
-          "home": 0,
-          "home_label": "a",
-          "finished": false
-        }
-      ],
-      "gw15": [
-        {
-          "opponent_code": 94,
-          "home": 1,
-          "home_label": "h",
-          "finished": false
-        }
-      ],
-      "gw16": [
-        {
-          "opponent_code": 17,
-          "home": 0,
-          "home_label": "a",
-          "finished": false
-        }
-      ],
-      "gw17": [
-        {
-          "opponent_code": 14,
-          "home": 1,
-          "home_label": "h",
-          "finished": false
-        }
-      ],
-      "gw18": [
-        {
-          "opponent_code": 31,
-          "home": 0,
-          "home_label": "a",
-          "finished": false
-        }
-      ],
-      "gw19": [
-        {
-          "opponent_code": 94,
-          "home": 0,
-          "home_label": "a",
-          "finished": false
-        }
-      ],
-      "gw20": [
-        {
-          "opponent_code": 56,
-          "home": 1,
-          "home_label": "h",
-          "finished": false
-        }
-      ],
-      "gw21": [
-        {
-          "opponent_code": 91,
-          "home": 0,
-          "home_label": "a",
-          "finished": false
-        }
-      ],
-      "gw22": [
-        {
-          "opponent_code": 21,
-          "home": 1,
-          "home_label": "h",
-          "finished": false
-        }
-      ],
-      "gw23": [
-        {
-          "opponent_code": 90,
-          "home": 0,
-          "home_label": "a",
-          "finished": false
-        }
-      ],
-      "gw24": [
-        {
-          "opponent_code": 43,
-          "home": 1,
-          "home_label": "h",
-          "finished": false
-        }
-      ],
-      "gw25": [
-        {
-          "opponent_code": 1,
-          "home": 0,
-          "home_label": "a",
-          "finished": false
-        }
-      ],
-      "gw26": [
-        {
-          "opponent_code": 4,
-          "home": 1,
-          "home_label": "h",
-          "finished": false
-        }
-      ],
-      "gw27": [
-        {
-          "opponent_code": 3,
-          "home": 1,
-          "home_label": "h",
-          "finished": false
-        }
-      ],
-      "gw28": [
-        {
-          "opponent_code": 54,
-          "home": 0,
-          "home_label": "a",
-          "finished": false
-        }
-      ],
-      "gw29": [
-        {
-          "opponent_code": 31,
-          "home": 1,
-          "home_label": "h",
-          "finished": false
-        }
-      ],
-      "gw30": [
-        {
-          "opponent_code": 14,
-          "home": 0,
-          "home_label": "a",
-          "finished": false
-        }
-      ],
-      "gw31": [
-        {
-          "opponent_code": 17,
-          "home": 1,
-          "home_label": "h",
-          "finished": false
-        }
-      ],
-      "gw32": [
-        {
-          "opponent_code": 56,
-          "home": 0,
-          "home_label": "a",
-          "finished": false
-        }
-      ],
-      "gw33": [
-        {
-          "opponent_code": 36,
-          "home": 1,
-          "home_label": "h",
-          "finished": false
-        }
-      ],
-      "gw34": [
-        {
-          "opponent_code": 39,
-          "home": 0,
-          "home_label": "a",
-          "finished": false
-        }
-      ],
-      "gw35": [
-        {
-          "opponent_code": 7,
-          "home": 0,
-          "home_label": "a",
-          "finished": false
-        }
-      ],
-      "gw36": [
-        {
-          "opponent_code": 2,
-          "home": 1,
-          "home_label": "h",
-          "finished": false
-        }
-      ],
-      "gw37": [
-        {
-          "opponent_code": 8,
-          "home": 0,
-          "home_label": "a",
-          "finished": false
-        }
-      ],
-      "gw38": [
-        {
-          "opponent_code": 11,
-          "home": 1,
-          "home_label": "h",
-          "finished": false
-        }
-      ]
-    }
-  },
-  {
-    "team_code": 21,
-    "fixtures": {
-      "gw1": [
-        {
-          "opponent_code": 56,
+          "opponent_code": 6,
           "home": 0,
           "home_label": "a",
           "finished": false
@@ -2793,7 +2793,7 @@
       ],
       "gw2": [
         {
-          "opponent_code": 8,
+          "opponent_code": 56,
           "home": 1,
           "home_label": "h",
           "finished": false
@@ -2801,7 +2801,7 @@
       ],
       "gw3": [
         {
-          "opponent_code": 17,
+          "opponent_code": 1,
           "home": 0,
           "home_label": "a",
           "finished": false
@@ -2809,7 +2809,7 @@
       ],
       "gw4": [
         {
-          "opponent_code": 6,
+          "opponent_code": 14,
           "home": 1,
           "home_label": "h",
           "finished": false
@@ -2817,7 +2817,7 @@
       ],
       "gw5": [
         {
-          "opponent_code": 31,
+          "opponent_code": 17,
           "home": 1,
           "home_label": "h",
           "finished": false
@@ -2825,7 +2825,7 @@
       ],
       "gw6": [
         {
-          "opponent_code": 11,
+          "opponent_code": 43,
           "home": 0,
           "home_label": "a",
           "finished": false
@@ -2833,7 +2833,7 @@
       ],
       "gw7": [
         {
-          "opponent_code": 3,
+          "opponent_code": 7,
           "home": 0,
           "home_label": "a",
           "finished": false
@@ -2841,7 +2841,7 @@
       ],
       "gw8": [
         {
-          "opponent_code": 94,
+          "opponent_code": 2,
           "home": 1,
           "home_label": "h",
           "finished": false
@@ -2849,7 +2849,7 @@
       ],
       "gw9": [
         {
-          "opponent_code": 2,
+          "opponent_code": 39,
           "home": 0,
           "home_label": "a",
           "finished": false
@@ -2857,7 +2857,7 @@
       ],
       "gw10": [
         {
-          "opponent_code": 4,
+          "opponent_code": 3,
           "home": 1,
           "home_label": "h",
           "finished": false
@@ -2865,39 +2865,39 @@
       ],
       "gw11": [
         {
-          "opponent_code": 90,
-          "home": 1,
-          "home_label": "h",
+          "opponent_code": 21,
+          "home": 0,
+          "home_label": "a",
           "finished": false
         }
       ],
       "gw12": [
         {
-          "opponent_code": 91,
-          "home": 0,
-          "home_label": "a",
-          "finished": false
-        }
-      ],
-      "gw13": [
-        {
-          "opponent_code": 14,
+          "opponent_code": 8,
           "home": 1,
           "home_label": "h",
           "finished": false
         }
       ],
-      "gw14": [
+      "gw13": [
         {
-          "opponent_code": 1,
+          "opponent_code": 94,
           "home": 0,
           "home_label": "a",
           "finished": false
         }
       ],
+      "gw14": [
+        {
+          "opponent_code": 31,
+          "home": 1,
+          "home_label": "h",
+          "finished": false
+        }
+      ],
       "gw15": [
         {
-          "opponent_code": 36,
+          "opponent_code": 4,
           "home": 0,
           "home_label": "a",
           "finished": false
@@ -2905,7 +2905,7 @@
       ],
       "gw16": [
         {
-          "opponent_code": 7,
+          "opponent_code": 54,
           "home": 1,
           "home_label": "h",
           "finished": false
@@ -2913,7 +2913,7 @@
       ],
       "gw17": [
         {
-          "opponent_code": 43,
+          "opponent_code": 91,
           "home": 0,
           "home_label": "a",
           "finished": false
@@ -2921,7 +2921,7 @@
       ],
       "gw18": [
         {
-          "opponent_code": 54,
+          "opponent_code": 11,
           "home": 1,
           "home_label": "h",
           "finished": false
@@ -2929,7 +2929,7 @@
       ],
       "gw19": [
         {
-          "opponent_code": 36,
+          "opponent_code": 4,
           "home": 1,
           "home_label": "h",
           "finished": false
@@ -2937,7 +2937,7 @@
       ],
       "gw20": [
         {
-          "opponent_code": 39,
+          "opponent_code": 36,
           "home": 0,
           "home_label": "a",
           "finished": false
@@ -2945,7 +2945,7 @@
       ],
       "gw21": [
         {
-          "opponent_code": 17,
+          "opponent_code": 1,
           "home": 1,
           "home_label": "h",
           "finished": false
@@ -2953,7 +2953,7 @@
       ],
       "gw22": [
         {
-          "opponent_code": 6,
+          "opponent_code": 14,
           "home": 0,
           "home_label": "a",
           "finished": false
@@ -2961,7 +2961,7 @@
       ],
       "gw23": [
         {
-          "opponent_code": 56,
+          "opponent_code": 6,
           "home": 1,
           "home_label": "h",
           "finished": false
@@ -2969,7 +2969,7 @@
       ],
       "gw24": [
         {
-          "opponent_code": 8,
+          "opponent_code": 56,
           "home": 0,
           "home_label": "a",
           "finished": false
@@ -2977,21 +2977,45 @@
       ],
       "gw25": [
         {
-          "opponent_code": 90,
-          "home": 0,
-          "home_label": "a",
-          "finished": false
-        }
-      ],
-      "gw26": [
-        {
-          "opponent_code": 1,
+          "opponent_code": 21,
           "home": 1,
           "home_label": "h",
           "finished": false
         }
       ],
+      "gw26": [
+        {
+          "opponent_code": 31,
+          "home": 0,
+          "home_label": "a",
+          "finished": false
+        }
+      ],
       "gw27": [
+        {
+          "opponent_code": 8,
+          "home": 0,
+          "home_label": "a",
+          "finished": false
+        }
+      ],
+      "gw28": [
+        {
+          "opponent_code": 94,
+          "home": 1,
+          "home_label": "h",
+          "finished": false
+        }
+      ],
+      "gw29": [
+        {
+          "opponent_code": 11,
+          "home": 0,
+          "home_label": "a",
+          "finished": false
+        }
+      ],
+      "gw30": [
         {
           "opponent_code": 91,
           "home": 1,
@@ -2999,15 +3023,7 @@
           "finished": false
         }
       ],
-      "gw28": [
-        {
-          "opponent_code": 14,
-          "home": 0,
-          "home_label": "a",
-          "finished": false
-        }
-      ],
-      "gw29": [
+      "gw31": [
         {
           "opponent_code": 54,
           "home": 0,
@@ -3015,7 +3031,23 @@
           "finished": false
         }
       ],
-      "gw30": [
+      "gw32": [
+        {
+          "opponent_code": 36,
+          "home": 1,
+          "home_label": "h",
+          "finished": false
+        }
+      ],
+      "gw33": [
+        {
+          "opponent_code": 17,
+          "home": 0,
+          "home_label": "a",
+          "finished": false
+        }
+      ],
+      "gw34": [
         {
           "opponent_code": 43,
           "home": 1,
@@ -3023,41 +3055,9 @@
           "finished": false
         }
       ],
-      "gw31": [
-        {
-          "opponent_code": 7,
-          "home": 0,
-          "home_label": "a",
-          "finished": false
-        }
-      ],
-      "gw32": [
-        {
-          "opponent_code": 39,
-          "home": 1,
-          "home_label": "h",
-          "finished": false
-        }
-      ],
-      "gw33": [
-        {
-          "opponent_code": 31,
-          "home": 0,
-          "home_label": "a",
-          "finished": false
-        }
-      ],
-      "gw34": [
-        {
-          "opponent_code": 11,
-          "home": 1,
-          "home_label": "h",
-          "finished": false
-        }
-      ],
       "gw35": [
         {
-          "opponent_code": 94,
+          "opponent_code": 2,
           "home": 0,
           "home_label": "a",
           "finished": false
@@ -3065,7 +3065,7 @@
       ],
       "gw36": [
         {
-          "opponent_code": 3,
+          "opponent_code": 7,
           "home": 1,
           "home_label": "h",
           "finished": false
@@ -3073,7 +3073,7 @@
       ],
       "gw37": [
         {
-          "opponent_code": 4,
+          "opponent_code": 3,
           "home": 0,
           "home_label": "a",
           "finished": false
@@ -3081,316 +3081,7 @@
       ],
       "gw38": [
         {
-          "opponent_code": 2,
-          "home": 1,
-          "home_label": "h",
-          "finished": false
-        }
-      ]
-    }
-  },
-  {
-    "team_code": 43,
-    "fixtures": {
-      "gw1": [
-        {
           "opponent_code": 39,
-          "home": 0,
-          "home_label": "a",
-          "finished": false
-        }
-      ],
-      "gw2": [
-        {
-          "opponent_code": 6,
-          "home": 1,
-          "home_label": "h",
-          "finished": false
-        }
-      ],
-      "gw3": [
-        {
-          "opponent_code": 36,
-          "home": 0,
-          "home_label": "a",
-          "finished": false
-        }
-      ],
-      "gw4": [
-        {
-          "opponent_code": 1,
-          "home": 1,
-          "home_label": "h",
-          "finished": false
-        }
-      ],
-      "gw5": [
-        {
-          "opponent_code": 3,
-          "home": 0,
-          "home_label": "a",
-          "finished": false
-        }
-      ],
-      "gw6": [
-        {
-          "opponent_code": 90,
-          "home": 1,
-          "home_label": "h",
-          "finished": false
-        }
-      ],
-      "gw7": [
-        {
-          "opponent_code": 94,
-          "home": 0,
-          "home_label": "a",
-          "finished": false
-        }
-      ],
-      "gw8": [
-        {
-          "opponent_code": 11,
-          "home": 1,
-          "home_label": "h",
-          "finished": false
-        }
-      ],
-      "gw9": [
-        {
-          "opponent_code": 7,
-          "home": 0,
-          "home_label": "a",
-          "finished": false
-        }
-      ],
-      "gw10": [
-        {
-          "opponent_code": 91,
-          "home": 1,
-          "home_label": "h",
-          "finished": false
-        }
-      ],
-      "gw11": [
-        {
-          "opponent_code": 14,
-          "home": 1,
-          "home_label": "h",
-          "finished": false
-        }
-      ],
-      "gw12": [
-        {
-          "opponent_code": 4,
-          "home": 0,
-          "home_label": "a",
-          "finished": false
-        }
-      ],
-      "gw13": [
-        {
-          "opponent_code": 2,
-          "home": 1,
-          "home_label": "h",
-          "finished": false
-        }
-      ],
-      "gw14": [
-        {
-          "opponent_code": 54,
-          "home": 0,
-          "home_label": "a",
-          "finished": false
-        }
-      ],
-      "gw15": [
-        {
-          "opponent_code": 56,
-          "home": 1,
-          "home_label": "h",
-          "finished": false
-        }
-      ],
-      "gw16": [
-        {
-          "opponent_code": 31,
-          "home": 0,
-          "home_label": "a",
-          "finished": false
-        }
-      ],
-      "gw17": [
-        {
-          "opponent_code": 21,
-          "home": 1,
-          "home_label": "h",
-          "finished": false
-        }
-      ],
-      "gw18": [
-        {
-          "opponent_code": 17,
-          "home": 0,
-          "home_label": "a",
-          "finished": false
-        }
-      ],
-      "gw19": [
-        {
-          "opponent_code": 56,
-          "home": 0,
-          "home_label": "a",
-          "finished": false
-        }
-      ],
-      "gw20": [
-        {
-          "opponent_code": 8,
-          "home": 1,
-          "home_label": "h",
-          "finished": false
-        }
-      ],
-      "gw21": [
-        {
-          "opponent_code": 36,
-          "home": 1,
-          "home_label": "h",
-          "finished": false
-        }
-      ],
-      "gw22": [
-        {
-          "opponent_code": 1,
-          "home": 0,
-          "home_label": "a",
-          "finished": false
-        }
-      ],
-      "gw23": [
-        {
-          "opponent_code": 39,
-          "home": 1,
-          "home_label": "h",
-          "finished": false
-        }
-      ],
-      "gw24": [
-        {
-          "opponent_code": 6,
-          "home": 0,
-          "home_label": "a",
-          "finished": false
-        }
-      ],
-      "gw25": [
-        {
-          "opponent_code": 14,
-          "home": 0,
-          "home_label": "a",
-          "finished": false
-        }
-      ],
-      "gw26": [
-        {
-          "opponent_code": 54,
-          "home": 1,
-          "home_label": "h",
-          "finished": false
-        }
-      ],
-      "gw27": [
-        {
-          "opponent_code": 4,
-          "home": 1,
-          "home_label": "h",
-          "finished": false
-        }
-      ],
-      "gw28": [
-        {
-          "opponent_code": 2,
-          "home": 0,
-          "home_label": "a",
-          "finished": false
-        }
-      ],
-      "gw29": [
-        {
-          "opponent_code": 17,
-          "home": 1,
-          "home_label": "h",
-          "finished": false
-        }
-      ],
-      "gw30": [
-        {
-          "opponent_code": 21,
-          "home": 0,
-          "home_label": "a",
-          "finished": false
-        }
-      ],
-      "gw31": [
-        {
-          "opponent_code": 31,
-          "home": 1,
-          "home_label": "h",
-          "finished": false
-        }
-      ],
-      "gw32": [
-        {
-          "opponent_code": 8,
-          "home": 0,
-          "home_label": "a",
-          "finished": false
-        }
-      ],
-      "gw33": [
-        {
-          "opponent_code": 3,
-          "home": 1,
-          "home_label": "h",
-          "finished": false
-        }
-      ],
-      "gw34": [
-        {
-          "opponent_code": 90,
-          "home": 0,
-          "home_label": "a",
-          "finished": false
-        }
-      ],
-      "gw35": [
-        {
-          "opponent_code": 11,
-          "home": 0,
-          "home_label": "a",
-          "finished": false
-        }
-      ],
-      "gw36": [
-        {
-          "opponent_code": 94,
-          "home": 1,
-          "home_label": "h",
-          "finished": false
-        }
-      ],
-      "gw37": [
-        {
-          "opponent_code": 91,
-          "home": 0,
-          "home_label": "a",
-          "finished": false
-        }
-      ],
-      "gw38": [
-        {
-          "opponent_code": 7,
           "home": 1,
           "home_label": "h",
           "finished": false
@@ -3708,11 +3399,11 @@
     }
   },
   {
-    "team_code": 94,
+    "team_code": 43,
     "fixtures": {
       "gw1": [
         {
-          "opponent_code": 17,
+          "opponent_code": 39,
           "home": 0,
           "home_label": "a",
           "finished": false
@@ -3720,7 +3411,7 @@
       ],
       "gw2": [
         {
-          "opponent_code": 7,
+          "opponent_code": 6,
           "home": 1,
           "home_label": "h",
           "finished": false
@@ -3728,7 +3419,7 @@
       ],
       "gw3": [
         {
-          "opponent_code": 56,
+          "opponent_code": 36,
           "home": 0,
           "home_label": "a",
           "finished": false
@@ -3736,7 +3427,7 @@
       ],
       "gw4": [
         {
-          "opponent_code": 8,
+          "opponent_code": 1,
           "home": 1,
           "home_label": "h",
           "finished": false
@@ -3744,7 +3435,7 @@
       ],
       "gw5": [
         {
-          "opponent_code": 54,
+          "opponent_code": 3,
           "home": 0,
           "home_label": "a",
           "finished": false
@@ -3752,7 +3443,7 @@
       ],
       "gw6": [
         {
-          "opponent_code": 1,
+          "opponent_code": 90,
           "home": 1,
           "home_label": "h",
           "finished": false
@@ -3760,141 +3451,21 @@
       ],
       "gw7": [
         {
-          "opponent_code": 43,
-          "home": 1,
-          "home_label": "h",
+          "opponent_code": 94,
+          "home": 0,
+          "home_label": "a",
           "finished": false
         }
       ],
       "gw8": [
         {
-          "opponent_code": 21,
-          "home": 0,
-          "home_label": "a",
+          "opponent_code": 11,
+          "home": 1,
+          "home_label": "h",
           "finished": false
         }
       ],
       "gw9": [
-        {
-          "opponent_code": 14,
-          "home": 1,
-          "home_label": "h",
-          "finished": false
-        }
-      ],
-      "gw10": [
-        {
-          "opponent_code": 31,
-          "home": 0,
-          "home_label": "a",
-          "finished": false
-        }
-      ],
-      "gw11": [
-        {
-          "opponent_code": 4,
-          "home": 1,
-          "home_label": "h",
-          "finished": false
-        }
-      ],
-      "gw12": [
-        {
-          "opponent_code": 36,
-          "home": 0,
-          "home_label": "a",
-          "finished": false
-        }
-      ],
-      "gw13": [
-        {
-          "opponent_code": 90,
-          "home": 1,
-          "home_label": "h",
-          "finished": false
-        }
-      ],
-      "gw14": [
-        {
-          "opponent_code": 3,
-          "home": 0,
-          "home_label": "a",
-          "finished": false
-        }
-      ],
-      "gw15": [
-        {
-          "opponent_code": 6,
-          "home": 0,
-          "home_label": "a",
-          "finished": false
-        }
-      ],
-      "gw16": [
-        {
-          "opponent_code": 2,
-          "home": 1,
-          "home_label": "h",
-          "finished": false
-        }
-      ],
-      "gw17": [
-        {
-          "opponent_code": 39,
-          "home": 0,
-          "home_label": "a",
-          "finished": false
-        }
-      ],
-      "gw18": [
-        {
-          "opponent_code": 91,
-          "home": 1,
-          "home_label": "h",
-          "finished": false
-        }
-      ],
-      "gw19": [
-        {
-          "opponent_code": 6,
-          "home": 1,
-          "home_label": "h",
-          "finished": false
-        }
-      ],
-      "gw20": [
-        {
-          "opponent_code": 11,
-          "home": 0,
-          "home_label": "a",
-          "finished": false
-        }
-      ],
-      "gw21": [
-        {
-          "opponent_code": 56,
-          "home": 1,
-          "home_label": "h",
-          "finished": false
-        }
-      ],
-      "gw22": [
-        {
-          "opponent_code": 8,
-          "home": 0,
-          "home_label": "a",
-          "finished": false
-        }
-      ],
-      "gw23": [
-        {
-          "opponent_code": 17,
-          "home": 1,
-          "home_label": "h",
-          "finished": false
-        }
-      ],
-      "gw24": [
         {
           "opponent_code": 7,
           "home": 0,
@@ -3902,7 +3473,23 @@
           "finished": false
         }
       ],
-      "gw25": [
+      "gw10": [
+        {
+          "opponent_code": 91,
+          "home": 1,
+          "home_label": "h",
+          "finished": false
+        }
+      ],
+      "gw11": [
+        {
+          "opponent_code": 14,
+          "home": 1,
+          "home_label": "h",
+          "finished": false
+        }
+      ],
+      "gw12": [
         {
           "opponent_code": 4,
           "home": 0,
@@ -3910,79 +3497,39 @@
           "finished": false
         }
       ],
-      "gw26": [
-        {
-          "opponent_code": 3,
-          "home": 1,
-          "home_label": "h",
-          "finished": false
-        }
-      ],
-      "gw27": [
-        {
-          "opponent_code": 36,
-          "home": 1,
-          "home_label": "h",
-          "finished": false
-        }
-      ],
-      "gw28": [
-        {
-          "opponent_code": 90,
-          "home": 0,
-          "home_label": "a",
-          "finished": false
-        }
-      ],
-      "gw29": [
-        {
-          "opponent_code": 91,
-          "home": 0,
-          "home_label": "a",
-          "finished": false
-        }
-      ],
-      "gw30": [
-        {
-          "opponent_code": 39,
-          "home": 1,
-          "home_label": "h",
-          "finished": false
-        }
-      ],
-      "gw31": [
+      "gw13": [
         {
           "opponent_code": 2,
-          "home": 0,
-          "home_label": "a",
-          "finished": false
-        }
-      ],
-      "gw32": [
-        {
-          "opponent_code": 11,
           "home": 1,
           "home_label": "h",
           "finished": false
         }
       ],
-      "gw33": [
+      "gw14": [
         {
           "opponent_code": 54,
-          "home": 1,
-          "home_label": "h",
-          "finished": false
-        }
-      ],
-      "gw34": [
-        {
-          "opponent_code": 1,
           "home": 0,
           "home_label": "a",
           "finished": false
         }
       ],
-      "gw35": [
+      "gw15": [
+        {
+          "opponent_code": 56,
+          "home": 1,
+          "home_label": "h",
+          "finished": false
+        }
+      ],
+      "gw16": [
+        {
+          "opponent_code": 31,
+          "home": 0,
+          "home_label": "a",
+          "finished": false
+        }
+      ],
+      "gw17": [
         {
           "opponent_code": 21,
           "home": 1,
@@ -3990,15 +3537,111 @@
           "finished": false
         }
       ],
-      "gw36": [
+      "gw18": [
         {
-          "opponent_code": 43,
+          "opponent_code": 17,
           "home": 0,
           "home_label": "a",
           "finished": false
         }
       ],
-      "gw37": [
+      "gw19": [
+        {
+          "opponent_code": 56,
+          "home": 0,
+          "home_label": "a",
+          "finished": false
+        }
+      ],
+      "gw20": [
+        {
+          "opponent_code": 8,
+          "home": 1,
+          "home_label": "h",
+          "finished": false
+        }
+      ],
+      "gw21": [
+        {
+          "opponent_code": 36,
+          "home": 1,
+          "home_label": "h",
+          "finished": false
+        }
+      ],
+      "gw22": [
+        {
+          "opponent_code": 1,
+          "home": 0,
+          "home_label": "a",
+          "finished": false
+        }
+      ],
+      "gw23": [
+        {
+          "opponent_code": 39,
+          "home": 1,
+          "home_label": "h",
+          "finished": false
+        }
+      ],
+      "gw24": [
+        {
+          "opponent_code": 6,
+          "home": 0,
+          "home_label": "a",
+          "finished": false
+        }
+      ],
+      "gw25": [
+        {
+          "opponent_code": 14,
+          "home": 0,
+          "home_label": "a",
+          "finished": false
+        }
+      ],
+      "gw26": [
+        {
+          "opponent_code": 54,
+          "home": 1,
+          "home_label": "h",
+          "finished": false
+        }
+      ],
+      "gw27": [
+        {
+          "opponent_code": 4,
+          "home": 1,
+          "home_label": "h",
+          "finished": false
+        }
+      ],
+      "gw28": [
+        {
+          "opponent_code": 2,
+          "home": 0,
+          "home_label": "a",
+          "finished": false
+        }
+      ],
+      "gw29": [
+        {
+          "opponent_code": 17,
+          "home": 1,
+          "home_label": "h",
+          "finished": false
+        }
+      ],
+      "gw30": [
+        {
+          "opponent_code": 21,
+          "home": 0,
+          "home_label": "a",
+          "finished": false
+        }
+      ],
+      "gw31": [
         {
           "opponent_code": 31,
           "home": 1,
@@ -4006,11 +3649,59 @@
           "finished": false
         }
       ],
-      "gw38": [
+      "gw32": [
         {
-          "opponent_code": 14,
+          "opponent_code": 8,
           "home": 0,
           "home_label": "a",
+          "finished": false
+        }
+      ],
+      "gw33": [
+        {
+          "opponent_code": 3,
+          "home": 1,
+          "home_label": "h",
+          "finished": false
+        }
+      ],
+      "gw34": [
+        {
+          "opponent_code": 90,
+          "home": 0,
+          "home_label": "a",
+          "finished": false
+        }
+      ],
+      "gw35": [
+        {
+          "opponent_code": 11,
+          "home": 0,
+          "home_label": "a",
+          "finished": false
+        }
+      ],
+      "gw36": [
+        {
+          "opponent_code": 94,
+          "home": 1,
+          "home_label": "h",
+          "finished": false
+        }
+      ],
+      "gw37": [
+        {
+          "opponent_code": 91,
+          "home": 0,
+          "home_label": "a",
+          "finished": false
+        }
+      ],
+      "gw38": [
+        {
+          "opponent_code": 7,
+          "home": 1,
+          "home_label": "h",
           "finished": false
         }
       ]
@@ -4326,315 +4017,6 @@
     }
   },
   {
-    "team_code": 31,
-    "fixtures": {
-      "gw1": [
-        {
-          "opponent_code": 8,
-          "home": 0,
-          "home_label": "a",
-          "finished": false
-        }
-      ],
-      "gw2": [
-        {
-          "opponent_code": 17,
-          "home": 1,
-          "home_label": "h",
-          "finished": false
-        }
-      ],
-      "gw3": [
-        {
-          "opponent_code": 7,
-          "home": 0,
-          "home_label": "a",
-          "finished": false
-        }
-      ],
-      "gw4": [
-        {
-          "opponent_code": 56,
-          "home": 1,
-          "home_label": "h",
-          "finished": false
-        }
-      ],
-      "gw5": [
-        {
-          "opponent_code": 21,
-          "home": 0,
-          "home_label": "a",
-          "finished": false
-        }
-      ],
-      "gw6": [
-        {
-          "opponent_code": 14,
-          "home": 1,
-          "home_label": "h",
-          "finished": false
-        }
-      ],
-      "gw7": [
-        {
-          "opponent_code": 11,
-          "home": 0,
-          "home_label": "a",
-          "finished": false
-        }
-      ],
-      "gw8": [
-        {
-          "opponent_code": 91,
-          "home": 1,
-          "home_label": "h",
-          "finished": false
-        }
-      ],
-      "gw9": [
-        {
-          "opponent_code": 3,
-          "home": 0,
-          "home_label": "a",
-          "finished": false
-        }
-      ],
-      "gw10": [
-        {
-          "opponent_code": 94,
-          "home": 1,
-          "home_label": "h",
-          "finished": false
-        }
-      ],
-      "gw11": [
-        {
-          "opponent_code": 36,
-          "home": 1,
-          "home_label": "h",
-          "finished": false
-        }
-      ],
-      "gw12": [
-        {
-          "opponent_code": 39,
-          "home": 0,
-          "home_label": "a",
-          "finished": false
-        }
-      ],
-      "gw13": [
-        {
-          "opponent_code": 1,
-          "home": 1,
-          "home_label": "h",
-          "finished": false
-        }
-      ],
-      "gw14": [
-        {
-          "opponent_code": 90,
-          "home": 0,
-          "home_label": "a",
-          "finished": false
-        }
-      ],
-      "gw15": [
-        {
-          "opponent_code": 54,
-          "home": 0,
-          "home_label": "a",
-          "finished": false
-        }
-      ],
-      "gw16": [
-        {
-          "opponent_code": 43,
-          "home": 1,
-          "home_label": "h",
-          "finished": false
-        }
-      ],
-      "gw17": [
-        {
-          "opponent_code": 2,
-          "home": 0,
-          "home_label": "a",
-          "finished": false
-        }
-      ],
-      "gw18": [
-        {
-          "opponent_code": 6,
-          "home": 1,
-          "home_label": "h",
-          "finished": false
-        }
-      ],
-      "gw19": [
-        {
-          "opponent_code": 54,
-          "home": 1,
-          "home_label": "h",
-          "finished": false
-        }
-      ],
-      "gw20": [
-        {
-          "opponent_code": 4,
-          "home": 0,
-          "home_label": "a",
-          "finished": false
-        }
-      ],
-      "gw21": [
-        {
-          "opponent_code": 7,
-          "home": 1,
-          "home_label": "h",
-          "finished": false
-        }
-      ],
-      "gw22": [
-        {
-          "opponent_code": 56,
-          "home": 0,
-          "home_label": "a",
-          "finished": false
-        }
-      ],
-      "gw23": [
-        {
-          "opponent_code": 8,
-          "home": 1,
-          "home_label": "h",
-          "finished": false
-        }
-      ],
-      "gw24": [
-        {
-          "opponent_code": 17,
-          "home": 0,
-          "home_label": "a",
-          "finished": false
-        }
-      ],
-      "gw25": [
-        {
-          "opponent_code": 36,
-          "home": 0,
-          "home_label": "a",
-          "finished": false
-        }
-      ],
-      "gw26": [
-        {
-          "opponent_code": 90,
-          "home": 1,
-          "home_label": "h",
-          "finished": false
-        }
-      ],
-      "gw27": [
-        {
-          "opponent_code": 39,
-          "home": 1,
-          "home_label": "h",
-          "finished": false
-        }
-      ],
-      "gw28": [
-        {
-          "opponent_code": 1,
-          "home": 0,
-          "home_label": "a",
-          "finished": false
-        }
-      ],
-      "gw29": [
-        {
-          "opponent_code": 6,
-          "home": 0,
-          "home_label": "a",
-          "finished": false
-        }
-      ],
-      "gw30": [
-        {
-          "opponent_code": 2,
-          "home": 1,
-          "home_label": "h",
-          "finished": false
-        }
-      ],
-      "gw31": [
-        {
-          "opponent_code": 43,
-          "home": 0,
-          "home_label": "a",
-          "finished": false
-        }
-      ],
-      "gw32": [
-        {
-          "opponent_code": 4,
-          "home": 1,
-          "home_label": "h",
-          "finished": false
-        }
-      ],
-      "gw33": [
-        {
-          "opponent_code": 21,
-          "home": 1,
-          "home_label": "h",
-          "finished": false
-        }
-      ],
-      "gw34": [
-        {
-          "opponent_code": 14,
-          "home": 0,
-          "home_label": "a",
-          "finished": false
-        }
-      ],
-      "gw35": [
-        {
-          "opponent_code": 91,
-          "home": 0,
-          "home_label": "a",
-          "finished": false
-        }
-      ],
-      "gw36": [
-        {
-          "opponent_code": 11,
-          "home": 1,
-          "home_label": "h",
-          "finished": false
-        }
-      ],
-      "gw37": [
-        {
-          "opponent_code": 94,
-          "home": 0,
-          "home_label": "a",
-          "finished": false
-        }
-      ],
-      "gw38": [
-        {
-          "opponent_code": 3,
-          "home": 1,
-          "home_label": "h",
-          "finished": false
-        }
-      ]
-    }
-  },
-  {
     "team_code": 17,
     "fixtures": {
       "gw1": [
@@ -4944,11 +4326,11 @@
     }
   },
   {
-    "team_code": 3,
+    "team_code": 31,
     "fixtures": {
       "gw1": [
         {
-          "opponent_code": 1,
+          "opponent_code": 8,
           "home": 0,
           "home_label": "a",
           "finished": false
@@ -4956,7 +4338,7 @@
       ],
       "gw2": [
         {
-          "opponent_code": 2,
+          "opponent_code": 17,
           "home": 1,
           "home_label": "h",
           "finished": false
@@ -4964,7 +4346,7 @@
       ],
       "gw3": [
         {
-          "opponent_code": 14,
+          "opponent_code": 7,
           "home": 0,
           "home_label": "a",
           "finished": false
@@ -4972,7 +4354,7 @@
       ],
       "gw4": [
         {
-          "opponent_code": 17,
+          "opponent_code": 56,
           "home": 1,
           "home_label": "h",
           "finished": false
@@ -4980,133 +4362,13 @@
       ],
       "gw5": [
         {
-          "opponent_code": 43,
-          "home": 1,
-          "home_label": "h",
+          "opponent_code": 21,
+          "home": 0,
+          "home_label": "a",
           "finished": false
         }
       ],
       "gw6": [
-        {
-          "opponent_code": 4,
-          "home": 0,
-          "home_label": "a",
-          "finished": false
-        }
-      ],
-      "gw7": [
-        {
-          "opponent_code": 21,
-          "home": 1,
-          "home_label": "h",
-          "finished": false
-        }
-      ],
-      "gw8": [
-        {
-          "opponent_code": 54,
-          "home": 0,
-          "home_label": "a",
-          "finished": false
-        }
-      ],
-      "gw9": [
-        {
-          "opponent_code": 31,
-          "home": 1,
-          "home_label": "h",
-          "finished": false
-        }
-      ],
-      "gw10": [
-        {
-          "opponent_code": 90,
-          "home": 0,
-          "home_label": "a",
-          "finished": false
-        }
-      ],
-      "gw11": [
-        {
-          "opponent_code": 56,
-          "home": 0,
-          "home_label": "a",
-          "finished": false
-        }
-      ],
-      "gw12": [
-        {
-          "opponent_code": 6,
-          "home": 1,
-          "home_label": "h",
-          "finished": false
-        }
-      ],
-      "gw13": [
-        {
-          "opponent_code": 8,
-          "home": 0,
-          "home_label": "a",
-          "finished": false
-        }
-      ],
-      "gw14": [
-        {
-          "opponent_code": 94,
-          "home": 1,
-          "home_label": "h",
-          "finished": false
-        }
-      ],
-      "gw15": [
-        {
-          "opponent_code": 7,
-          "home": 0,
-          "home_label": "a",
-          "finished": false
-        }
-      ],
-      "gw16": [
-        {
-          "opponent_code": 39,
-          "home": 1,
-          "home_label": "h",
-          "finished": false
-        }
-      ],
-      "gw17": [
-        {
-          "opponent_code": 11,
-          "home": 0,
-          "home_label": "a",
-          "finished": false
-        }
-      ],
-      "gw18": [
-        {
-          "opponent_code": 36,
-          "home": 1,
-          "home_label": "h",
-          "finished": false
-        }
-      ],
-      "gw19": [
-        {
-          "opponent_code": 7,
-          "home": 1,
-          "home_label": "h",
-          "finished": false
-        }
-      ],
-      "gw20": [
-        {
-          "opponent_code": 91,
-          "home": 0,
-          "home_label": "a",
-          "finished": false
-        }
-      ],
-      "gw21": [
         {
           "opponent_code": 14,
           "home": 1,
@@ -5114,87 +4376,15 @@
           "finished": false
         }
       ],
-      "gw22": [
-        {
-          "opponent_code": 17,
-          "home": 0,
-          "home_label": "a",
-          "finished": false
-        }
-      ],
-      "gw23": [
-        {
-          "opponent_code": 1,
-          "home": 1,
-          "home_label": "h",
-          "finished": false
-        }
-      ],
-      "gw24": [
-        {
-          "opponent_code": 2,
-          "home": 0,
-          "home_label": "a",
-          "finished": false
-        }
-      ],
-      "gw25": [
-        {
-          "opponent_code": 56,
-          "home": 1,
-          "home_label": "h",
-          "finished": false
-        }
-      ],
-      "gw26": [
-        {
-          "opponent_code": 94,
-          "home": 0,
-          "home_label": "a",
-          "finished": false
-        }
-      ],
-      "gw27": [
-        {
-          "opponent_code": 6,
-          "home": 0,
-          "home_label": "a",
-          "finished": false
-        }
-      ],
-      "gw28": [
-        {
-          "opponent_code": 8,
-          "home": 1,
-          "home_label": "h",
-          "finished": false
-        }
-      ],
-      "gw29": [
-        {
-          "opponent_code": 36,
-          "home": 0,
-          "home_label": "a",
-          "finished": false
-        }
-      ],
-      "gw30": [
+      "gw7": [
         {
           "opponent_code": 11,
-          "home": 1,
-          "home_label": "h",
-          "finished": false
-        }
-      ],
-      "gw31": [
-        {
-          "opponent_code": 39,
           "home": 0,
           "home_label": "a",
           "finished": false
         }
       ],
-      "gw32": [
+      "gw8": [
         {
           "opponent_code": 91,
           "home": 1,
@@ -5202,23 +4392,87 @@
           "finished": false
         }
       ],
-      "gw33": [
+      "gw9": [
         {
-          "opponent_code": 43,
+          "opponent_code": 3,
           "home": 0,
           "home_label": "a",
           "finished": false
         }
       ],
-      "gw34": [
+      "gw10": [
         {
-          "opponent_code": 4,
+          "opponent_code": 94,
           "home": 1,
           "home_label": "h",
           "finished": false
         }
       ],
-      "gw35": [
+      "gw11": [
+        {
+          "opponent_code": 36,
+          "home": 1,
+          "home_label": "h",
+          "finished": false
+        }
+      ],
+      "gw12": [
+        {
+          "opponent_code": 39,
+          "home": 0,
+          "home_label": "a",
+          "finished": false
+        }
+      ],
+      "gw13": [
+        {
+          "opponent_code": 1,
+          "home": 1,
+          "home_label": "h",
+          "finished": false
+        }
+      ],
+      "gw14": [
+        {
+          "opponent_code": 90,
+          "home": 0,
+          "home_label": "a",
+          "finished": false
+        }
+      ],
+      "gw15": [
+        {
+          "opponent_code": 54,
+          "home": 0,
+          "home_label": "a",
+          "finished": false
+        }
+      ],
+      "gw16": [
+        {
+          "opponent_code": 43,
+          "home": 1,
+          "home_label": "h",
+          "finished": false
+        }
+      ],
+      "gw17": [
+        {
+          "opponent_code": 2,
+          "home": 0,
+          "home_label": "a",
+          "finished": false
+        }
+      ],
+      "gw18": [
+        {
+          "opponent_code": 6,
+          "home": 1,
+          "home_label": "h",
+          "finished": false
+        }
+      ],
+      "gw19": [
         {
           "opponent_code": 54,
           "home": 1,
@@ -5226,15 +4480,55 @@
           "finished": false
         }
       ],
-      "gw36": [
+      "gw20": [
         {
-          "opponent_code": 21,
+          "opponent_code": 4,
           "home": 0,
           "home_label": "a",
           "finished": false
         }
       ],
-      "gw37": [
+      "gw21": [
+        {
+          "opponent_code": 7,
+          "home": 1,
+          "home_label": "h",
+          "finished": false
+        }
+      ],
+      "gw22": [
+        {
+          "opponent_code": 56,
+          "home": 0,
+          "home_label": "a",
+          "finished": false
+        }
+      ],
+      "gw23": [
+        {
+          "opponent_code": 8,
+          "home": 1,
+          "home_label": "h",
+          "finished": false
+        }
+      ],
+      "gw24": [
+        {
+          "opponent_code": 17,
+          "home": 0,
+          "home_label": "a",
+          "finished": false
+        }
+      ],
+      "gw25": [
+        {
+          "opponent_code": 36,
+          "home": 0,
+          "home_label": "a",
+          "finished": false
+        }
+      ],
+      "gw26": [
         {
           "opponent_code": 90,
           "home": 1,
@@ -5242,9 +4536,406 @@
           "finished": false
         }
       ],
+      "gw27": [
+        {
+          "opponent_code": 39,
+          "home": 1,
+          "home_label": "h",
+          "finished": false
+        }
+      ],
+      "gw28": [
+        {
+          "opponent_code": 1,
+          "home": 0,
+          "home_label": "a",
+          "finished": false
+        }
+      ],
+      "gw29": [
+        {
+          "opponent_code": 6,
+          "home": 0,
+          "home_label": "a",
+          "finished": false
+        }
+      ],
+      "gw30": [
+        {
+          "opponent_code": 2,
+          "home": 1,
+          "home_label": "h",
+          "finished": false
+        }
+      ],
+      "gw31": [
+        {
+          "opponent_code": 43,
+          "home": 0,
+          "home_label": "a",
+          "finished": false
+        }
+      ],
+      "gw32": [
+        {
+          "opponent_code": 4,
+          "home": 1,
+          "home_label": "h",
+          "finished": false
+        }
+      ],
+      "gw33": [
+        {
+          "opponent_code": 21,
+          "home": 1,
+          "home_label": "h",
+          "finished": false
+        }
+      ],
+      "gw34": [
+        {
+          "opponent_code": 14,
+          "home": 0,
+          "home_label": "a",
+          "finished": false
+        }
+      ],
+      "gw35": [
+        {
+          "opponent_code": 91,
+          "home": 0,
+          "home_label": "a",
+          "finished": false
+        }
+      ],
+      "gw36": [
+        {
+          "opponent_code": 11,
+          "home": 1,
+          "home_label": "h",
+          "finished": false
+        }
+      ],
+      "gw37": [
+        {
+          "opponent_code": 94,
+          "home": 0,
+          "home_label": "a",
+          "finished": false
+        }
+      ],
       "gw38": [
         {
+          "opponent_code": 3,
+          "home": 1,
+          "home_label": "h",
+          "finished": false
+        }
+      ]
+    }
+  },
+  {
+    "team_code": 94,
+    "fixtures": {
+      "gw1": [
+        {
+          "opponent_code": 17,
+          "home": 0,
+          "home_label": "a",
+          "finished": false
+        }
+      ],
+      "gw2": [
+        {
+          "opponent_code": 7,
+          "home": 1,
+          "home_label": "h",
+          "finished": false
+        }
+      ],
+      "gw3": [
+        {
+          "opponent_code": 56,
+          "home": 0,
+          "home_label": "a",
+          "finished": false
+        }
+      ],
+      "gw4": [
+        {
+          "opponent_code": 8,
+          "home": 1,
+          "home_label": "h",
+          "finished": false
+        }
+      ],
+      "gw5": [
+        {
+          "opponent_code": 54,
+          "home": 0,
+          "home_label": "a",
+          "finished": false
+        }
+      ],
+      "gw6": [
+        {
+          "opponent_code": 1,
+          "home": 1,
+          "home_label": "h",
+          "finished": false
+        }
+      ],
+      "gw7": [
+        {
+          "opponent_code": 43,
+          "home": 1,
+          "home_label": "h",
+          "finished": false
+        }
+      ],
+      "gw8": [
+        {
+          "opponent_code": 21,
+          "home": 0,
+          "home_label": "a",
+          "finished": false
+        }
+      ],
+      "gw9": [
+        {
+          "opponent_code": 14,
+          "home": 1,
+          "home_label": "h",
+          "finished": false
+        }
+      ],
+      "gw10": [
+        {
           "opponent_code": 31,
+          "home": 0,
+          "home_label": "a",
+          "finished": false
+        }
+      ],
+      "gw11": [
+        {
+          "opponent_code": 4,
+          "home": 1,
+          "home_label": "h",
+          "finished": false
+        }
+      ],
+      "gw12": [
+        {
+          "opponent_code": 36,
+          "home": 0,
+          "home_label": "a",
+          "finished": false
+        }
+      ],
+      "gw13": [
+        {
+          "opponent_code": 90,
+          "home": 1,
+          "home_label": "h",
+          "finished": false
+        }
+      ],
+      "gw14": [
+        {
+          "opponent_code": 3,
+          "home": 0,
+          "home_label": "a",
+          "finished": false
+        }
+      ],
+      "gw15": [
+        {
+          "opponent_code": 6,
+          "home": 0,
+          "home_label": "a",
+          "finished": false
+        }
+      ],
+      "gw16": [
+        {
+          "opponent_code": 2,
+          "home": 1,
+          "home_label": "h",
+          "finished": false
+        }
+      ],
+      "gw17": [
+        {
+          "opponent_code": 39,
+          "home": 0,
+          "home_label": "a",
+          "finished": false
+        }
+      ],
+      "gw18": [
+        {
+          "opponent_code": 91,
+          "home": 1,
+          "home_label": "h",
+          "finished": false
+        }
+      ],
+      "gw19": [
+        {
+          "opponent_code": 6,
+          "home": 1,
+          "home_label": "h",
+          "finished": false
+        }
+      ],
+      "gw20": [
+        {
+          "opponent_code": 11,
+          "home": 0,
+          "home_label": "a",
+          "finished": false
+        }
+      ],
+      "gw21": [
+        {
+          "opponent_code": 56,
+          "home": 1,
+          "home_label": "h",
+          "finished": false
+        }
+      ],
+      "gw22": [
+        {
+          "opponent_code": 8,
+          "home": 0,
+          "home_label": "a",
+          "finished": false
+        }
+      ],
+      "gw23": [
+        {
+          "opponent_code": 17,
+          "home": 1,
+          "home_label": "h",
+          "finished": false
+        }
+      ],
+      "gw24": [
+        {
+          "opponent_code": 7,
+          "home": 0,
+          "home_label": "a",
+          "finished": false
+        }
+      ],
+      "gw25": [
+        {
+          "opponent_code": 4,
+          "home": 0,
+          "home_label": "a",
+          "finished": false
+        }
+      ],
+      "gw26": [
+        {
+          "opponent_code": 3,
+          "home": 1,
+          "home_label": "h",
+          "finished": false
+        }
+      ],
+      "gw27": [
+        {
+          "opponent_code": 36,
+          "home": 1,
+          "home_label": "h",
+          "finished": false
+        }
+      ],
+      "gw28": [
+        {
+          "opponent_code": 90,
+          "home": 0,
+          "home_label": "a",
+          "finished": false
+        }
+      ],
+      "gw29": [
+        {
+          "opponent_code": 91,
+          "home": 0,
+          "home_label": "a",
+          "finished": false
+        }
+      ],
+      "gw30": [
+        {
+          "opponent_code": 39,
+          "home": 1,
+          "home_label": "h",
+          "finished": false
+        }
+      ],
+      "gw31": [
+        {
+          "opponent_code": 2,
+          "home": 0,
+          "home_label": "a",
+          "finished": false
+        }
+      ],
+      "gw32": [
+        {
+          "opponent_code": 11,
+          "home": 1,
+          "home_label": "h",
+          "finished": false
+        }
+      ],
+      "gw33": [
+        {
+          "opponent_code": 54,
+          "home": 1,
+          "home_label": "h",
+          "finished": false
+        }
+      ],
+      "gw34": [
+        {
+          "opponent_code": 1,
+          "home": 0,
+          "home_label": "a",
+          "finished": false
+        }
+      ],
+      "gw35": [
+        {
+          "opponent_code": 21,
+          "home": 1,
+          "home_label": "h",
+          "finished": false
+        }
+      ],
+      "gw36": [
+        {
+          "opponent_code": 43,
+          "home": 0,
+          "home_label": "a",
+          "finished": false
+        }
+      ],
+      "gw37": [
+        {
+          "opponent_code": 31,
+          "home": 1,
+          "home_label": "h",
+          "finished": false
+        }
+      ],
+      "gw38": [
+        {
+          "opponent_code": 14,
           "home": 0,
           "home_label": "a",
           "finished": false
@@ -5562,11 +5253,11 @@
     }
   },
   {
-    "team_code": 11,
+    "team_code": 3,
     "fixtures": {
       "gw1": [
         {
-          "opponent_code": 2,
+          "opponent_code": 1,
           "home": 0,
           "home_label": "a",
           "finished": false
@@ -5574,7 +5265,7 @@
       ],
       "gw2": [
         {
-          "opponent_code": 36,
+          "opponent_code": 2,
           "home": 1,
           "home_label": "h",
           "finished": false
@@ -5582,7 +5273,7 @@
       ],
       "gw3": [
         {
-          "opponent_code": 39,
+          "opponent_code": 14,
           "home": 0,
           "home_label": "a",
           "finished": false
@@ -5590,7 +5281,7 @@
       ],
       "gw4": [
         {
-          "opponent_code": 7,
+          "opponent_code": 17,
           "home": 1,
           "home_label": "h",
           "finished": false
@@ -5598,23 +5289,23 @@
       ],
       "gw5": [
         {
-          "opponent_code": 14,
-          "home": 0,
-          "home_label": "a",
-          "finished": false
-        }
-      ],
-      "gw6": [
-        {
-          "opponent_code": 21,
+          "opponent_code": 43,
           "home": 1,
           "home_label": "h",
           "finished": false
         }
       ],
+      "gw6": [
+        {
+          "opponent_code": 4,
+          "home": 0,
+          "home_label": "a",
+          "finished": false
+        }
+      ],
       "gw7": [
         {
-          "opponent_code": 31,
+          "opponent_code": 21,
           "home": 1,
           "home_label": "h",
           "finished": false
@@ -5622,7 +5313,7 @@
       ],
       "gw8": [
         {
-          "opponent_code": 43,
+          "opponent_code": 54,
           "home": 0,
           "home_label": "a",
           "finished": false
@@ -5630,7 +5321,7 @@
       ],
       "gw9": [
         {
-          "opponent_code": 6,
+          "opponent_code": 31,
           "home": 1,
           "home_label": "h",
           "finished": false
@@ -5638,7 +5329,7 @@
       ],
       "gw10": [
         {
-          "opponent_code": 56,
+          "opponent_code": 90,
           "home": 0,
           "home_label": "a",
           "finished": false
@@ -5646,45 +5337,21 @@
       ],
       "gw11": [
         {
-          "opponent_code": 54,
-          "home": 1,
-          "home_label": "h",
+          "opponent_code": 56,
+          "home": 0,
+          "home_label": "a",
           "finished": false
         }
       ],
       "gw12": [
         {
-          "opponent_code": 1,
-          "home": 0,
-          "home_label": "a",
+          "opponent_code": 6,
+          "home": 1,
+          "home_label": "h",
           "finished": false
         }
       ],
       "gw13": [
-        {
-          "opponent_code": 4,
-          "home": 1,
-          "home_label": "h",
-          "finished": false
-        }
-      ],
-      "gw14": [
-        {
-          "opponent_code": 91,
-          "home": 0,
-          "home_label": "a",
-          "finished": false
-        }
-      ],
-      "gw15": [
-        {
-          "opponent_code": 17,
-          "home": 1,
-          "home_label": "h",
-          "finished": false
-        }
-      ],
-      "gw16": [
         {
           "opponent_code": 8,
           "home": 0,
@@ -5692,31 +5359,7 @@
           "finished": false
         }
       ],
-      "gw17": [
-        {
-          "opponent_code": 3,
-          "home": 1,
-          "home_label": "h",
-          "finished": false
-        }
-      ],
-      "gw18": [
-        {
-          "opponent_code": 90,
-          "home": 0,
-          "home_label": "a",
-          "finished": false
-        }
-      ],
-      "gw19": [
-        {
-          "opponent_code": 17,
-          "home": 0,
-          "home_label": "a",
-          "finished": false
-        }
-      ],
-      "gw20": [
+      "gw14": [
         {
           "opponent_code": 94,
           "home": 1,
@@ -5724,15 +5367,7 @@
           "finished": false
         }
       ],
-      "gw21": [
-        {
-          "opponent_code": 39,
-          "home": 1,
-          "home_label": "h",
-          "finished": false
-        }
-      ],
-      "gw22": [
+      "gw15": [
         {
           "opponent_code": 7,
           "home": 0,
@@ -5740,87 +5375,47 @@
           "finished": false
         }
       ],
-      "gw23": [
+      "gw16": [
         {
-          "opponent_code": 2,
+          "opponent_code": 39,
           "home": 1,
           "home_label": "h",
           "finished": false
         }
       ],
-      "gw24": [
+      "gw17": [
+        {
+          "opponent_code": 11,
+          "home": 0,
+          "home_label": "a",
+          "finished": false
+        }
+      ],
+      "gw18": [
         {
           "opponent_code": 36,
-          "home": 0,
-          "home_label": "a",
+          "home": 1,
+          "home_label": "h",
           "finished": false
         }
       ],
-      "gw25": [
+      "gw19": [
         {
-          "opponent_code": 54,
-          "home": 0,
-          "home_label": "a",
+          "opponent_code": 7,
+          "home": 1,
+          "home_label": "h",
           "finished": false
         }
       ],
-      "gw26": [
+      "gw20": [
         {
           "opponent_code": 91,
-          "home": 1,
-          "home_label": "h",
-          "finished": false
-        }
-      ],
-      "gw27": [
-        {
-          "opponent_code": 1,
-          "home": 1,
-          "home_label": "h",
-          "finished": false
-        }
-      ],
-      "gw28": [
-        {
-          "opponent_code": 4,
           "home": 0,
           "home_label": "a",
           "finished": false
         }
       ],
-      "gw29": [
-        {
-          "opponent_code": 90,
-          "home": 1,
-          "home_label": "h",
-          "finished": false
-        }
-      ],
-      "gw30": [
-        {
-          "opponent_code": 3,
-          "home": 0,
-          "home_label": "a",
-          "finished": false
-        }
-      ],
-      "gw31": [
-        {
-          "opponent_code": 8,
-          "home": 1,
-          "home_label": "h",
-          "finished": false
-        }
-      ],
-      "gw32": [
-        {
-          "opponent_code": 94,
-          "home": 0,
-          "home_label": "a",
-          "finished": false
-        }
-      ],
-      "gw33": [
+      "gw21": [
         {
           "opponent_code": 14,
           "home": 1,
@@ -5828,31 +5423,31 @@
           "finished": false
         }
       ],
-      "gw34": [
+      "gw22": [
         {
-          "opponent_code": 21,
+          "opponent_code": 17,
           "home": 0,
           "home_label": "a",
           "finished": false
         }
       ],
-      "gw35": [
+      "gw23": [
         {
-          "opponent_code": 43,
+          "opponent_code": 1,
           "home": 1,
           "home_label": "h",
           "finished": false
         }
       ],
-      "gw36": [
+      "gw24": [
         {
-          "opponent_code": 31,
+          "opponent_code": 2,
           "home": 0,
           "home_label": "a",
           "finished": false
         }
       ],
-      "gw37": [
+      "gw25": [
         {
           "opponent_code": 56,
           "home": 1,
@@ -5860,9 +5455,105 @@
           "finished": false
         }
       ],
-      "gw38": [
+      "gw26": [
+        {
+          "opponent_code": 94,
+          "home": 0,
+          "home_label": "a",
+          "finished": false
+        }
+      ],
+      "gw27": [
         {
           "opponent_code": 6,
+          "home": 0,
+          "home_label": "a",
+          "finished": false
+        }
+      ],
+      "gw28": [
+        {
+          "opponent_code": 8,
+          "home": 1,
+          "home_label": "h",
+          "finished": false
+        }
+      ],
+      "gw29": [
+        {
+          "opponent_code": 36,
+          "home": 0,
+          "home_label": "a",
+          "finished": false
+        }
+      ],
+      "gw30": [
+        {
+          "opponent_code": 11,
+          "home": 1,
+          "home_label": "h",
+          "finished": false
+        }
+      ],
+      "gw31": [
+        {
+          "opponent_code": 39,
+          "home": 0,
+          "home_label": "a",
+          "finished": false
+        }
+      ],
+      "gw32": [
+        {
+          "opponent_code": 91,
+          "home": 1,
+          "home_label": "h",
+          "finished": false
+        }
+      ],
+      "gw33": [
+        {
+          "opponent_code": 43,
+          "home": 0,
+          "home_label": "a",
+          "finished": false
+        }
+      ],
+      "gw34": [
+        {
+          "opponent_code": 4,
+          "home": 1,
+          "home_label": "h",
+          "finished": false
+        }
+      ],
+      "gw35": [
+        {
+          "opponent_code": 54,
+          "home": 1,
+          "home_label": "h",
+          "finished": false
+        }
+      ],
+      "gw36": [
+        {
+          "opponent_code": 21,
+          "home": 0,
+          "home_label": "a",
+          "finished": false
+        }
+      ],
+      "gw37": [
+        {
+          "opponent_code": 90,
+          "home": 1,
+          "home_label": "h",
+          "finished": false
+        }
+      ],
+      "gw38": [
+        {
+          "opponent_code": 31,
           "home": 0,
           "home_label": "a",
           "finished": false
@@ -6172,6 +5863,315 @@
       "gw38": [
         {
           "opponent_code": 21,
+          "home": 0,
+          "home_label": "a",
+          "finished": false
+        }
+      ]
+    }
+  },
+  {
+    "team_code": 11,
+    "fixtures": {
+      "gw1": [
+        {
+          "opponent_code": 2,
+          "home": 0,
+          "home_label": "a",
+          "finished": false
+        }
+      ],
+      "gw2": [
+        {
+          "opponent_code": 36,
+          "home": 1,
+          "home_label": "h",
+          "finished": false
+        }
+      ],
+      "gw3": [
+        {
+          "opponent_code": 39,
+          "home": 0,
+          "home_label": "a",
+          "finished": false
+        }
+      ],
+      "gw4": [
+        {
+          "opponent_code": 7,
+          "home": 1,
+          "home_label": "h",
+          "finished": false
+        }
+      ],
+      "gw5": [
+        {
+          "opponent_code": 14,
+          "home": 0,
+          "home_label": "a",
+          "finished": false
+        }
+      ],
+      "gw6": [
+        {
+          "opponent_code": 21,
+          "home": 1,
+          "home_label": "h",
+          "finished": false
+        }
+      ],
+      "gw7": [
+        {
+          "opponent_code": 31,
+          "home": 1,
+          "home_label": "h",
+          "finished": false
+        }
+      ],
+      "gw8": [
+        {
+          "opponent_code": 43,
+          "home": 0,
+          "home_label": "a",
+          "finished": false
+        }
+      ],
+      "gw9": [
+        {
+          "opponent_code": 6,
+          "home": 1,
+          "home_label": "h",
+          "finished": false
+        }
+      ],
+      "gw10": [
+        {
+          "opponent_code": 56,
+          "home": 0,
+          "home_label": "a",
+          "finished": false
+        }
+      ],
+      "gw11": [
+        {
+          "opponent_code": 54,
+          "home": 1,
+          "home_label": "h",
+          "finished": false
+        }
+      ],
+      "gw12": [
+        {
+          "opponent_code": 1,
+          "home": 0,
+          "home_label": "a",
+          "finished": false
+        }
+      ],
+      "gw13": [
+        {
+          "opponent_code": 4,
+          "home": 1,
+          "home_label": "h",
+          "finished": false
+        }
+      ],
+      "gw14": [
+        {
+          "opponent_code": 91,
+          "home": 0,
+          "home_label": "a",
+          "finished": false
+        }
+      ],
+      "gw15": [
+        {
+          "opponent_code": 17,
+          "home": 1,
+          "home_label": "h",
+          "finished": false
+        }
+      ],
+      "gw16": [
+        {
+          "opponent_code": 8,
+          "home": 0,
+          "home_label": "a",
+          "finished": false
+        }
+      ],
+      "gw17": [
+        {
+          "opponent_code": 3,
+          "home": 1,
+          "home_label": "h",
+          "finished": false
+        }
+      ],
+      "gw18": [
+        {
+          "opponent_code": 90,
+          "home": 0,
+          "home_label": "a",
+          "finished": false
+        }
+      ],
+      "gw19": [
+        {
+          "opponent_code": 17,
+          "home": 0,
+          "home_label": "a",
+          "finished": false
+        }
+      ],
+      "gw20": [
+        {
+          "opponent_code": 94,
+          "home": 1,
+          "home_label": "h",
+          "finished": false
+        }
+      ],
+      "gw21": [
+        {
+          "opponent_code": 39,
+          "home": 1,
+          "home_label": "h",
+          "finished": false
+        }
+      ],
+      "gw22": [
+        {
+          "opponent_code": 7,
+          "home": 0,
+          "home_label": "a",
+          "finished": false
+        }
+      ],
+      "gw23": [
+        {
+          "opponent_code": 2,
+          "home": 1,
+          "home_label": "h",
+          "finished": false
+        }
+      ],
+      "gw24": [
+        {
+          "opponent_code": 36,
+          "home": 0,
+          "home_label": "a",
+          "finished": false
+        }
+      ],
+      "gw25": [
+        {
+          "opponent_code": 54,
+          "home": 0,
+          "home_label": "a",
+          "finished": false
+        }
+      ],
+      "gw26": [
+        {
+          "opponent_code": 91,
+          "home": 1,
+          "home_label": "h",
+          "finished": false
+        }
+      ],
+      "gw27": [
+        {
+          "opponent_code": 1,
+          "home": 1,
+          "home_label": "h",
+          "finished": false
+        }
+      ],
+      "gw28": [
+        {
+          "opponent_code": 4,
+          "home": 0,
+          "home_label": "a",
+          "finished": false
+        }
+      ],
+      "gw29": [
+        {
+          "opponent_code": 90,
+          "home": 1,
+          "home_label": "h",
+          "finished": false
+        }
+      ],
+      "gw30": [
+        {
+          "opponent_code": 3,
+          "home": 0,
+          "home_label": "a",
+          "finished": false
+        }
+      ],
+      "gw31": [
+        {
+          "opponent_code": 8,
+          "home": 1,
+          "home_label": "h",
+          "finished": false
+        }
+      ],
+      "gw32": [
+        {
+          "opponent_code": 94,
+          "home": 0,
+          "home_label": "a",
+          "finished": false
+        }
+      ],
+      "gw33": [
+        {
+          "opponent_code": 14,
+          "home": 1,
+          "home_label": "h",
+          "finished": false
+        }
+      ],
+      "gw34": [
+        {
+          "opponent_code": 21,
+          "home": 0,
+          "home_label": "a",
+          "finished": false
+        }
+      ],
+      "gw35": [
+        {
+          "opponent_code": 43,
+          "home": 1,
+          "home_label": "h",
+          "finished": false
+        }
+      ],
+      "gw36": [
+        {
+          "opponent_code": 31,
+          "home": 0,
+          "home_label": "a",
+          "finished": false
+        }
+      ],
+      "gw37": [
+        {
+          "opponent_code": 56,
+          "home": 1,
+          "home_label": "h",
+          "finished": false
+        }
+      ],
+      "gw38": [
+        {
+          "opponent_code": 6,
           "home": 0,
           "home_label": "a",
           "finished": false

@@ -212,7 +212,7 @@ Promise.all([
     // === Team Rows with Fixture Data ===
     sortedTeams.forEach(team => {
       const row = tbody.append("tr");
-      console.log(getMetric(fixturesByTeam.get(team.team_code)?.[0], gameweeksToShow))
+      // console.log(getMetric(fixturesByTeam.get(team.team_code)?.[0], gameweeksToShow))
 
       // Add rank number
       row.append("td").text(`${sortedTeams.indexOf(team) + 1}.`).attr("class", "ticker-cell-rank");
