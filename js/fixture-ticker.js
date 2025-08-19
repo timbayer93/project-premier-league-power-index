@@ -152,7 +152,8 @@ Promise.all([
 
     // === Get user inputs ===
     const activeGWInput = document.getElementById("active-gw-input");
-
+    
+    // console.log(activeGWInput.value)
     let activeGW;
     if (activeGWInput && activeGWInput.value !== "") {
       activeGW = parseInt(activeGWInput.value, 10);
@@ -160,6 +161,7 @@ Promise.all([
       // If active-gw not set (first load, fall back to config.js)
       activeGW = config.active_gw + 1;
     }
+    // console.log(activeGW)
 
 
     const numGwsToShow = parseInt(document.getElementById("num-gws-input").value);
@@ -482,7 +484,7 @@ Promise.all([
   // Set active GW input from config loaded via Promise.all, then render chart
   const activeGwInput = document.getElementById("active-gw-input");
   if (activeGwInput && config.active_gw) {
-    activeGwInput.value = config.active_gw;
+    activeGwInput.value = config.active_gw + 1;
   }
 
   // Initial load -- after set active GW

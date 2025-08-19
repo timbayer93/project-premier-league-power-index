@@ -2,10 +2,35 @@
 
 Promise.all([
   d3.json("data/d3_teams.json"),
+  d3.json("data/d3_gameweeks.json"),
   d3.json("data/d3_match_forecasts.json"),
   d3.json("data/d3_score_matrix.json"),
   d3.json("data/d3_config.json")
-]).then(([teamInfo, fixtures, scoreMatrix, config]) => {
+]).then(([teamInfo, gameweeks, matchForecasts, scoreMatrix, config]) => {
+
+  // Function to find current Gameweek based on match dates
+  function getCurrentGW(gameweeks, today = Date.now()) {
+    for (let i = 0; i < gameweeks.length; i++) {
+      const gw = gameweeks[i];
+
+      // Case 1: today is within this gw
+      if (today >= gw.start && today <= gw.end) {
+        return gw;
+      }
+
+      // Case 2: today is after this gw but before next gw starts
+      const nextGW = gameweeks[i + 1];
+      if (nextGW && today > gw.end && today < nextGW.start) {
+        return nextGW;
+      }
+    }
+
+    // Optional fallback: if today is after the last gw
+    return null;
+  }
+
+  // get current GW (different to active GW)
+  const currentGW = getCurrentGW(gameweeks).gw; 
 
   // Load the data
   const fixture = scoreMatrix[0];
@@ -13,19 +38,20 @@ Promise.all([
   const matrix = fixture.score_matrix;
 
   const selector = d3.select("#match-selector");
-  const filteredFixtures = fixtures.filter(
-    d => d.gw === config.active_gw + 1 && d.match_date >= Date.now()
+  const filteredmatchForecasts = matchForecasts.filter(
+    d => d.gw === currentGW && d.match_date >= Date.now()
+    // d => d.gw === currentGW && d.match_date >= Date.now() + 4 * 24 * 60 * 60 * 1000
   )
 
   selector.selectAll("option")
-    .data(filteredFixtures)
+    .data(filteredmatchForecasts)
     .enter()
     .append("option")
     .attr("value", d => d.fixture_id)
     .text(d => `${d.home_team} vs. ${d.away_team} (GW${d.gw})`);
 
   // Get relevant fixture information
-  // const matchedFixture = fixtures.find(f => f.fixture_id === fixtureId);
+  // const matchedFixture = matchForecasts.find(f => f.fixture_id === fixtureId);
   // const homeTeamName = matchedFixture.home_team;
   // const awayTeamName = matchedFixture.away_team;
 
@@ -69,7 +95,7 @@ Promise.all([
     const fixture = scoreMatrix.find(f => f.fixture_id == fixtureId);
     if (!fixture) return;
 
-    const matchedFixture = fixtures.find(f => f.fixture_id == fixtureId);
+    const matchedFixture = matchForecasts.find(f => f.fixture_id == fixtureId);
     if (!matchedFixture) return;
     const formatDate = d3.timeFormat("%d %B %Y");
     const homeTeamName = matchedFixture.home_team;
@@ -589,7 +615,7 @@ Promise.all([
 
   }
 
-  let currentFixtureId = fixtures[0].fixture_id;
+  let currentFixtureId = filteredmatchForecasts[0].fixture_id;
   drawMatchForecast(currentFixtureId);
 
   const container = document.querySelector(".match-forecasts-container");

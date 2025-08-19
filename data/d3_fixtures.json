@@ -7,7 +7,7 @@
           "opponent_code": 91,
           "home": 1,
           "home_label": "h",
-          "finished": false
+          "finished": true
         }
       ],
       "gw2": [
@@ -316,7 +316,7 @@
           "opponent_code": 14,
           "home": 0,
           "home_label": "a",
-          "finished": false
+          "finished": true
         }
       ],
       "gw2": [
@@ -625,7 +625,7 @@
           "opponent_code": 7,
           "home": 0,
           "home_label": "a",
-          "finished": false
+          "finished": true
         }
       ],
       "gw2": [
@@ -934,7 +934,7 @@
           "opponent_code": 4,
           "home": 1,
           "home_label": "h",
-          "finished": false
+          "finished": true
         }
       ],
       "gw2": [
@@ -1243,7 +1243,7 @@
           "opponent_code": 90,
           "home": 1,
           "home_label": "h",
-          "finished": false
+          "finished": true
         }
       ],
       "gw2": [
@@ -1552,7 +1552,7 @@
           "opponent_code": 56,
           "home": 0,
           "home_label": "a",
-          "finished": false
+          "finished": true
         }
       ],
       "gw2": [
@@ -1861,7 +1861,7 @@
           "opponent_code": 54,
           "home": 1,
           "home_label": "h",
-          "finished": false
+          "finished": true
         }
       ],
       "gw2": [
@@ -2170,7 +2170,7 @@
           "opponent_code": 36,
           "home": 0,
           "home_label": "a",
-          "finished": false
+          "finished": true
         }
       ],
       "gw2": [
@@ -2479,7 +2479,7 @@
           "opponent_code": 21,
           "home": 1,
           "home_label": "h",
-          "finished": false
+          "finished": true
         }
       ],
       "gw2": [
@@ -2788,7 +2788,7 @@
           "opponent_code": 6,
           "home": 0,
           "home_label": "a",
-          "finished": false
+          "finished": true
         }
       ],
       "gw2": [
@@ -3097,7 +3097,7 @@
           "opponent_code": 43,
           "home": 1,
           "home_label": "h",
-          "finished": false
+          "finished": true
         }
       ],
       "gw2": [
@@ -3406,7 +3406,7 @@
           "opponent_code": 39,
           "home": 0,
           "home_label": "a",
-          "finished": false
+          "finished": true
         }
       ],
       "gw2": [
@@ -3715,7 +3715,7 @@
           "opponent_code": 31,
           "home": 1,
           "home_label": "h",
-          "finished": false
+          "finished": true
         }
       ],
       "gw2": [
@@ -4024,7 +4024,7 @@
           "opponent_code": 94,
           "home": 1,
           "home_label": "h",
-          "finished": false
+          "finished": true
         }
       ],
       "gw2": [
@@ -4333,7 +4333,7 @@
           "opponent_code": 8,
           "home": 0,
           "home_label": "a",
-          "finished": false
+          "finished": true
         }
       ],
       "gw2": [
@@ -4642,7 +4642,7 @@
           "opponent_code": 17,
           "home": 0,
           "home_label": "a",
-          "finished": false
+          "finished": true
         }
       ],
       "gw2": [
@@ -4951,7 +4951,7 @@
           "opponent_code": 3,
           "home": 1,
           "home_label": "h",
-          "finished": false
+          "finished": true
         }
       ],
       "gw2": [
@@ -5260,7 +5260,7 @@
           "opponent_code": 1,
           "home": 0,
           "home_label": "a",
-          "finished": false
+          "finished": true
         }
       ],
       "gw2": [
@@ -5569,7 +5569,7 @@
           "opponent_code": 11,
           "home": 1,
           "home_label": "h",
-          "finished": false
+          "finished": true
         }
       ],
       "gw2": [
@@ -5878,7 +5878,7 @@
           "opponent_code": 2,
           "home": 0,
           "home_label": "a",
-          "finished": false
+          "finished": true
         }
       ],
       "gw2": [
