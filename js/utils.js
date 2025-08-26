@@ -5,10 +5,10 @@ document.addEventListener("DOMContentLoaded", () => {
     .then(config => {
 
       // Update Season Name in Header
-      const seasonNameSpan = document.querySelector('.season-name');
-      if (seasonNameSpan && config.season) {
-        seasonNameSpan.textContent = `20${config.season}-${config.season+1} SEASON`;
-      };
+      // const seasonNameSpan = document.querySelector('.season-name');
+      // if (seasonNameSpan && config.season) {
+      //   seasonNameSpan.textContent = `20${config.season}-${config.season+1} SEASON`;
+      // };
 
       // Update Last Updated Indicator
       const lastUpdatedSpan = document.getElementById('last-updated-text');

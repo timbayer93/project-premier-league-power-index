@@ -10,17 +10,22 @@ Promise.all([
 
   // Function to find current Gameweek based on match dates
   function getCurrentGW(gameweeks, today = Date.now()) {
+    // normalize today to midnight (strip hours/mins/secs)
+    const todayMidnight = new Date(today);
+    todayMidnight.setHours(0, 0, 0, 0);
+    const todayMs = todayMidnight.getTime();
+
     for (let i = 0; i < gameweeks.length; i++) {
       const gw = gameweeks[i];
 
       // Case 1: today is within this gw
-      if (today >= gw.start && today <= gw.end) {
+      if (todayMs >= gw.start && todayMs <= gw.end) {
         return gw;
       }
 
       // Case 2: today is after this gw but before next gw starts
       const nextGW = gameweeks[i + 1];
-      if (nextGW && today > gw.end && today < nextGW.start) {
+      if (nextGW && todayMs > gw.end && todayMs < nextGW.start) {
         return nextGW;
       }
     }
