@@ -39,13 +39,13 @@
     "team_code": 8,
     "team_short": "CHE",
     "team": "Chelsea",
-    "league_position": 4
+    "league_position": 5
   },
   {
     "team_code": 31,
     "team_short": "CRY",
     "team": "Crystal Palace",
-    "league_position": 5
+    "league_position": 4
   },
   {
     "team_code": 11,
@@ -69,7 +69,7 @@
     "team_code": 14,
     "team_short": "LIV",
     "team": "Liverpool",
-    "league_position": 9
+    "league_position": 10
   },
   {
     "team_code": 43,
@@ -81,13 +81,13 @@
     "team_code": 1,
     "team_short": "MUN",
     "team": "Man Utd",
-    "league_position": 12
+    "league_position": 8
   },
   {
     "team_code": 4,
     "team_short": "NEW",
     "team": "Newcastle",
-    "league_position": 11
+    "league_position": 12
   },
   {
     "team_code": 17,
@@ -99,13 +99,13 @@
     "team_code": 56,
     "team_short": "SUN",
     "team": "Sunderland",
-    "league_position": 8
+    "league_position": 9
   },
   {
     "team_code": 6,
     "team_short": "TOT",
     "team": "Spurs",
-    "league_position": 10
+    "league_position": 11
   },
   {
     "team_code": 21,
