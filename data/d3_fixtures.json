@@ -3209,7 +3209,7 @@
           "opponent_code": 1,
           "home": 1,
           "home_label": "h",
-          "finished": false
+          "finished": true
         }
       ],
       "gw16": [
@@ -5063,7 +5063,7 @@
           "opponent_code": 39,
           "home": 0,
           "home_label": "a",
-          "finished": false
+          "finished": true
         }
       ],
       "gw16": [
