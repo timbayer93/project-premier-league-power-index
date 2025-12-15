@@ -21,7 +21,7 @@
     "team_code": 91,
     "team_short": "BOU",
     "team": "Bournemouth",
-    "league_position": 13
+    "league_position": 15
   },
   {
     "team_code": 94,
@@ -33,43 +33,43 @@
     "team_code": 36,
     "team_short": "BHA",
     "team": "Brighton",
-    "league_position": 7
+    "league_position": 10
   },
   {
     "team_code": 8,
     "team_short": "CHE",
     "team": "Chelsea",
-    "league_position": 5
+    "league_position": 4
   },
   {
     "team_code": 31,
     "team_short": "CRY",
     "team": "Crystal Palace",
-    "league_position": 4
+    "league_position": 5
   },
   {
     "team_code": 11,
     "team_short": "EVE",
     "team": "Everton",
-    "league_position": 6
+    "league_position": 9
   },
   {
     "team_code": 54,
     "team_short": "FUL",
     "team": "Fulham",
-    "league_position": 15
+    "league_position": 13
   },
   {
     "team_code": 2,
     "team_short": "LEE",
     "team": "Leeds",
-    "league_position": 16
+    "league_position": 17
   },
   {
     "team_code": 14,
     "team_short": "LIV",
     "team": "Liverpool",
-    "league_position": 10
+    "league_position": 6
   },
   {
     "team_code": 43,
@@ -93,13 +93,13 @@
     "team_code": 17,
     "team_short": "NFO",
     "team": "Nott'm Forest",
-    "league_position": 17
+    "league_position": 16
   },
   {
     "team_code": 56,
     "team_short": "SUN",
     "team": "Sunderland",
-    "league_position": 9
+    "league_position": 7
   },
   {
     "team_code": 6,
