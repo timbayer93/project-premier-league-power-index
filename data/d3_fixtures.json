@@ -436,7 +436,7 @@
           "opponent_code": 1,
           "home": 0,
           "home_label": "a",
-          "finished": false
+          "finished": true
         }
       ],
       "gw17": [
@@ -5071,7 +5071,7 @@
           "opponent_code": 91,
           "home": 1,
           "home_label": "h",
-          "finished": false
+          "finished": true
         }
       ],
       "gw17": [
