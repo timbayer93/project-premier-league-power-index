@@ -21,13 +21,13 @@
     "team_code": 91,
     "team_short": "BOU",
     "team": "Bournemouth",
-    "league_position": 15
+    "league_position": 13
   },
   {
     "team_code": 94,
     "team_short": "BRE",
     "team": "Brentford",
-    "league_position": 14
+    "league_position": 15
   },
   {
     "team_code": 36,
@@ -57,7 +57,7 @@
     "team_code": 54,
     "team_short": "FUL",
     "team": "Fulham",
-    "league_position": 13
+    "league_position": 14
   },
   {
     "team_code": 2,
@@ -69,7 +69,7 @@
     "team_code": 14,
     "team_short": "LIV",
     "team": "Liverpool",
-    "league_position": 6
+    "league_position": 7
   },
   {
     "team_code": 43,
@@ -81,7 +81,7 @@
     "team_code": 1,
     "team_short": "MUN",
     "team": "Man Utd",
-    "league_position": 8
+    "league_position": 6
   },
   {
     "team_code": 4,
@@ -99,7 +99,7 @@
     "team_code": 56,
     "team_short": "SUN",
     "team": "Sunderland",
-    "league_position": 7
+    "league_position": 8
   },
   {
     "team_code": 6,
