@@ -129,7 +129,7 @@
   },
   {
     "gw": 17,
-    "finished": false,
+    "finished": true,
     "start": 1766188800000,
     "end": 1766361600000,
     "matches": 10,
