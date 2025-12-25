@@ -21,7 +21,7 @@
     "team_code": 91,
     "team_short": "BOU",
     "team": "Bournemouth",
-    "league_position": 14
+    "league_position": 15
   },
   {
     "team_code": 94,
@@ -57,7 +57,7 @@
     "team_code": 54,
     "team_short": "FUL",
     "team": "Fulham",
-    "league_position": 15
+    "league_position": 13
   },
   {
     "team_code": 2,
@@ -105,7 +105,7 @@
     "team_code": 6,
     "team_short": "TOT",
     "team": "Spurs",
-    "league_position": 13
+    "league_position": 14
   },
   {
     "team_code": 21,
