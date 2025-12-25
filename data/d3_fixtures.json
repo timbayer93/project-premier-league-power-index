@@ -2298,7 +2298,7 @@
           "opponent_code": 17,
           "home": 1,
           "home_label": "h",
-          "finished": false
+          "finished": true
         }
       ],
       "gw18": [
@@ -4152,7 +4152,7 @@
           "opponent_code": 54,
           "home": 0,
           "home_label": "a",
-          "finished": false
+          "finished": true
         }
       ],
       "gw18": [
