@@ -3,8 +3,8 @@
     "fixture_id": 1,
     "competition": "Premier League",
     "gw": 1,
-    "match_date": "2026-08-21T00:00:00",
-    "update_dt": "2026-08-13T16:03:50",
+    "match_date": 1787270400,
+    "update_dt": 1786637030,
     "score_matrix": [
       [
         0.07371857122224024,
@@ -75,8 +75,8 @@
     "fixture_id": 4,
     "competition": "Premier League",
     "gw": 1,
-    "match_date": "2026-08-22T00:00:00",
-    "update_dt": "2026-08-13T16:03:50",
+    "match_date": 1787356800,
+    "update_dt": 1786637030,
     "score_matrix": [
       [
         0.06754814713835537,
@@ -147,8 +147,8 @@
     "fixture_id": 6,
     "competition": "Premier League",
     "gw": 1,
-    "match_date": "2026-08-22T00:00:00",
-    "update_dt": "2026-08-13T16:03:50",
+    "match_date": 1787356800,
+    "update_dt": 1786637030,
     "score_matrix": [
       [
         0.08700668657473312,
@@ -219,8 +219,8 @@
     "fixture_id": 5,
     "competition": "Premier League",
     "gw": 1,
-    "match_date": "2026-08-22T00:00:00",
-    "update_dt": "2026-08-13T16:03:50",
+    "match_date": 1787356800,
+    "update_dt": 1786637030,
     "score_matrix": [
       [
         0.12030937414126995,
@@ -291,8 +291,8 @@
     "fixture_id": 3,
     "competition": "Premier League",
     "gw": 1,
-    "match_date": "2026-08-22T00:00:00",
-    "update_dt": "2026-08-13T16:03:50",
+    "match_date": 1787356800,
+    "update_dt": 1786637030,
     "score_matrix": [
       [
         0.0889145943806702,
@@ -363,8 +363,8 @@
     "fixture_id": 2,
     "competition": "Premier League",
     "gw": 1,
-    "match_date": "2026-08-22T00:00:00",
-    "update_dt": "2026-08-13T16:03:50",
+    "match_date": 1787356800,
+    "update_dt": 1786637030,
     "score_matrix": [
       [
         0.08771105466289011,
@@ -435,8 +435,8 @@
     "fixture_id": 8,
     "competition": "Premier League",
     "gw": 1,
-    "match_date": "2026-08-23T00:00:00",
-    "update_dt": "2026-08-13T16:03:50",
+    "match_date": 1787443200,
+    "update_dt": 1786637030,
     "score_matrix": [
       [
         0.05399063354950741,
@@ -507,8 +507,8 @@
     "fixture_id": 7,
     "competition": "Premier League",
     "gw": 1,
-    "match_date": "2026-08-23T00:00:00",
-    "update_dt": "2026-08-13T16:03:50",
+    "match_date": 1787443200,
+    "update_dt": 1786637030,
     "score_matrix": [
       [
         0.07296962679788453,
@@ -579,8 +579,8 @@
     "fixture_id": 9,
     "competition": "Premier League",
     "gw": 1,
-    "match_date": "2026-08-23T00:00:00",
-    "update_dt": "2026-08-13T16:03:50",
+    "match_date": 1787443200,
+    "update_dt": 1786637030,
     "score_matrix": [
       [
         0.05706108524077018,
@@ -651,8 +651,8 @@
     "fixture_id": 10,
     "competition": "Premier League",
     "gw": 1,
-    "match_date": "2026-08-24T00:00:00",
-    "update_dt": "2026-08-13T16:03:50",
+    "match_date": 1787529600,
+    "update_dt": 1786637030,
     "score_matrix": [
       [
         0.0886563592703551,
