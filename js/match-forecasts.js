@@ -15,6 +15,11 @@ Promise.all([
     todayMidnight.setHours(0, 0, 0, 0);
     const todayMs = todayMidnight.getTime();
 
+    // Before GW1 starts → GW1
+    if (todayMs < gameweeks[0].start) {
+      return gameweeks[0];
+    }
+
     for (let i = 0; i < gameweeks.length; i++) {
       const gw = gameweeks[i];
 
