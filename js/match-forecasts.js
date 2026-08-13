@@ -30,8 +30,8 @@ Promise.all([
       }
     }
 
-    // Optional fallback: if today is after the last gw
-    return null;
+    // After the last GW
+    return gameweeks[gameweeks.length - 1];
   }
 
   // get current GW (different to active GW)
