@@ -6,7 +6,6 @@
     "home_team": "Arsenal",
     "away_team_code": 9,
     "away_team": "Coventry City",
-    "match_date": 1787270400000,
     "gw": 1,
     "home_win_prob": 0.7151446326,
     "draw_prob": 0.1904941407,
@@ -26,7 +25,8 @@
     "away_goals_3_prob": 0.0169444419,
     "away_goals_4_prob": 0.0023852912,
     "away_goals_5_prob": 0.0002686244,
-    "away_goals_6_prob": 2.52097e-05
+    "away_goals_6_prob": 2.52097e-05,
+    "match_date": 1787338800000
   },
   {
     "fixture_id": 4,
@@ -35,7 +35,6 @@
     "home_team": "Hull City",
     "away_team_code": 1,
     "away_team": "Man Utd",
-    "match_date": 1787356800000,
     "gw": 1,
     "home_win_prob": 0.140862036,
     "draw_prob": 0.2175592931,
@@ -55,7 +54,8 @@
     "away_goals_3_prob": 0.1661585266,
     "away_goals_4_prob": 0.0767431936,
     "away_goals_5_prob": 0.0283561386,
-    "away_goals_6_prob": 0.0087311825
+    "away_goals_6_prob": 0.0087311825,
+    "match_date": 1787398200000
   },
   {
     "fixture_id": 5,
@@ -64,7 +64,6 @@
     "home_team": "Ipswich Town",
     "away_team_code": 56,
     "away_team": "Sunderland",
-    "match_date": 1787356800000,
     "gw": 1,
     "home_win_prob": 0.3658746127,
     "draw_prob": 0.2968750926,
@@ -84,7 +83,8 @@
     "away_goals_3_prob": 0.0646101853,
     "away_goals_4_prob": 0.0165832237,
     "away_goals_5_prob": 0.0034050768,
-    "away_goals_6_prob": 0.0005826445
+    "away_goals_6_prob": 0.0005826445,
+    "match_date": 1787407200000
   },
   {
     "fixture_id": 6,
@@ -93,7 +93,6 @@
     "home_team": "Nott'm Forest",
     "away_team_code": 2,
     "away_team": "Leeds",
-    "match_date": 1787356800000,
     "gw": 1,
     "home_win_prob": 0.4446777626,
     "draw_prob": 0.2728774026,
@@ -113,7 +112,8 @@
     "away_goals_3_prob": 0.062912178,
     "away_goals_4_prob": 0.0159317489,
     "away_goals_5_prob": 0.0032276183,
-    "away_goals_6_prob": 0.0005449036
+    "away_goals_6_prob": 0.0005449036,
+    "match_date": 1787407200000
   },
   {
     "fixture_id": 3,
@@ -122,7 +122,6 @@
     "home_team": "Everton",
     "away_team_code": 31,
     "away_team": "Crystal Palace",
-    "match_date": 1787356800000,
     "gw": 1,
     "home_win_prob": 0.4227911118,
     "draw_prob": 0.2738859427,
@@ -142,7 +141,8 @@
     "away_goals_3_prob": 0.0695083574,
     "away_goals_4_prob": 0.0185200351,
     "away_goals_5_prob": 0.0039476312,
-    "away_goals_6_prob": 0.0007012132
+    "away_goals_6_prob": 0.0007012132,
+    "match_date": 1787407200000
   },
   {
     "fixture_id": 2,
@@ -151,7 +151,6 @@
     "home_team": "Brentford",
     "away_team_code": 6,
     "away_team": "Spurs",
-    "match_date": 1787356800000,
     "gw": 1,
     "home_win_prob": 0.4048617324,
     "draw_prob": 0.273153973,
@@ -171,7 +170,8 @@
     "away_goals_3_prob": 0.0762348989,
     "away_goals_4_prob": 0.0213193738,
     "away_goals_5_prob": 0.0047696339,
-    "away_goals_6_prob": 0.0008892306
+    "away_goals_6_prob": 0.0008892306,
+    "match_date": 1787416200000
   },
   {
     "fixture_id": 7,
@@ -180,7 +180,6 @@
     "home_team": "Brighton",
     "away_team_code": 7,
     "away_team": "Aston Villa",
-    "match_date": 1787443200000,
     "gw": 1,
     "home_win_prob": 0.4830298526,
     "draw_prob": 0.2551246522,
@@ -200,7 +199,8 @@
     "away_goals_3_prob": 0.0674714293,
     "away_goals_4_prob": 0.0177042224,
     "away_goals_5_prob": 0.0037164115,
-    "away_goals_6_prob": 0.0006501139
+    "away_goals_6_prob": 0.0006501139,
+    "match_date": 1787490000000
   },
   {
     "fixture_id": 8,
@@ -209,7 +209,6 @@
     "home_team": "Man City",
     "away_team_code": 91,
     "away_team": "Bournemouth",
-    "match_date": 1787443200000,
     "gw": 1,
     "home_win_prob": 0.5700055313,
     "draw_prob": 0.2344466008,
@@ -229,7 +228,8 @@
     "away_goals_3_prob": 0.0502677413,
     "away_goals_4_prob": 0.0114045329,
     "away_goals_5_prob": 0.0020699298,
-    "away_goals_6_prob": 0.000313078
+    "away_goals_6_prob": 0.000313078,
+    "match_date": 1787490000000
   },
   {
     "fixture_id": 9,
@@ -238,7 +238,6 @@
     "home_team": "Newcastle",
     "away_team_code": 14,
     "away_team": "Liverpool",
-    "match_date": 1787443200000,
     "gw": 1,
     "home_win_prob": 0.3602925954,
     "draw_prob": 0.2674488994,
@@ -258,7 +257,8 @@
     "away_goals_3_prob": 0.0960183899,
     "away_goals_4_prob": 0.0305059414,
     "away_goals_5_prob": 0.0077536186,
-    "away_goals_6_prob": 0.0016422648
+    "away_goals_6_prob": 0.0016422648,
+    "match_date": 1787499000000
   },
   {
     "fixture_id": 10,
@@ -267,7 +267,6 @@
     "home_team": "Fulham",
     "away_team_code": 8,
     "away_team": "Chelsea",
-    "match_date": 1787529600000,
     "gw": 1,
     "home_win_prob": 0.2767196893,
     "draw_prob": 0.2729157192,
@@ -287,7 +286,8 @@
     "away_goals_3_prob": 0.1068029974,
     "away_goals_4_prob": 0.0361372149,
     "away_goals_5_prob": 0.0097817352,
-    "away_goals_6_prob": 0.0022064591
+    "away_goals_6_prob": 0.0022064591,
+    "match_date": 1787598000000
   },
   {
     "fixture_id": 11,
@@ -296,7 +296,6 @@
     "home_team": "Crystal Palace",
     "away_team_code": 43,
     "away_team": "Man City",
-    "match_date": 1787875200000,
     "gw": 2,
     "home_win_prob": 0.2726660209,
     "draw_prob": 0.2699591311,
@@ -316,7 +315,8 @@
     "away_goals_3_prob": 0.1105597631,
     "away_goals_4_prob": 0.0382075369,
     "away_goals_5_prob": 0.0105630897,
-    "away_goals_6_prob": 0.0024336138
+    "away_goals_6_prob": 0.0024336138,
+    "match_date": 1787943600000
   },
   {
     "fixture_id": 14,
@@ -325,7 +325,6 @@
     "home_team": "Liverpool",
     "away_team_code": 17,
     "away_team": "Nott'm Forest",
-    "match_date": 1787961600000,
     "gw": 2,
     "home_win_prob": 0.5175595094,
     "draw_prob": 0.257818013,
@@ -345,7 +344,8 @@
     "away_goals_3_prob": 0.0495324178,
     "away_goals_4_prob": 0.0111589732,
     "away_goals_5_prob": 0.0020111707,
-    "away_goals_6_prob": 0.0003020594
+    "away_goals_6_prob": 0.0003020594,
+    "match_date": 1788003000000
   },
   {
     "fixture_id": 12,
@@ -354,7 +354,6 @@
     "home_team": "Bournemouth",
     "away_team_code": 11,
     "away_team": "Everton",
-    "match_date": 1787961600000,
     "gw": 2,
     "home_win_prob": 0.4559888227,
     "draw_prob": 0.2692271969,
@@ -374,7 +373,8 @@
     "away_goals_3_prob": 0.0625393523,
     "away_goals_4_prob": 0.0157900815,
     "away_goals_5_prob": 0.0031893733,
-    "away_goals_6_prob": 0.0005368403
+    "away_goals_6_prob": 0.0005368403,
+    "match_date": 1788012000000
   },
   {
     "fixture_id": 13,
@@ -383,7 +383,6 @@
     "home_team": "Coventry City",
     "away_team_code": 88,
     "away_team": "Hull City",
-    "match_date": 1787961600000,
     "gw": 2,
     "home_win_prob": 0.5183965291,
     "draw_prob": 0.277016501,
@@ -403,7 +402,8 @@
     "away_goals_3_prob": 0.0329309177,
     "away_goals_4_prob": 0.0061511401,
     "away_goals_5_prob": 0.0009191733,
-    "away_goals_6_prob": 0.0001144611
+    "away_goals_6_prob": 0.0001144611,
+    "match_date": 1788012000000
   },
   {
     "fixture_id": 15,
@@ -412,7 +412,6 @@
     "home_team": "Spurs",
     "away_team_code": 4,
     "away_team": "Newcastle",
-    "match_date": 1787961600000,
     "gw": 2,
     "home_win_prob": 0.4753270739,
     "draw_prob": 0.2680852451,
@@ -432,7 +431,8 @@
     "away_goals_3_prob": 0.0563536448,
     "away_goals_4_prob": 0.0135119737,
     "away_goals_5_prob": 0.0025918243,
-    "away_goals_6_prob": 0.0004142963
+    "away_goals_6_prob": 0.0004142963,
+    "match_date": 1788021000000
   },
   {
     "fixture_id": 16,
@@ -441,7 +441,6 @@
     "home_team": "Chelsea",
     "away_team_code": 36,
     "away_team": "Brighton",
-    "match_date": 1788048000000,
     "gw": 2,
     "home_win_prob": 0.4700037013,
     "draw_prob": 0.2623310802,
@@ -461,7 +460,8 @@
     "away_goals_3_prob": 0.0645529403,
     "away_goals_4_prob": 0.0165610932,
     "away_goals_5_prob": 0.0033990063,
-    "away_goals_6_prob": 0.0005813446
+    "away_goals_6_prob": 0.0005813446,
+    "match_date": 1788094800000
   },
   {
     "fixture_id": 17,
@@ -470,7 +470,6 @@
     "home_team": "Leeds",
     "away_team_code": 94,
     "away_team": "Brentford",
-    "match_date": 1788048000000,
     "gw": 2,
     "home_win_prob": 0.3758003152,
     "draw_prob": 0.2774646434,
@@ -490,7 +489,8 @@
     "away_goals_3_prob": 0.0804236232,
     "away_goals_4_prob": 0.0231446886,
     "away_goals_5_prob": 0.0053285499,
-    "away_goals_6_prob": 0.0010223168
+    "away_goals_6_prob": 0.0010223168,
+    "match_date": 1788094800000
   },
   {
     "fixture_id": 19,
@@ -499,7 +499,6 @@
     "home_team": "Sunderland",
     "away_team_code": 54,
     "away_team": "Fulham",
-    "match_date": 1788048000000,
     "gw": 2,
     "home_win_prob": 0.4093974101,
     "draw_prob": 0.290368314,
@@ -519,7 +518,8 @@
     "away_goals_3_prob": 0.058043953,
     "away_goals_4_prob": 0.0141209186,
     "away_goals_5_prob": 0.0027482669,
-    "away_goals_6_prob": 0.0004457318
+    "away_goals_6_prob": 0.0004457318,
+    "match_date": 1788094800000
   },
   {
     "fixture_id": 18,
@@ -528,7 +528,6 @@
     "home_team": "Man Utd",
     "away_team_code": 40,
     "away_team": "Ipswich Town",
-    "match_date": 1788048000000,
     "gw": 2,
     "home_win_prob": 0.633175212,
     "draw_prob": 0.220113704,
@@ -548,7 +547,8 @@
     "away_goals_3_prob": 0.0323635413,
     "away_goals_4_prob": 0.0059987653,
     "away_goals_5_prob": 0.000889524,
-    "away_goals_6_prob": 0.0001099189
+    "away_goals_6_prob": 0.0001099189,
+    "match_date": 1788103800000
   },
   {
     "fixture_id": 20,
@@ -557,7 +557,6 @@
     "home_team": "Aston Villa",
     "away_team_code": 3,
     "away_team": "Arsenal",
-    "match_date": 1788134400000,
     "gw": 2,
     "home_win_prob": 0.248638053,
     "draw_prob": 0.2602577157,
@@ -577,7 +576,8 @@
     "away_goals_3_prob": 0.1239194825,
     "away_goals_4_prob": 0.0460510755,
     "away_goals_5_prob": 0.0136908354,
-    "away_goals_6_prob": 0.0033918675
+    "away_goals_6_prob": 0.0033918675,
+    "match_date": 1788202800000
   },
   {
     "fixture_id": 21,
@@ -586,7 +586,6 @@
     "home_team": "Ipswich Town",
     "away_team_code": 14,
     "away_team": "Liverpool",
-    "match_date": 1788480000000,
     "gw": 3,
     "home_win_prob": 0.245017245,
     "draw_prob": 0.2696693064,
@@ -606,7 +605,8 @@
     "away_goals_3_prob": 0.1139217477,
     "away_goals_4_prob": 0.0401095486,
     "away_goals_5_prob": 0.0112974102,
-    "away_goals_6_prob": 0.0026517268
+    "away_goals_6_prob": 0.0026517268,
+    "match_date": 1788548400000
   },
   {
     "fixture_id": 27,
@@ -615,7 +615,6 @@
     "home_team": "Newcastle",
     "away_team_code": 91,
     "away_team": "Bournemouth",
-    "match_date": 1788566400000,
     "gw": 3,
     "home_win_prob": 0.4208225748,
     "draw_prob": 0.2768095008,
@@ -635,7 +634,8 @@
     "away_goals_3_prob": 0.0671489917,
     "away_goals_4_prob": 0.0175764379,
     "away_goals_5_prob": 0.0036805457,
-    "away_goals_6_prob": 0.0006422622
+    "away_goals_6_prob": 0.0006422622,
+    "match_date": 1788607800000
   },
   {
     "fixture_id": 23,
@@ -644,7 +644,6 @@
     "home_team": "Brighton",
     "away_team_code": 2,
     "away_team": "Leeds",
-    "match_date": 1788566400000,
     "gw": 3,
     "home_win_prob": 0.5119521404,
     "draw_prob": 0.2605054091,
@@ -664,7 +663,8 @@
     "away_goals_3_prob": 0.0492110756,
     "away_goals_4_prob": 0.0110522797,
     "away_goals_5_prob": 0.0019857788,
-    "away_goals_6_prob": 0.0002973231
+    "away_goals_6_prob": 0.0002973231,
+    "match_date": 1788616800000
   },
   {
     "fixture_id": 24,
@@ -673,7 +673,6 @@
     "home_team": "Fulham",
     "away_team_code": 31,
     "away_team": "Crystal Palace",
-    "match_date": 1788566400000,
     "gw": 3,
     "home_win_prob": 0.3736239644,
     "draw_prob": 0.2901637911,
@@ -693,7 +692,8 @@
     "away_goals_3_prob": 0.0684878288,
     "away_goals_4_prob": 0.0181094534,
     "away_goals_5_prob": 0.0038307806,
-    "away_goals_6_prob": 0.0006752863
+    "away_goals_6_prob": 0.0006752863,
+    "match_date": 1788616800000
   },
   {
     "fixture_id": 26,
@@ -702,7 +702,6 @@
     "home_team": "Man City",
     "away_team_code": 9,
     "away_team": "Coventry City",
-    "match_date": 1788566400000,
     "gw": 3,
     "home_win_prob": 0.6912840812,
     "draw_prob": 0.196867546,
@@ -722,7 +721,8 @@
     "away_goals_3_prob": 0.0238211573,
     "away_goals_4_prob": 0.0038658715,
     "away_goals_5_prob": 0.0005019055,
-    "away_goals_6_prob": 5.43019e-05
+    "away_goals_6_prob": 5.43019e-05,
+    "match_date": 1788616800000
   },
   {
     "fixture_id": 22,
@@ -731,7 +731,6 @@
     "home_team": "Brentford",
     "away_team_code": 56,
     "away_team": "Sunderland",
-    "match_date": 1788566400000,
     "gw": 3,
     "home_win_prob": 0.5198432782,
     "draw_prob": 0.2591281986,
@@ -751,7 +750,8 @@
     "away_goals_3_prob": 0.0472663451,
     "away_goals_4_prob": 0.0104146269,
     "away_goals_5_prob": 0.0018358001,
-    "away_goals_6_prob": 0.0002696658
+    "away_goals_6_prob": 0.0002696658,
+    "match_date": 1788616800000
   },
   {
     "fixture_id": 28,
@@ -760,7 +760,6 @@
     "home_team": "Nott'm Forest",
     "away_team_code": 6,
     "away_team": "Spurs",
-    "match_date": 1788566400000,
     "gw": 3,
     "home_win_prob": 0.3671760813,
     "draw_prob": 0.2837473601,
@@ -780,7 +779,8 @@
     "away_goals_3_prob": 0.0763638676,
     "away_goals_4_prob": 0.0213746304,
     "away_goals_5_prob": 0.0047862932,
-    "away_goals_6_prob": 0.0008931384
+    "away_goals_6_prob": 0.0008931384,
+    "match_date": 1788616800000
   },
   {
     "fixture_id": 25,
@@ -789,7 +789,6 @@
     "home_team": "Hull City",
     "away_team_code": 7,
     "away_team": "Aston Villa",
-    "match_date": 1788566400000,
     "gw": 3,
     "home_win_prob": 0.2238494736,
     "draw_prob": 0.263296344,
@@ -809,7 +808,8 @@
     "away_goals_3_prob": 0.1220950888,
     "away_goals_4_prob": 0.0449341212,
     "away_goals_5_prob": 0.0132295264,
-    "away_goals_6_prob": 0.0032458698
+    "away_goals_6_prob": 0.0032458698,
+    "match_date": 1788625800000
   },
   {
     "fixture_id": 30,
@@ -818,7 +818,6 @@
     "home_team": "Everton",
     "away_team_code": 1,
     "away_team": "Man Utd",
-    "match_date": 1788652800000,
     "gw": 3,
     "home_win_prob": 0.3214109884,
     "draw_prob": 0.2662665847,
@@ -838,7 +837,8 @@
     "away_goals_3_prob": 0.1066108701,
     "away_goals_4_prob": 0.0360328738,
     "away_goals_5_prob": 0.0097428564,
-    "away_goals_6_prob": 0.0021952928
+    "away_goals_6_prob": 0.0021952928,
+    "match_date": 1788699600000
   },
   {
     "fixture_id": 29,
@@ -847,7 +847,6 @@
     "home_team": "Arsenal",
     "away_team_code": 8,
     "away_team": "Chelsea",
-    "match_date": 1788652800000,
     "gw": 3,
     "home_win_prob": 0.5126838332,
     "draw_prob": 0.2580818514,
@@ -867,7 +866,8 @@
     "away_goals_3_prob": 0.0513443682,
     "away_goals_4_prob": 0.0117676127,
     "away_goals_5_prob": 0.0021576148,
-    "away_goals_6_prob": 0.0003296691
+    "away_goals_6_prob": 0.0003296691,
+    "match_date": 1788708600000
   },
   {
     "fixture_id": 31,
@@ -876,7 +876,6 @@
     "home_team": "Aston Villa",
     "away_team_code": 17,
     "away_team": "Nott'm Forest",
-    "match_date": 1789171200000,
     "gw": 4,
     "home_win_prob": 0.4228665994,
     "draw_prob": 0.2708149751,
@@ -896,7 +895,8 @@
     "away_goals_3_prob": 0.072779513,
     "away_goals_4_prob": 0.019861145,
     "away_goals_5_prob": 0.0043360013,
-    "away_goals_6_prob": 0.0007888479
+    "away_goals_6_prob": 0.0007888479,
+    "match_date": 1789221600000
   },
   {
     "fixture_id": 32,
@@ -905,7 +905,6 @@
     "home_team": "Bournemouth",
     "away_team_code": 94,
     "away_team": "Brentford",
-    "match_date": 1789171200000,
     "gw": 4,
     "home_win_prob": 0.4092909306,
     "draw_prob": 0.2735101092,
@@ -925,7 +924,8 @@
     "away_goals_3_prob": 0.0744095857,
     "away_goals_4_prob": 0.0205437271,
     "away_goals_5_prob": 0.0045375307,
-    "away_goals_6_prob": 0.0008351773
+    "away_goals_6_prob": 0.0008351773,
+    "match_date": 1789221600000
   },
   {
     "fixture_id": 35,
@@ -934,7 +934,6 @@
     "home_team": "Liverpool",
     "away_team_code": 54,
     "away_team": "Fulham",
-    "match_date": 1789171200000,
     "gw": 4,
     "home_win_prob": 0.5713784919,
     "draw_prob": 0.2442117478,
@@ -954,7 +953,8 @@
     "away_goals_3_prob": 0.0390531069,
     "away_goals_4_prob": 0.0078760893,
     "away_goals_5_prob": 0.001270737,
-    "away_goals_6_prob": 0.0001708518
+    "away_goals_6_prob": 0.0001708518,
+    "match_date": 1789221600000
   },
   {
     "fixture_id": 34,
@@ -963,7 +963,6 @@
     "home_team": "Crystal Palace",
     "away_team_code": 40,
     "away_team": "Ipswich Town",
-    "match_date": 1789171200000,
     "gw": 4,
     "home_win_prob": 0.5124262839,
     "draw_prob": 0.2698753645,
@@ -983,7 +982,8 @@
     "away_goals_3_prob": 0.0405228565,
     "away_goals_4_prob": 0.0083117557,
     "away_goals_5_prob": 0.0013638778,
-    "away_goals_6_prob": 0.0001864992
+    "away_goals_6_prob": 0.0001864992,
+    "match_date": 1789221600000
   },
   {
     "fixture_id": 33,
@@ -992,7 +992,6 @@
     "home_team": "Chelsea",
     "away_team_code": 88,
     "away_team": "Hull City",
-    "match_date": 1789171200000,
     "gw": 4,
     "home_win_prob": 0.7419695092,
     "draw_prob": 0.1734026386,
@@ -1012,7 +1011,8 @@
     "away_goals_3_prob": 0.0173476653,
     "away_goals_4_prob": 0.0024657617,
     "away_goals_5_prob": 0.0002803827,
-    "away_goals_6_prob": 2.65687e-05
+    "away_goals_6_prob": 2.65687e-05,
+    "match_date": 1789221600000
   },
   {
     "fixture_id": 37,
@@ -1021,7 +1021,6 @@
     "home_team": "Spurs",
     "away_team_code": 11,
     "away_team": "Everton",
-    "match_date": 1789171200000,
     "gw": 4,
     "home_win_prob": 0.5023726311,
     "draw_prob": 0.2597824903,
@@ -1041,7 +1040,8 @@
     "away_goals_3_prob": 0.0539528678,
     "away_goals_4_prob": 0.0126646859,
     "away_goals_5_prob": 0.0023782872,
-    "away_goals_6_prob": 0.0003721799
+    "away_goals_6_prob": 0.0003721799,
+    "match_date": 1789230600000
   },
   {
     "fixture_id": 36,
@@ -1050,7 +1050,6 @@
     "home_team": "Sunderland",
     "away_team_code": 3,
     "away_team": "Arsenal",
-    "match_date": 1789171200000,
     "gw": 4,
     "home_win_prob": 0.2051557548,
     "draw_prob": 0.2628647113,
@@ -1070,7 +1069,8 @@
     "away_goals_3_prob": 0.1231363461,
     "away_goals_4_prob": 0.0455697813,
     "away_goals_5_prob": 0.0134914185,
-    "away_goals_6_prob": 0.003328565
+    "away_goals_6_prob": 0.003328565,
+    "match_date": 1789239600000
   },
   {
     "fixture_id": 38,
@@ -1079,7 +1079,6 @@
     "home_team": "Coventry City",
     "away_team_code": 36,
     "away_team": "Brighton",
-    "match_date": 1789257600000,
     "gw": 4,
     "home_win_prob": 0.2572007892,
     "draw_prob": 0.2759313038,
@@ -1099,7 +1098,8 @@
     "away_goals_3_prob": 0.1061725068,
     "away_goals_4_prob": 0.0357953617,
     "away_goals_5_prob": 0.0096545364,
-    "away_goals_6_prob": 0.0021699756
+    "away_goals_6_prob": 0.0021699756,
+    "match_date": 1789304400000
   },
   {
     "fixture_id": 39,
@@ -1108,7 +1108,6 @@
     "home_team": "Man Utd",
     "away_team_code": 43,
     "away_team": "Man City",
-    "match_date": 1789257600000,
     "gw": 4,
     "home_win_prob": 0.3761051149,
     "draw_prob": 0.2661355486,
@@ -1128,7 +1127,8 @@
     "away_goals_3_prob": 0.0931859394,
     "away_goals_4_prob": 0.0291015044,
     "away_goals_5_prob": 0.0072706038,
-    "away_goals_6_prob": 0.0015137156
+    "away_goals_6_prob": 0.0015137156,
+    "match_date": 1789313400000
   },
   {
     "fixture_id": 40,
@@ -1137,7 +1137,6 @@
     "home_team": "Leeds",
     "away_team_code": 4,
     "away_team": "Newcastle",
-    "match_date": 1789344000000,
     "gw": 4,
     "home_win_prob": 0.3960294045,
     "draw_prob": 0.281102237,
@@ -1157,7 +1156,8 @@
     "away_goals_3_prob": 0.0707112728,
     "away_goals_4_prob": 0.0190087647,
     "away_goals_5_prob": 0.0040879834,
-    "away_goals_6_prob": 0.0007326273
+    "away_goals_6_prob": 0.0007326273,
+    "match_date": 1789412400000
   },
   {
     "fixture_id": 41,
@@ -1166,7 +1166,6 @@
     "home_team": "Brentford",
     "away_team_code": 8,
     "away_team": "Chelsea",
-    "match_date": 1789689600000,
     "gw": 5,
     "home_win_prob": 0.3609256222,
     "draw_prob": 0.2691802902,
@@ -1186,7 +1185,8 @@
     "away_goals_3_prob": 0.0938026596,
     "away_goals_4_prob": 0.0294047075,
     "away_goals_5_prob": 0.0073740922,
-    "away_goals_6_prob": 0.0015410581
+    "away_goals_6_prob": 0.0015410581,
+    "match_date": 1789758000000
   },
   {
     "fixture_id": 48,
@@ -1195,7 +1195,6 @@
     "home_team": "Spurs",
     "away_team_code": 7,
     "away_team": "Aston Villa",
-    "match_date": 1789776000000,
     "gw": 5,
     "home_win_prob": 0.4988467336,
     "draw_prob": 0.2556379494,
@@ -1215,7 +1214,8 @@
     "away_goals_3_prob": 0.059975451,
     "away_goals_4_prob": 0.014829259,
     "away_goals_5_prob": 0.0029332924,
-    "away_goals_6_prob": 0.0004835151
+    "away_goals_6_prob": 0.0004835151,
+    "match_date": 1789817400000
   },
   {
     "fixture_id": 45,
@@ -1224,7 +1224,6 @@
     "home_team": "Man City",
     "away_team_code": 56,
     "away_team": "Sunderland",
-    "match_date": 1789776000000,
     "gw": 5,
     "home_win_prob": 0.6443635854,
     "draw_prob": 0.2163655368,
@@ -1244,7 +1243,8 @@
     "away_goals_3_prob": 0.0302050773,
     "away_goals_4_prob": 0.0054309944,
     "away_goals_5_prob": 0.0007812117,
-    "away_goals_6_prob": 9.36433e-05
+    "away_goals_6_prob": 9.36433e-05,
+    "match_date": 1789826400000
   },
   {
     "fixture_id": 44,
@@ -1253,7 +1253,6 @@
     "home_team": "Leeds",
     "away_team_code": 31,
     "away_team": "Crystal Palace",
-    "match_date": 1789776000000,
     "gw": 5,
     "home_win_prob": 0.4100857985,
     "draw_prob": 0.2838683992,
@@ -1273,7 +1272,8 @@
     "away_goals_3_prob": 0.0637021395,
     "away_goals_4_prob": 0.0162335564,
     "away_goals_5_prob": 0.0033095071,
-    "away_goals_6_prob": 0.0005622529
+    "away_goals_6_prob": 0.0005622529,
+    "match_date": 1789826400000
   },
   {
     "fixture_id": 46,
@@ -1282,7 +1282,6 @@
     "home_team": "Newcastle",
     "away_team_code": 88,
     "away_team": "Hull City",
-    "match_date": 1789776000000,
     "gw": 5,
     "home_win_prob": 0.6485530134,
     "draw_prob": 0.2217807675,
@@ -1302,7 +1301,8 @@
     "away_goals_3_prob": 0.0233442028,
     "away_goals_4_prob": 0.0037560524,
     "away_goals_5_prob": 0.0004834752,
-    "away_goals_6_prob": 5.18604e-05
+    "away_goals_6_prob": 5.18604e-05,
+    "match_date": 1789826400000
   },
   {
     "fixture_id": 43,
@@ -1311,7 +1311,6 @@
     "home_team": "Everton",
     "away_team_code": 40,
     "away_team": "Ipswich Town",
-    "match_date": 1789776000000,
     "gw": 5,
     "home_win_prob": 0.5132724837,
     "draw_prob": 0.2638342094,
@@ -1331,7 +1330,8 @@
     "away_goals_3_prob": 0.0454920937,
     "away_goals_4_prob": 0.0098449771,
     "away_goals_5_prob": 0.0017044469,
-    "away_goals_6_prob": 0.0002459071
+    "away_goals_6_prob": 0.0002459071,
+    "match_date": 1789826400000
   },
   {
     "fixture_id": 42,
@@ -1340,7 +1340,6 @@
     "home_team": "Brighton",
     "away_team_code": 3,
     "away_team": "Arsenal",
-    "match_date": 1789776000000,
     "gw": 5,
     "home_win_prob": 0.3090422371,
     "draw_prob": 0.2793924901,
@@ -1360,7 +1359,8 @@
     "away_goals_3_prob": 0.0944753462,
     "away_goals_4_prob": 0.0297370665,
     "away_goals_5_prob": 0.0074880329,
-    "away_goals_6_prob": 0.0015712892
+    "away_goals_6_prob": 0.0015712892,
+    "match_date": 1789826400000
   },
   {
     "fixture_id": 47,
@@ -1369,7 +1369,6 @@
     "home_team": "Nott'm Forest",
     "away_team_code": 9,
     "away_team": "Coventry City",
-    "match_date": 1789776000000,
     "gw": 5,
     "home_win_prob": 0.5295205722,
     "draw_prob": 0.2651395122,
@@ -1389,7 +1388,8 @@
     "away_goals_3_prob": 0.0379735099,
     "away_goals_4_prob": 0.0075613285,
     "away_goals_5_prob": 0.0012044963,
-    "away_goals_6_prob": 0.0001598938
+    "away_goals_6_prob": 0.0001598938,
+    "match_date": 1789835400000
   },
   {
     "fixture_id": 49,
@@ -1398,7 +1398,6 @@
     "home_team": "Bournemouth",
     "away_team_code": 14,
     "away_team": "Liverpool",
-    "match_date": 1789862400000,
     "gw": 5,
     "home_win_prob": 0.3520534268,
     "draw_prob": 0.2761863904,
@@ -1418,7 +1417,8 @@
     "away_goals_3_prob": 0.0882143002,
     "away_goals_4_prob": 0.0267093956,
     "away_goals_5_prob": 0.0064696251,
-    "away_goals_6_prob": 0.001305909
+    "away_goals_6_prob": 0.001305909,
+    "match_date": 1789909200000
   },
   {
     "fixture_id": 50,
@@ -1427,7 +1427,6 @@
     "home_team": "Fulham",
     "away_team_code": 1,
     "away_team": "Man Utd",
-    "match_date": 1789862400000,
     "gw": 5,
     "home_win_prob": 0.2824052005,
     "draw_prob": 0.271014157,
@@ -1447,7 +1446,8 @@
     "away_goals_3_prob": 0.108042117,
     "away_goals_4_prob": 0.0368137394,
     "away_goals_5_prob": 0.0100349859,
-    "away_goals_6_prob": 0.0022795145
+    "away_goals_6_prob": 0.0022795145,
+    "match_date": 1789918200000
   },
   {
     "fixture_id": 51,
@@ -1456,7 +1456,6 @@
     "home_team": "Arsenal",
     "away_team_code": 2,
     "away_team": "Leeds",
-    "match_date": 1791590400000,
     "gw": 6,
     "home_win_prob": 0.6271259869,
     "draw_prob": 0.2266802795,
@@ -1476,7 +1475,8 @@
     "away_goals_3_prob": 0.0291559956,
     "away_goals_4_prob": 0.0051619371,
     "away_goals_5_prob": 0.0007311181,
-    "away_goals_6_prob": 8.62941e-05
+    "away_goals_6_prob": 8.62941e-05,
+    "match_date": 1791631800000
   },
   {
     "fixture_id": 52,
@@ -1485,7 +1485,6 @@
     "home_team": "Aston Villa",
     "away_team_code": 94,
     "away_team": "Brentford",
-    "match_date": 1791590400000,
     "gw": 6,
     "home_win_prob": 0.3958535288,
     "draw_prob": 0.2651917726,
@@ -1505,7 +1504,8 @@
     "away_goals_3_prob": 0.08829578,
     "away_goals_4_prob": 0.0267478569,
     "away_goals_5_prob": 0.0064822835,
-    "away_goals_6_prob": 0.0013091391
+    "away_goals_6_prob": 0.0013091391,
+    "match_date": 1791640800000
   },
   {
     "fixture_id": 57,
@@ -1514,7 +1514,6 @@
     "home_team": "Ipswich Town",
     "away_team_code": 54,
     "away_team": "Fulham",
-    "match_date": 1791590400000,
     "gw": 6,
     "home_win_prob": 0.3663749106,
     "draw_prob": 0.2954304244,
@@ -1534,7 +1533,8 @@
     "away_goals_3_prob": 0.0657227702,
     "away_goals_4_prob": 0.0170156564,
     "away_goals_5_prob": 0.0035242892,
-    "away_goals_6_prob": 0.0006082934
+    "away_goals_6_prob": 0.0006082934,
+    "match_date": 1791640800000
   },
   {
     "fixture_id": 53,
@@ -1543,7 +1543,6 @@
     "home_team": "Chelsea",
     "away_team_code": 91,
     "away_team": "Bournemouth",
-    "match_date": 1791590400000,
     "gw": 6,
     "home_win_prob": 0.5231572941,
     "draw_prob": 0.2528136845,
@@ -1563,7 +1562,8 @@
     "away_goals_3_prob": 0.0523004758,
     "away_goals_4_prob": 0.0120935691,
     "away_goals_5_prob": 0.0022371409,
-    "away_goals_6_prob": 0.0003448664
+    "away_goals_6_prob": 0.0003448664,
+    "match_date": 1791640800000
   },
   {
     "fixture_id": 60,
@@ -1572,7 +1572,6 @@
     "home_team": "Sunderland",
     "away_team_code": 36,
     "away_team": "Brighton",
-    "match_date": 1791590400000,
     "gw": 6,
     "home_win_prob": 0.3020744395,
     "draw_prob": 0.281417825,
@@ -1592,7 +1591,8 @@
     "away_goals_3_prob": 0.0937232346,
     "away_goals_4_prob": 0.0293655785,
     "away_goals_5_prob": 0.0073607122,
-    "away_goals_6_prob": 0.0015375168
+    "away_goals_6_prob": 0.0015375168,
+    "match_date": 1791640800000
   },
   {
     "fixture_id": 59,
@@ -1601,7 +1601,6 @@
     "home_team": "Man Utd",
     "away_team_code": 6,
     "away_team": "Spurs",
-    "match_date": 1791590400000,
     "gw": 6,
     "home_win_prob": 0.4730137412,
     "draw_prob": 0.2613295601,
@@ -1621,7 +1620,8 @@
     "away_goals_3_prob": 0.0644574218,
     "away_goals_4_prob": 0.0165241926,
     "away_goals_5_prob": 0.0033888906,
-    "away_goals_6_prob": 0.0005791801
+    "away_goals_6_prob": 0.0005791801,
+    "match_date": 1791649800000
   },
   {
     "fixture_id": 64,
@@ -1630,7 +1630,6 @@
     "home_team": "Everton",
     "away_team_code": 8,
     "away_team": "Chelsea",
-    "match_date": 1792195200000,
     "gw": 7,
     "home_win_prob": 0.3150026419,
     "draw_prob": 0.2684093247,
@@ -1650,7 +1649,8 @@
     "away_goals_3_prob": 0.1053801648,
     "away_goals_4_prob": 0.0353680141,
     "away_goals_5_prob": 0.0094962571,
-    "away_goals_6_prob": 0.0021247753
+    "away_goals_6_prob": 0.0021247753,
+    "match_date": 1792236600000
   },
   {
     "fixture_id": 62,
@@ -1659,7 +1659,6 @@
     "home_team": "Brentford",
     "away_team_code": 14,
     "away_team": "Liverpool",
-    "match_date": 1792195200000,
     "gw": 7,
     "home_win_prob": 0.3734513019,
     "draw_prob": 0.2707322248,
@@ -1679,7 +1678,8 @@
     "away_goals_3_prob": 0.0885347461,
     "away_goals_4_prob": 0.0268607993,
     "away_goals_5_prob": 0.0065194972,
-    "away_goals_6_prob": 0.0013186454
+    "away_goals_6_prob": 0.0013186454,
+    "match_date": 1792245600000
   },
   {
     "fixture_id": 67,
@@ -1688,7 +1688,6 @@
     "home_team": "Man City",
     "away_team_code": 40,
     "away_team": "Ipswich Town",
-    "match_date": 1792195200000,
     "gw": 7,
     "home_win_prob": 0.6842627989,
     "draw_prob": 0.1999289859,
@@ -1708,7 +1707,8 @@
     "away_goals_3_prob": 0.0247459189,
     "away_goals_4_prob": 0.0040816898,
     "away_goals_5_prob": 0.0005386,
-    "away_goals_6_prob": 5.92259e-05
+    "away_goals_6_prob": 5.92259e-05,
+    "match_date": 1792245600000
   },
   {
     "fixture_id": 65,
@@ -1717,7 +1717,6 @@
     "home_team": "Fulham",
     "away_team_code": 88,
     "away_team": "Hull City",
-    "match_date": 1792195200000,
     "gw": 7,
     "home_win_prob": 0.5789335862,
     "draw_prob": 0.2546105838,
@@ -1737,7 +1736,8 @@
     "away_goals_3_prob": 0.027214878,
     "away_goals_4_prob": 0.0046762233,
     "away_goals_5_prob": 0.0006427974,
-    "away_goals_6_prob": 7.36329e-05
+    "away_goals_6_prob": 7.36329e-05,
+    "match_date": 1792245600000
   },
   {
     "fixture_id": 68,
@@ -1746,7 +1746,6 @@
     "home_team": "Newcastle",
     "away_team_code": 7,
     "away_team": "Aston Villa",
-    "match_date": 1792195200000,
     "gw": 7,
     "home_win_prob": 0.4477544748,
     "draw_prob": 0.2643624704,
@@ -1766,7 +1765,8 @@
     "away_goals_3_prob": 0.0709765956,
     "away_goals_4_prob": 0.0191172572,
     "away_goals_5_prob": 0.0041193244,
-    "away_goals_6_prob": 0.0007396822
+    "away_goals_6_prob": 0.0007396822,
+    "match_date": 1792254600000
   },
   {
     "fixture_id": 72,
@@ -1775,7 +1775,6 @@
     "home_team": "Aston Villa",
     "away_team_code": 43,
     "away_team": "Man City",
-    "match_date": 1792800000000,
     "gw": 8,
     "home_win_prob": 0.2772076378,
     "draw_prob": 0.2573409114,
@@ -1795,7 +1794,8 @@
     "away_goals_3_prob": 0.1245727894,
     "away_goals_4_prob": 0.0464547022,
     "away_goals_5_prob": 0.013858817,
-    "away_goals_6_prob": 0.0034454138
+    "away_goals_6_prob": 0.0034454138,
+    "match_date": 1792841400000
   },
   {
     "fixture_id": 71,
@@ -1804,7 +1804,6 @@
     "home_team": "Arsenal",
     "away_team_code": 11,
     "away_team": "Everton",
-    "match_date": 1792800000000,
     "gw": 8,
     "home_win_prob": 0.6303072445,
     "draw_prob": 0.2217635083,
@@ -1824,7 +1823,8 @@
     "away_goals_3_prob": 0.0322122136,
     "away_goals_4_prob": 0.0059583433,
     "away_goals_5_prob": 0.0008816992,
-    "away_goals_6_prob": 0.0001087262
+    "away_goals_6_prob": 0.0001087262,
+    "match_date": 1792850400000
   },
   {
     "fixture_id": 74,
@@ -1833,7 +1833,6 @@
     "home_team": "Coventry City",
     "away_team_code": 54,
     "away_team": "Fulham",
-    "match_date": 1792800000000,
     "gw": 8,
     "home_win_prob": 0.3586576203,
     "draw_prob": 0.2960568132,
@@ -1853,7 +1852,8 @@
     "away_goals_3_prob": 0.0671604679,
     "away_goals_4_prob": 0.0175809796,
     "away_goals_5_prob": 0.0036818188,
-    "away_goals_6_prob": 0.0006425405
+    "away_goals_6_prob": 0.0006425405,
+    "match_date": 1792850400000
   },
   {
     "fixture_id": 78,
@@ -1862,7 +1862,6 @@
     "home_team": "Liverpool",
     "away_team_code": 36,
     "away_team": "Brighton",
-    "match_date": 1792800000000,
     "gw": 8,
     "home_win_prob": 0.4546274064,
     "draw_prob": 0.2663403421,
@@ -1882,7 +1881,8 @@
     "away_goals_3_prob": 0.0661423051,
     "away_goals_4_prob": 0.0171798629,
     "away_goals_5_prob": 0.0035698507,
-    "away_goals_6_prob": 0.0006181575
+    "away_goals_6_prob": 0.0006181575,
+    "match_date": 1792850400000
   },
   {
     "fixture_id": 73,
@@ -1891,7 +1891,6 @@
     "home_team": "Chelsea",
     "away_team_code": 6,
     "away_team": "Spurs",
-    "match_date": 1792800000000,
     "gw": 8,
     "home_win_prob": 0.4768027295,
     "draw_prob": 0.2629546191,
@@ -1911,7 +1910,8 @@
     "away_goals_3_prob": 0.0611267624,
     "away_goals_4_prob": 0.0152578144,
     "away_goals_5_prob": 0.0030467951,
-    "away_goals_6_prob": 0.0005070058
+    "away_goals_6_prob": 0.0005070058,
+    "match_date": 1792859400000
   },
   {
     "fixture_id": 84,
@@ -1920,7 +1920,6 @@
     "home_team": "Chelsea",
     "away_team_code": 1,
     "away_team": "Man Utd",
-    "match_date": 1793404800000,
     "gw": 9,
     "home_win_prob": 0.4421327647,
     "draw_prob": 0.2607660397,
@@ -1940,7 +1939,8 @@
     "away_goals_3_prob": 0.0773698546,
     "away_goals_4_prob": 0.0218076995,
     "away_goals_5_prob": 0.0049174269,
-    "away_goals_6_prob": 0.0009240271
+    "away_goals_6_prob": 0.0009240271,
+    "match_date": 1793449800000
   },
   {
     "fixture_id": 85,
@@ -1949,7 +1949,6 @@
     "home_team": "Coventry City",
     "away_team_code": 56,
     "away_team": "Sunderland",
-    "match_date": 1793404800000,
     "gw": 9,
     "home_win_prob": 0.3647487349,
     "draw_prob": 0.2961276473,
@@ -1969,7 +1968,8 @@
     "away_goals_3_prob": 0.0655419456,
     "away_goals_4_prob": 0.0169450746,
     "away_goals_5_prob": 0.0035047547,
-    "away_goals_6_prob": 0.0006040745
+    "away_goals_6_prob": 0.0006040745,
+    "match_date": 1793458800000
   },
   {
     "fixture_id": 82,
@@ -1978,7 +1978,6 @@
     "home_team": "Bournemouth",
     "away_team_code": 2,
     "away_team": "Leeds",
-    "match_date": 1793404800000,
     "gw": 9,
     "home_win_prob": 0.4556299451,
     "draw_prob": 0.2746081355,
@@ -1998,7 +1997,8 @@
     "away_goals_3_prob": 0.0572635623,
     "away_goals_4_prob": 0.0138385068,
     "away_goals_5_prob": 0.0026754084,
-    "away_goals_6_prob": 0.0004310322
+    "away_goals_6_prob": 0.0004310322,
+    "match_date": 1793458800000
   },
   {
     "fixture_id": 88,
@@ -2007,7 +2007,6 @@
     "home_team": "Man City",
     "away_team_code": 36,
     "away_team": "Brighton",
-    "match_date": 1793404800000,
     "gw": 9,
     "home_win_prob": 0.5237201751,
     "draw_prob": 0.2511819302,
@@ -2027,7 +2026,8 @@
     "away_goals_3_prob": 0.0538275087,
     "away_goals_4_prob": 0.012621013,
     "away_goals_5_prob": 0.0023674136,
-    "away_goals_6_prob": 0.0003700606
+    "away_goals_6_prob": 0.0003700606,
+    "match_date": 1793458800000
   },
   {
     "fixture_id": 83,
@@ -2036,7 +2036,6 @@
     "home_team": "Brentford",
     "away_team_code": 17,
     "away_team": "Nott'm Forest",
-    "match_date": 1793404800000,
     "gw": 9,
     "home_win_prob": 0.4587268427,
     "draw_prob": 0.2697869288,
@@ -2056,7 +2055,8 @@
     "away_goals_3_prob": 0.0609341418,
     "away_goals_4_prob": 0.0151857855,
     "away_goals_5_prob": 0.003027637,
-    "away_goals_6_prob": 0.0005030245
+    "away_goals_6_prob": 0.0005030245,
+    "match_date": 1793458800000
   },
   {
     "fixture_id": 86,
@@ -2065,7 +2065,6 @@
     "home_team": "Hull City",
     "away_team_code": 40,
     "away_team": "Ipswich Town",
-    "match_date": 1793404800000,
     "gw": 9,
     "home_win_prob": 0.2994674422,
     "draw_prob": 0.3011310331,
@@ -2085,7 +2084,8 @@
     "away_goals_3_prob": 0.075973833,
     "away_goals_4_prob": 0.0212077033,
     "away_goals_5_prob": 0.0047360167,
-    "away_goals_6_prob": 0.0008813564
+    "away_goals_6_prob": 0.0008813564,
+    "match_date": 1793458800000
   },
   {
     "fixture_id": 90,
@@ -2094,7 +2094,6 @@
     "home_team": "Spurs",
     "away_team_code": 31,
     "away_team": "Crystal Palace",
-    "match_date": 1793404800000,
     "gw": 9,
     "home_win_prob": 0.4891304151,
     "draw_prob": 0.2686642286,
@@ -2114,7 +2113,8 @@
     "away_goals_3_prob": 0.0504625667,
     "away_goals_4_prob": 0.0114699238,
     "away_goals_5_prob": 0.0020856514,
-    "away_goals_6_prob": 0.0003160397
+    "away_goals_6_prob": 0.0003160397,
+    "match_date": 1793467800000
   },
   {
     "fixture_id": 99,
@@ -2123,7 +2123,6 @@
     "home_team": "Nott'm Forest",
     "away_team_code": 43,
     "away_team": "Man City",
-    "match_date": 1794009600000,
     "gw": 10,
     "home_win_prob": 0.2805762996,
     "draw_prob": 0.2711429363,
@@ -2143,7 +2142,8 @@
     "away_goals_3_prob": 0.1081692924,
     "away_goals_4_prob": 0.0368835252,
     "away_goals_5_prob": 0.0100612246,
-    "away_goals_6_prob": 0.0022871151
+    "away_goals_6_prob": 0.0022871151,
+    "match_date": 1794063600000
   },
   {
     "fixture_id": 94,
@@ -2152,7 +2152,6 @@
     "home_team": "Everton",
     "away_team_code": 9,
     "away_team": "Coventry City",
-    "match_date": 1794009600000,
     "gw": 10,
     "home_win_prob": 0.5211083895,
     "draw_prob": 0.2620981465,
@@ -2172,7 +2171,8 @@
     "away_goals_3_prob": 0.0439373692,
     "away_goals_4_prob": 0.0093553705,
     "away_goals_5_prob": 0.0015935948,
-    "away_goals_6_prob": 0.0002262109
+    "away_goals_6_prob": 0.0002262109,
+    "match_date": 1794063600000
   },
   {
     "fixture_id": 93,
@@ -2181,7 +2181,6 @@
     "home_team": "Crystal Palace",
     "away_team_code": 14,
     "away_team": "Liverpool",
-    "match_date": 1794009600000,
     "gw": 10,
     "home_win_prob": 0.3303293599,
     "draw_prob": 0.2785624079,
@@ -2201,7 +2200,8 @@
     "away_goals_3_prob": 0.0908733186,
     "away_goals_4_prob": 0.0279772871,
     "away_goals_5_prob": 0.0068907231,
-    "away_goals_6_prob": 0.0014143039
+    "away_goals_6_prob": 0.0014143039,
+    "match_date": 1794063600000
   },
   {
     "fixture_id": 96,
@@ -2210,7 +2210,6 @@
     "home_team": "Ipswich Town",
     "away_team_code": 91,
     "away_team": "Bournemouth",
-    "match_date": 1794009600000,
     "gw": 10,
     "home_win_prob": 0.308039313,
     "draw_prob": 0.2869956245,
@@ -2230,7 +2229,8 @@
     "away_goals_3_prob": 0.0870441416,
     "away_goals_4_prob": 0.0261597503,
     "away_goals_5_prob": 0.0062895218,
-    "away_goals_6_prob": 0.0012601447
+    "away_goals_6_prob": 0.0012601447,
+    "match_date": 1794063600000
   },
   {
     "fixture_id": 98,
@@ -2239,7 +2239,6 @@
     "home_team": "Man Utd",
     "away_team_code": 7,
     "away_team": "Aston Villa",
-    "match_date": 1794009600000,
     "gw": 10,
     "home_win_prob": 0.5500829583,
     "draw_prob": 0.2363185642,
@@ -2259,7 +2258,8 @@
     "away_goals_3_prob": 0.0585736907,
     "away_goals_4_prob": 0.0143138636,
     "away_goals_5_prob": 0.0027983443,
-    "away_goals_6_prob": 0.0004558943
+    "away_goals_6_prob": 0.0004558943,
+    "match_date": 1794063600000
   },
   {
     "fixture_id": 95,
@@ -2268,7 +2268,6 @@
     "home_team": "Fulham",
     "away_team_code": 4,
     "away_team": "Newcastle",
-    "match_date": 1794009600000,
     "gw": 10,
     "home_win_prob": 0.3597977034,
     "draw_prob": 0.2862533936,
@@ -2288,7 +2287,8 @@
     "away_goals_3_prob": 0.0758644193,
     "away_goals_4_prob": 0.0211609747,
     "away_goals_5_prob": 0.0047219696,
-    "away_goals_6_prob": 0.0008780706
+    "away_goals_6_prob": 0.0008780706,
+    "match_date": 1794063600000
   },
   {
     "fixture_id": 92,
@@ -2297,7 +2297,6 @@
     "home_team": "Brighton",
     "away_team_code": 94,
     "away_team": "Brentford",
-    "match_date": 1794009600000,
     "gw": 10,
     "home_win_prob": 0.4654944611,
     "draw_prob": 0.2639351083,
@@ -2317,7 +2316,8 @@
     "away_goals_3_prob": 0.0645692342,
     "away_goals_4_prob": 0.0165673911,
     "away_goals_5_prob": 0.0034007335,
-    "away_goals_6_prob": 0.0005817144
+    "away_goals_6_prob": 0.0005817144,
+    "match_date": 1794063600000
   },
   {
     "fixture_id": 100,
@@ -2326,7 +2326,6 @@
     "home_team": "Sunderland",
     "away_team_code": 8,
     "away_team": "Chelsea",
-    "match_date": 1794009600000,
     "gw": 10,
     "home_win_prob": 0.2709320996,
     "draw_prob": 0.2719678531,
@@ -2346,7 +2345,8 @@
     "away_goals_3_prob": 0.1086116364,
     "away_goals_4_prob": 0.0371267676,
     "away_goals_5_prob": 0.0101528486,
-    "away_goals_6_prob": 0.002313702
+    "away_goals_6_prob": 0.002313702,
+    "match_date": 1794063600000
   },
   {
     "fixture_id": 91,
@@ -2355,7 +2355,6 @@
     "home_team": "Arsenal",
     "away_team_code": 88,
     "away_team": "Hull City",
-    "match_date": 1794009600000,
     "gw": 10,
     "home_win_prob": 0.7949025657,
     "draw_prob": 0.1469087588,
@@ -2375,7 +2374,8 @@
     "away_goals_3_prob": 0.0105579479,
     "away_goals_4_prob": 0.0012288325,
     "away_goals_5_prob": 0.0001144184,
-    "away_goals_6_prob": 8.8781e-06
+    "away_goals_6_prob": 8.8781e-06,
+    "match_date": 1794063600000
   },
   {
     "fixture_id": 97,
@@ -2384,7 +2384,6 @@
     "home_team": "Leeds",
     "away_team_code": 6,
     "away_team": "Spurs",
-    "match_date": 1794009600000,
     "gw": 10,
     "home_win_prob": 0.3486828306,
     "draw_prob": 0.2829338604,
@@ -2404,7 +2403,8 @@
     "away_goals_3_prob": 0.0819888948,
     "away_goals_4_prob": 0.0238430852,
     "away_goals_5_prob": 0.0055470216,
-    "away_goals_6_prob": 0.0010754148
+    "away_goals_6_prob": 0.0010754148,
+    "match_date": 1794063600000
   },
   {
     "fixture_id": 102,
@@ -2413,7 +2413,6 @@
     "home_team": "Bournemouth",
     "away_team_code": 17,
     "away_team": "Nott'm Forest",
-    "match_date": 1795219200000,
     "gw": 11,
     "home_win_prob": 0.4349165967,
     "draw_prob": 0.2785567417,
@@ -2433,7 +2432,8 @@
     "away_goals_3_prob": 0.0606870985,
     "away_goals_4_prob": 0.0150935993,
     "away_goals_5_prob": 0.0030031654,
-    "away_goals_6_prob": 0.0004979485
+    "away_goals_6_prob": 0.0004979485,
+    "match_date": 1795273200000
   },
   {
     "fixture_id": 103,
@@ -2442,7 +2442,6 @@
     "home_team": "Brentford",
     "away_team_code": 11,
     "away_team": "Everton",
-    "match_date": 1795219200000,
     "gw": 11,
     "home_win_prob": 0.4805291688,
     "draw_prob": 0.2600623717,
@@ -2462,7 +2461,8 @@
     "away_goals_3_prob": 0.0627920205,
     "away_goals_4_prob": 0.015886037,
     "away_goals_5_prob": 0.0032152642,
-    "away_goals_6_prob": 0.0005422962
+    "away_goals_6_prob": 0.0005422962,
+    "match_date": 1795273200000
   },
   {
     "fixture_id": 105,
@@ -2471,7 +2471,6 @@
     "home_team": "Coventry City",
     "away_team_code": 31,
     "away_team": "Crystal Palace",
-    "match_date": 1795219200000,
     "gw": 11,
     "home_win_prob": 0.3183981963,
     "draw_prob": 0.2919453141,
@@ -2491,7 +2490,8 @@
     "away_goals_3_prob": 0.0802480596,
     "away_goals_4_prob": 0.0230669099,
     "away_goals_5_prob": 0.0053043758,
-    "away_goals_6_prob": 0.0010164778
+    "away_goals_6_prob": 0.0010164778,
+    "match_date": 1795273200000
   },
   {
     "fixture_id": 101,
@@ -2500,7 +2500,6 @@
     "home_team": "Aston Villa",
     "away_team_code": 56,
     "away_team": "Sunderland",
-    "match_date": 1795219200000,
     "gw": 11,
     "home_win_prob": 0.4845476716,
     "draw_prob": 0.2638265824,
@@ -2520,7 +2519,8 @@
     "away_goals_3_prob": 0.0570759256,
     "away_goals_4_prob": 0.0137709288,
     "away_goals_5_prob": 0.0026580521,
-    "away_goals_6_prob": 0.0004275457
+    "away_goals_6_prob": 0.0004275457,
+    "match_date": 1795273200000
   },
   {
     "fixture_id": 108,
@@ -2529,7 +2529,6 @@
     "home_team": "Man City",
     "away_team_code": 54,
     "away_team": "Fulham",
-    "match_date": 1795219200000,
     "gw": 11,
     "home_win_prob": 0.6379542457,
     "draw_prob": 0.218894658,
@@ -2549,7 +2548,8 @@
     "away_goals_3_prob": 0.031073068,
     "away_goals_4_prob": 0.0056570334,
     "away_goals_5_prob": 0.0008239168,
-    "away_goals_6_prob": 9.99992e-05
+    "away_goals_6_prob": 9.99992e-05,
+    "match_date": 1795273200000
   },
   {
     "fixture_id": 110,
@@ -2558,7 +2558,6 @@
     "home_team": "Spurs",
     "away_team_code": 40,
     "away_team": "Ipswich Town",
-    "match_date": 1795219200000,
     "gw": 11,
     "home_win_prob": 0.5824498535,
     "draw_prob": 0.2451672866,
@@ -2578,7 +2577,8 @@
     "away_goals_3_prob": 0.0332302888,
     "away_goals_4_prob": 0.0062320594,
     "away_goals_5_prob": 0.000935016,
-    "away_goals_6_prob": 0.0001169029
+    "away_goals_6_prob": 0.0001169029,
+    "match_date": 1795273200000
   },
   {
     "fixture_id": 104,
@@ -2587,7 +2587,6 @@
     "home_team": "Chelsea",
     "away_team_code": 2,
     "away_team": "Leeds",
-    "match_date": 1795219200000,
     "gw": 11,
     "home_win_prob": 0.5547579971,
     "draw_prob": 0.2455971482,
@@ -2607,7 +2606,8 @@
     "away_goals_3_prob": 0.0454033867,
     "away_goals_4_prob": 0.009816801,
     "away_goals_5_prob": 0.0016980158,
-    "away_goals_6_prob": 0.0002447554
+    "away_goals_6_prob": 0.0002447554,
+    "match_date": 1795273200000
   },
   {
     "fixture_id": 109,
@@ -2616,7 +2616,6 @@
     "home_team": "Newcastle",
     "away_team_code": 3,
     "away_team": "Arsenal",
-    "match_date": 1795219200000,
     "gw": 11,
     "home_win_prob": 0.2594525957,
     "draw_prob": 0.2727250781,
@@ -2636,7 +2635,8 @@
     "away_goals_3_prob": 0.1092278303,
     "away_goals_4_prob": 0.0374669368,
     "away_goals_5_prob": 0.010281419,
-    "away_goals_6_prob": 0.0023511302
+    "away_goals_6_prob": 0.0023511302,
+    "match_date": 1795273200000
   },
   {
     "fixture_id": 106,
@@ -2645,7 +2645,6 @@
     "home_team": "Hull City",
     "away_team_code": 36,
     "away_team": "Brighton",
-    "match_date": 1795219200000,
     "gw": 11,
     "home_win_prob": 0.1736774711,
     "draw_prob": 0.2492990555,
@@ -2665,7 +2664,8 @@
     "away_goals_3_prob": 0.1364591199,
     "away_goals_4_prob": 0.0541484083,
     "away_goals_5_prob": 0.0171893245,
-    "away_goals_6_prob": 0.0045472694
+    "away_goals_6_prob": 0.0045472694,
+    "match_date": 1795273200000
   },
   {
     "fixture_id": 107,
@@ -2674,7 +2674,6 @@
     "home_team": "Liverpool",
     "away_team_code": 1,
     "away_team": "Man Utd",
-    "match_date": 1795219200000,
     "gw": 11,
     "home_win_prob": 0.4268353797,
     "draw_prob": 0.2639949636,
@@ -2694,7 +2693,8 @@
     "away_goals_3_prob": 0.0791754854,
     "away_goals_4_prob": 0.0225941602,
     "away_goals_5_prob": 0.0051581226,
-    "away_goals_6_prob": 0.0009813092
+    "away_goals_6_prob": 0.0009813092,
+    "match_date": 1795273200000
   },
   {
     "fixture_id": 114,
@@ -2703,7 +2703,6 @@
     "home_team": "Everton",
     "away_team_code": 14,
     "away_team": "Liverpool",
-    "match_date": 1795824000000,
     "gw": 12,
     "home_win_prob": 0.3270462649,
     "draw_prob": 0.2711476845,
@@ -2723,7 +2722,8 @@
     "away_goals_3_prob": 0.0997431148,
     "away_goals_4_prob": 0.0323994922,
     "away_goals_5_prob": 0.0084194451,
-    "away_goals_6_prob": 0.0018232553
+    "away_goals_6_prob": 0.0018232553,
+    "match_date": 1795878000000
   },
   {
     "fixture_id": 116,
@@ -2732,7 +2732,6 @@
     "home_team": "Ipswich Town",
     "away_team_code": 7,
     "away_team": "Aston Villa",
-    "match_date": 1795824000000,
     "gw": 12,
     "home_win_prob": 0.3290713771,
     "draw_prob": 0.2781475372,
@@ -2752,7 +2751,8 @@
     "away_goals_3_prob": 0.091595101,
     "away_goals_4_prob": 0.0283260061,
     "away_goals_5_prob": 0.0070079086,
-    "away_goals_6_prob": 0.0014448084
+    "away_goals_6_prob": 0.0014448084,
+    "match_date": 1795878000000
   },
   {
     "fixture_id": 117,
@@ -2761,7 +2761,6 @@
     "home_team": "Leeds",
     "away_team_code": 9,
     "away_team": "Coventry City",
-    "match_date": 1795824000000,
     "gw": 12,
     "home_win_prob": 0.5104004842,
     "draw_prob": 0.2698691624,
@@ -2781,7 +2780,8 @@
     "away_goals_3_prob": 0.0412855828,
     "away_goals_4_prob": 0.0085410744,
     "away_goals_5_prob": 0.0014135676,
-    "away_goals_6_prob": 0.0001949573
+    "away_goals_6_prob": 0.0001949573,
+    "match_date": 1795878000000
   },
   {
     "fixture_id": 112,
@@ -2790,7 +2790,6 @@
     "home_team": "Brighton",
     "away_team_code": 4,
     "away_team": "Newcastle",
-    "match_date": 1795824000000,
     "gw": 12,
     "home_win_prob": 0.4858698022,
     "draw_prob": 0.2640532449,
@@ -2810,7 +2809,8 @@
     "away_goals_3_prob": 0.0563084288,
     "away_goals_4_prob": 0.0134958248,
     "away_goals_5_prob": 0.002587709,
-    "away_goals_6_prob": 0.0004134759
+    "away_goals_6_prob": 0.0004134759,
+    "match_date": 1795878000000
   },
   {
     "fixture_id": 119,
@@ -2819,7 +2819,6 @@
     "home_team": "Nott'm Forest",
     "away_team_code": 8,
     "away_team": "Chelsea",
-    "match_date": 1795824000000,
     "gw": 12,
     "home_win_prob": 0.3270949488,
     "draw_prob": 0.2763063093,
@@ -2839,7 +2838,8 @@
     "away_goals_3_prob": 0.0940068667,
     "away_goals_4_prob": 0.0295054204,
     "away_goals_5_prob": 0.0074085637,
-    "away_goals_6_prob": 0.0015501902
+    "away_goals_6_prob": 0.0015501902,
+    "match_date": 1795878000000
   },
   {
     "fixture_id": 115,
@@ -2848,7 +2848,6 @@
     "home_team": "Fulham",
     "away_team_code": 91,
     "away_team": "Bournemouth",
-    "match_date": 1795824000000,
     "gw": 12,
     "home_win_prob": 0.3551978329,
     "draw_prob": 0.2871642797,
@@ -2868,7 +2867,8 @@
     "away_goals_3_prob": 0.0761711474,
     "away_goals_4_prob": 0.0212920816,
     "away_goals_5_prob": 0.0047614117,
-    "away_goals_6_prob": 0.0008873033
+    "away_goals_6_prob": 0.0008873033,
+    "match_date": 1795878000000
   },
   {
     "fixture_id": 111,
@@ -2877,7 +2877,6 @@
     "home_team": "Arsenal",
     "away_team_code": 43,
     "away_team": "Man City",
-    "match_date": 1795824000000,
     "gw": 12,
     "home_win_prob": 0.4588730937,
     "draw_prob": 0.2698415755,
@@ -2897,7 +2896,8 @@
     "away_goals_3_prob": 0.0608232296,
     "away_goals_4_prob": 0.0151443708,
     "away_goals_5_prob": 0.0030166365,
-    "away_goals_6_prob": 0.0005007414
+    "away_goals_6_prob": 0.0005007414,
+    "match_date": 1795878000000
   },
   {
     "fixture_id": 120,
@@ -2906,7 +2906,6 @@
     "home_team": "Sunderland",
     "away_team_code": 6,
     "away_team": "Spurs",
-    "match_date": 1795824000000,
     "gw": 12,
     "home_win_prob": 0.3086287823,
     "draw_prob": 0.2845775066,
@@ -2926,7 +2925,8 @@
     "away_goals_3_prob": 0.089292763,
     "away_goals_4_prob": 0.0272204633,
     "away_goals_5_prob": 0.0066384204,
-    "away_goals_6_prob": 0.0013491267
+    "away_goals_6_prob": 0.0013491267,
+    "match_date": 1795878000000
   },
   {
     "fixture_id": 118,
@@ -2935,7 +2935,6 @@
     "home_team": "Man Utd",
     "away_team_code": 94,
     "away_team": "Brentford",
-    "match_date": 1795824000000,
     "gw": 12,
     "home_win_prob": 0.5046747812,
     "draw_prob": 0.2507017265,
@@ -2955,7 +2954,8 @@
     "away_goals_3_prob": 0.0631367331,
     "away_goals_4_prob": 0.0160173149,
     "away_goals_5_prob": 0.003250778,
-    "away_goals_6_prob": 0.0005497986
+    "away_goals_6_prob": 0.0005497986,
+    "match_date": 1795878000000
   },
   {
     "fixture_id": 113,
@@ -2964,7 +2964,6 @@
     "home_team": "Crystal Palace",
     "away_team_code": 88,
     "away_team": "Hull City",
-    "match_date": 1795824000000,
     "gw": 12,
     "home_win_prob": 0.6268478038,
     "draw_prob": 0.2336744053,
@@ -2984,7 +2983,8 @@
     "away_goals_3_prob": 0.0235643379,
     "away_goals_4_prob": 0.0038066118,
     "away_goals_5_prob": 0.0004919398,
-    "away_goals_6_prob": 5.2979e-05
+    "away_goals_6_prob": 5.2979e-05,
+    "match_date": 1795878000000
   },
   {
     "fixture_id": 130,
@@ -2993,7 +2993,6 @@
     "home_team": "Spurs",
     "away_team_code": 54,
     "away_team": "Fulham",
-    "match_date": 1796169600000,
     "gw": 13,
     "home_win_prob": 0.5335641983,
     "draw_prob": 0.2593783693,
@@ -3013,7 +3012,8 @@
     "away_goals_3_prob": 0.0413375726,
     "away_goals_4_prob": 0.0085567855,
     "away_goals_5_prob": 0.0014169884,
-    "away_goals_6_prob": 0.0001955423
+    "away_goals_6_prob": 0.0001955423,
+    "match_date": 1796241600000
   },
   {
     "fixture_id": 127,
@@ -3022,7 +3022,6 @@
     "home_team": "Liverpool",
     "away_team_code": 56,
     "away_team": "Sunderland",
-    "match_date": 1796169600000,
     "gw": 13,
     "home_win_prob": 0.578041384,
     "draw_prob": 0.2421088706,
@@ -3042,7 +3041,8 @@
     "away_goals_3_prob": 0.0379990423,
     "away_goals_4_prob": 0.0075687209,
     "away_goals_5_prob": 0.0012060417,
-    "away_goals_6_prob": 0.0001601478
+    "away_goals_6_prob": 0.0001601478,
+    "match_date": 1796241600000
   },
   {
     "fixture_id": 126,
@@ -3051,7 +3051,6 @@
     "home_team": "Hull City",
     "away_team_code": 17,
     "away_team": "Nott'm Forest",
-    "match_date": 1796169600000,
     "gw": 13,
     "home_win_prob": 0.2179317101,
     "draw_prob": 0.2757741347,
@@ -3071,7 +3070,8 @@
     "away_goals_3_prob": 0.10982866,
     "away_goals_4_prob": 0.0378001179,
     "away_goals_5_prob": 0.0104078401,
-    "away_goals_6_prob": 0.0023880687
+    "away_goals_6_prob": 0.0023880687,
+    "match_date": 1796241600000
   },
   {
     "fixture_id": 124,
@@ -3080,7 +3080,6 @@
     "home_team": "Chelsea",
     "away_team_code": 31,
     "away_team": "Crystal Palace",
-    "match_date": 1796169600000,
     "gw": 13,
     "home_win_prob": 0.5423329432,
     "draw_prob": 0.2500470862,
@@ -3100,7 +3099,8 @@
     "away_goals_3_prob": 0.0465379123,
     "away_goals_4_prob": 0.0101793505,
     "away_goals_5_prob": 0.0017812432,
-    "away_goals_6_prob": 0.0002597438
+    "away_goals_6_prob": 0.0002597438,
+    "match_date": 1796241600000
   },
   {
     "fixture_id": 123,
@@ -3109,7 +3109,6 @@
     "home_team": "Brentford",
     "away_team_code": 3,
     "away_team": "Arsenal",
-    "match_date": 1796169600000,
     "gw": 13,
     "home_win_prob": 0.2802010494,
     "draw_prob": 0.2719584676,
@@ -3129,7 +3128,8 @@
     "away_goals_3_prob": 0.1073352448,
     "away_goals_4_prob": 0.0364270467,
     "away_goals_5_prob": 0.0098899834,
-    "away_goals_6_prob": 0.0022376178
+    "away_goals_6_prob": 0.0022376178,
+    "match_date": 1796241600000
   },
   {
     "fixture_id": 121,
@@ -3138,7 +3138,6 @@
     "home_team": "Aston Villa",
     "away_team_code": 11,
     "away_team": "Everton",
-    "match_date": 1796169600000,
     "gw": 13,
     "home_win_prob": 0.4437476616,
     "draw_prob": 0.2623148439,
@@ -3158,7 +3157,8 @@
     "away_goals_3_prob": 0.0748913692,
     "away_goals_4_prob": 0.0207472938,
     "away_goals_5_prob": 0.0045981288,
-    "away_goals_6_prob": 0.0008492187
+    "away_goals_6_prob": 0.0008492187,
+    "match_date": 1796241600000
   },
   {
     "fixture_id": 122,
@@ -3167,7 +3167,6 @@
     "home_team": "Bournemouth",
     "away_team_code": 36,
     "away_team": "Brighton",
-    "match_date": 1796169600000,
     "gw": 13,
     "home_win_prob": 0.3739511293,
     "draw_prob": 0.2784670882,
@@ -3187,7 +3186,8 @@
     "away_goals_3_prob": 0.0798884476,
     "away_goals_4_prob": 0.0229079425,
     "away_goals_5_prob": 0.005255066,
-    "away_goals_6_prob": 0.0010045904
+    "away_goals_6_prob": 0.0010045904,
+    "match_date": 1796241600000
   },
   {
     "fixture_id": 128,
@@ -3196,7 +3196,6 @@
     "home_team": "Man City",
     "away_team_code": 2,
     "away_team": "Leeds",
-    "match_date": 1796169600000,
     "gw": 13,
     "home_win_prob": 0.6070698367,
     "draw_prob": 0.2285568776,
@@ -3216,7 +3215,8 @@
     "away_goals_3_prob": 0.0373385565,
     "away_goals_4_prob": 0.0073782986,
     "away_goals_5_prob": 0.001166393,
-    "away_goals_6_prob": 0.000153657
+    "away_goals_6_prob": 0.000153657,
+    "match_date": 1796241600000
   },
   {
     "fixture_id": 125,
@@ -3225,7 +3225,6 @@
     "home_team": "Coventry City",
     "away_team_code": 40,
     "away_team": "Ipswich Town",
-    "match_date": 1796169600000,
     "gw": 13,
     "home_win_prob": 0.4047474697,
     "draw_prob": 0.2954869711,
@@ -3245,7 +3244,8 @@
     "away_goals_3_prob": 0.055110012,
     "away_goals_4_prob": 0.0130704838,
     "away_goals_5_prob": 0.0024799493,
-    "away_goals_6_prob": 0.0003921143
+    "away_goals_6_prob": 0.0003921143,
+    "match_date": 1796241600000
   },
   {
     "fixture_id": 129,
@@ -3254,7 +3254,6 @@
     "home_team": "Newcastle",
     "away_team_code": 1,
     "away_team": "Man Utd",
-    "match_date": 1796169600000,
     "gw": 13,
     "home_win_prob": 0.3428207133,
     "draw_prob": 0.2706261289,
@@ -3274,7 +3273,8 @@
     "away_goals_3_prob": 0.0967282348,
     "away_goals_4_prob": 0.0308626955,
     "away_goals_5_prob": 0.0078777906,
-    "away_goals_6_prob": 0.0016756903
+    "away_goals_6_prob": 0.0016756903,
+    "match_date": 1796241600000
   },
   {
     "fixture_id": 139,
@@ -3283,7 +3283,6 @@
     "home_team": "Nott'm Forest",
     "away_team_code": 36,
     "away_team": "Brighton",
-    "match_date": 1796428800000,
     "gw": 14,
     "home_win_prob": 0.3604398068,
     "draw_prob": 0.2815557373,
@@ -3303,7 +3302,8 @@
     "away_goals_3_prob": 0.0803739684,
     "away_goals_4_prob": 0.023122679,
     "away_goals_5_prob": 0.005321706,
-    "away_goals_6_prob": 0.001020663
+    "away_goals_6_prob": 0.001020663,
+    "match_date": 1796482800000
   },
   {
     "fixture_id": 136,
@@ -3312,7 +3312,6 @@
     "home_team": "Leeds",
     "away_team_code": 40,
     "away_team": "Ipswich Town",
-    "match_date": 1796428800000,
     "gw": 14,
     "home_win_prob": 0.5027022686,
     "draw_prob": 0.271518631,
@@ -3332,7 +3331,8 @@
     "away_goals_3_prob": 0.0427633809,
     "away_goals_4_prob": 0.0089916204,
     "away_goals_5_prob": 0.0015124948,
-    "away_goals_6_prob": 0.000212016
+    "away_goals_6_prob": 0.000212016,
+    "match_date": 1796482800000
   },
   {
     "fixture_id": 140,
@@ -3341,7 +3341,6 @@
     "home_team": "Spurs",
     "away_team_code": 3,
     "away_team": "Arsenal",
-    "match_date": 1796428800000,
     "gw": 14,
     "home_win_prob": 0.3009512305,
     "draw_prob": 0.2808212431,
@@ -3361,7 +3360,8 @@
     "away_goals_3_prob": 0.0945401025,
     "away_goals_4_prob": 0.0297691516,
     "away_goals_5_prob": 0.0074990601,
-    "away_goals_6_prob": 0.0015742219
+    "away_goals_6_prob": 0.0015742219,
+    "match_date": 1796482800000
   },
   {
     "fixture_id": 132,
@@ -3370,7 +3370,6 @@
     "home_team": "Bournemouth",
     "away_team_code": 88,
     "away_team": "Hull City",
-    "match_date": 1796428800000,
     "gw": 14,
     "home_win_prob": 0.6515636861,
     "draw_prob": 0.2209451181,
@@ -3390,7 +3389,8 @@
     "away_goals_3_prob": 0.0226550311,
     "away_goals_4_prob": 0.0035991825,
     "away_goals_5_prob": 0.0004574389,
-    "away_goals_6_prob": 4.84486e-05
+    "away_goals_6_prob": 4.84486e-05,
+    "match_date": 1796482800000
   },
   {
     "fixture_id": 133,
@@ -3399,7 +3399,6 @@
     "home_team": "Brentford",
     "away_team_code": 43,
     "away_team": "Man City",
-    "match_date": 1796428800000,
     "gw": 14,
     "home_win_prob": 0.3111283788,
     "draw_prob": 0.2668454006,
@@ -3419,7 +3418,8 @@
     "away_goals_3_prob": 0.1079487256,
     "away_goals_4_prob": 0.0367625338,
     "away_goals_5_prob": 0.0100157469,
-    "away_goals_6_prob": 0.0022739452
+    "away_goals_6_prob": 0.0022739452,
+    "match_date": 1796482800000
   },
   {
     "fixture_id": 135,
@@ -3428,7 +3428,6 @@
     "home_team": "Everton",
     "away_team_code": 54,
     "away_team": "Fulham",
-    "match_date": 1796428800000,
     "gw": 14,
     "home_win_prob": 0.4633773425,
     "draw_prob": 0.2730905753,
@@ -3448,7 +3447,8 @@
     "away_goals_3_prob": 0.0559179539,
     "away_goals_4_prob": 0.0133566719,
     "away_goals_5_prob": 0.0025523206,
-    "away_goals_6_prob": 0.0004064349
+    "away_goals_6_prob": 0.0004064349,
+    "match_date": 1796482800000
   },
   {
     "fixture_id": 137,
@@ -3457,7 +3457,6 @@
     "home_team": "Man Utd",
     "away_team_code": 9,
     "away_team": "Coventry City",
-    "match_date": 1796428800000,
     "gw": 14,
     "home_win_prob": 0.6406771975,
     "draw_prob": 0.2173307238,
@@ -3477,7 +3476,8 @@
     "away_goals_3_prob": 0.0311950822,
     "away_goals_4_prob": 0.0056890548,
     "away_goals_5_prob": 0.0008300115,
-    "away_goals_6_prob": 0.0001009129
+    "away_goals_6_prob": 0.0001009129,
+    "match_date": 1796482800000
   },
   {
     "fixture_id": 131,
@@ -3486,7 +3486,6 @@
     "home_team": "Aston Villa",
     "away_team_code": 31,
     "away_team": "Crystal Palace",
-    "match_date": 1796428800000,
     "gw": 14,
     "home_win_prob": 0.4319896406,
     "draw_prob": 0.2700510074,
@@ -3506,7 +3505,8 @@
     "away_goals_3_prob": 0.0704219368,
     "away_goals_4_prob": 0.0188907394,
     "away_goals_5_prob": 0.0040539645,
-    "away_goals_6_prob": 0.0007249861
+    "away_goals_6_prob": 0.0007249861,
+    "match_date": 1796482800000
   },
   {
     "fixture_id": 134,
@@ -3515,7 +3515,6 @@
     "home_team": "Chelsea",
     "away_team_code": 14,
     "away_team": "Liverpool",
-    "match_date": 1796428800000,
     "gw": 14,
     "home_win_prob": 0.4468499851,
     "draw_prob": 0.2639794655,
@@ -3535,7 +3534,8 @@
     "away_goals_3_prob": 0.0717609537,
     "away_goals_4_prob": 0.0194394575,
     "away_goals_5_prob": 0.0042127925,
-    "away_goals_6_prob": 0.0007608074
+    "away_goals_6_prob": 0.0007608074,
+    "match_date": 1796482800000
   },
   {
     "fixture_id": 138,
@@ -3544,7 +3544,6 @@
     "home_team": "Newcastle",
     "away_team_code": 56,
     "away_team": "Sunderland",
-    "match_date": 1796428800000,
     "gw": 14,
     "home_win_prob": 0.4911766943,
     "draw_prob": 0.2700991758,
@@ -3564,7 +3563,8 @@
     "away_goals_3_prob": 0.0483445526,
     "away_goals_4_prob": 0.0107664495,
     "away_goals_5_prob": 0.0019181716,
-    "away_goals_6_prob": 0.0002847877
+    "away_goals_6_prob": 0.0002847877,
+    "match_date": 1796482800000
   },
   {
     "fixture_id": 146,
@@ -3573,7 +3573,6 @@
     "home_team": "Hull City",
     "away_team_code": 6,
     "away_team": "Spurs",
-    "match_date": 1797033600000,
     "gw": 15,
     "home_win_prob": 0.1791220054,
     "draw_prob": 0.2547296505,
@@ -3593,7 +3592,8 @@
     "away_goals_3_prob": 0.1311707233,
     "away_goals_4_prob": 0.0506416681,
     "away_goals_5_prob": 0.0156411643,
-    "away_goals_6_prob": 0.0040257695
+    "away_goals_6_prob": 0.0040257695,
+    "match_date": 1797087600000
   },
   {
     "fixture_id": 144,
@@ -3602,7 +3602,6 @@
     "home_team": "Crystal Palace",
     "away_team_code": 1,
     "away_team": "Man Utd",
-    "match_date": 1797033600000,
     "gw": 15,
     "home_win_prob": 0.3249832721,
     "draw_prob": 0.273633747,
@@ -3622,7 +3621,8 @@
     "away_goals_3_prob": 0.0973948433,
     "away_goals_4_prob": 0.0311994767,
     "away_goals_5_prob": 0.0079955555,
-    "away_goals_6_prob": 0.0017075315
+    "away_goals_6_prob": 0.0017075315,
+    "match_date": 1797087600000
   },
   {
     "fixture_id": 149,
@@ -3631,7 +3631,6 @@
     "home_team": "Man City",
     "away_team_code": 8,
     "away_team": "Chelsea",
-    "match_date": 1797033600000,
     "gw": 15,
     "home_win_prob": 0.4879764045,
     "draw_prob": 0.2560919187,
@@ -3651,7 +3650,8 @@
     "away_goals_3_prob": 0.0641829105,
     "away_goals_4_prob": 0.0164183244,
     "away_goals_5_prob": 0.0033599146,
-    "away_goals_6_prob": 0.0005729892
+    "away_goals_6_prob": 0.0005729892,
+    "match_date": 1797087600000
   },
   {
     "fixture_id": 145,
@@ -3660,7 +3660,6 @@
     "home_team": "Fulham",
     "away_team_code": 94,
     "away_team": "Brentford",
-    "match_date": 1797033600000,
     "gw": 15,
     "home_win_prob": 0.340063812,
     "draw_prob": 0.2810262313,
@@ -3680,7 +3679,8 @@
     "away_goals_3_prob": 0.0860401756,
     "away_goals_4_prob": 0.0256921994,
     "away_goals_5_prob": 0.0061374966,
-    "away_goals_6_prob": 0.0012217997
+    "away_goals_6_prob": 0.0012217997,
+    "match_date": 1797087600000
   },
   {
     "fixture_id": 141,
@@ -3689,7 +3689,6 @@
     "home_team": "Arsenal",
     "away_team_code": 91,
     "away_team": "Bournemouth",
-    "match_date": 1797033600000,
     "gw": 15,
     "home_win_prob": 0.5976669168,
     "draw_prob": 0.2367046109,
@@ -3709,7 +3708,8 @@
     "away_goals_3_prob": 0.0339520812,
     "away_goals_4_prob": 0.0064286287,
     "away_goals_5_prob": 0.0009737787,
-    "away_goals_6_prob": 0.0001229195
+    "away_goals_6_prob": 0.0001229195,
+    "match_date": 1797087600000
   },
   {
     "fixture_id": 148,
@@ -3718,7 +3718,6 @@
     "home_team": "Liverpool",
     "away_team_code": 2,
     "away_team": "Leeds",
-    "match_date": 1797033600000,
     "gw": 15,
     "home_win_prob": 0.5390396387,
     "draw_prob": 0.2514251449,
@@ -3738,7 +3737,8 @@
     "away_goals_3_prob": 0.0466144761,
     "away_goals_4_prob": 0.0102039881,
     "away_goals_5_prob": 0.0017869363,
-    "away_goals_6_prob": 0.0002607756
+    "away_goals_6_prob": 0.0002607756,
+    "match_date": 1797087600000
   },
   {
     "fixture_id": 142,
@@ -3747,7 +3747,6 @@
     "home_team": "Brighton",
     "away_team_code": 11,
     "away_team": "Everton",
-    "match_date": 1797033600000,
     "gw": 15,
     "home_win_prob": 0.5131651654,
     "draw_prob": 0.2554436738,
@@ -3767,7 +3766,8 @@
     "away_goals_3_prob": 0.0539091523,
     "away_goals_4_prob": 0.0126494498,
     "away_goals_5_prob": 0.0023744922,
-    "away_goals_6_prob": 0.00037144
+    "away_goals_6_prob": 0.00037144,
+    "match_date": 1797087600000
   },
   {
     "fixture_id": 150,
@@ -3776,7 +3776,6 @@
     "home_team": "Sunderland",
     "away_team_code": 17,
     "away_team": "Nott'm Forest",
-    "match_date": 1797033600000,
     "gw": 15,
     "home_win_prob": 0.3588476581,
     "draw_prob": 0.2903777718,
@@ -3796,7 +3795,8 @@
     "away_goals_3_prob": 0.0722021619,
     "away_goals_4_prob": 0.019621664,
     "away_goals_5_prob": 0.0042659077,
-    "away_goals_6_prob": 0.0007728689
+    "away_goals_6_prob": 0.0007728689,
+    "match_date": 1797087600000
   },
   {
     "fixture_id": 143,
@@ -3805,7 +3805,6 @@
     "home_team": "Coventry City",
     "away_team_code": 7,
     "away_team": "Aston Villa",
-    "match_date": 1797033600000,
     "gw": 15,
     "home_win_prob": 0.3214040143,
     "draw_prob": 0.2780278724,
@@ -3825,7 +3824,8 @@
     "away_goals_3_prob": 0.093390869,
     "away_goals_4_prob": 0.0292020962,
     "away_goals_5_prob": 0.0073048891,
-    "away_goals_6_prob": 0.0015227618
+    "away_goals_6_prob": 0.0015227618,
+    "match_date": 1797087600000
   },
   {
     "fixture_id": 147,
@@ -3834,7 +3834,6 @@
     "home_team": "Ipswich Town",
     "away_team_code": 4,
     "away_team": "Newcastle",
-    "match_date": 1797033600000,
     "gw": 15,
     "home_win_prob": 0.312248828,
     "draw_prob": 0.2864716396,
@@ -3854,7 +3853,8 @@
     "away_goals_3_prob": 0.0867091174,
     "away_goals_4_prob": 0.0260033151,
     "away_goals_5_prob": 0.0062385356,
-    "away_goals_6_prob": 0.0012472553
+    "away_goals_6_prob": 0.0012472553,
+    "match_date": 1797087600000
   },
   {
     "fixture_id": 153,
@@ -3863,7 +3863,6 @@
     "home_team": "Brentford",
     "away_team_code": 4,
     "away_team": "Newcastle",
-    "match_date": 1797638400000,
     "gw": 16,
     "home_win_prob": 0.4535102486,
     "draw_prob": 0.2673351711,
@@ -3883,7 +3882,8 @@
     "away_goals_3_prob": 0.0654837518,
     "away_goals_4_prob": 0.0169223844,
     "away_goals_5_prob": 0.0034984812,
-    "away_goals_6_prob": 0.000602721
+    "away_goals_6_prob": 0.000602721,
+    "match_date": 1797692400000
   },
   {
     "fixture_id": 151,
@@ -3892,7 +3892,6 @@
     "home_team": "Arsenal",
     "away_team_code": 1,
     "away_team": "Man Utd",
-    "match_date": 1797638400000,
     "gw": 16,
     "home_win_prob": 0.5215328729,
     "draw_prob": 0.2536791618,
@@ -3912,7 +3911,8 @@
     "away_goals_3_prob": 0.0520989151,
     "away_goals_4_prob": 0.0120245779,
     "away_goals_5_prob": 0.0022202455,
-    "away_goals_6_prob": 0.000341626
+    "away_goals_6_prob": 0.000341626,
+    "match_date": 1797692400000
   },
   {
     "fixture_id": 155,
@@ -3921,7 +3921,6 @@
     "home_team": "Chelsea",
     "away_team_code": 7,
     "away_team": "Aston Villa",
-    "match_date": 1797638400000,
     "gw": 16,
     "home_win_prob": 0.5535730927,
     "draw_prob": 0.2373005311,
@@ -3941,7 +3940,8 @@
     "away_goals_3_prob": 0.0554772023,
     "away_goals_4_prob": 0.013200259,
     "away_goals_5_prob": 0.0025126983,
-    "away_goals_6_prob": 0.0003985814
+    "away_goals_6_prob": 0.0003985814,
+    "match_date": 1797692400000
   },
   {
     "fixture_id": 152,
@@ -3950,7 +3950,6 @@
     "home_team": "Bournemouth",
     "away_team_code": 9,
     "away_team": "Coventry City",
-    "match_date": 1797638400000,
     "gw": 16,
     "home_win_prob": 0.5451648339,
     "draw_prob": 0.2581354954,
@@ -3970,7 +3969,8 @@
     "away_goals_3_prob": 0.0377006048,
     "away_goals_4_prob": 0.0074824711,
     "away_goals_5_prob": 0.0011880419,
-    "away_goals_6_prob": 0.0001571945
+    "away_goals_6_prob": 0.0001571945,
+    "match_date": 1797692400000
   },
   {
     "fixture_id": 156,
@@ -3979,7 +3979,6 @@
     "home_team": "Leeds",
     "away_team_code": 54,
     "away_team": "Fulham",
-    "match_date": 1797638400000,
     "gw": 16,
     "home_win_prob": 0.4537666366,
     "draw_prob": 0.2802322626,
@@ -3999,7 +3998,8 @@
     "away_goals_3_prob": 0.0526978678,
     "away_goals_4_prob": 0.0122300203,
     "away_goals_5_prob": 0.0022706558,
-    "away_goals_6_prob": 0.000351313
+    "away_goals_6_prob": 0.000351313,
+    "match_date": 1797692400000
   },
   {
     "fixture_id": 157,
@@ -4008,7 +4008,6 @@
     "home_team": "Liverpool",
     "away_team_code": 6,
     "away_team": "Spurs",
-    "match_date": 1797638400000,
     "gw": 16,
     "home_win_prob": 0.4614343767,
     "draw_prob": 0.2671625707,
@@ -4028,7 +4027,8 @@
     "away_goals_3_prob": 0.0626533268,
     "away_goals_4_prob": 0.0158333373,
     "away_goals_5_prob": 0.0032010376,
-    "away_goals_6_prob": 0.0005392968
+    "away_goals_6_prob": 0.0005392968,
+    "match_date": 1797692400000
   },
   {
     "fixture_id": 160,
@@ -4037,7 +4037,6 @@
     "home_team": "Sunderland",
     "away_team_code": 31,
     "away_team": "Crystal Palace",
-    "match_date": 1797638400000,
     "gw": 16,
     "home_win_prob": 0.3671730376,
     "draw_prob": 0.2905601936,
@@ -4057,7 +4056,8 @@
     "away_goals_3_prob": 0.0698579162,
     "away_goals_4_prob": 0.0186615244,
     "away_goals_5_prob": 0.0039881234,
-    "away_goals_6_prob": 0.000710246
+    "away_goals_6_prob": 0.000710246,
+    "match_date": 1797692400000
   },
   {
     "fixture_id": 154,
@@ -4066,7 +4066,6 @@
     "home_team": "Brighton",
     "away_team_code": 40,
     "away_team": "Ipswich Town",
-    "match_date": 1797638400000,
     "gw": 16,
     "home_win_prob": 0.5934182292,
     "draw_prob": 0.2396748936,
@@ -4086,7 +4085,8 @@
     "away_goals_3_prob": 0.0332009034,
     "away_goals_4_prob": 0.0062241008,
     "away_goals_5_prob": 0.0009334549,
-    "away_goals_6_prob": 0.0001166618
+    "away_goals_6_prob": 0.0001166618,
+    "match_date": 1797692400000
   },
   {
     "fixture_id": 158,
@@ -4095,7 +4095,6 @@
     "home_team": "Man City",
     "away_team_code": 88,
     "away_team": "Hull City",
-    "match_date": 1797638400000,
     "gw": 16,
     "home_win_prob": 0.7833632314,
     "draw_prob": 0.1507207358,
@@ -4115,7 +4114,8 @@
     "away_goals_3_prob": 0.0139072637,
     "away_goals_4_prob": 0.001806628,
     "away_goals_5_prob": 0.0001877525,
-    "away_goals_6_prob": 1.626e-05
+    "away_goals_6_prob": 1.626e-05,
+    "match_date": 1797692400000
   },
   {
     "fixture_id": 159,
@@ -4124,7 +4124,6 @@
     "home_team": "Nott'm Forest",
     "away_team_code": 11,
     "away_team": "Everton",
-    "match_date": 1797638400000,
     "gw": 16,
     "home_win_prob": 0.4409997191,
     "draw_prob": 0.274130674,
@@ -4144,7 +4143,8 @@
     "away_goals_3_prob": 0.0629475709,
     "away_goals_4_prob": 0.0159452233,
     "away_goals_5_prob": 0.0032312624,
-    "away_goals_6_prob": 0.0005456732
+    "away_goals_6_prob": 0.0005456732,
+    "match_date": 1797692400000
   },
   {
     "fixture_id": 170,
@@ -4153,7 +4153,6 @@
     "home_team": "Spurs",
     "away_team_code": 91,
     "away_team": "Bournemouth",
-    "match_date": 1798243200000,
     "gw": 17,
     "home_win_prob": 0.4700317136,
     "draw_prob": 0.2698635633,
@@ -4173,7 +4172,8 @@
     "away_goals_3_prob": 0.0566004225,
     "away_goals_4_prob": 0.0136002393,
     "away_goals_5_prob": 0.0026143481,
-    "away_goals_6_prob": 0.0004187926
+    "away_goals_6_prob": 0.0004187926,
+    "match_date": 1798297200000
   },
   {
     "fixture_id": 167,
@@ -4182,7 +4182,6 @@
     "home_team": "Ipswich Town",
     "away_team_code": 94,
     "away_team": "Brentford",
-    "match_date": 1798243200000,
     "gw": 17,
     "home_win_prob": 0.2931957519,
     "draw_prob": 0.2790332276,
@@ -4202,7 +4201,8 @@
     "away_goals_3_prob": 0.0977638158,
     "away_goals_4_prob": 0.031386621,
     "away_goals_5_prob": 0.0080612236,
-    "away_goals_6_prob": 0.0017253457
+    "away_goals_6_prob": 0.0017253457,
+    "match_date": 1798297200000
   },
   {
     "fixture_id": 161,
@@ -4211,7 +4211,6 @@
     "home_team": "Aston Villa",
     "away_team_code": 2,
     "away_team": "Leeds",
-    "match_date": 1798243200000,
     "gw": 17,
     "home_win_prob": 0.4439825095,
     "draw_prob": 0.2675071846,
@@ -4231,7 +4230,8 @@
     "away_goals_3_prob": 0.0688616588,
     "away_goals_4_prob": 0.0182594227,
     "away_goals_5_prob": 0.0038733487,
-    "away_goals_6_prob": 0.0006847072
+    "away_goals_6_prob": 0.0006847072,
+    "match_date": 1798297200000
   },
   {
     "fixture_id": 164,
@@ -4240,7 +4240,6 @@
     "home_team": "Everton",
     "away_team_code": 56,
     "away_team": "Sunderland",
-    "match_date": 1798243200000,
     "gw": 17,
     "home_win_prob": 0.4700815592,
     "draw_prob": 0.2719849166,
@@ -4260,7 +4259,8 @@
     "away_goals_3_prob": 0.0545087254,
     "away_goals_4_prob": 0.0128590182,
     "away_goals_5_prob": 0.0024268313,
-    "away_goals_6_prob": 0.0003816718
+    "away_goals_6_prob": 0.0003816718,
+    "match_date": 1798297200000
   },
   {
     "fixture_id": 162,
@@ -4269,7 +4269,6 @@
     "home_team": "Coventry City",
     "away_team_code": 8,
     "away_team": "Chelsea",
-    "match_date": 1798243200000,
     "gw": 17,
     "home_win_prob": 0.2282810148,
     "draw_prob": 0.2631920603,
@@ -4289,7 +4288,8 @@
     "away_goals_3_prob": 0.1219900196,
     "away_goals_4_prob": 0.0448702484,
     "away_goals_5_prob": 0.0132033043,
-    "away_goals_6_prob": 0.0032376176
+    "away_goals_6_prob": 0.0032376176,
+    "match_date": 1798297200000
   },
   {
     "fixture_id": 169,
@@ -4298,7 +4298,6 @@
     "home_team": "Newcastle",
     "away_team_code": 43,
     "away_team": "Man City",
-    "match_date": 1798243200000,
     "gw": 17,
     "home_win_prob": 0.2884723406,
     "draw_prob": 0.2685686113,
@@ -4318,7 +4317,8 @@
     "away_goals_3_prob": 0.1098466437,
     "away_goals_4_prob": 0.0378101133,
     "away_goals_5_prob": 0.0104116402,
-    "away_goals_6_prob": 0.0023891812
+    "away_goals_6_prob": 0.0023891812,
+    "match_date": 1798297200000
   },
   {
     "fixture_id": 165,
@@ -4327,7 +4327,6 @@
     "home_team": "Fulham",
     "away_team_code": 36,
     "away_team": "Brighton",
-    "match_date": 1798243200000,
     "gw": 17,
     "home_win_prob": 0.3081095165,
     "draw_prob": 0.28192224,
@@ -4347,7 +4346,8 @@
     "away_goals_3_prob": 0.0920568304,
     "away_goals_4_prob": 0.0285501086,
     "away_goals_5_prob": 0.0070835261,
-    "away_goals_6_prob": 0.0014645695
+    "away_goals_6_prob": 0.0014645695,
+    "match_date": 1798297200000
   },
   {
     "fixture_id": 166,
@@ -4356,7 +4356,6 @@
     "home_team": "Hull City",
     "away_team_code": 14,
     "away_team": "Liverpool",
-    "match_date": 1798243200000,
     "gw": 17,
     "home_win_prob": 0.1585961411,
     "draw_prob": 0.2378803548,
@@ -4376,7 +4375,8 @@
     "away_goals_3_prob": 0.1470739415,
     "away_goals_4_prob": 0.0616228564,
     "away_goals_5_prob": 0.0206556044,
-    "away_goals_6_prob": 0.0057696935
+    "away_goals_6_prob": 0.0057696935,
+    "match_date": 1798297200000
   },
   {
     "fixture_id": 163,
@@ -4385,7 +4385,6 @@
     "home_team": "Crystal Palace",
     "away_team_code": 3,
     "away_team": "Arsenal",
-    "match_date": 1798243200000,
     "gw": 17,
     "home_win_prob": 0.2450486587,
     "draw_prob": 0.2735087796,
@@ -4405,7 +4404,8 @@
     "away_goals_3_prob": 0.109938997,
     "away_goals_4_prob": 0.0378614643,
     "away_goals_5_prob": 0.0104311702,
-    "away_goals_6_prob": 0.0023949001
+    "away_goals_6_prob": 0.0023949001,
+    "match_date": 1798297200000
   },
   {
     "fixture_id": 168,
@@ -4414,7 +4414,6 @@
     "home_team": "Man Utd",
     "away_team_code": 17,
     "away_team": "Nott'm Forest",
-    "match_date": 1798243200000,
     "gw": 17,
     "home_win_prob": 0.5299148532,
     "draw_prob": 0.2511439111,
@@ -4434,7 +4433,8 @@
     "away_goals_3_prob": 0.0510391856,
     "away_goals_4_prob": 0.0116642665,
     "away_goals_5_prob": 0.0021325593,
-    "away_goals_6_prob": 0.0003249104
+    "away_goals_6_prob": 0.0003249104,
+    "match_date": 1798297200000
   },
   {
     "fixture_id": 173,
@@ -4443,7 +4443,6 @@
     "home_team": "Crystal Palace",
     "away_team_code": 91,
     "away_team": "Bournemouth",
-    "match_date": 1798588800000,
     "gw": 18,
     "home_win_prob": 0.4010569043,
     "draw_prob": 0.2826321153,
@@ -4463,7 +4462,8 @@
     "away_goals_3_prob": 0.0676732763,
     "away_goals_4_prob": 0.0177844044,
     "away_goals_5_prob": 0.0037389653,
-    "away_goals_6_prob": 0.0006550618
+    "away_goals_6_prob": 0.0006550618,
+    "match_date": 1798660800000
   },
   {
     "fixture_id": 174,
@@ -4472,7 +4472,6 @@
     "home_team": "Everton",
     "away_team_code": 43,
     "away_team": "Man City",
-    "match_date": 1798588800000,
     "gw": 18,
     "home_win_prob": 0.2684563649,
     "draw_prob": 0.2617271994,
@@ -4492,7 +4491,8 @@
     "away_goals_3_prob": 0.1203591247,
     "away_goals_4_prob": 0.0438850935,
     "away_goals_5_prob": 0.0128010332,
-    "away_goals_6_prob": 0.0031116574
+    "away_goals_6_prob": 0.0031116574,
+    "match_date": 1798660800000
   },
   {
     "fixture_id": 172,
@@ -4501,7 +4501,6 @@
     "home_team": "Coventry City",
     "away_team_code": 94,
     "away_team": "Brentford",
-    "match_date": 1798588800000,
     "gw": 18,
     "home_win_prob": 0.2860391413,
     "draw_prob": 0.278385672,
@@ -4521,7 +4520,8 @@
     "away_goals_3_prob": 0.0996288046,
     "away_goals_4_prob": 0.0323405834,
     "away_goals_5_prob": 0.0083984815,
-    "away_goals_6_prob": 0.0018174917
+    "away_goals_6_prob": 0.0018174917,
+    "match_date": 1798660800000
   },
   {
     "fixture_id": 179,
@@ -4530,7 +4530,6 @@
     "home_team": "Newcastle",
     "away_team_code": 17,
     "away_team": "Nott'm Forest",
-    "match_date": 1798588800000,
     "gw": 18,
     "home_win_prob": 0.4311550444,
     "draw_prob": 0.278258459,
@@ -4550,7 +4549,8 @@
     "away_goals_3_prob": 0.0622471448,
     "away_goals_4_prob": 0.0156793938,
     "away_goals_5_prob": 0.003159578,
-    "away_goals_6_prob": 0.0005305761
+    "away_goals_6_prob": 0.0005305761,
+    "match_date": 1798660800000
   },
   {
     "fixture_id": 175,
@@ -4559,7 +4559,6 @@
     "home_team": "Fulham",
     "away_team_code": 3,
     "away_team": "Arsenal",
-    "match_date": 1798588800000,
     "gw": 18,
     "home_win_prob": 0.2099788362,
     "draw_prob": 0.2646268158,
@@ -4579,7 +4578,8 @@
     "away_goals_3_prob": 0.1212229243,
     "away_goals_4_prob": 0.044405411,
     "away_goals_5_prob": 0.0130129877,
-    "away_goals_6_prob": 0.0031778756
+    "away_goals_6_prob": 0.0031778756,
+    "match_date": 1798660800000
   },
   {
     "fixture_id": 176,
@@ -4588,7 +4588,6 @@
     "home_team": "Hull City",
     "away_team_code": 2,
     "away_team": "Leeds",
-    "match_date": 1798588800000,
     "gw": 18,
     "home_win_prob": 0.2326243487,
     "draw_prob": 0.2799322733,
@@ -4608,7 +4607,8 @@
     "away_goals_3_prob": 0.1047526831,
     "away_goals_4_prob": 0.0350313643,
     "away_goals_5_prob": 0.0093721436,
-    "away_goals_6_prob": 0.0020894865
+    "away_goals_6_prob": 0.0020894865,
+    "match_date": 1798660800000
   },
   {
     "fixture_id": 177,
@@ -4617,7 +4617,6 @@
     "home_team": "Ipswich Town",
     "away_team_code": 8,
     "away_team": "Chelsea",
-    "match_date": 1798588800000,
     "gw": 18,
     "home_win_prob": 0.2346170217,
     "draw_prob": 0.2647684188,
@@ -4637,7 +4636,8 @@
     "away_goals_3_prob": 0.11993081,
     "away_goals_4_prob": 0.0436283137,
     "away_goals_5_prob": 0.0126968525,
-    "away_goals_6_prob": 0.0030792325
+    "away_goals_6_prob": 0.0030792325,
+    "match_date": 1798660800000
   },
   {
     "fixture_id": 178,
@@ -4646,7 +4646,6 @@
     "home_team": "Man Utd",
     "away_team_code": 56,
     "away_team": "Sunderland",
-    "match_date": 1798588800000,
     "gw": 18,
     "home_win_prob": 0.5909508203,
     "draw_prob": 0.2346461906,
@@ -4666,7 +4665,8 @@
     "away_goals_3_prob": 0.0392138934,
     "away_goals_4_prob": 0.0079233492,
     "away_goals_5_prob": 0.0012807596,
-    "away_goals_6_prob": 0.0001725223
+    "away_goals_6_prob": 0.0001725223,
+    "match_date": 1798660800000
   },
   {
     "fixture_id": 180,
@@ -4675,7 +4675,6 @@
     "home_team": "Spurs",
     "away_team_code": 36,
     "away_team": "Brighton",
-    "match_date": 1798588800000,
     "gw": 18,
     "home_win_prob": 0.4182975361,
     "draw_prob": 0.275256881,
@@ -4695,7 +4694,8 @@
     "away_goals_3_prob": 0.0695846392,
     "away_goals_4_prob": 0.0185508741,
     "away_goals_5_prob": 0.0039564471,
-    "away_goals_6_prob": 0.0007031777
+    "away_goals_6_prob": 0.0007031777,
+    "match_date": 1798660800000
   },
   {
     "fixture_id": 171,
@@ -4704,7 +4704,6 @@
     "home_team": "Aston Villa",
     "away_team_code": 14,
     "away_team": "Liverpool",
-    "match_date": 1798588800000,
     "gw": 18,
     "home_win_prob": 0.3377226375,
     "draw_prob": 0.2658121891,
@@ -4724,7 +4723,8 @@
     "away_goals_3_prob": 0.1036040864,
     "away_goals_4_prob": 0.0344191901,
     "away_goals_5_prob": 0.0091477523,
-    "away_goals_6_prob": 0.0020260348
+    "away_goals_6_prob": 0.0020260348,
+    "match_date": 1798660800000
   },
   {
     "fixture_id": 187,
@@ -4733,7 +4733,6 @@
     "home_team": "Liverpool",
     "away_team_code": 9,
     "away_team": "Coventry City",
-    "match_date": 1798848000000,
     "gw": 19,
     "home_win_prob": 0.6275659493,
     "draw_prob": 0.2253076304,
@@ -4753,7 +4752,8 @@
     "away_goals_3_prob": 0.030194861,
     "away_goals_4_prob": 0.0054283524,
     "away_goals_5_prob": 0.0007807159,
-    "away_goals_6_prob": 9.357e-05
+    "away_goals_6_prob": 9.357e-05,
+    "match_date": 1798902000000
   },
   {
     "fixture_id": 189,
@@ -4762,7 +4762,6 @@
     "home_team": "Nott'm Forest",
     "away_team_code": 54,
     "away_team": "Fulham",
-    "match_date": 1798848000000,
     "gw": 19,
     "home_win_prob": 0.4729730325,
     "draw_prob": 0.2772213715,
@@ -4782,7 +4781,8 @@
     "away_goals_3_prob": 0.0486535259,
     "away_goals_4_prob": 0.0108680526,
     "away_goals_5_prob": 0.0019421337,
-    "away_goals_6_prob": 0.000289218
+    "away_goals_6_prob": 0.000289218,
+    "match_date": 1798902000000
   },
   {
     "fixture_id": 184,
@@ -4791,7 +4791,6 @@
     "home_team": "Brighton",
     "away_team_code": 1,
     "away_team": "Man Utd",
-    "match_date": 1798848000000,
     "gw": 19,
     "home_win_prob": 0.4006438634,
     "draw_prob": 0.2683452077,
@@ -4811,7 +4810,8 @@
     "away_goals_3_prob": 0.0830124958,
     "away_goals_4_prob": 0.0243046188,
     "away_goals_5_prob": 0.0056927766,
-    "away_goals_6_prob": 0.0011111642
+    "away_goals_6_prob": 0.0011111642,
+    "match_date": 1798902000000
   },
   {
     "fixture_id": 181,
@@ -4820,7 +4820,6 @@
     "home_team": "Arsenal",
     "away_team_code": 40,
     "away_team": "Ipswich Town",
-    "match_date": 1798848000000,
     "gw": 19,
     "home_win_prob": 0.700682313,
     "draw_prob": 0.1966765624,
@@ -4840,7 +4839,8 @@
     "away_goals_3_prob": 0.0190622171,
     "away_goals_4_prob": 0.002817059,
     "away_goals_5_prob": 0.0003330493,
-    "away_goals_6_prob": 3.28125e-05
+    "away_goals_6_prob": 3.28125e-05,
+    "match_date": 1798902000000
   },
   {
     "fixture_id": 190,
@@ -4849,7 +4849,6 @@
     "home_team": "Sunderland",
     "away_team_code": 88,
     "away_team": "Hull City",
-    "match_date": 1798848000000,
     "gw": 19,
     "home_win_prob": 0.5721534324,
     "draw_prob": 0.2572482748,
@@ -4869,7 +4868,8 @@
     "away_goals_3_prob": 0.0278649515,
     "away_goals_4_prob": 0.004837118,
     "away_goals_5_prob": 0.000671746,
-    "away_goals_6_prob": 7.77396e-05
+    "away_goals_6_prob": 7.77396e-05,
+    "match_date": 1798902000000
   },
   {
     "fixture_id": 188,
@@ -4878,7 +4878,6 @@
     "home_team": "Man City",
     "away_team_code": 6,
     "away_team": "Spurs",
-    "match_date": 1798848000000,
     "gw": 19,
     "home_win_prob": 0.5302039681,
     "draw_prob": 0.2511980978,
@@ -4898,7 +4897,8 @@
     "away_goals_3_prob": 0.0508492623,
     "away_goals_4_prob": 0.0116001218,
     "away_goals_5_prob": 0.0021170467,
-    "away_goals_6_prob": 0.0003219712
+    "away_goals_6_prob": 0.0003219712,
+    "match_date": 1798902000000
   },
   {
     "fixture_id": 183,
@@ -4907,7 +4907,6 @@
     "home_team": "Brentford",
     "away_team_code": 31,
     "away_team": "Crystal Palace",
-    "match_date": 1798848000000,
     "gw": 19,
     "home_win_prob": 0.467834884,
     "draw_prob": 0.2684455543,
@@ -4927,7 +4926,8 @@
     "away_goals_3_prob": 0.0588656695,
     "away_goals_4_prob": 0.014420639,
     "away_goals_5_prob": 0.0028261611,
-    "away_goals_6_prob": 0.0004615599
+    "away_goals_6_prob": 0.0004615599,
+    "match_date": 1798902000000
   },
   {
     "fixture_id": 182,
@@ -4936,7 +4936,6 @@
     "home_team": "Bournemouth",
     "away_team_code": 7,
     "away_team": "Aston Villa",
-    "match_date": 1798848000000,
     "gw": 19,
     "home_win_prob": 0.4517185727,
     "draw_prob": 0.264540264,
@@ -4956,7 +4955,8 @@
     "away_goals_3_prob": 0.0692585276,
     "away_goals_4_prob": 0.0184191797,
     "away_goals_5_prob": 0.0039188379,
-    "away_goals_6_prob": 0.0006948052
+    "away_goals_6_prob": 0.0006948052,
+    "match_date": 1798902000000
   },
   {
     "fixture_id": 186,
@@ -4965,7 +4965,6 @@
     "home_team": "Leeds",
     "away_team_code": 11,
     "away_team": "Everton",
-    "match_date": 1798848000000,
     "gw": 19,
     "home_win_prob": 0.4214037489,
     "draw_prob": 0.2759191473,
@@ -4985,7 +4984,8 @@
     "away_goals_3_prob": 0.0678637032,
     "away_goals_4_prob": 0.017860183,
     "away_goals_5_prob": 0.0037603151,
-    "away_goals_6_prob": 0.0006597529
+    "away_goals_6_prob": 0.0006597529,
+    "match_date": 1798902000000
   },
   {
     "fixture_id": 185,
@@ -4994,7 +4994,6 @@
     "home_team": "Chelsea",
     "away_team_code": 4,
     "away_team": "Newcastle",
-    "match_date": 1798848000000,
     "gw": 19,
     "home_win_prob": 0.5286669725,
     "draw_prob": 0.2507204177,
@@ -5014,7 +5013,8 @@
     "away_goals_3_prob": 0.0520684214,
     "away_goals_4_prob": 0.0120141532,
     "away_goals_5_prob": 0.0022176955,
-    "away_goals_6_prob": 0.0003411375
+    "away_goals_6_prob": 0.0003411375,
+    "match_date": 1798902000000
   },
   {
     "fixture_id": 195,
@@ -5023,7 +5023,6 @@
     "home_team": "Fulham",
     "away_team_code": 6,
     "away_team": "Spurs",
-    "match_date": 1799193600000,
     "gw": 20,
     "home_win_prob": 0.314686206,
     "draw_prob": 0.2849786252,
@@ -5043,7 +5042,8 @@
     "away_goals_3_prob": 0.0876751374,
     "away_goals_4_prob": 0.0264555115,
     "away_goals_5_prob": 0.0063862491,
-    "away_goals_6_prob": 0.0012846781
+    "away_goals_6_prob": 0.0012846781,
+    "match_date": 1799265600000
   },
   {
     "fixture_id": 193,
@@ -5052,7 +5052,6 @@
     "home_team": "Crystal Palace",
     "away_team_code": 8,
     "away_team": "Chelsea",
-    "match_date": 1799193600000,
     "gw": 20,
     "home_win_prob": 0.3185557109,
     "draw_prob": 0.2759414825,
@@ -5072,7 +5071,8 @@
     "away_goals_3_prob": 0.0962235717,
     "away_goals_4_prob": 0.0306088639,
     "away_goals_5_prob": 0.0077893807,
-    "away_goals_6_prob": 0.0016518759
+    "away_goals_6_prob": 0.0016518759,
+    "match_date": 1799265600000
   },
   {
     "fixture_id": 200,
@@ -5081,7 +5081,6 @@
     "home_team": "Sunderland",
     "away_team_code": 14,
     "away_team": "Liverpool",
-    "match_date": 1799193600000,
     "gw": 20,
     "home_win_prob": 0.2820027835,
     "draw_prob": 0.2758729026,
@@ -5101,7 +5100,8 @@
     "away_goals_3_prob": 0.1028828909,
     "away_goals_4_prob": 0.0340374813,
     "away_goals_5_prob": 0.0090086904,
-    "away_goals_6_prob": 0.0019869396
+    "away_goals_6_prob": 0.0019869396,
+    "match_date": 1799265600000
   },
   {
     "fixture_id": 191,
@@ -5110,7 +5110,6 @@
     "home_team": "Arsenal",
     "away_team_code": 94,
     "away_team": "Brentford",
-    "match_date": 1799193600000,
     "gw": 20,
     "home_win_prob": 0.5850309349,
     "draw_prob": 0.2374151358,
@@ -5130,7 +5129,8 @@
     "away_goals_3_prob": 0.0393041262,
     "away_goals_4_prob": 0.0079499145,
     "away_goals_5_prob": 0.0012864021,
-    "away_goals_6_prob": 0.0001734642
+    "away_goals_6_prob": 0.0001734642,
+    "match_date": 1799265600000
   },
   {
     "fixture_id": 197,
@@ -5139,7 +5139,6 @@
     "home_team": "Leeds",
     "away_team_code": 43,
     "away_team": "Man City",
-    "match_date": 1799193600000,
     "gw": 20,
     "home_win_prob": 0.2636584437,
     "draw_prob": 0.2668835593,
@@ -5159,7 +5158,8 @@
     "away_goals_3_prob": 0.1150475126,
     "away_goals_4_prob": 0.0407570167,
     "away_goals_5_prob": 0.0115509453,
-    "away_goals_6_prob": 0.0027280443
+    "away_goals_6_prob": 0.0027280443,
+    "match_date": 1799265600000
   },
   {
     "fixture_id": 198,
@@ -5168,7 +5168,6 @@
     "home_team": "Man Utd",
     "away_team_code": 4,
     "away_team": "Newcastle",
-    "match_date": 1799193600000,
     "gw": 20,
     "home_win_prob": 0.5252435016,
     "draw_prob": 0.2494923854,
@@ -5188,7 +5187,8 @@
     "away_goals_3_prob": 0.0550173836,
     "away_goals_4_prob": 0.0130378228,
     "away_goals_5_prob": 0.0024717253,
-    "away_goals_6_prob": 0.0003904937
+    "away_goals_6_prob": 0.0003904937,
+    "match_date": 1799265600000
   },
   {
     "fixture_id": 194,
@@ -5197,7 +5197,6 @@
     "home_team": "Everton",
     "away_team_code": 7,
     "away_team": "Aston Villa",
-    "match_date": 1799193600000,
     "gw": 20,
     "home_win_prob": 0.4253166864,
     "draw_prob": 0.2644762922,
@@ -5217,7 +5216,8 @@
     "away_goals_3_prob": 0.0791489668,
     "away_goals_4_prob": 0.0225825245,
     "away_goals_5_prob": 0.0051545377,
-    "away_goals_6_prob": 0.0009804506
+    "away_goals_6_prob": 0.0009804506,
+    "match_date": 1799265600000
   },
   {
     "fixture_id": 199,
@@ -5226,7 +5226,6 @@
     "home_team": "Nott'm Forest",
     "away_team_code": 88,
     "away_team": "Hull City",
-    "match_date": 1799193600000,
     "gw": 20,
     "home_win_prob": 0.6359222411,
     "draw_prob": 0.2295742467,
@@ -5246,7 +5245,8 @@
     "away_goals_3_prob": 0.0228308646,
     "away_goals_4_prob": 0.0036390012,
     "away_goals_5_prob": 0.000464015,
-    "away_goals_6_prob": 4.93061e-05
+    "away_goals_6_prob": 4.93061e-05,
+    "match_date": 1799265600000
   },
   {
     "fixture_id": 196,
@@ -5255,7 +5255,6 @@
     "home_team": "Ipswich Town",
     "away_team_code": 9,
     "away_team": "Coventry City",
-    "match_date": 1799193600000,
     "gw": 20,
     "home_win_prob": 0.4202027397,
     "draw_prob": 0.2936145054,
@@ -5275,7 +5274,8 @@
     "away_goals_3_prob": 0.0520918478,
     "away_goals_4_prob": 0.0120221616,
     "away_goals_5_prob": 0.0022196543,
-    "away_goals_6_prob": 0.0003415127
+    "away_goals_6_prob": 0.0003415127,
+    "match_date": 1799265600000
   },
   {
     "fixture_id": 192,
@@ -5284,7 +5284,6 @@
     "home_team": "Brighton",
     "away_team_code": 91,
     "away_team": "Bournemouth",
-    "match_date": 1799193600000,
     "gw": 20,
     "home_win_prob": 0.4805159494,
     "draw_prob": 0.2658885157,
@@ -5304,7 +5303,8 @@
     "away_goals_3_prob": 0.0565550541,
     "away_goals_4_prob": 0.0135839959,
     "away_goals_5_prob": 0.0026101992,
-    "away_goals_6_prob": 0.0004179636
+    "away_goals_6_prob": 0.0004179636,
+    "match_date": 1799265600000
   },
   {
     "fixture_id": 204,
@@ -5313,7 +5313,6 @@
     "home_team": "Chelsea",
     "away_team_code": 56,
     "away_team": "Sunderland",
-    "match_date": 1800057600000,
     "gw": 21,
     "home_win_prob": 0.5936433288,
     "draw_prob": 0.2355500169,
@@ -5333,7 +5332,8 @@
     "away_goals_3_prob": 0.0369759927,
     "away_goals_4_prob": 0.0072744856,
     "away_goals_5_prob": 0.0011449189,
-    "away_goals_6_prob": 0.000150164
+    "away_goals_6_prob": 0.000150164,
+    "match_date": 1800111600000
   },
   {
     "fixture_id": 206,
@@ -5342,7 +5342,6 @@
     "home_team": "Hull City",
     "away_team_code": 3,
     "away_team": "Arsenal",
-    "match_date": 1800057600000,
     "gw": 21,
     "home_win_prob": 0.1083003139,
     "draw_prob": 0.207468585,
@@ -5362,7 +5361,8 @@
     "away_goals_3_prob": 0.1689969531,
     "away_goals_4_prob": 0.0792066041,
     "away_goals_5_prob": 0.029698458,
-    "away_goals_6_prob": 0.0092795125
+    "away_goals_6_prob": 0.0092795125,
+    "match_date": 1800111600000
   },
   {
     "fixture_id": 210,
@@ -5371,7 +5371,6 @@
     "home_team": "Spurs",
     "away_team_code": 2,
     "away_team": "Leeds",
-    "match_date": 1800057600000,
     "gw": 21,
     "home_win_prob": 0.5012495095,
     "draw_prob": 0.2649450535,
@@ -5391,7 +5390,8 @@
     "away_goals_3_prob": 0.0492517588,
     "away_goals_4_prob": 0.0110657667,
     "away_goals_5_prob": 0.0019889839,
-    "away_goals_6_prob": 0.0002979201
+    "away_goals_6_prob": 0.0002979201,
+    "match_date": 1800111600000
   },
   {
     "fixture_id": 209,
@@ -5400,7 +5400,6 @@
     "home_team": "Newcastle",
     "away_team_code": 54,
     "away_team": "Fulham",
-    "match_date": 1800057600000,
     "gw": 21,
     "home_win_prob": 0.4845082294,
     "draw_prob": 0.271443858,
@@ -5420,7 +5419,8 @@
     "away_goals_3_prob": 0.0496271667,
     "away_goals_4_prob": 0.011190504,
     "away_goals_5_prob": 0.0020186908,
-    "away_goals_6_prob": 0.0003034651
+    "away_goals_6_prob": 0.0003034651,
+    "match_date": 1800111600000
   },
   {
     "fixture_id": 203,
@@ -5429,7 +5429,6 @@
     "home_team": "Brentford",
     "away_team_code": 36,
     "away_team": "Brighton",
-    "match_date": 1800057600000,
     "gw": 21,
     "home_win_prob": 0.3960670785,
     "draw_prob": 0.2721075738,
@@ -5449,7 +5448,8 @@
     "away_goals_3_prob": 0.0801890084,
     "away_goals_4_prob": 0.023040774,
     "away_goals_5_prob": 0.0052962597,
-    "away_goals_6_prob": 0.0010145191
+    "away_goals_6_prob": 0.0010145191,
+    "match_date": 1800111600000
   },
   {
     "fixture_id": 208,
@@ -5458,7 +5458,6 @@
     "home_team": "Man City",
     "away_team_code": 17,
     "away_team": "Nott'm Forest",
-    "match_date": 1800057600000,
     "gw": 21,
     "home_win_prob": 0.5857830337,
     "draw_prob": 0.2365922997,
@@ -5478,7 +5477,8 @@
     "away_goals_3_prob": 0.0397744159,
     "away_goals_4_prob": 0.0080888743,
     "away_goals_5_prob": 0.0013160196,
-    "away_goals_6_prob": 0.0001784249
+    "away_goals_6_prob": 0.0001784249,
+    "match_date": 1800111600000
   },
   {
     "fixture_id": 202,
@@ -5487,7 +5487,6 @@
     "home_team": "Bournemouth",
     "away_team_code": 40,
     "away_team": "Ipswich Town",
-    "match_date": 1800057600000,
     "gw": 21,
     "home_win_prob": 0.5374601007,
     "draw_prob": 0.2601526894,
@@ -5507,7 +5506,8 @@
     "away_goals_3_prob": 0.0390715587,
     "away_goals_4_prob": 0.0078815078,
     "away_goals_5_prob": 0.0012718851,
-    "away_goals_6_prob": 0.000171043
+    "away_goals_6_prob": 0.000171043,
+    "match_date": 1800111600000
   },
   {
     "fixture_id": 205,
@@ -5516,7 +5516,6 @@
     "home_team": "Coventry City",
     "away_team_code": 11,
     "away_team": "Everton",
-    "match_date": 1800057600000,
     "gw": 21,
     "home_win_prob": 0.3270189195,
     "draw_prob": 0.2848900521,
@@ -5536,7 +5535,8 @@
     "away_goals_3_prob": 0.0851280819,
     "away_goals_4_prob": 0.0252706505,
     "away_goals_5_prob": 0.0060013642,
-    "away_goals_6_prob": 0.0011876878
+    "away_goals_6_prob": 0.0011876878,
+    "match_date": 1800111600000
   },
   {
     "fixture_id": 207,
@@ -5545,7 +5545,6 @@
     "home_team": "Liverpool",
     "away_team_code": 31,
     "away_team": "Crystal Palace",
-    "match_date": 1800057600000,
     "gw": 21,
     "home_win_prob": 0.5266773498,
     "draw_prob": 0.2556702731,
@@ -5565,7 +5564,8 @@
     "away_goals_3_prob": 0.0477732861,
     "away_goals_4_prob": 0.0105795131,
     "away_goals_5_prob": 0.0018742876,
-    "away_goals_6_prob": 0.0002767104
+    "away_goals_6_prob": 0.0002767104,
+    "match_date": 1800111600000
   },
   {
     "fixture_id": 201,
@@ -5574,7 +5574,6 @@
     "home_team": "Aston Villa",
     "away_team_code": 1,
     "away_team": "Man Utd",
-    "match_date": 1800057600000,
     "gw": 21,
     "home_win_prob": 0.3319190265,
     "draw_prob": 0.2611799559,
@@ -5594,7 +5593,8 @@
     "away_goals_3_prob": 0.1106067937,
     "away_goals_4_prob": 0.0382338207,
     "away_goals_5_prob": 0.0105731303,
-    "away_goals_6_prob": 0.0024365662
+    "away_goals_6_prob": 0.0024365662,
+    "match_date": 1800111600000
   },
   {
     "fixture_id": 219,
@@ -5603,7 +5603,6 @@
     "home_team": "Nott'm Forest",
     "away_team_code": 91,
     "away_team": "Bournemouth",
-    "match_date": 1800662400000,
     "gw": 22,
     "home_win_prob": 0.4102237235,
     "draw_prob": 0.28150334,
@@ -5623,7 +5622,8 @@
     "away_goals_3_prob": 0.0659209704,
     "away_goals_4_prob": 0.0170931541,
     "away_goals_5_prob": 0.003545772,
-    "away_goals_6_prob": 0.0006129403
+    "away_goals_6_prob": 0.0006129403,
+    "match_date": 1800716400000
   },
   {
     "fixture_id": 214,
@@ -5632,7 +5632,6 @@
     "home_team": "Everton",
     "away_team_code": 94,
     "away_team": "Brentford",
-    "match_date": 1800662400000,
     "gw": 22,
     "home_win_prob": 0.3835068907,
     "draw_prob": 0.2714422769,
@@ -5652,7 +5651,8 @@
     "away_goals_3_prob": 0.0847861061,
     "away_goals_4_prob": 0.0251133848,
     "away_goals_5_prob": 0.0059508061,
-    "away_goals_6_prob": 0.0011750737
+    "away_goals_6_prob": 0.0011750737,
+    "match_date": 1800716400000
   },
   {
     "fixture_id": 220,
@@ -5661,7 +5661,6 @@
     "home_team": "Sunderland",
     "away_team_code": 9,
     "away_team": "Coventry City",
-    "match_date": 1800662400000,
     "gw": 22,
     "home_win_prob": 0.4647640584,
     "draw_prob": 0.2840931704,
@@ -5681,7 +5680,8 @@
     "away_goals_3_prob": 0.0456952912,
     "away_goals_4_prob": 0.0099096284,
     "away_goals_5_prob": 0.0017192272,
-    "away_goals_6_prob": 0.0002485581
+    "away_goals_6_prob": 0.0002485581,
+    "match_date": 1800716400000
   },
   {
     "fixture_id": 217,
@@ -5690,7 +5690,6 @@
     "home_team": "Leeds",
     "away_team_code": 8,
     "away_team": "Chelsea",
-    "match_date": 1800662400000,
     "gw": 22,
     "home_win_prob": 0.308999577,
     "draw_prob": 0.2738543171,
@@ -5710,7 +5709,8 @@
     "away_goals_3_prob": 0.1004028645,
     "away_goals_4_prob": 0.0327404807,
     "away_goals_5_prob": 0.0085411035,
-    "away_goals_6_prob": 0.0018567852
+    "away_goals_6_prob": 0.0018567852,
+    "match_date": 1800716400000
   },
   {
     "fixture_id": 212,
@@ -5719,7 +5719,6 @@
     "home_team": "Brighton",
     "away_team_code": 43,
     "away_team": "Man City",
-    "match_date": 1800662400000,
     "gw": 22,
     "home_win_prob": 0.3419724168,
     "draw_prob": 0.2722774216,
@@ -5739,7 +5738,8 @@
     "away_goals_3_prob": 0.0950474842,
     "away_goals_4_prob": 0.0300210974,
     "away_goals_5_prob": 0.0075858192,
-    "away_goals_6_prob": 0.0015973393
+    "away_goals_6_prob": 0.0015973393,
+    "match_date": 1800716400000
   },
   {
     "fixture_id": 211,
@@ -5748,7 +5748,6 @@
     "home_team": "Arsenal",
     "away_team_code": 4,
     "away_team": "Newcastle",
-    "match_date": 1800662400000,
     "gw": 22,
     "home_win_prob": 0.6031560975,
     "draw_prob": 0.2341027911,
@@ -5768,7 +5767,8 @@
     "away_goals_3_prob": 0.0337893399,
     "away_goals_4_prob": 0.0063841275,
     "away_goals_5_prob": 0.000964969,
-    "away_goals_6_prob": 0.0001215469
+    "away_goals_6_prob": 0.0001215469,
+    "match_date": 1800716400000
   },
   {
     "fixture_id": 218,
@@ -5777,7 +5777,6 @@
     "home_team": "Man Utd",
     "away_team_code": 14,
     "away_team": "Liverpool",
-    "match_date": 1800662400000,
     "gw": 22,
     "home_win_prob": 0.4427297356,
     "draw_prob": 0.2621316047,
@@ -5797,7 +5796,8 @@
     "away_goals_3_prob": 0.0754977663,
     "away_goals_4_prob": 0.0210046972,
     "away_goals_5_prob": 0.0046750767,
-    "away_goals_6_prob": 0.0008671212
+    "away_goals_6_prob": 0.0008671212,
+    "match_date": 1800716400000
   },
   {
     "fixture_id": 213,
@@ -5806,7 +5806,6 @@
     "home_team": "Crystal Palace",
     "away_team_code": 6,
     "away_team": "Spurs",
-    "match_date": 1800662400000,
     "gw": 22,
     "home_win_prob": 0.3583587032,
     "draw_prob": 0.2841474751,
@@ -5826,7 +5825,8 @@
     "away_goals_3_prob": 0.0783069792,
     "away_goals_4_prob": 0.0222144045,
     "away_goals_5_prob": 0.0050414895,
-    "away_goals_6_prob": 0.0009534585
+    "away_goals_6_prob": 0.0009534585,
+    "match_date": 1800716400000
   },
   {
     "fixture_id": 215,
@@ -5835,7 +5835,6 @@
     "home_team": "Fulham",
     "away_team_code": 7,
     "away_team": "Aston Villa",
-    "match_date": 1800662400000,
     "gw": 22,
     "home_win_prob": 0.3789016715,
     "draw_prob": 0.2767004862,
@@ -5855,7 +5854,8 @@
     "away_goals_3_prob": 0.080347923,
     "away_goals_4_prob": 0.023111138,
     "away_goals_5_prob": 0.0053181183,
-    "away_goals_6_prob": 0.0010197962
+    "away_goals_6_prob": 0.0010197962,
+    "match_date": 1800716400000
   },
   {
     "fixture_id": 216,
@@ -5864,7 +5864,6 @@
     "home_team": "Ipswich Town",
     "away_team_code": 88,
     "away_team": "Hull City",
-    "match_date": 1800662400000,
     "gw": 22,
     "home_win_prob": 0.5267751859,
     "draw_prob": 0.2741151877,
@@ -5884,7 +5883,8 @@
     "away_goals_3_prob": 0.0321201769,
     "away_goals_4_prob": 0.0059338041,
     "away_goals_5_prob": 0.0008769573,
-    "away_goals_6_prob": 0.0001080047
+    "away_goals_6_prob": 0.0001080047,
+    "match_date": 1800716400000
   },
   {
     "fixture_id": 229,
@@ -5893,7 +5893,6 @@
     "home_team": "Newcastle",
     "away_team_code": 36,
     "away_team": "Brighton",
-    "match_date": 1801267200000,
     "gw": 23,
     "home_win_prob": 0.3701110052,
     "draw_prob": 0.2776911246,
@@ -5913,7 +5912,8 @@
     "away_goals_3_prob": 0.08178367,
     "away_goals_4_prob": 0.0237510102,
     "away_goals_5_prob": 0.0055180746,
-    "away_goals_6_prob": 0.0010683457
+    "away_goals_6_prob": 0.0010683457,
+    "match_date": 1801321200000
   },
   {
     "fixture_id": 221,
@@ -5922,7 +5922,6 @@
     "home_team": "Aston Villa",
     "away_team_code": 40,
     "away_team": "Ipswich Town",
-    "match_date": 1801267200000,
     "gw": 23,
     "home_win_prob": 0.5285566381,
     "draw_prob": 0.2549119768,
@@ -5942,7 +5941,8 @@
     "away_goals_3_prob": 0.047719048,
     "away_goals_4_prob": 0.0105618268,
     "away_goals_5_prob": 0.0018701494,
-    "away_goals_6_prob": 0.0002759512
+    "away_goals_6_prob": 0.0002759512,
+    "match_date": 1801321200000
   },
   {
     "fixture_id": 222,
@@ -5951,7 +5951,6 @@
     "home_team": "Bournemouth",
     "away_team_code": 54,
     "away_team": "Fulham",
-    "match_date": 1801267200000,
     "gw": 23,
     "home_win_prob": 0.4881608082,
     "draw_prob": 0.2713758468,
@@ -5971,7 +5970,8 @@
     "away_goals_3_prob": 0.0483191536,
     "away_goals_4_prob": 0.0107581128,
     "away_goals_5_prob": 0.0019162089,
-    "away_goals_6_prob": 0.0002844254
+    "away_goals_6_prob": 0.0002844254,
+    "match_date": 1801321200000
   },
   {
     "fixture_id": 225,
@@ -5980,7 +5980,6 @@
     "home_team": "Coventry City",
     "away_team_code": 2,
     "away_team": "Leeds",
-    "match_date": 1801267200000,
     "gw": 23,
     "home_win_prob": 0.3284786329,
     "draw_prob": 0.2914224302,
@@ -6000,7 +5999,8 @@
     "away_goals_3_prob": 0.0785391546,
     "away_goals_4_prob": 0.0223156567,
     "away_goals_5_prob": 0.0050725123,
-    "away_goals_6_prob": 0.0009608493
+    "away_goals_6_prob": 0.0009608493,
+    "match_date": 1801321200000
   },
   {
     "fixture_id": 228,
@@ -6009,7 +6009,6 @@
     "home_team": "Man City",
     "away_team_code": 3,
     "away_team": "Arsenal",
-    "match_date": 1801267200000,
     "gw": 23,
     "home_win_prob": 0.394749059,
     "draw_prob": 0.2774359495,
@@ -6029,7 +6028,8 @@
     "away_goals_3_prob": 0.0748455642,
     "away_goals_4_prob": 0.0207279041,
     "away_goals_5_prob": 0.0045923471,
-    "away_goals_6_prob": 0.0008478768
+    "away_goals_6_prob": 0.0008478768,
+    "match_date": 1801321200000
   },
   {
     "fixture_id": 223,
@@ -6038,7 +6038,6 @@
     "home_team": "Brentford",
     "away_team_code": 1,
     "away_team": "Man Utd",
-    "match_date": 1801267200000,
     "gw": 23,
     "home_win_prob": 0.3680756471,
     "draw_prob": 0.2665633178,
@@ -6058,7 +6057,8 @@
     "away_goals_3_prob": 0.094956716,
     "away_goals_4_prob": 0.0299759536,
     "away_goals_5_prob": 0.0075702517,
-    "away_goals_6_prob": 0.0015931856
+    "away_goals_6_prob": 0.0015931856,
+    "match_date": 1801321200000
   },
   {
     "fixture_id": 230,
@@ -6067,7 +6067,6 @@
     "home_team": "Spurs",
     "away_team_code": 56,
     "away_team": "Sunderland",
-    "match_date": 1801267200000,
     "gw": 23,
     "home_win_prob": 0.5402117934,
     "draw_prob": 0.2575632819,
@@ -6087,7 +6086,8 @@
     "away_goals_3_prob": 0.0402324283,
     "away_goals_4_prob": 0.0082250154,
     "away_goals_5_prob": 0.001345201,
-    "away_goals_6_prob": 0.0001833396
+    "away_goals_6_prob": 0.0001833396,
+    "match_date": 1801321200000
   },
   {
     "fixture_id": 224,
@@ -6096,7 +6096,6 @@
     "home_team": "Chelsea",
     "away_team_code": 17,
     "away_team": "Nott'm Forest",
-    "match_date": 1801267200000,
     "gw": 23,
     "home_win_prob": 0.533192886,
     "draw_prob": 0.2523747993,
@@ -6116,7 +6115,8 @@
     "away_goals_3_prob": 0.0482606283,
     "away_goals_4_prob": 0.010738912,
     "away_goals_5_prob": 0.0019116905,
-    "away_goals_6_prob": 0.0002835918
+    "away_goals_6_prob": 0.0002835918,
+    "match_date": 1801321200000
   },
   {
     "fixture_id": 226,
@@ -6125,7 +6125,6 @@
     "home_team": "Hull City",
     "away_team_code": 31,
     "away_team": "Crystal Palace",
-    "match_date": 1801267200000,
     "gw": 23,
     "home_win_prob": 0.2244937299,
     "draw_prob": 0.2784966257,
@@ -6145,7 +6144,8 @@
     "away_goals_3_prob": 0.1067835621,
     "away_goals_4_prob": 0.0361266532,
     "away_goals_5_prob": 0.0097777976,
-    "away_goals_6_prob": 0.0022053276
+    "away_goals_6_prob": 0.0022053276,
+    "match_date": 1801321200000
   },
   {
     "fixture_id": 227,
@@ -6154,7 +6154,6 @@
     "home_team": "Liverpool",
     "away_team_code": 11,
     "away_team": "Everton",
-    "match_date": 1801267200000,
     "gw": 23,
     "home_win_prob": 0.5406022299,
     "draw_prob": 0.2465211193,
@@ -6174,7 +6173,8 @@
     "away_goals_3_prob": 0.0511165977,
     "away_goals_4_prob": 0.0116904492,
     "away_goals_5_prob": 0.0021388998,
-    "away_goals_6_prob": 0.0003261132
+    "away_goals_6_prob": 0.0003261132,
+    "match_date": 1801321200000
   },
   {
     "fixture_id": 237,
@@ -6183,7 +6183,6 @@
     "home_team": "Leeds",
     "away_team_code": 91,
     "away_team": "Bournemouth",
-    "match_date": 1801872000000,
     "gw": 24,
     "home_win_prob": 0.3911549563,
     "draw_prob": 0.2822825983,
@@ -6203,7 +6202,8 @@
     "away_goals_3_prob": 0.0710032921,
     "away_goals_4_prob": 0.0191281875,
     "away_goals_5_prob": 0.0041224856,
-    "away_goals_6_prob": 0.0007403946
+    "away_goals_6_prob": 0.0007403946,
+    "match_date": 1801926000000
   },
   {
     "fixture_id": 232,
@@ -6212,7 +6212,6 @@
     "home_team": "Brighton",
     "away_team_code": 88,
     "away_team": "Hull City",
-    "match_date": 1801872000000,
     "gw": 24,
     "home_win_prob": 0.7036980917,
     "draw_prob": 0.1949132556,
@@ -6232,7 +6231,8 @@
     "away_goals_3_prob": 0.0190194186,
     "away_goals_4_prob": 0.002808113,
     "away_goals_5_prob": 0.000331682,
-    "away_goals_6_prob": 3.26474e-05
+    "away_goals_6_prob": 3.26474e-05,
+    "match_date": 1801926000000
   },
   {
     "fixture_id": 231,
@@ -6241,7 +6241,6 @@
     "home_team": "Arsenal",
     "away_team_code": 14,
     "away_team": "Liverpool",
-    "match_date": 1801872000000,
     "gw": 24,
     "home_win_prob": 0.5249245108,
     "draw_prob": 0.2562590664,
@@ -6261,7 +6260,8 @@
     "away_goals_3_prob": 0.0479406295,
     "away_goals_4_prob": 0.0106341495,
     "away_goals_5_prob": 0.0018870864,
-    "away_goals_6_prob": 0.0002790613
+    "away_goals_6_prob": 0.0002790613,
+    "match_date": 1801926000000
   },
   {
     "fixture_id": 235,
@@ -6270,7 +6270,6 @@
     "home_team": "Fulham",
     "away_team_code": 43,
     "away_team": "Man City",
-    "match_date": 1801872000000,
     "gw": 24,
     "home_win_prob": 0.2343605351,
     "draw_prob": 0.2629851913,
@@ -6290,7 +6289,8 @@
     "away_goals_3_prob": 0.1218708419,
     "away_goals_4_prob": 0.0447978586,
     "away_goals_5_prob": 0.0131736064,
-    "away_goals_6_prob": 0.0032282776
+    "away_goals_6_prob": 0.0032282776,
+    "match_date": 1801926000000
   },
   {
     "fixture_id": 236,
@@ -6299,7 +6299,6 @@
     "home_team": "Ipswich Town",
     "away_team_code": 6,
     "away_team": "Spurs",
-    "match_date": 1801872000000,
     "gw": 24,
     "home_win_prob": 0.2702485082,
     "draw_prob": 0.2808486176,
@@ -6319,7 +6318,8 @@
     "away_goals_3_prob": 0.099528453,
     "away_goals_4_prob": 0.03228891,
     "away_goals_5_prob": 0.0083801058,
-    "away_goals_6_prob": 0.0018124431
+    "away_goals_6_prob": 0.0018124431,
+    "match_date": 1801926000000
   },
   {
     "fixture_id": 239,
@@ -6328,7 +6328,6 @@
     "home_team": "Nott'm Forest",
     "away_team_code": 94,
     "away_team": "Brentford",
-    "match_date": 1801872000000,
     "gw": 24,
     "home_win_prob": 0.3950178611,
     "draw_prob": 0.277331616,
@@ -6348,7 +6347,8 @@
     "away_goals_3_prob": 0.074872211,
     "away_goals_4_prob": 0.0207391831,
     "away_goals_5_prob": 0.00459571,
-    "away_goals_6_prob": 0.0008486573
+    "away_goals_6_prob": 0.0008486573,
+    "match_date": 1801926000000
   },
   {
     "fixture_id": 234,
@@ -6357,7 +6357,6 @@
     "home_team": "Everton",
     "away_team_code": 4,
     "away_team": "Newcastle",
-    "match_date": 1801872000000,
     "gw": 24,
     "home_win_prob": 0.4042765947,
     "draw_prob": 0.2747394024,
@@ -6377,7 +6376,8 @@
     "away_goals_3_prob": 0.074711477,
     "away_goals_4_prob": 0.020671187,
     "away_goals_5_prob": 0.0045754467,
-    "away_goals_6_prob": 0.000843957
+    "away_goals_6_prob": 0.000843957,
+    "match_date": 1801926000000
   },
   {
     "fixture_id": 238,
@@ -6386,7 +6386,6 @@
     "home_team": "Man Utd",
     "away_team_code": 8,
     "away_team": "Chelsea",
-    "match_date": 1801872000000,
     "gw": 24,
     "home_win_prob": 0.4297516711,
     "draw_prob": 0.2622151447,
@@ -6406,7 +6405,8 @@
     "away_goals_3_prob": 0.0802562593,
     "away_goals_4_prob": 0.0230705401,
     "away_goals_5_prob": 0.0053055034,
-    "away_goals_6_prob": 0.00101675
+    "away_goals_6_prob": 0.00101675,
+    "match_date": 1801926000000
   },
   {
     "fixture_id": 240,
@@ -6415,7 +6415,6 @@
     "home_team": "Sunderland",
     "away_team_code": 7,
     "away_team": "Aston Villa",
-    "match_date": 1801872000000,
     "gw": 24,
     "home_win_prob": 0.3721785299,
     "draw_prob": 0.2770616687,
@@ -6435,7 +6434,8 @@
     "away_goals_3_prob": 0.0818774913,
     "away_goals_4_prob": 0.0237930845,
     "away_goals_5_prob": 0.0055312967,
-    "away_goals_6_prob": 0.0010715734
+    "away_goals_6_prob": 0.0010715734,
+    "match_date": 1801926000000
   },
   {
     "fixture_id": 233,
@@ -6444,7 +6444,6 @@
     "home_team": "Crystal Palace",
     "away_team_code": 9,
     "away_team": "Coventry City",
-    "match_date": 1801872000000,
     "gw": 24,
     "home_win_prob": 0.5200913844,
     "draw_prob": 0.2681093161,
@@ -6464,7 +6463,8 @@
     "away_goals_3_prob": 0.0391095181,
     "away_goals_4_prob": 0.007892659,
     "away_goals_5_prob": 0.0012742487,
-    "away_goals_6_prob": 0.0001714367
+    "away_goals_6_prob": 0.0001714367,
+    "match_date": 1801926000000
   },
   {
     "fixture_id": 241,
@@ -6473,7 +6473,6 @@
     "home_team": "Aston Villa",
     "away_team_code": 91,
     "away_team": "Bournemouth",
-    "match_date": 1802217600000,
     "gw": 25,
     "home_win_prob": 0.4120717165,
     "draw_prob": 0.2692053924,
@@ -6493,7 +6492,8 @@
     "away_goals_3_prob": 0.0782539788,
     "away_goals_4_prob": 0.0221913182,
     "away_goals_5_prob": 0.0050344237,
-    "away_goals_6_prob": 0.0009517769
+    "away_goals_6_prob": 0.0009517769,
+    "match_date": 1802289600000
   },
   {
     "fixture_id": 248,
@@ -6502,7 +6502,6 @@
     "home_team": "Man Utd",
     "away_team_code": 36,
     "away_team": "Brighton",
-    "match_date": 1802217600000,
     "gw": 25,
     "home_win_prob": 0.4661027826,
     "draw_prob": 0.2606674574,
@@ -6522,7 +6521,8 @@
     "away_goals_3_prob": 0.0680193812,
     "away_goals_4_prob": 0.0179222295,
     "away_goals_5_prob": 0.003777821,
-    "away_goals_6_prob": 0.0006636047
+    "away_goals_6_prob": 0.0006636047,
+    "match_date": 1802289600000
   },
   {
     "fixture_id": 243,
@@ -6531,7 +6531,6 @@
     "home_team": "Crystal Palace",
     "away_team_code": 94,
     "away_team": "Brentford",
-    "match_date": 1802217600000,
     "gw": 25,
     "home_win_prob": 0.3858284001,
     "draw_prob": 0.2781479943,
@@ -6551,7 +6550,8 @@
     "away_goals_3_prob": 0.0767893706,
     "away_goals_4_prob": 0.0215573614,
     "away_goals_5_prob": 0.0048415016,
-    "away_goals_6_prob": 0.000906115
+    "away_goals_6_prob": 0.000906115,
+    "match_date": 1802289600000
   },
   {
     "fixture_id": 246,
@@ -6560,7 +6560,6 @@
     "home_team": "Hull City",
     "away_team_code": 56,
     "away_team": "Sunderland",
-    "match_date": 1802217600000,
     "gw": 25,
     "home_win_prob": 0.2642429416,
     "draw_prob": 0.292960686,
@@ -6580,7 +6579,8 @@
     "away_goals_3_prob": 0.0890047906,
     "away_goals_4_prob": 0.0270835747,
     "away_goals_5_prob": 0.0065930835,
-    "away_goals_6_prob": 0.0013374881
+    "away_goals_6_prob": 0.0013374881,
+    "match_date": 1802289600000
   },
   {
     "fixture_id": 250,
@@ -6589,7 +6589,6 @@
     "home_team": "Spurs",
     "away_team_code": 43,
     "away_team": "Man City",
-    "match_date": 1802217600000,
     "gw": 25,
     "home_win_prob": 0.3331796235,
     "draw_prob": 0.2740546312,
@@ -6609,7 +6608,8 @@
     "away_goals_3_prob": 0.0951124706,
     "away_goals_4_prob": 0.0300534377,
     "away_goals_5_prob": 0.0075969775,
-    "away_goals_6_prob": 0.0016003179
+    "away_goals_6_prob": 0.0016003179,
+    "match_date": 1802289600000
   },
   {
     "fixture_id": 244,
@@ -6618,7 +6618,6 @@
     "home_team": "Everton",
     "away_team_code": 2,
     "away_team": "Leeds",
-    "match_date": 1802217600000,
     "gw": 25,
     "home_win_prob": 0.4304171671,
     "draw_prob": 0.2748486438,
@@ -6638,7 +6637,8 @@
     "away_goals_3_prob": 0.0659038242,
     "away_goals_4_prob": 0.0170864443,
     "away_goals_5_prob": 0.0035439106,
-    "away_goals_6_prob": 0.0006125374
+    "away_goals_6_prob": 0.0006125374,
+    "match_date": 1802289600000
   },
   {
     "fixture_id": 242,
@@ -6647,7 +6647,6 @@
     "home_team": "Coventry City",
     "away_team_code": 14,
     "away_team": "Liverpool",
-    "match_date": 1802217600000,
     "gw": 25,
     "home_win_prob": 0.2385475778,
     "draw_prob": 0.2682660294,
@@ -6667,7 +6666,8 @@
     "away_goals_3_prob": 0.1159370359,
     "away_goals_4_prob": 0.0412724111,
     "away_goals_5_prob": 0.0117540484,
-    "away_goals_6_prob": 0.0027895482
+    "away_goals_6_prob": 0.0027895482,
+    "match_date": 1802289600000
   },
   {
     "fixture_id": 249,
@@ -6676,7 +6676,6 @@
     "home_team": "Newcastle",
     "away_team_code": 8,
     "away_team": "Chelsea",
-    "match_date": 1802217600000,
     "gw": 25,
     "home_win_prob": 0.336084193,
     "draw_prob": 0.2730536461,
@@ -6696,7 +6695,8 @@
     "away_goals_3_prob": 0.0955616089,
     "away_goals_4_prob": 0.03027739,
     "away_goals_5_prob": 0.0076743818,
-    "away_goals_6_prob": 0.0016210153
+    "away_goals_6_prob": 0.0016210153,
+    "match_date": 1802289600000
   },
   {
     "fixture_id": 245,
@@ -6705,7 +6705,6 @@
     "home_team": "Fulham",
     "away_team_code": 17,
     "away_team": "Nott'm Forest",
-    "match_date": 1802217600000,
     "gw": 25,
     "home_win_prob": 0.3652482785,
     "draw_prob": 0.2900911351,
@@ -6725,7 +6724,8 @@
     "away_goals_3_prob": 0.0707993596,
     "away_goals_4_prob": 0.0190447562,
     "away_goals_5_prob": 0.0040983731,
-    "away_goals_6_prob": 0.0007349644
+    "away_goals_6_prob": 0.0007349644,
+    "match_date": 1802289600000
   },
   {
     "fixture_id": 247,
@@ -6734,7 +6734,6 @@
     "home_team": "Ipswich Town",
     "away_team_code": 3,
     "away_team": "Arsenal",
-    "match_date": 1802217600000,
     "gw": 25,
     "home_win_prob": 0.1753222895,
     "draw_prob": 0.2508028004,
@@ -6754,7 +6753,8 @@
     "away_goals_3_prob": 0.1350039805,
     "away_goals_4_prob": 0.0531696907,
     "away_goals_5_prob": 0.0167521935,
-    "away_goals_6_prob": 0.004398433
+    "away_goals_6_prob": 0.004398433,
+    "match_date": 1802289600000
   },
   {
     "fixture_id": 256,
@@ -6763,7 +6763,6 @@
     "home_team": "Leeds",
     "away_team_code": 7,
     "away_team": "Aston Villa",
-    "match_date": 1803081600000,
     "gw": 26,
     "home_win_prob": 0.4167104297,
     "draw_prob": 0.2707244785,
@@ -6783,7 +6782,8 @@
     "away_goals_3_prob": 0.0749843361,
     "away_goals_4_prob": 0.0207866708,
     "away_goals_5_prob": 0.0046098767,
-    "away_goals_6_prob": 0.0008519467
+    "away_goals_6_prob": 0.0008519467,
+    "match_date": 1803135600000
   },
   {
     "fixture_id": 259,
@@ -6792,7 +6792,6 @@
     "home_team": "Nott'm Forest",
     "away_team_code": 1,
     "away_team": "Man Utd",
-    "match_date": 1803081600000,
     "gw": 26,
     "home_win_prob": 0.333665106,
     "draw_prob": 0.2739099063,
@@ -6812,7 +6811,8 @@
     "away_goals_3_prob": 0.0951623991,
     "away_goals_4_prob": 0.0300782955,
     "away_goals_5_prob": 0.0076055574,
-    "away_goals_6_prob": 0.0016026092
+    "away_goals_6_prob": 0.0016026092,
+    "match_date": 1803135600000
   },
   {
     "fixture_id": 260,
@@ -6821,7 +6821,6 @@
     "home_team": "Sunderland",
     "away_team_code": 11,
     "away_team": "Everton",
-    "match_date": 1803081600000,
     "gw": 26,
     "home_win_prob": 0.3772978314,
     "draw_prob": 0.2830059934,
@@ -6841,7 +6840,8 @@
     "away_goals_3_prob": 0.0743023528,
     "away_goals_4_prob": 0.0204985315,
     "away_goals_5_prob": 0.0045241075,
-    "away_goals_6_prob": 0.0008320738
+    "away_goals_6_prob": 0.0008320738,
+    "match_date": 1803135600000
   },
   {
     "fixture_id": 258,
@@ -6850,7 +6850,6 @@
     "home_team": "Man City",
     "away_team_code": 4,
     "away_team": "Newcastle",
-    "match_date": 1803081600000,
     "gw": 26,
     "home_win_prob": 0.5818658807,
     "draw_prob": 0.2353648153,
@@ -6870,7 +6869,8 @@
     "away_goals_3_prob": 0.0430340373,
     "away_goals_4_prob": 0.0090750245,
     "away_goals_5_prob": 0.0015309941,
-    "away_goals_6_prob": 0.0002152375
+    "away_goals_6_prob": 0.0002152375,
+    "match_date": 1803135600000
   },
   {
     "fixture_id": 255,
@@ -6879,7 +6879,6 @@
     "home_team": "Chelsea",
     "away_team_code": 40,
     "away_team": "Ipswich Town",
-    "match_date": 1803081600000,
     "gw": 26,
     "home_win_prob": 0.6354527195,
     "draw_prob": 0.2208458636,
@@ -6899,7 +6898,8 @@
     "away_goals_3_prob": 0.0304630121,
     "away_goals_4_prob": 0.0054978424,
     "away_goals_5_prob": 0.0007937829,
-    "away_goals_6_prob": 9.55058e-05
+    "away_goals_6_prob": 9.55058e-05,
+    "match_date": 1803135600000
   },
   {
     "fixture_id": 252,
@@ -6908,7 +6908,6 @@
     "home_team": "Bournemouth",
     "away_team_code": 31,
     "away_team": "Crystal Palace",
-    "match_date": 1803081600000,
     "gw": 26,
     "home_win_prob": 0.4438060594,
     "draw_prob": 0.2775320851,
@@ -6928,7 +6927,8 @@
     "away_goals_3_prob": 0.0586250047,
     "away_goals_4_prob": 0.0143326069,
     "away_goals_5_prob": 0.0028032219,
-    "away_goals_6_prob": 0.0004568867
+    "away_goals_6_prob": 0.0004568867,
+    "match_date": 1803135600000
   },
   {
     "fixture_id": 253,
@@ -6937,7 +6937,6 @@
     "home_team": "Brentford",
     "away_team_code": 9,
     "away_team": "Coventry City",
-    "match_date": 1803081600000,
     "gw": 26,
     "home_win_prob": 0.5707994357,
     "draw_prob": 0.245735979,
@@ -6957,7 +6956,8 @@
     "away_goals_3_prob": 0.0378694821,
     "away_goals_4_prob": 0.0075312353,
     "away_goals_5_prob": 0.0011982103,
-    "away_goals_6_prob": 0.0001588615
+    "away_goals_6_prob": 0.0001588615,
+    "match_date": 1803135600000
   },
   {
     "fixture_id": 254,
@@ -6966,7 +6966,6 @@
     "home_team": "Brighton",
     "away_team_code": 6,
     "away_team": "Spurs",
-    "match_date": 1803081600000,
     "gw": 26,
     "home_win_prob": 0.4350912477,
     "draw_prob": 0.27326477,
@@ -6986,7 +6985,8 @@
     "away_goals_3_prob": 0.0659119063,
     "away_goals_4_prob": 0.0170896069,
     "away_goals_5_prob": 0.003544788,
-    "away_goals_6_prob": 0.0006127273
+    "away_goals_6_prob": 0.0006127273,
+    "match_date": 1803135600000
   },
   {
     "fixture_id": 257,
@@ -6995,7 +6995,6 @@
     "home_team": "Liverpool",
     "away_team_code": 88,
     "away_team": "Hull City",
-    "match_date": 1803081600000,
     "gw": 26,
     "home_win_prob": 0.7280787861,
     "draw_prob": 0.1814073232,
@@ -7015,7 +7014,8 @@
     "away_goals_3_prob": 0.0178760979,
     "away_goals_4_prob": 0.0025724693,
     "away_goals_5_prob": 0.000296154,
-    "away_goals_6_prob": 2.84121e-05
+    "away_goals_6_prob": 2.84121e-05,
+    "match_date": 1803135600000
   },
   {
     "fixture_id": 251,
@@ -7024,7 +7024,6 @@
     "home_team": "Arsenal",
     "away_team_code": 54,
     "away_team": "Fulham",
-    "match_date": 1803081600000,
     "gw": 26,
     "home_win_prob": 0.6564421531,
     "draw_prob": 0.2163989867,
@@ -7044,7 +7043,8 @@
     "away_goals_3_prob": 0.0241071394,
     "away_goals_4_prob": 0.0039322074,
     "away_goals_5_prob": 0.0005131179,
-    "away_goals_6_prob": 5.57977e-05
+    "away_goals_6_prob": 5.57977e-05,
+    "match_date": 1803135600000
   },
   {
     "fixture_id": 265,
@@ -7053,7 +7053,6 @@
     "home_team": "Fulham",
     "away_team_code": 2,
     "away_team": "Leeds",
-    "match_date": 1803686400000,
     "gw": 27,
     "home_win_prob": 0.3845717816,
     "draw_prob": 0.2885185269,
@@ -7073,7 +7072,8 @@
     "away_goals_3_prob": 0.0669586274,
     "away_goals_4_prob": 0.0175011689,
     "away_goals_5_prob": 0.0036594647,
-    "away_goals_6_prob": 0.0006376565
+    "away_goals_6_prob": 0.0006376565,
+    "match_date": 1803740400000
   },
   {
     "fixture_id": 261,
@@ -7082,7 +7082,6 @@
     "home_team": "Aston Villa",
     "away_team_code": 8,
     "away_team": "Chelsea",
-    "match_date": 1803686400000,
     "gw": 27,
     "home_win_prob": 0.3253005932,
     "draw_prob": 0.2633276505,
@@ -7102,7 +7101,8 @@
     "away_goals_3_prob": 0.1093531569,
     "away_goals_4_prob": 0.0375363129,
     "away_goals_5_prob": 0.0103077027,
-    "away_goals_6_prob": 0.0023587989
+    "away_goals_6_prob": 0.0023587989,
+    "match_date": 1803740400000
   },
   {
     "fixture_id": 263,
@@ -7111,7 +7111,6 @@
     "home_team": "Crystal Palace",
     "away_team_code": 56,
     "away_team": "Sunderland",
-    "match_date": 1803686400000,
     "gw": 27,
     "home_win_prob": 0.4701716503,
     "draw_prob": 0.2782425008,
@@ -7131,7 +7130,8 @@
     "away_goals_3_prob": 0.0487523332,
     "away_goals_4_prob": 0.0109006181,
     "away_goals_5_prob": 0.0019498304,
-    "away_goals_6_prob": 0.000290644
+    "away_goals_6_prob": 0.000290644,
+    "match_date": 1803740400000
   },
   {
     "fixture_id": 269,
@@ -7140,7 +7140,6 @@
     "home_team": "Newcastle",
     "away_team_code": 94,
     "away_team": "Brentford",
-    "match_date": 1803686400000,
     "gw": 27,
     "home_win_prob": 0.4053825238,
     "draw_prob": 0.2730168917,
@@ -7160,7 +7159,8 @@
     "away_goals_3_prob": 0.0762161067,
     "away_goals_4_prob": 0.0213113273,
     "away_goals_5_prob": 0.0047672094,
-    "away_goals_6_prob": 0.0008886622
+    "away_goals_6_prob": 0.0008886622,
+    "match_date": 1803740400000
   },
   {
     "fixture_id": 264,
@@ -7169,7 +7169,6 @@
     "home_team": "Everton",
     "away_team_code": 17,
     "away_team": "Nott'm Forest",
-    "match_date": 1803686400000,
     "gw": 27,
     "home_win_prob": 0.4098162308,
     "draw_prob": 0.2778357765,
@@ -7189,7 +7188,8 @@
     "away_goals_3_prob": 0.0697011369,
     "away_goals_4_prob": 0.0185980116,
     "away_goals_5_prob": 0.0039699328,
-    "away_goals_6_prob": 0.0007061851
+    "away_goals_6_prob": 0.0007061851,
+    "match_date": 1803740400000
   },
   {
     "fixture_id": 266,
@@ -7198,7 +7198,6 @@
     "home_team": "Hull City",
     "away_team_code": 43,
     "away_team": "Man City",
-    "match_date": 1803686400000,
     "gw": 27,
     "home_win_prob": 0.1219706508,
     "draw_prob": 0.2103114408,
@@ -7218,7 +7217,8 @@
     "away_goals_3_prob": 0.1696662211,
     "away_goals_4_prob": 0.0797965678,
     "away_goals_5_prob": 0.0300236178,
-    "away_goals_6_prob": 0.0094137051
+    "away_goals_6_prob": 0.0094137051,
+    "match_date": 1803740400000
   },
   {
     "fixture_id": 270,
@@ -7227,7 +7227,6 @@
     "home_team": "Spurs",
     "away_team_code": 14,
     "away_team": "Liverpool",
-    "match_date": 1803686400000,
     "gw": 27,
     "home_win_prob": 0.3958842926,
     "draw_prob": 0.2749042217,
@@ -7247,7 +7246,8 @@
     "away_goals_3_prob": 0.0771817212,
     "away_goals_4_prob": 0.0217264326,
     "away_goals_5_prob": 0.0048927427,
-    "away_goals_6_prob": 0.0009181953
+    "away_goals_6_prob": 0.0009181953,
+    "match_date": 1803740400000
   },
   {
     "fixture_id": 268,
@@ -7256,7 +7256,6 @@
     "home_team": "Man Utd",
     "away_team_code": 3,
     "away_team": "Arsenal",
-    "match_date": 1803686400000,
     "gw": 27,
     "home_win_prob": 0.3406491902,
     "draw_prob": 0.2747329876,
@@ -7276,7 +7275,8 @@
     "away_goals_3_prob": 0.0926204824,
     "away_goals_4_prob": 0.0288247658,
     "away_goals_5_prob": 0.0071765303,
-    "away_goals_6_prob": 0.0014889565
+    "away_goals_6_prob": 0.0014889565,
+    "match_date": 1803740400000
   },
   {
     "fixture_id": 262,
@@ -7285,7 +7285,6 @@
     "home_team": "Coventry City",
     "away_team_code": 91,
     "away_team": "Bournemouth",
-    "match_date": 1803686400000,
     "gw": 27,
     "home_win_prob": 0.3008083186,
     "draw_prob": 0.2866378569,
@@ -7305,7 +7304,8 @@
     "away_goals_3_prob": 0.0887847883,
     "away_goals_4_prob": 0.0269792035,
     "away_goals_5_prob": 0.0065585778,
-    "away_goals_6_prob": 0.001328645
+    "away_goals_6_prob": 0.001328645,
+    "match_date": 1803740400000
   },
   {
     "fixture_id": 267,
@@ -7314,7 +7314,6 @@
     "home_team": "Ipswich Town",
     "away_team_code": 36,
     "away_team": "Brighton",
-    "match_date": 1803686400000,
     "gw": 27,
     "home_win_prob": 0.2639067315,
     "draw_prob": 0.2770182741,
@@ -7334,7 +7333,8 @@
     "away_goals_3_prob": 0.1042417727,
     "away_goals_4_prob": 0.0347584146,
     "away_goals_5_prob": 0.0092718867,
-    "away_goals_6_prob": 0.0020610808
+    "away_goals_6_prob": 0.0020610808,
+    "match_date": 1803740400000
   },
   {
     "fixture_id": 272,
@@ -7343,7 +7343,6 @@
     "home_team": "Bournemouth",
     "away_team_code": 6,
     "away_team": "Spurs",
-    "match_date": 1804032000000,
     "gw": 28,
     "home_win_prob": 0.3807781919,
     "draw_prob": 0.2804408431,
@@ -7363,7 +7362,8 @@
     "away_goals_3_prob": 0.0758948966,
     "away_goals_4_prob": 0.0211739867,
     "away_goals_5_prob": 0.0047258799,
-    "away_goals_6_prob": 0.000878985
+    "away_goals_6_prob": 0.000878985,
+    "match_date": 1804104000000
   },
   {
     "fixture_id": 279,
@@ -7372,7 +7372,6 @@
     "home_team": "Nott'm Forest",
     "away_team_code": 4,
     "away_team": "Newcastle",
-    "match_date": 1804032000000,
     "gw": 28,
     "home_win_prob": 0.4152049016,
     "draw_prob": 0.2801603233,
@@ -7392,7 +7391,8 @@
     "away_goals_3_prob": 0.0656442018,
     "away_goals_4_prob": 0.0169849742,
     "away_goals_5_prob": 0.0035157938,
-    "away_goals_6_prob": 0.0006064579
+    "away_goals_6_prob": 0.0006064579,
+    "match_date": 1804104000000
   },
   {
     "fixture_id": 271,
@@ -7401,7 +7401,6 @@
     "home_team": "Arsenal",
     "away_team_code": 31,
     "away_team": "Crystal Palace",
-    "match_date": 1804032000000,
     "gw": 28,
     "home_win_prob": 0.6150882695,
     "draw_prob": 0.2321706999,
@@ -7421,7 +7420,8 @@
     "away_goals_3_prob": 0.0299390902,
     "away_goals_4_prob": 0.0053623463,
     "away_goals_5_prob": 0.0007683536,
-    "away_goals_6_prob": 9.17458e-05
+    "away_goals_6_prob": 9.17458e-05,
+    "match_date": 1804104000000
   },
   {
     "fixture_id": 276,
@@ -7430,7 +7430,6 @@
     "home_team": "Leeds",
     "away_team_code": 88,
     "away_team": "Hull City",
-    "match_date": 1804032000000,
     "gw": 28,
     "home_win_prob": 0.6179008548,
     "draw_prob": 0.2367349622,
@@ -7450,7 +7449,8 @@
     "away_goals_3_prob": 0.0249762336,
     "away_goals_4_prob": 0.0041360284,
     "away_goals_5_prob": 0.0005479363,
-    "away_goals_6_prob": 6.04916e-05
+    "away_goals_6_prob": 6.04916e-05,
+    "match_date": 1804104000000
   },
   {
     "fixture_id": 274,
@@ -7459,7 +7459,6 @@
     "home_team": "Brighton",
     "away_team_code": 54,
     "away_team": "Fulham",
-    "match_date": 1804032000000,
     "gw": 28,
     "home_win_prob": 0.5444081429,
     "draw_prob": 0.2544612881,
@@ -7479,7 +7478,8 @@
     "away_goals_3_prob": 0.0413022803,
     "away_goals_4_prob": 0.0085461192,
     "away_goals_5_prob": 0.0014146658,
-    "away_goals_6_prob": 0.000195145
+    "away_goals_6_prob": 0.000195145,
+    "match_date": 1804104000000
   },
   {
     "fixture_id": 277,
@@ -7488,7 +7488,6 @@
     "home_team": "Liverpool",
     "away_team_code": 7,
     "away_team": "Aston Villa",
-    "match_date": 1804032000000,
     "gw": 28,
     "home_win_prob": 0.5374837181,
     "draw_prob": 0.2428564468,
@@ -7508,7 +7507,8 @@
     "away_goals_3_prob": 0.056895599,
     "away_goals_4_prob": 0.0137061023,
     "away_goals_5_prob": 0.0026414309,
-    "away_goals_6_prob": 0.0004242123
+    "away_goals_6_prob": 0.0004242123,
+    "match_date": 1804104000000
   },
   {
     "fixture_id": 273,
@@ -7517,7 +7517,6 @@
     "home_team": "Brentford",
     "away_team_code": 40,
     "away_team": "Ipswich Town",
-    "match_date": 1804032000000,
     "gw": 28,
     "home_win_prob": 0.5630299621,
     "draw_prob": 0.247976446,
@@ -7537,7 +7536,8 @@
     "away_goals_3_prob": 0.0392455435,
     "away_goals_4_prob": 0.0079326637,
     "away_goals_5_prob": 0.0012827373,
-    "away_goals_6_prob": 0.0001728523
+    "away_goals_6_prob": 0.0001728523,
+    "match_date": 1804104000000
   },
   {
     "fixture_id": 278,
@@ -7546,7 +7546,6 @@
     "home_team": "Man City",
     "away_team_code": 11,
     "away_team": "Everton",
-    "match_date": 1804032000000,
     "gw": 28,
     "home_win_prob": 0.6096239233,
     "draw_prob": 0.2238622266,
@@ -7566,7 +7565,8 @@
     "away_goals_3_prob": 0.0411010171,
     "away_goals_4_prob": 0.0084853819,
     "away_goals_5_prob": 0.0014014584,
-    "away_goals_6_prob": 0.0001928891
+    "away_goals_6_prob": 0.0001928891,
+    "match_date": 1804104000000
   },
   {
     "fixture_id": 275,
@@ -7575,7 +7575,6 @@
     "home_team": "Chelsea",
     "away_team_code": 9,
     "away_team": "Coventry City",
-    "match_date": 1804032000000,
     "gw": 28,
     "home_win_prob": 0.6428784516,
     "draw_prob": 0.2180376971,
@@ -7595,7 +7594,8 @@
     "away_goals_3_prob": 0.0293539462,
     "away_goals_4_prob": 0.0052123563,
     "away_goals_5_prob": 0.0007404431,
-    "away_goals_6_prob": 8.76533e-05
+    "away_goals_6_prob": 8.76533e-05,
+    "match_date": 1804104000000
   },
   {
     "fixture_id": 280,
@@ -7604,7 +7604,6 @@
     "home_team": "Sunderland",
     "away_team_code": 1,
     "away_team": "Man Utd",
-    "match_date": 1804032000000,
     "gw": 28,
     "home_win_prob": 0.2765111965,
     "draw_prob": 0.2701241458,
@@ -7624,7 +7623,8 @@
     "away_goals_3_prob": 0.109861127,
     "away_goals_4_prob": 0.0378181641,
     "away_goals_5_prob": 0.0104147014,
-    "away_goals_6_prob": 0.0023900773
+    "away_goals_6_prob": 0.0023900773,
+    "match_date": 1804104000000
   },
   {
     "fixture_id": 288,
@@ -7633,7 +7633,6 @@
     "home_team": "Man Utd",
     "away_team_code": 11,
     "away_team": "Everton",
-    "match_date": 1804896000000,
     "gw": 29,
     "home_win_prob": 0.5532181244,
     "draw_prob": 0.2397672162,
@@ -7653,7 +7652,8 @@
     "away_goals_3_prob": 0.0526611994,
     "away_goals_4_prob": 0.0122174057,
     "away_goals_5_prob": 0.0022675519,
-    "away_goals_6_prob": 0.0003507149
+    "away_goals_6_prob": 0.0003507149,
+    "match_date": 1804950000000
   },
   {
     "fixture_id": 287,
@@ -7662,7 +7662,6 @@
     "home_team": "Liverpool",
     "away_team_code": 40,
     "away_team": "Ipswich Town",
-    "match_date": 1804896000000,
     "gw": 29,
     "home_win_prob": 0.6200785671,
     "draw_prob": 0.2280200375,
@@ -7682,7 +7681,8 @@
     "away_goals_3_prob": 0.0313311709,
     "away_goals_4_prob": 0.0057248415,
     "away_goals_5_prob": 0.0008368359,
-    "away_goals_6_prob": 0.0001019379
+    "away_goals_6_prob": 0.0001019379,
+    "match_date": 1804950000000
   },
   {
     "fixture_id": 281,
@@ -7691,7 +7691,6 @@
     "home_team": "Aston Villa",
     "away_team_code": 88,
     "away_team": "Hull City",
-    "match_date": 1804896000000,
     "gw": 29,
     "home_win_prob": 0.6464990915,
     "draw_prob": 0.217372837,
@@ -7711,7 +7710,8 @@
     "away_goals_3_prob": 0.0281337629,
     "away_goals_4_prob": 0.0049041723,
     "away_goals_5_prob": 0.0006839016,
-    "away_goals_6_prob": 7.94768e-05
+    "away_goals_6_prob": 7.94768e-05,
+    "match_date": 1804950000000
   },
   {
     "fixture_id": 286,
@@ -7720,7 +7720,6 @@
     "home_team": "Leeds",
     "away_team_code": 36,
     "away_team": "Brighton",
-    "match_date": 1804896000000,
     "gw": 29,
     "home_win_prob": 0.3419301855,
     "draw_prob": 0.280449654,
@@ -7740,7 +7739,8 @@
     "away_goals_3_prob": 0.0861904266,
     "away_goals_4_prob": 0.0257619355,
     "away_goals_5_prob": 0.0061601024,
-    "away_goals_6_prob": 0.0012274848
+    "away_goals_6_prob": 0.0012274848,
+    "match_date": 1804950000000
   },
   {
     "fixture_id": 283,
@@ -7749,7 +7749,6 @@
     "home_team": "Chelsea",
     "away_team_code": 3,
     "away_team": "Arsenal",
-    "match_date": 1804896000000,
     "gw": 29,
     "home_win_prob": 0.3450221373,
     "draw_prob": 0.2776982388,
@@ -7769,7 +7768,8 @@
     "away_goals_3_prob": 0.0883406621,
     "away_goals_4_prob": 0.0267690534,
     "away_goals_5_prob": 0.0064892628,
-    "away_goals_6_prob": 0.0013109208
+    "away_goals_6_prob": 0.0013109208,
+    "match_date": 1804950000000
   },
   {
     "fixture_id": 290,
@@ -7778,7 +7778,6 @@
     "home_team": "Spurs",
     "away_team_code": 17,
     "away_team": "Nott'm Forest",
-    "match_date": 1804896000000,
     "gw": 29,
     "home_win_prob": 0.4801362613,
     "draw_prob": 0.270349611,
@@ -7798,7 +7797,8 @@
     "away_goals_3_prob": 0.0522995981,
     "away_goals_4_prob": 0.0120932684,
     "away_goals_5_prob": 0.0022370671,
-    "away_goals_6_prob": 0.0003448523
+    "away_goals_6_prob": 0.0003448523,
+    "match_date": 1804950000000
   },
   {
     "fixture_id": 289,
@@ -7807,7 +7807,6 @@
     "home_team": "Sunderland",
     "away_team_code": 94,
     "away_team": "Brentford",
-    "match_date": 1804896000000,
     "gw": 29,
     "home_win_prob": 0.3336996876,
     "draw_prob": 0.2809212226,
@@ -7827,7 +7826,8 @@
     "away_goals_3_prob": 0.0876388528,
     "away_goals_4_prob": 0.0264384642,
     "away_goals_5_prob": 0.0063806622,
-    "away_goals_6_prob": 0.0012832582
+    "away_goals_6_prob": 0.0012832582,
+    "match_date": 1804950000000
   },
   {
     "fixture_id": 284,
@@ -7836,7 +7836,6 @@
     "home_team": "Coventry City",
     "away_team_code": 43,
     "away_team": "Man City",
-    "match_date": 1804896000000,
     "gw": 29,
     "home_win_prob": 0.1906181606,
     "draw_prob": 0.2488040629,
@@ -7856,7 +7855,8 @@
     "away_goals_3_prob": 0.1378157682,
     "away_goals_4_prob": 0.0550705341,
     "away_goals_5_prob": 0.0176047416,
-    "away_goals_6_prob": 0.0046898481
+    "away_goals_6_prob": 0.0046898481,
+    "match_date": 1804950000000
   },
   {
     "fixture_id": 285,
@@ -7865,7 +7865,6 @@
     "home_team": "Crystal Palace",
     "away_team_code": 54,
     "away_team": "Fulham",
-    "match_date": 1804896000000,
     "gw": 29,
     "home_win_prob": 0.4636077246,
     "draw_prob": 0.2793919017,
@@ -7885,7 +7884,8 @@
     "away_goals_3_prob": 0.0500435406,
     "away_goals_4_prob": 0.0113294532,
     "away_goals_5_prob": 0.0020519173,
-    "away_goals_6_prob": 0.0003096917
+    "away_goals_6_prob": 0.0003096917,
+    "match_date": 1804950000000
   },
   {
     "fixture_id": 282,
@@ -7894,7 +7894,6 @@
     "home_team": "Bournemouth",
     "away_team_code": 4,
     "away_team": "Newcastle",
-    "match_date": 1804896000000,
     "gw": 29,
     "home_win_prob": 0.4297220268,
     "draw_prob": 0.2757515414,
@@ -7914,7 +7913,8 @@
     "away_goals_3_prob": 0.0652231087,
     "away_goals_4_prob": 0.0168209058,
     "away_goals_5_prob": 0.0034704616,
-    "away_goals_6_prob": 0.0005966833
+    "away_goals_6_prob": 0.0005966833,
+    "match_date": 1804950000000
   },
   {
     "fixture_id": 298,
@@ -7923,7 +7923,6 @@
     "home_team": "Man City",
     "away_team_code": 1,
     "away_team": "Man Utd",
-    "match_date": 1805500800000,
     "gw": 30,
     "home_win_prob": 0.4966660619,
     "draw_prob": 0.2521135521,
@@ -7943,7 +7942,8 @@
     "away_goals_3_prob": 0.0650774874,
     "away_goals_4_prob": 0.016764315,
     "away_goals_5_prob": 0.003454863,
-    "away_goals_6_prob": 0.0005933277
+    "away_goals_6_prob": 0.0005933277,
+    "match_date": 1805554800000
   },
   {
     "fixture_id": 296,
@@ -7952,7 +7952,6 @@
     "home_team": "Hull City",
     "away_team_code": 8,
     "away_team": "Chelsea",
-    "match_date": 1805500800000,
     "gw": 30,
     "home_win_prob": 0.1503438406,
     "draw_prob": 0.2308098566,
@@ -7972,7 +7971,8 @@
     "away_goals_3_prob": 0.1534931995,
     "away_goals_4_prob": 0.0664495062,
     "away_goals_5_prob": 0.0230135896,
-    "away_goals_6_prob": 0.0066419519
+    "away_goals_6_prob": 0.0066419519,
+    "match_date": 1805554800000
   },
   {
     "fixture_id": 295,
@@ -7981,7 +7981,6 @@
     "home_team": "Fulham",
     "away_team_code": 14,
     "away_team": "Liverpool",
-    "match_date": 1805500800000,
     "gw": 30,
     "home_win_prob": 0.287880128,
     "draw_prob": 0.2766622837,
@@ -8001,7 +8000,8 @@
     "away_goals_3_prob": 0.1011249506,
     "away_goals_4_prob": 0.033115631,
     "away_goals_5_prob": 0.0086755643,
-    "away_goals_6_prob": 0.0018940053
+    "away_goals_6_prob": 0.0018940053,
+    "match_date": 1805554800000
   },
   {
     "fixture_id": 300,
@@ -8010,7 +8010,6 @@
     "home_team": "Nott'm Forest",
     "away_team_code": 7,
     "away_team": "Aston Villa",
-    "match_date": 1805500800000,
     "gw": 30,
     "home_win_prob": 0.4366464208,
     "draw_prob": 0.2691876249,
@@ -8030,7 +8029,8 @@
     "away_goals_3_prob": 0.0696983485,
     "away_goals_4_prob": 0.0185968828,
     "away_goals_5_prob": 0.0039696097,
-    "away_goals_6_prob": 0.000706113
+    "away_goals_6_prob": 0.000706113,
+    "match_date": 1805554800000
   },
   {
     "fixture_id": 293,
@@ -8039,7 +8039,6 @@
     "home_team": "Brighton",
     "away_team_code": 9,
     "away_team": "Coventry City",
-    "match_date": 1805500800000,
     "gw": 30,
     "home_win_prob": 0.6009944025,
     "draw_prob": 0.2371538331,
@@ -8059,7 +8058,8 @@
     "away_goals_3_prob": 0.0320065641,
     "away_goals_4_prob": 0.0059035592,
     "away_goals_5_prob": 0.0008711216,
-    "away_goals_6_prob": 0.000107118
+    "away_goals_6_prob": 0.000107118,
+    "match_date": 1805554800000
   },
   {
     "fixture_id": 294,
@@ -8068,7 +8068,6 @@
     "home_team": "Everton",
     "away_team_code": 6,
     "away_team": "Spurs",
-    "match_date": 1805500800000,
     "gw": 30,
     "home_win_prob": 0.3557818253,
     "draw_prob": 0.27697157,
@@ -8088,7 +8087,8 @@
     "away_goals_3_prob": 0.0864059276,
     "away_goals_4_prob": 0.0258621013,
     "away_goals_5_prob": 0.0061926148,
-    "away_goals_6_prob": 0.0012356716
+    "away_goals_6_prob": 0.0012356716,
+    "match_date": 1805554800000
   },
   {
     "fixture_id": 299,
@@ -8097,7 +8097,6 @@
     "home_team": "Newcastle",
     "away_team_code": 2,
     "away_team": "Leeds",
-    "match_date": 1805500800000,
     "gw": 30,
     "home_win_prob": 0.4518719403,
     "draw_prob": 0.2744582438,
@@ -8117,7 +8116,8 @@
     "away_goals_3_prob": 0.0587567014,
     "away_goals_4_prob": 0.0143807542,
     "away_goals_5_prob": 0.0028157618,
-    "away_goals_6_prob": 0.0004594401
+    "away_goals_6_prob": 0.0004594401,
+    "match_date": 1805554800000
   },
   {
     "fixture_id": 292,
@@ -8126,7 +8126,6 @@
     "home_team": "Brentford",
     "away_team_code": 91,
     "away_team": "Bournemouth",
-    "match_date": 1805500800000,
     "gw": 30,
     "home_win_prob": 0.4482582687,
     "draw_prob": 0.2689039053,
@@ -8146,7 +8145,8 @@
     "away_goals_3_prob": 0.0657600248,
     "away_goals_4_prob": 0.0170302125,
     "away_goals_5_prob": 0.0035283215,
-    "away_goals_6_prob": 0.0006091651
+    "away_goals_6_prob": 0.0006091651,
+    "match_date": 1805554800000
   },
   {
     "fixture_id": 297,
@@ -8155,7 +8155,6 @@
     "home_team": "Ipswich Town",
     "away_team_code": 31,
     "away_team": "Crystal Palace",
-    "match_date": 1805500800000,
     "gw": 30,
     "home_win_prob": 0.3257679721,
     "draw_prob": 0.291987293,
@@ -8175,7 +8174,8 @@
     "away_goals_3_prob": 0.0786183938,
     "away_goals_4_prob": 0.0223502576,
     "away_goals_5_prob": 0.0050831262,
-    "away_goals_6_prob": 0.0009633808
+    "away_goals_6_prob": 0.0009633808,
+    "match_date": 1805554800000
   },
   {
     "fixture_id": 291,
@@ -8184,7 +8184,6 @@
     "home_team": "Arsenal",
     "away_team_code": 56,
     "away_team": "Sunderland",
-    "match_date": 1805500800000,
     "gw": 30,
     "home_win_prob": 0.6625867902,
     "draw_prob": 0.2137432913,
@@ -8204,7 +8203,8 @@
     "away_goals_3_prob": 0.0234117933,
     "away_goals_4_prob": 0.003771553,
     "away_goals_5_prob": 0.0004860666,
-    "away_goals_6_prob": 5.22023e-05
+    "away_goals_6_prob": 5.22023e-05,
+    "match_date": 1805554800000
   },
   {
     "fixture_id": 308,
@@ -8213,7 +8213,6 @@
     "home_team": "Man Utd",
     "away_team_code": 88,
     "away_team": "Hull City",
-    "match_date": 1807315200000,
     "gw": 31,
     "home_win_prob": 0.7407469165,
     "draw_prob": 0.1729259171,
@@ -8233,7 +8232,8 @@
     "away_goals_3_prob": 0.0185064986,
     "away_goals_4_prob": 0.002701598,
     "away_goals_5_prob": 0.0003155057,
-    "away_goals_6_prob": 3.07052e-05
+    "away_goals_6_prob": 3.07052e-05,
+    "match_date": 1807365600000
   },
   {
     "fixture_id": 306,
@@ -8242,7 +8242,6 @@
     "home_team": "Leeds",
     "away_team_code": 17,
     "away_team": "Nott'm Forest",
-    "match_date": 1807315200000,
     "gw": 31,
     "home_win_prob": 0.4013942018,
     "draw_prob": 0.2843762445,
@@ -8262,7 +8261,8 @@
     "away_goals_3_prob": 0.0658956959,
     "away_goals_4_prob": 0.0170832638,
     "away_goals_5_prob": 0.0035430284,
-    "away_goals_6_prob": 0.0006123464
+    "away_goals_6_prob": 0.0006123464,
+    "match_date": 1807365600000
   },
   {
     "fixture_id": 302,
@@ -8271,7 +8271,6 @@
     "home_team": "Bournemouth",
     "away_team_code": 43,
     "away_team": "Man City",
-    "match_date": 1807315200000,
     "gw": 31,
     "home_win_prob": 0.2921940166,
     "draw_prob": 0.2700531225,
@@ -8291,7 +8290,8 @@
     "away_goals_3_prob": 0.1075900612,
     "away_goals_4_prob": 0.0365662102,
     "away_goals_5_prob": 0.0099420911,
-    "away_goals_6_prob": 0.0022526529
+    "away_goals_6_prob": 0.0022526529,
+    "match_date": 1807365600000
   },
   {
     "fixture_id": 304,
@@ -8300,7 +8300,6 @@
     "home_team": "Coventry City",
     "away_team_code": 3,
     "away_team": "Arsenal",
-    "match_date": 1807315200000,
     "gw": 31,
     "home_win_prob": 0.1701826914,
     "draw_prob": 0.2484196766,
@@ -8320,7 +8319,8 @@
     "away_goals_3_prob": 0.1371425712,
     "away_goals_4_prob": 0.0546117836,
     "away_goals_5_prob": 0.0173976433,
-    "away_goals_6_prob": 0.0046186307
+    "away_goals_6_prob": 0.0046186307,
+    "match_date": 1807365600000
   },
   {
     "fixture_id": 305,
@@ -8329,7 +8329,6 @@
     "home_team": "Crystal Palace",
     "away_team_code": 11,
     "away_team": "Everton",
-    "match_date": 1807315200000,
     "gw": 31,
     "home_win_prob": 0.4315443128,
     "draw_prob": 0.2757100464,
@@ -8349,7 +8348,8 @@
     "away_goals_3_prob": 0.0646416615,
     "away_goals_4_prob": 0.0165953971,
     "away_goals_5_prob": 0.0034084174,
-    "away_goals_6_prob": 0.00058336
+    "away_goals_6_prob": 0.00058336,
+    "match_date": 1807365600000
   },
   {
     "fixture_id": 309,
@@ -8358,7 +8358,6 @@
     "home_team": "Sunderland",
     "away_team_code": 40,
     "away_team": "Ipswich Town",
-    "match_date": 1807315200000,
     "gw": 31,
     "home_win_prob": 0.4571836322,
     "draw_prob": 0.2852077335,
@@ -8378,7 +8377,8 @@
     "away_goals_3_prob": 0.0473000397,
     "away_goals_4_prob": 0.0104255571,
     "away_goals_5_prob": 0.001838345,
-    "away_goals_6_prob": 0.0002701304
+    "away_goals_6_prob": 0.0002701304,
+    "match_date": 1807365600000
   },
   {
     "fixture_id": 307,
@@ -8387,7 +8387,6 @@
     "home_team": "Liverpool",
     "away_team_code": 4,
     "away_team": "Newcastle",
-    "match_date": 1807315200000,
     "gw": 31,
     "home_win_prob": 0.5129362295,
     "draw_prob": 0.2559955383,
@@ -8407,7 +8406,8 @@
     "away_goals_3_prob": 0.0534187557,
     "away_goals_4_prob": 0.0124790038,
     "away_goals_5_prob": 0.0023321477,
-    "away_goals_6_prob": 0.0003632043
+    "away_goals_6_prob": 0.0003632043,
+    "match_date": 1807365600000
   },
   {
     "fixture_id": 303,
@@ -8416,7 +8416,6 @@
     "home_team": "Chelsea",
     "away_team_code": 54,
     "away_team": "Fulham",
-    "match_date": 1807315200000,
     "gw": 31,
     "home_win_prob": 0.5869965354,
     "draw_prob": 0.2377602969,
@@ -8436,7 +8435,8 @@
     "away_goals_3_prob": 0.0380063317,
     "away_goals_4_prob": 0.0075708319,
     "away_goals_5_prob": 0.0012064831,
-    "away_goals_6_prob": 0.0001602203
+    "away_goals_6_prob": 0.0001602203,
+    "match_date": 1807365600000
   },
   {
     "fixture_id": 310,
@@ -8445,7 +8445,6 @@
     "home_team": "Spurs",
     "away_team_code": 94,
     "away_team": "Brentford",
-    "match_date": 1807315200000,
     "gw": 31,
     "home_win_prob": 0.4550697589,
     "draw_prob": 0.2675902211,
@@ -8465,7 +8464,8 @@
     "away_goals_3_prob": 0.0646193702,
     "away_goals_4_prob": 0.0165867755,
     "away_goals_5_prob": 0.0034060514,
-    "away_goals_6_prob": 0.0005828532
+    "away_goals_6_prob": 0.0005828532,
+    "match_date": 1807365600000
   },
   {
     "fixture_id": 301,
@@ -8474,7 +8474,6 @@
     "home_team": "Aston Villa",
     "away_team_code": 36,
     "away_team": "Brighton",
-    "match_date": 1807315200000,
     "gw": 31,
     "home_win_prob": 0.3601733427,
     "draw_prob": 0.2688360937,
@@ -8494,7 +8493,8 @@
     "away_goals_3_prob": 0.0944075542,
     "away_goals_4_prob": 0.0297034943,
     "away_goals_5_prob": 0.0074764998,
-    "away_goals_6_prob": 0.0015682232
+    "away_goals_6_prob": 0.0015682232,
+    "match_date": 1807365600000
   },
   {
     "fixture_id": 320,
@@ -8503,7 +8503,6 @@
     "home_team": "Nott'm Forest",
     "away_team_code": 14,
     "away_team": "Liverpool",
-    "match_date": 1807920000000,
     "gw": 32,
     "home_win_prob": 0.3389656232,
     "draw_prob": 0.2787016772,
@@ -8523,7 +8522,8 @@
     "away_goals_3_prob": 0.0887319042,
     "away_goals_4_prob": 0.0269541416,
     "away_goals_5_prob": 0.0065503001,
-    "away_goals_6_prob": 0.0013265256
+    "away_goals_6_prob": 0.0013265256,
+    "match_date": 1807970400000
   },
   {
     "fixture_id": 318,
@@ -8532,7 +8532,6 @@
     "home_team": "Man City",
     "away_team_code": 31,
     "away_team": "Crystal Palace",
-    "match_date": 1807920000000,
     "gw": 32,
     "home_win_prob": 0.5947326405,
     "draw_prob": 0.233693313,
@@ -8552,7 +8551,8 @@
     "away_goals_3_prob": 0.038304727,
     "away_goals_4_prob": 0.0076574206,
     "away_goals_5_prob": 0.0012246236,
-    "away_goals_6_prob": 0.000163208
+    "away_goals_6_prob": 0.000163208,
+    "match_date": 1807970400000
   },
   {
     "fixture_id": 313,
@@ -8561,7 +8561,6 @@
     "home_team": "Brighton",
     "away_team_code": 8,
     "away_team": "Chelsea",
-    "match_date": 1807920000000,
     "gw": 32,
     "home_win_prob": 0.3930524305,
     "draw_prob": 0.2713754695,
@@ -8581,7 +8580,8 @@
     "away_goals_3_prob": 0.081951534,
     "away_goals_4_prob": 0.0238263117,
     "away_goals_5_prob": 0.005541745,
-    "away_goals_6_prob": 0.0010741255
+    "away_goals_6_prob": 0.0010741255,
+    "match_date": 1807970400000
   },
   {
     "fixture_id": 314,
@@ -8590,7 +8590,6 @@
     "home_team": "Everton",
     "away_team_code": 91,
     "away_team": "Bournemouth",
-    "match_date": 1807920000000,
     "gw": 32,
     "home_win_prob": 0.3992986816,
     "draw_prob": 0.2759351955,
@@ -8610,7 +8609,8 @@
     "away_goals_3_prob": 0.0750149845,
     "away_goals_4_prob": 0.0207996589,
     "away_goals_5_prob": 0.0046137535,
-    "away_goals_6_prob": 0.0008528474
+    "away_goals_6_prob": 0.0008528474,
+    "match_date": 1807970400000
   },
   {
     "fixture_id": 319,
@@ -8619,7 +8619,6 @@
     "home_team": "Newcastle",
     "away_team_code": 6,
     "away_team": "Spurs",
-    "match_date": 1807920000000,
     "gw": 32,
     "home_win_prob": 0.3769683414,
     "draw_prob": 0.2797212931,
@@ -8639,7 +8638,8 @@
     "away_goals_3_prob": 0.0777260136,
     "away_goals_4_prob": 0.0219618967,
     "away_goals_5_prob": 0.0049643602,
-    "away_goals_6_prob": 0.0009351375
+    "away_goals_6_prob": 0.0009351375,
+    "match_date": 1807970400000
   },
   {
     "fixture_id": 316,
@@ -8648,7 +8648,6 @@
     "home_team": "Hull City",
     "away_team_code": 9,
     "away_team": "Coventry City",
-    "match_date": 1807920000000,
     "gw": 32,
     "home_win_prob": 0.3060877371,
     "draw_prob": 0.3023451082,
@@ -8668,7 +8667,8 @@
     "away_goals_3_prob": 0.0736736604,
     "away_goals_4_prob": 0.0202343848,
     "away_goals_5_prob": 0.0044458801,
-    "away_goals_6_prob": 0.0008140372
+    "away_goals_6_prob": 0.0008140372,
+    "match_date": 1807970400000
   },
   {
     "fixture_id": 311,
@@ -8677,7 +8677,6 @@
     "home_team": "Arsenal",
     "away_team_code": 7,
     "away_team": "Aston Villa",
-    "match_date": 1807920000000,
     "gw": 32,
     "home_win_prob": 0.6291442872,
     "draw_prob": 0.2185499987,
@@ -8697,7 +8696,8 @@
     "away_goals_3_prob": 0.0361895466,
     "away_goals_4_prob": 0.0070510555,
     "away_goals_5_prob": 0.0010990441,
-    "away_goals_6_prob": 0.0001427562
+    "away_goals_6_prob": 0.0001427562,
+    "match_date": 1807970400000
   },
   {
     "fixture_id": 315,
@@ -8706,7 +8706,6 @@
     "home_team": "Fulham",
     "away_team_code": 56,
     "away_team": "Sunderland",
-    "match_date": 1807920000000,
     "gw": 32,
     "home_win_prob": 0.4224368496,
     "draw_prob": 0.2887966224,
@@ -8726,7 +8725,8 @@
     "away_goals_3_prob": 0.0554231358,
     "away_goals_4_prob": 0.01318112,
     "away_goals_5_prob": 0.0025078613,
-    "away_goals_6_prob": 0.0003976248
+    "away_goals_6_prob": 0.0003976248,
+    "match_date": 1807970400000
   },
   {
     "fixture_id": 317,
@@ -8735,7 +8735,6 @@
     "home_team": "Ipswich Town",
     "away_team_code": 1,
     "away_team": "Man Utd",
-    "match_date": 1807920000000,
     "gw": 32,
     "home_win_prob": 0.2395005585,
     "draw_prob": 0.263261262,
@@ -8755,7 +8754,8 @@
     "away_goals_3_prob": 0.1212367318,
     "away_goals_4_prob": 0.0444137549,
     "away_goals_5_prob": 0.0130163959,
-    "away_goals_6_prob": 0.0031789431
+    "away_goals_6_prob": 0.0031789431,
+    "match_date": 1807970400000
   },
   {
     "fixture_id": 312,
@@ -8764,7 +8764,6 @@
     "home_team": "Brentford",
     "away_team_code": 2,
     "away_team": "Leeds",
-    "match_date": 1807920000000,
     "gw": 32,
     "home_win_prob": 0.4799768386,
     "draw_prob": 0.2651775925,
@@ -8784,7 +8783,8 @@
     "away_goals_3_prob": 0.0574999485,
     "away_goals_4_prob": 0.0139238214,
     "away_goals_5_prob": 0.0026973631,
-    "away_goals_6_prob": 0.0004354509
+    "away_goals_6_prob": 0.0004354509,
+    "match_date": 1807970400000
   },
   {
     "fixture_id": 328,
@@ -8793,7 +8793,6 @@
     "home_team": "Newcastle",
     "away_team_code": 40,
     "away_team": "Ipswich Town",
-    "match_date": 1808524800000,
     "gw": 33,
     "home_win_prob": 0.5339500321,
     "draw_prob": 0.2605117497,
@@ -8813,7 +8812,8 @@
     "away_goals_3_prob": 0.0401721152,
     "away_goals_4_prob": 0.0082070421,
     "away_goals_5_prob": 0.0013413392,
-    "away_goals_6_prob": 0.0001826877
+    "away_goals_6_prob": 0.0001826877,
+    "match_date": 1808575200000
   },
   {
     "fixture_id": 330,
@@ -8822,7 +8822,6 @@
     "home_team": "Spurs",
     "away_team_code": 88,
     "away_team": "Hull City",
-    "match_date": 1808524800000,
     "gw": 33,
     "home_win_prob": 0.6931354448,
     "draw_prob": 0.2012378606,
@@ -8842,7 +8841,8 @@
     "away_goals_3_prob": 0.0190374444,
     "away_goals_4_prob": 0.0028118798,
     "away_goals_5_prob": 0.0003322575,
-    "away_goals_6_prob": 3.27169e-05
+    "away_goals_6_prob": 3.27169e-05,
+    "match_date": 1808575200000
   },
   {
     "fixture_id": 327,
@@ -8851,7 +8851,6 @@
     "home_team": "Man Utd",
     "away_team_code": 31,
     "away_team": "Crystal Palace",
-    "match_date": 1808524800000,
     "gw": 33,
     "home_win_prob": 0.5391362756,
     "draw_prob": 0.2488735414,
@@ -8871,7 +8870,8 @@
     "away_goals_3_prob": 0.0492374104,
     "away_goals_4_prob": 0.0110610093,
     "away_goals_5_prob": 0.0019878532,
-    "away_goals_6_prob": 0.0002977094
+    "away_goals_6_prob": 0.0002977094,
+    "match_date": 1808575200000
   },
   {
     "fixture_id": 325,
@@ -8880,7 +8880,6 @@
     "home_team": "Everton",
     "away_team_code": 36,
     "away_team": "Brighton",
-    "match_date": 1808524800000,
     "gw": 33,
     "home_win_prob": 0.3488311336,
     "draw_prob": 0.2746166919,
@@ -8900,7 +8899,8 @@
     "away_goals_3_prob": 0.0907485786,
     "away_goals_4_prob": 0.0279172184,
     "away_goals_5_prob": 0.0068705965,
-    "away_goals_6_prob": 0.0014090795
+    "away_goals_6_prob": 0.0014090795,
+    "match_date": 1808575200000
   },
   {
     "fixture_id": 324,
@@ -8909,7 +8909,6 @@
     "home_team": "Chelsea",
     "away_team_code": 43,
     "away_team": "Man City",
-    "match_date": 1808524800000,
     "gw": 33,
     "home_win_prob": 0.3806051688,
     "draw_prob": 0.2686333026,
@@ -8929,7 +8928,8 @@
     "away_goals_3_prob": 0.0888900287,
     "away_goals_4_prob": 0.0270291081,
     "away_goals_5_prob": 0.0065750699,
-    "away_goals_6_prob": 0.00133287
+    "away_goals_6_prob": 0.00133287,
+    "match_date": 1808575200000
   },
   {
     "fixture_id": 322,
@@ -8938,7 +8938,6 @@
     "home_team": "Bournemouth",
     "away_team_code": 3,
     "away_team": "Arsenal",
-    "match_date": 1808524800000,
     "gw": 33,
     "home_win_prob": 0.2629308687,
     "draw_prob": 0.2744804552,
@@ -8958,7 +8957,8 @@
     "away_goals_3_prob": 0.1069776101,
     "away_goals_4_prob": 0.0362321732,
     "away_goals_5_prob": 0.0098171599,
-    "away_goals_6_prob": 0.0022166447
+    "away_goals_6_prob": 0.0022166447,
+    "match_date": 1808575200000
   },
   {
     "fixture_id": 329,
@@ -8967,7 +8967,6 @@
     "home_team": "Nott'm Forest",
     "away_team_code": 56,
     "away_team": "Sunderland",
-    "match_date": 1808524800000,
     "gw": 33,
     "home_win_prob": 0.4795559678,
     "draw_prob": 0.275974343,
@@ -8987,7 +8986,8 @@
     "away_goals_3_prob": 0.0473911249,
     "away_goals_4_prob": 0.010455125,
     "away_goals_5_prob": 0.0018452339,
-    "away_goals_6_prob": 0.0002713891
+    "away_goals_6_prob": 0.0002713891,
+    "match_date": 1808575200000
   },
   {
     "fixture_id": 326,
@@ -8996,7 +8996,6 @@
     "home_team": "Leeds",
     "away_team_code": 14,
     "away_team": "Liverpool",
-    "match_date": 1808524800000,
     "gw": 33,
     "home_win_prob": 0.3207187182,
     "draw_prob": 0.2767345282,
@@ -9016,7 +9015,8 @@
     "away_goals_3_prob": 0.0949168293,
     "away_goals_4_prob": 0.0299561258,
     "away_goals_5_prob": 0.0075634172,
-    "away_goals_6_prob": 0.0015913629
+    "away_goals_6_prob": 0.0015913629,
+    "match_date": 1808575200000
   },
   {
     "fixture_id": 321,
@@ -9025,7 +9025,6 @@
     "home_team": "Aston Villa",
     "away_team_code": 9,
     "away_team": "Coventry City",
-    "match_date": 1808524800000,
     "gw": 33,
     "home_win_prob": 0.5365217607,
     "draw_prob": 0.2530406741,
@@ -9045,7 +9044,8 @@
     "away_goals_3_prob": 0.0461028127,
     "away_goals_4_prob": 0.0100397488,
     "away_goals_5_prob": 0.0017490743,
-    "away_goals_6_prob": 0.0002539291
+    "away_goals_6_prob": 0.0002539291,
+    "match_date": 1808575200000
   },
   {
     "fixture_id": 323,
@@ -9054,7 +9054,6 @@
     "home_team": "Brentford",
     "away_team_code": 54,
     "away_team": "Fulham",
-    "match_date": 1808524800000,
     "gw": 33,
     "home_win_prob": 0.513075892,
     "draw_prob": 0.2607277172,
@@ -9074,7 +9073,8 @@
     "away_goals_3_prob": 0.0485260881,
     "away_goals_4_prob": 0.0108261036,
     "away_goals_5_prob": 0.0019322311,
-    "away_goals_6_prob": 0.0002873854
+    "away_goals_6_prob": 0.0002873854,
+    "match_date": 1808575200000
   },
   {
     "fixture_id": 336,
@@ -9083,7 +9083,6 @@
     "home_team": "Hull City",
     "away_team_code": 91,
     "away_team": "Bournemouth",
-    "match_date": 1809129600000,
     "gw": 34,
     "home_win_prob": 0.2092751271,
     "draw_prob": 0.2690600318,
@@ -9103,7 +9102,8 @@
     "away_goals_3_prob": 0.1167909956,
     "away_goals_4_prob": 0.0417703743,
     "away_goals_5_prob": 0.0119513609,
-    "away_goals_6_prob": 0.0028496079
+    "away_goals_6_prob": 0.0028496079,
+    "match_date": 1809180000000
   },
   {
     "fixture_id": 334,
@@ -9112,7 +9112,6 @@
     "home_team": "Crystal Palace",
     "away_team_code": 7,
     "away_team": "Aston Villa",
-    "match_date": 1809129600000,
     "gw": 34,
     "home_win_prob": 0.4270614103,
     "draw_prob": 0.2706332473,
@@ -9132,7 +9131,8 @@
     "away_goals_3_prob": 0.0715221263,
     "away_goals_4_prob": 0.0193411187,
     "away_goals_5_prob": 0.0041842031,
-    "away_goals_6_prob": 0.0007543322
+    "away_goals_6_prob": 0.0007543322,
+    "match_date": 1809180000000
   },
   {
     "fixture_id": 338,
@@ -9141,7 +9141,6 @@
     "home_team": "Liverpool",
     "away_team_code": 8,
     "away_team": "Chelsea",
-    "match_date": 1809129600000,
     "gw": 34,
     "home_win_prob": 0.4188931449,
     "draw_prob": 0.2672653899,
@@ -9161,7 +9160,8 @@
     "away_goals_3_prob": 0.0781474625,
     "away_goals_4_prob": 0.0221449518,
     "away_goals_5_prob": 0.0050202412,
-    "away_goals_6_prob": 0.0009484036
+    "away_goals_6_prob": 0.0009484036,
+    "match_date": 1809180000000
   },
   {
     "fixture_id": 333,
@@ -9170,7 +9170,6 @@
     "home_team": "Coventry City",
     "away_team_code": 1,
     "away_team": "Man Utd",
-    "match_date": 1809129600000,
     "gw": 34,
     "home_win_prob": 0.2330388647,
     "draw_prob": 0.2617397524,
@@ -9190,7 +9189,8 @@
     "away_goals_3_prob": 0.1233045896,
     "away_goals_4_prob": 0.045672946,
     "away_goals_5_prob": 0.0135340818,
-    "away_goals_6_prob": 0.0033420837
+    "away_goals_6_prob": 0.0033420837,
+    "match_date": 1809180000000
   },
   {
     "fixture_id": 332,
@@ -9199,7 +9199,6 @@
     "home_team": "Brighton",
     "away_team_code": 17,
     "away_team": "Nott'm Forest",
-    "match_date": 1809129600000,
     "gw": 34,
     "home_win_prob": 0.4906674829,
     "draw_prob": 0.266177955,
@@ -9219,7 +9218,8 @@
     "away_goals_3_prob": 0.0522569348,
     "away_goals_4_prob": 0.0120786532,
     "away_goals_5_prob": 0.0022334852,
-    "away_goals_6_prob": 0.0003441648
+    "away_goals_6_prob": 0.0003441648,
+    "match_date": 1809180000000
   },
   {
     "fixture_id": 331,
@@ -9228,7 +9228,6 @@
     "home_team": "Arsenal",
     "away_team_code": 6,
     "away_team": "Spurs",
-    "match_date": 1809129600000,
     "gw": 34,
     "home_win_prob": 0.5530109553,
     "draw_prob": 0.2516503497,
@@ -9248,7 +9247,8 @@
     "away_goals_3_prob": 0.0402129326,
     "away_goals_4_prob": 0.0082192041,
     "away_goals_5_prob": 0.0013439521,
-    "away_goals_6_prob": 0.0001831288
+    "away_goals_6_prob": 0.0001831288,
+    "match_date": 1809180000000
   },
   {
     "fixture_id": 339,
@@ -9257,7 +9257,6 @@
     "home_team": "Man City",
     "away_team_code": 94,
     "away_team": "Brentford",
-    "match_date": 1809129600000,
     "gw": 34,
     "home_win_prob": 0.5625140646,
     "draw_prob": 0.2381981172,
@@ -9277,7 +9276,8 @@
     "away_goals_3_prob": 0.0497490954,
     "away_goals_4_prob": 0.0112311278,
     "away_goals_5_prob": 0.0020283904,
-    "away_goals_6_prob": 0.0003052801
+    "away_goals_6_prob": 0.0003052801,
+    "match_date": 1809180000000
   },
   {
     "fixture_id": 335,
@@ -9286,7 +9286,6 @@
     "home_team": "Fulham",
     "away_team_code": 11,
     "away_team": "Everton",
-    "match_date": 1809129600000,
     "gw": 34,
     "home_win_prob": 0.3839403493,
     "draw_prob": 0.2825347397,
@@ -9306,7 +9305,8 @@
     "away_goals_3_prob": 0.0728709023,
     "away_goals_4_prob": 0.0198991619,
     "away_goals_5_prob": 0.0043471579,
-    "away_goals_6_prob": 0.0007913977
+    "away_goals_6_prob": 0.0007913977,
+    "match_date": 1809180000000
   },
   {
     "fixture_id": 337,
@@ -9315,7 +9315,6 @@
     "home_team": "Ipswich Town",
     "away_team_code": 2,
     "away_team": "Leeds",
-    "match_date": 1809129600000,
     "gw": 34,
     "home_win_prob": 0.3359777227,
     "draw_prob": 0.2913129685,
@@ -9335,7 +9334,8 @@
     "away_goals_3_prob": 0.0769330643,
     "away_goals_4_prob": 0.0216192174,
     "away_goals_5_prob": 0.0048602308,
-    "away_goals_6_prob": 0.0009105265
+    "away_goals_6_prob": 0.0009105265,
+    "match_date": 1809180000000
   },
   {
     "fixture_id": 340,
@@ -9344,7 +9344,6 @@
     "home_team": "Sunderland",
     "away_team_code": 4,
     "away_team": "Newcastle",
-    "match_date": 1809129600000,
     "gw": 34,
     "home_win_prob": 0.353368701,
     "draw_prob": 0.286440325,
@@ -9364,7 +9363,8 @@
     "away_goals_3_prob": 0.0773361477,
     "away_goals_4_prob": 0.02179313,
     "away_goals_5_prob": 0.0049129989,
-    "away_goals_6_prob": 0.0009229804
+    "away_goals_6_prob": 0.0009229804,
+    "match_date": 1809180000000
   },
   {
     "fixture_id": 348,
@@ -9373,7 +9373,6 @@
     "home_team": "Newcastle",
     "away_team_code": 9,
     "away_team": "Coventry City",
-    "match_date": 1809734400000,
     "gw": 35,
     "home_win_prob": 0.5416825624,
     "draw_prob": 0.2585355703,
@@ -9393,7 +9392,8 @@
     "away_goals_3_prob": 0.0387689744,
     "away_goals_4_prob": 0.0077928162,
     "away_goals_5_prob": 0.0012531254,
-    "away_goals_6_prob": 0.0001679242
+    "away_goals_6_prob": 0.0001679242,
+    "match_date": 1809784800000
   },
   {
     "fixture_id": 350,
@@ -9402,7 +9402,6 @@
     "home_team": "Spurs",
     "away_team_code": 8,
     "away_team": "Chelsea",
-    "match_date": 1809734400000,
     "gw": 35,
     "home_win_prob": 0.3834708133,
     "draw_prob": 0.273935014,
@@ -9422,7 +9421,8 @@
     "away_goals_3_prob": 0.0820107817,
     "away_goals_4_prob": 0.0238529139,
     "away_goals_5_prob": 0.0055501142,
-    "away_goals_6_prob": 0.0010761707
+    "away_goals_6_prob": 0.0010761707,
+    "match_date": 1809784800000
   },
   {
     "fixture_id": 347,
@@ -9431,7 +9431,6 @@
     "home_team": "Man City",
     "away_team_code": 14,
     "away_team": "Liverpool",
-    "match_date": 1809734400000,
     "gw": 35,
     "home_win_prob": 0.5007435964,
     "draw_prob": 0.2547671087,
@@ -9451,7 +9450,8 @@
     "away_goals_3_prob": 0.0601331008,
     "away_goals_4_prob": 0.014887662,
     "away_goals_5_prob": 0.0029486918,
-    "away_goals_6_prob": 0.0004866884
+    "away_goals_6_prob": 0.0004866884,
+    "match_date": 1809784800000
   },
   {
     "fixture_id": 349,
@@ -9460,7 +9460,6 @@
     "home_team": "Nott'm Forest",
     "away_team_code": 31,
     "away_team": "Crystal Palace",
-    "match_date": 1809734400000,
     "gw": 35,
     "home_win_prob": 0.4291566525,
     "draw_prob": 0.2823643237,
@@ -9480,7 +9479,8 @@
     "away_goals_3_prob": 0.0590138436,
     "away_goals_4_prob": 0.0144749422,
     "away_goals_5_prob": 0.0028403363,
-    "away_goals_6_prob": 0.0004644526
+    "away_goals_6_prob": 0.0004644526,
+    "match_date": 1809784800000
   },
   {
     "fixture_id": 341,
@@ -9489,7 +9489,6 @@
     "home_team": "Bournemouth",
     "away_team_code": 1,
     "away_team": "Man Utd",
-    "match_date": 1809734400000,
     "gw": 35,
     "home_win_prob": 0.3467334629,
     "draw_prob": 0.2716310977,
@@ -9509,7 +9508,8 @@
     "away_goals_3_prob": 0.0946223625,
     "away_goals_4_prob": 0.0298099323,
     "away_goals_5_prob": 0.0075130829,
-    "away_goals_6_prob": 0.0015779532
+    "away_goals_6_prob": 0.0015779532,
+    "match_date": 1809784800000
   },
   {
     "fixture_id": 345,
@@ -9518,7 +9518,6 @@
     "home_team": "Fulham",
     "away_team_code": 40,
     "away_team": "Ipswich Town",
-    "match_date": 1809734400000,
     "gw": 35,
     "home_win_prob": 0.4639746176,
     "draw_prob": 0.2836920672,
@@ -9538,7 +9537,8 @@
     "away_goals_3_prob": 0.0462845502,
     "away_goals_4_prob": 0.0100979745,
     "away_goals_5_prob": 0.001762473,
-    "away_goals_6_prob": 0.0002563477
+    "away_goals_6_prob": 0.0002563477,
+    "match_date": 1809784800000
   },
   {
     "fixture_id": 342,
@@ -9547,7 +9547,6 @@
     "home_team": "Brentford",
     "away_team_code": 7,
     "away_team": "Aston Villa",
-    "match_date": 1809734400000,
     "gw": 35,
     "home_win_prob": 0.4763584222,
     "draw_prob": 0.2557948934,
@@ -9567,7 +9566,8 @@
     "away_goals_3_prob": 0.0695307723,
     "away_goals_4_prob": 0.0185290948,
     "away_goals_5_prob": 0.0039502205,
-    "away_goals_6_prob": 0.0007017901
+    "away_goals_6_prob": 0.0007017901,
+    "match_date": 1809784800000
   },
   {
     "fixture_id": 346,
@@ -9576,7 +9576,6 @@
     "home_team": "Leeds",
     "away_team_code": 3,
     "away_team": "Arsenal",
-    "match_date": 1809734400000,
     "gw": 35,
     "home_win_prob": 0.2367105401,
     "draw_prob": 0.2698601771,
@@ -9596,7 +9595,8 @@
     "away_goals_3_prob": 0.1144151048,
     "away_goals_4_prob": 0.0403926374,
     "away_goals_5_prob": 0.0114080403,
-    "away_goals_6_prob": 0.002684965
+    "away_goals_6_prob": 0.002684965,
+    "match_date": 1809784800000
   },
   {
     "fixture_id": 343,
@@ -9605,7 +9605,6 @@
     "home_team": "Brighton",
     "away_team_code": 56,
     "away_team": "Sunderland",
-    "match_date": 1809734400000,
     "gw": 35,
     "home_win_prob": 0.5510838303,
     "draw_prob": 0.252564155,
@@ -9625,7 +9624,8 @@
     "away_goals_3_prob": 0.0401979178,
     "away_goals_4_prob": 0.0082147296,
     "away_goals_5_prob": 0.0013429906,
-    "away_goals_6_prob": 0.0001829664
+    "away_goals_6_prob": 0.0001829664,
+    "match_date": 1809784800000
   },
   {
     "fixture_id": 344,
@@ -9634,7 +9634,6 @@
     "home_team": "Everton",
     "away_team_code": 88,
     "away_team": "Hull City",
-    "match_date": 1809734400000,
     "gw": 35,
     "home_win_prob": 0.6300089587,
     "draw_prob": 0.2279484938,
@@ -9654,7 +9653,8 @@
     "away_goals_3_prob": 0.026708965,
     "away_goals_4_prob": 0.0045522539,
     "away_goals_5_prob": 0.0006207059,
-    "away_goals_6_prob": 7.05284e-05
+    "away_goals_6_prob": 7.05284e-05,
+    "match_date": 1809784800000
   },
   {
     "fixture_id": 358,
@@ -9663,7 +9663,6 @@
     "home_team": "Liverpool",
     "away_team_code": 94,
     "away_team": "Brentford",
-    "match_date": 1810339200000,
     "gw": 36,
     "home_win_prob": 0.4926170239,
     "draw_prob": 0.2568019016,
@@ -9683,7 +9682,8 @@
     "away_goals_3_prob": 0.0613603299,
     "away_goals_4_prob": 0.0153453325,
     "away_goals_5_prob": 0.0030701169,
-    "away_goals_6_prob": 0.0005118613
+    "away_goals_6_prob": 0.0005118613,
+    "match_date": 1810389600000
   },
   {
     "fixture_id": 360,
@@ -9692,7 +9692,6 @@
     "home_team": "Sunderland",
     "away_team_code": 91,
     "away_team": "Bournemouth",
-    "match_date": 1810339200000,
     "gw": 36,
     "home_win_prob": 0.3488171864,
     "draw_prob": 0.2872984178,
@@ -9712,7 +9711,8 @@
     "away_goals_3_prob": 0.077646928,
     "away_goals_4_prob": 0.0219276175,
     "away_goals_5_prob": 0.0049539156,
-    "away_goals_6_prob": 0.0009326625
+    "away_goals_6_prob": 0.0009326625,
+    "match_date": 1810389600000
   },
   {
     "fixture_id": 352,
@@ -9721,7 +9721,6 @@
     "home_team": "Aston Villa",
     "away_team_code": 4,
     "away_team": "Newcastle",
-    "match_date": 1810339200000,
     "gw": 36,
     "home_win_prob": 0.417180953,
     "draw_prob": 0.2679578474,
@@ -9741,7 +9740,8 @@
     "away_goals_3_prob": 0.0779415509,
     "away_goals_4_prob": 0.0220554347,
     "away_goals_5_prob": 0.0049928922,
-    "away_goals_6_prob": 0.0009419059
+    "away_goals_6_prob": 0.0009419059,
+    "match_date": 1810389600000
   },
   {
     "fixture_id": 353,
@@ -9750,7 +9750,6 @@
     "home_team": "Chelsea",
     "away_team_code": 11,
     "away_team": "Everton",
-    "match_date": 1810339200000,
     "gw": 36,
     "home_win_prob": 0.5565050354,
     "draw_prob": 0.2407866311,
@@ -9770,7 +9769,8 @@
     "away_goals_3_prob": 0.0498124753,
     "away_goals_4_prob": 0.0112522659,
     "away_goals_5_prob": 0.0020334422,
-    "away_goals_6_prob": 0.0003062263
+    "away_goals_6_prob": 0.0003062263,
+    "match_date": 1810389600000
   },
   {
     "fixture_id": 351,
@@ -9779,7 +9779,6 @@
     "home_team": "Arsenal",
     "away_team_code": 17,
     "away_team": "Nott'm Forest",
-    "match_date": 1810339200000,
     "gw": 36,
     "home_win_prob": 0.6064792267,
     "draw_prob": 0.2353115161,
@@ -9799,7 +9798,8 @@
     "away_goals_3_prob": 0.0311325755,
     "away_goals_4_prob": 0.005672643,
     "away_goals_5_prob": 0.0008268864,
-    "away_goals_6_prob": 0.0001004442
+    "away_goals_6_prob": 0.0001004442,
+    "match_date": 1810389600000
   },
   {
     "fixture_id": 354,
@@ -9808,7 +9808,6 @@
     "home_team": "Coventry City",
     "away_team_code": 6,
     "away_team": "Spurs",
-    "match_date": 1810339200000,
     "gw": 36,
     "home_win_prob": 0.2634942425,
     "draw_prob": 0.2798818145,
@@ -9828,7 +9827,8 @@
     "away_goals_3_prob": 0.1014120636,
     "away_goals_4_prob": 0.0332653627,
     "away_goals_5_prob": 0.00872941,
-    "away_goals_6_prob": 0.0019089576
+    "away_goals_6_prob": 0.0019089576,
+    "match_date": 1810389600000
   },
   {
     "fixture_id": 355,
@@ -9837,7 +9837,6 @@
     "home_team": "Crystal Palace",
     "away_team_code": 36,
     "away_team": "Brighton",
-    "match_date": 1810339200000,
     "gw": 36,
     "home_win_prob": 0.351634355,
     "draw_prob": 0.2818157455,
@@ -9857,7 +9856,8 @@
     "away_goals_3_prob": 0.0823846857,
     "away_goals_4_prob": 0.0240210914,
     "away_goals_5_prob": 0.0056031077,
-    "away_goals_6_prob": 0.0010891406
+    "away_goals_6_prob": 0.0010891406,
+    "match_date": 1810389600000
   },
   {
     "fixture_id": 357,
@@ -9866,7 +9866,6 @@
     "home_team": "Ipswich Town",
     "away_team_code": 43,
     "away_team": "Man City",
-    "match_date": 1810339200000,
     "gw": 36,
     "home_win_prob": 0.1962881336,
     "draw_prob": 0.2509442837,
@@ -9886,7 +9885,8 @@
     "away_goals_3_prob": 0.1356747235,
     "away_goals_4_prob": 0.0536195063,
     "away_goals_5_prob": 0.0169526136,
-    "away_goals_6_prob": 0.0044665199
+    "away_goals_6_prob": 0.0044665199,
+    "match_date": 1810389600000
   },
   {
     "fixture_id": 356,
@@ -9895,7 +9895,6 @@
     "home_team": "Hull City",
     "away_team_code": 54,
     "away_team": "Fulham",
-    "match_date": 1810339200000,
     "gw": 36,
     "home_win_prob": 0.2589905624,
     "draw_prob": 0.2915623779,
@@ -9915,7 +9914,8 @@
     "away_goals_3_prob": 0.0909950841,
     "away_goals_4_prob": 0.0280359796,
     "away_goals_5_prob": 0.0069104054,
-    "away_goals_6_prob": 0.0014194172
+    "away_goals_6_prob": 0.0014194172,
+    "match_date": 1810389600000
   },
   {
     "fixture_id": 359,
@@ -9924,7 +9924,6 @@
     "home_team": "Man Utd",
     "away_team_code": 2,
     "away_team": "Leeds",
-    "match_date": 1810339200000,
     "gw": 36,
     "home_win_prob": 0.5516300531,
     "draw_prob": 0.2445118835,
@@ -9944,7 +9943,8 @@
     "away_goals_3_prob": 0.0480501444,
     "away_goals_4_prob": 0.0106699607,
     "away_goals_5_prob": 0.0018954875,
-    "away_goals_6_prob": 0.0002806065
+    "away_goals_6_prob": 0.0002806065,
+    "match_date": 1810389600000
   },
   {
     "fixture_id": 366,
@@ -9953,7 +9953,6 @@
     "home_team": "Leeds",
     "away_team_code": 56,
     "away_team": "Sunderland",
-    "match_date": 1811030400000,
     "gw": 37,
     "home_win_prob": 0.4603349064,
     "draw_prob": 0.2791962865,
@@ -9973,7 +9972,8 @@
     "away_goals_3_prob": 0.0513525909,
     "away_goals_4_prob": 0.0117704019,
     "away_goals_5_prob": 0.002158292,
-    "away_goals_6_prob": 0.0003297979
+    "away_goals_6_prob": 0.0003297979,
+    "match_date": 1811080800000
   },
   {
     "fixture_id": 364,
@@ -9982,7 +9982,6 @@
     "home_team": "Everton",
     "away_team_code": 3,
     "away_team": "Arsenal",
-    "match_date": 1811030400000,
     "gw": 37,
     "home_win_prob": 0.2408646319,
     "draw_prob": 0.2645685772,
@@ -10002,7 +10001,8 @@
     "away_goals_3_prob": 0.1197144107,
     "away_goals_4_prob": 0.043498886,
     "away_goals_5_prob": 0.0126444465,
-    "away_goals_6_prob": 0.0030629525
+    "away_goals_6_prob": 0.0030629525,
+    "match_date": 1811080800000
   },
   {
     "fixture_id": 362,
@@ -10011,7 +10011,6 @@
     "home_team": "Brentford",
     "away_team_code": 88,
     "away_team": "Hull City",
-    "match_date": 1811030400000,
     "gw": 37,
     "home_win_prob": 0.6770451471,
     "draw_prob": 0.2062225074,
@@ -10031,7 +10030,8 @@
     "away_goals_3_prob": 0.0227638223,
     "away_goals_4_prob": 0.0036238024,
     "away_goals_5_prob": 0.0004615022,
-    "away_goals_6_prob": 4.89781e-05
+    "away_goals_6_prob": 4.89781e-05,
+    "match_date": 1811080800000
   },
   {
     "fixture_id": 370,
@@ -10040,7 +10040,6 @@
     "home_team": "Spurs",
     "away_team_code": 1,
     "away_team": "Man Utd",
-    "match_date": 1811030400000,
     "gw": 37,
     "home_win_prob": 0.3909168676,
     "draw_prob": 0.2709695147,
@@ -10060,7 +10059,8 @@
     "away_goals_3_prob": 0.0830722449,
     "away_goals_4_prob": 0.0243316772,
     "away_goals_5_prob": 0.0057013556,
-    "away_goals_6_prob": 0.0011132763
+    "away_goals_6_prob": 0.0011132763,
+    "match_date": 1811080800000
   },
   {
     "fixture_id": 365,
@@ -10069,7 +10069,6 @@
     "home_team": "Fulham",
     "away_team_code": 9,
     "away_team": "Coventry City",
-    "match_date": 1811030400000,
     "gw": 37,
     "home_win_prob": 0.4715687463,
     "draw_prob": 0.2824911634,
@@ -10089,7 +10088,8 @@
     "away_goals_3_prob": 0.0447078069,
     "away_goals_4_prob": 0.0095968729,
     "away_goals_5_prob": 0.0016480338,
-    "away_goals_6_prob": 0.000235842
+    "away_goals_6_prob": 0.000235842,
+    "match_date": 1811080800000
   },
   {
     "fixture_id": 361,
@@ -10098,7 +10098,6 @@
     "home_team": "Bournemouth",
     "away_team_code": 8,
     "away_team": "Chelsea",
-    "match_date": 1811030400000,
     "gw": 37,
     "home_win_prob": 0.3399405075,
     "draw_prob": 0.274117124,
@@ -10118,7 +10117,8 @@
     "away_goals_3_prob": 0.0934707148,
     "away_goals_4_prob": 0.0292413323,
     "away_goals_5_prob": 0.0073182752,
-    "away_goals_6_prob": 0.0015262971
+    "away_goals_6_prob": 0.0015262971,
+    "match_date": 1811080800000
   },
   {
     "fixture_id": 363,
@@ -10127,7 +10127,6 @@
     "home_team": "Brighton",
     "away_team_code": 14,
     "away_team": "Liverpool",
-    "match_date": 1811030400000,
     "gw": 37,
     "home_win_prob": 0.4056113342,
     "draw_prob": 0.2721210537,
@@ -10147,7 +10146,8 @@
     "away_goals_3_prob": 0.0771248344,
     "away_goals_4_prob": 0.0217018847,
     "away_goals_5_prob": 0.0048852933,
-    "away_goals_6_prob": 0.000916437
+    "away_goals_6_prob": 0.000916437,
+    "match_date": 1811080800000
   },
   {
     "fixture_id": 367,
@@ -10156,7 +10156,6 @@
     "home_team": "Man City",
     "away_team_code": 7,
     "away_team": "Aston Villa",
-    "match_date": 1811030400000,
     "gw": 37,
     "home_win_prob": 0.6076423295,
     "draw_prob": 0.2207584429,
@@ -10176,7 +10175,8 @@
     "away_goals_3_prob": 0.0459649799,
     "away_goals_4_prob": 0.0099956706,
     "away_goals_5_prob": 0.0017389488,
-    "away_goals_6_prob": 0.0002521044
+    "away_goals_6_prob": 0.0002521044,
+    "match_date": 1811080800000
   },
   {
     "fixture_id": 369,
@@ -10185,7 +10185,6 @@
     "home_team": "Nott'm Forest",
     "away_team_code": 40,
     "away_team": "Ipswich Town",
-    "match_date": 1811030400000,
     "gw": 37,
     "home_win_prob": 0.5218585996,
     "draw_prob": 0.2670076063,
@@ -10205,7 +10204,8 @@
     "away_goals_3_prob": 0.0393527137,
     "away_goals_4_prob": 0.0079642319,
     "away_goals_5_prob": 0.0012894458,
-    "away_goals_6_prob": 0.0001739727
+    "away_goals_6_prob": 0.0001739727,
+    "match_date": 1811080800000
   },
   {
     "fixture_id": 368,
@@ -10214,7 +10214,6 @@
     "home_team": "Newcastle",
     "away_team_code": 31,
     "away_team": "Crystal Palace",
-    "match_date": 1811030400000,
     "gw": 37,
     "home_win_prob": 0.4400555061,
     "draw_prob": 0.2772984549,
@@ -10234,7 +10233,8 @@
     "away_goals_3_prob": 0.060145011,
     "away_goals_4_prob": 0.0148920778,
     "away_goals_5_prob": 0.0029498571,
-    "away_goals_6_prob": 0.0004869287
+    "away_goals_6_prob": 0.0004869287,
+    "match_date": 1811080800000
   },
   {
     "fixture_id": 375,
@@ -10243,7 +10243,6 @@
     "home_team": "Crystal Palace",
     "away_team_code": 2,
     "away_team": "Leeds",
-    "match_date": 1811635200000,
     "gw": 38,
     "home_win_prob": 0.4314742566,
     "draw_prob": 0.2813092094,
@@ -10263,7 +10262,8 @@
     "away_goals_3_prob": 0.0592314907,
     "away_goals_4_prob": 0.014554848,
     "away_goals_5_prob": 0.0028612294,
-    "away_goals_6_prob": 0.0004687232
+    "away_goals_6_prob": 0.0004687232,
+    "match_date": 1811689200000
   },
   {
     "fixture_id": 372,
@@ -10272,7 +10272,6 @@
     "home_team": "Aston Villa",
     "away_team_code": 6,
     "away_team": "Spurs",
-    "match_date": 1811635200000,
     "gw": 38,
     "home_win_prob": 0.3673299897,
     "draw_prob": 0.2709922966,
@@ -10292,7 +10291,8 @@
     "away_goals_3_prob": 0.0899573617,
     "away_goals_4_prob": 0.0275375606,
     "away_goals_5_prob": 0.0067437926,
-    "away_goals_6_prob": 0.0013762639
+    "away_goals_6_prob": 0.0013762639,
+    "match_date": 1811689200000
   },
   {
     "fixture_id": 378,
@@ -10301,7 +10301,6 @@
     "home_team": "Liverpool",
     "away_team_code": 91,
     "away_team": "Bournemouth",
-    "match_date": 1811635200000,
     "gw": 38,
     "home_win_prob": 0.507478338,
     "draw_prob": 0.2579990022,
@@ -10321,7 +10320,8 @@
     "away_goals_3_prob": 0.0536555107,
     "away_goals_4_prob": 0.012561184,
     "away_goals_5_prob": 0.0023525389,
-    "away_goals_6_prob": 0.0003671654
+    "away_goals_6_prob": 0.0003671654,
+    "match_date": 1811689200000
   },
   {
     "fixture_id": 373,
@@ -10330,7 +10330,6 @@
     "home_team": "Chelsea",
     "away_team_code": 94,
     "away_team": "Brentford",
-    "match_date": 1811635200000,
     "gw": 38,
     "home_win_prob": 0.5083930994,
     "draw_prob": 0.2520339484,
@@ -10350,7 +10349,8 @@
     "away_goals_3_prob": 0.0598575645,
     "away_goals_4_prob": 0.0147856446,
     "away_goals_5_prob": 0.0029218066,
-    "away_goals_6_prob": 0.000481151
+    "away_goals_6_prob": 0.000481151,
+    "match_date": 1811689200000
   },
   {
     "fixture_id": 371,
@@ -10359,7 +10359,6 @@
     "home_team": "Arsenal",
     "away_team_code": 36,
     "away_team": "Brighton",
-    "match_date": 1811635200000,
     "gw": 38,
     "home_win_prob": 0.5469935159,
     "draw_prob": 0.2518245476,
@@ -10379,7 +10378,8 @@
     "away_goals_3_prob": 0.0426805604,
     "away_goals_4_prob": 0.0089661536,
     "away_goals_5_prob": 0.0015068576,
-    "away_goals_6_prob": 0.0002110362
+    "away_goals_6_prob": 0.0002110362,
+    "match_date": 1811689200000
   },
   {
     "fixture_id": 380,
@@ -10388,7 +10388,6 @@
     "home_team": "Sunderland",
     "away_team_code": 43,
     "away_team": "Man City",
-    "match_date": 1811635200000,
     "gw": 38,
     "home_win_prob": 0.2290810103,
     "draw_prob": 0.2614877833,
@@ -10408,7 +10407,8 @@
     "away_goals_3_prob": 0.1237881328,
     "away_goals_4_prob": 0.0459701583,
     "away_goals_5_prob": 0.013657241,
-    "away_goals_6_prob": 0.0033811832
+    "away_goals_6_prob": 0.0033811832,
+    "match_date": 1811689200000
   },
   {
     "fixture_id": 377,
@@ -10417,7 +10417,6 @@
     "home_team": "Ipswich Town",
     "away_team_code": 11,
     "away_team": "Everton",
-    "match_date": 1811635200000,
     "gw": 38,
     "home_win_prob": 0.3346222663,
     "draw_prob": 0.2848625927,
@@ -10437,7 +10436,8 @@
     "away_goals_3_prob": 0.0834335815,
     "away_goals_4_prob": 0.0244955925,
     "away_goals_5_prob": 0.0057534057,
-    "away_goals_6_prob": 0.00112611
+    "away_goals_6_prob": 0.00112611,
+    "match_date": 1811689200000
   },
   {
     "fixture_id": 376,
@@ -10446,7 +10446,6 @@
     "home_team": "Hull City",
     "away_team_code": 4,
     "away_team": "Newcastle",
-    "match_date": 1811635200000,
     "gw": 38,
     "home_win_prob": 0.2124693928,
     "draw_prob": 0.2693296991,
@@ -10466,7 +10465,8 @@
     "away_goals_3_prob": 0.1163977213,
     "away_goals_4_prob": 0.0415406597,
     "away_goals_5_prob": 0.0118602075,
-    "away_goals_6_prob": 0.0028218241
+    "away_goals_6_prob": 0.0028218241,
+    "match_date": 1811689200000
   },
   {
     "fixture_id": 374,
@@ -10475,7 +10475,6 @@
     "home_team": "Coventry City",
     "away_team_code": 17,
     "away_team": "Nott'm Forest",
-    "match_date": 1811635200000,
     "gw": 38,
     "home_win_prob": 0.3105491634,
     "draw_prob": 0.2909154617,
@@ -10495,7 +10494,8 @@
     "away_goals_3_prob": 0.0828250168,
     "away_goals_4_prob": 0.0242198002,
     "away_goals_5_prob": 0.0056659086,
-    "away_goals_6_prob": 0.001104555
+    "away_goals_6_prob": 0.001104555,
+    "match_date": 1811689200000
   },
   {
     "fixture_id": 379,
@@ -10504,7 +10504,6 @@
     "home_team": "Man Utd",
     "away_team_code": 54,
     "away_team": "Fulham",
-    "match_date": 1811635200000,
     "gw": 38,
     "home_win_prob": 0.5842425625,
     "draw_prob": 0.2368237831,
@@ -10524,6 +10523,7 @@
     "away_goals_3_prob": 0.0402958638,
     "away_goals_4_prob": 0.0082439339,
     "away_goals_5_prob": 0.0013492689,
-    "away_goals_6_prob": 0.0001840269
+    "away_goals_6_prob": 0.0001840269,
+    "match_date": 1811689200000
   }
 ]
