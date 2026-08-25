@@ -5569,7 +5569,7 @@
           "opponent_code": 54,
           "home": 0,
           "home_label": "a",
-          "finished": false
+          "finished": true
         }
       ],
       "gw2": [
@@ -5878,7 +5878,7 @@
           "opponent_code": 8,
           "home": 1,
           "home_label": "h",
-          "finished": false
+          "finished": true
         }
       ],
       "gw2": [
