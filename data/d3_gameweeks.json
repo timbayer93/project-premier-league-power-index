@@ -1,7 +1,7 @@
 [
   {
     "gw": 1,
-    "finished": false,
+    "finished": true,
     "start": 1787270400000,
     "end": 1787529600000,
     "matches": 10,
