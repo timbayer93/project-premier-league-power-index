@@ -2178,7 +2178,7 @@
           "opponent_code": 43,
           "home": 1,
           "home_label": "h",
-          "finished": false
+          "finished": true
         }
       ],
       "gw3": [
@@ -4341,7 +4341,7 @@
           "opponent_code": 31,
           "home": 0,
           "home_label": "a",
-          "finished": false
+          "finished": true
         }
       ],
       "gw3": [
