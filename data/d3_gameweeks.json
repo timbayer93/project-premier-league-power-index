@@ -131,14 +131,14 @@
     "gw": 17,
     "finished": false,
     "start": 1798243200000,
-    "end": 1798243200000,
+    "end": 1798329600000,
     "matches": 10,
     "special_gw": 0
   },
   {
     "gw": 18,
     "finished": false,
-    "start": 1798588800000,
+    "start": 1798502400000,
     "end": 1798588800000,
     "matches": 10,
     "special_gw": 0
@@ -146,16 +146,16 @@
   {
     "gw": 19,
     "finished": false,
-    "start": 1798848000000,
-    "end": 1798848000000,
+    "start": 1798761600000,
+    "end": 1798934400000,
     "matches": 10,
     "special_gw": 0
   },
   {
     "gw": 20,
     "finished": false,
-    "start": 1799193600000,
-    "end": 1799193600000,
+    "start": 1799107200000,
+    "end": 1799280000000,
     "matches": 10,
     "special_gw": 0
   },
