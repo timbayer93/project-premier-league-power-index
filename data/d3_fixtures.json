@@ -1267,7 +1267,7 @@
           "opponent_code": 4,
           "home": 1,
           "home_label": "h",
-          "finished": false
+          "finished": true
         }
       ],
       "gw5": [
@@ -4975,7 +4975,7 @@
           "opponent_code": 2,
           "home": 0,
           "home_label": "a",
-          "finished": false
+          "finished": true
         }
       ],
       "gw5": [
