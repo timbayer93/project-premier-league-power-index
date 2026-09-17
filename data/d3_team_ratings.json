@@ -1,122 +1,122 @@
 [
   {
     "team_code": 3,
-    "off_rating": 1.9187354428,
-    "def_rating": 0.9046548169,
-    "spi": 67.3347579645
+    "off_rating": 1.9187354543,
+    "def_rating": 0.9046548233,
+    "spi": 67.3330835181
   },
   {
     "team_code": 43,
-    "off_rating": 1.9300058663,
-    "def_rating": 1.1215175654,
-    "spi": 63.437434382
+    "off_rating": 1.9300058928,
+    "def_rating": 1.1215175854,
+    "spi": 63.4357599382
   },
   {
     "team_code": 1,
-    "off_rating": 1.7699257396,
-    "def_rating": 1.2961596547,
-    "spi": 57.4559980919
+    "off_rating": 1.7699257485,
+    "def_rating": 1.296159659,
+    "spi": 57.454323662
   },
   {
     "team_code": 8,
-    "off_rating": 1.7723517194,
-    "def_rating": 1.3637335791,
-    "spi": 56.2384081564
+    "off_rating": 1.7723517459,
+    "def_rating": 1.3637336025,
+    "spi": 56.2367336992
   },
   {
     "team_code": 14,
-    "off_rating": 1.6823954802,
-    "def_rating": 1.3142894725,
-    "spi": 55.5146844312
+    "off_rating": 1.6823954964,
+    "def_rating": 1.3142894883,
+    "spi": 55.5130099317
   },
   {
     "team_code": 36,
-    "off_rating": 1.8284666578,
-    "def_rating": 1.3620285622,
-    "spi": 57.2964486632
+    "off_rating": 1.8284666608,
+    "def_rating": 1.3620285628,
+    "spi": 57.294774195
   },
   {
     "team_code": 91,
-    "off_rating": 1.5831300301,
-    "def_rating": 1.4412126942,
-    "spi": 51.4441750936
+    "off_rating": 1.5831300276,
+    "def_rating": 1.4412126908,
+    "spi": 51.4425005965
   },
   {
     "team_code": 4,
-    "off_rating": 1.4666657125,
-    "def_rating": 1.5181976814,
-    "spi": 47.9518541464
+    "off_rating": 1.466665711,
+    "def_rating": 1.5140836343,
+    "spi": 48.0196569664
   },
   {
     "team_code": 94,
-    "off_rating": 1.6068429652,
-    "def_rating": 1.4699855613,
-    "spi": 51.3862050252
+    "off_rating": 1.6068429647,
+    "def_rating": 1.4699855605,
+    "spi": 51.3845305223
   },
   {
     "team_code": 7,
-    "off_rating": 1.4325058838,
-    "def_rating": 1.5049557032,
-    "spi": 47.5023267814
+    "off_rating": 1.4325058857,
+    "def_rating": 1.5049557023,
+    "spi": 47.5006523236
   },
   {
     "team_code": 6,
-    "off_rating": 1.2964082434,
-    "def_rating": 1.3787784904,
-    "spi": 46.9708459866
+    "off_rating": 1.2964082465,
+    "def_rating": 1.3787784946,
+    "spi": 46.9691714671
   },
   {
     "team_code": 31,
-    "off_rating": 1.4311349889,
-    "def_rating": 1.6035373179,
-    "spi": 45.8449751362
+    "off_rating": 1.4311349868,
+    "def_rating": 1.6035373124,
+    "spi": 45.8433006764
   },
   {
     "team_code": 17,
-    "off_rating": 1.4963994239,
-    "def_rating": 1.4071440034,
-    "spi": 50.4028944339
+    "off_rating": 1.4963994203,
+    "def_rating": 1.4071439989,
+    "spi": 50.4012199365
   },
   {
     "team_code": 2,
-    "off_rating": 1.5335112992,
-    "def_rating": 1.4405694133,
-    "spi": 50.5542929054
+    "off_rating": 1.5316094929,
+    "def_rating": 1.4405694087,
+    "spi": 50.5166298199
   },
   {
     "team_code": 11,
-    "off_rating": 1.4041577403,
-    "def_rating": 1.4053578765,
-    "spi": 48.6517486406
+    "off_rating": 1.4041577377,
+    "def_rating": 1.4053578728,
+    "spi": 48.6500741419
   },
   {
     "team_code": 54,
-    "off_rating": 1.276237685,
-    "def_rating": 1.5239970715,
-    "spi": 44.1220620379
+    "off_rating": 1.2762376716,
+    "def_rating": 1.5239970506,
+    "spi": 44.1203876032
   },
   {
     "team_code": 56,
-    "off_rating": 1.2895496908,
-    "def_rating": 1.4891817821,
-    "spi": 44.9621629379
+    "off_rating": 1.2895496882,
+    "def_rating": 1.4891817769,
+    "spi": 44.960488463
   },
   {
     "team_code": 40,
-    "off_rating": 1.2217581487,
-    "def_rating": 1.6205642297,
-    "spi": 41.4878419798
+    "off_rating": 1.2217581253,
+    "def_rating": 1.6205641897,
+    "spi": 41.4861676321
   },
   {
     "team_code": 9,
-    "off_rating": 1.1212508268,
-    "def_rating": 1.7341509003,
-    "spi": 37.740510565
+    "off_rating": 1.1212508028,
+    "def_rating": 1.7341508496,
+    "spi": 37.738836323
   },
   {
     "team_code": 88,
-    "off_rating": 0.9779953333,
-    "def_rating": 1.8186025551,
-    "spi": 33.700372641
+    "off_rating": 0.9779952938,
+    "def_rating": 1.8186024638,
+    "spi": 33.6986985839
   }
 ]
