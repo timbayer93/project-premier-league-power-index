@@ -681,7 +681,7 @@
           "opponent_code": 91,
           "home": 1,
           "home_label": "h",
-          "finished": false
+          "finished": true
         }
       ],
       "gw9": [
@@ -990,7 +990,7 @@
           "opponent_code": 94,
           "home": 1,
           "home_label": "h",
-          "finished": false
+          "finished": true
         }
       ],
       "gw9": [
@@ -1299,7 +1299,7 @@
           "opponent_code": 56,
           "home": 0,
           "home_label": "a",
-          "finished": false
+          "finished": true
         }
       ],
       "gw9": [
@@ -2226,7 +2226,7 @@
           "opponent_code": 4,
           "home": 1,
           "home_label": "h",
-          "finished": false
+          "finished": true
         }
       ],
       "gw9": [
@@ -2844,7 +2844,7 @@
           "opponent_code": 2,
           "home": 1,
           "home_label": "h",
-          "finished": false
+          "finished": true
         }
       ],
       "gw9": [
@@ -3462,7 +3462,7 @@
           "opponent_code": 88,
           "home": 0,
           "home_label": "a",
-          "finished": false
+          "finished": true
         }
       ],
       "gw9": [
@@ -4080,7 +4080,7 @@
           "opponent_code": 14,
           "home": 0,
           "home_label": "a",
-          "finished": false
+          "finished": true
         }
       ],
       "gw9": [
@@ -4698,7 +4698,7 @@
           "opponent_code": 1,
           "home": 0,
           "home_label": "a",
-          "finished": false
+          "finished": true
         }
       ],
       "gw9": [
@@ -5007,7 +5007,7 @@
           "opponent_code": 31,
           "home": 0,
           "home_label": "a",
-          "finished": false
+          "finished": true
         }
       ],
       "gw9": [
@@ -5316,7 +5316,7 @@
           "opponent_code": 36,
           "home": 1,
           "home_label": "h",
-          "finished": false
+          "finished": true
         }
       ],
       "gw9": [
