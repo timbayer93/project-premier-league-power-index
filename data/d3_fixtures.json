@@ -380,7 +380,7 @@
           "opponent_code": 56,
           "home": 1,
           "home_label": "h",
-          "finished": false
+          "finished": true
         }
       ],
       "gw10": [
@@ -689,7 +689,7 @@
           "opponent_code": 8,
           "home": 0,
           "home_label": "a",
-          "finished": false
+          "finished": true
         }
       ],
       "gw10": [
@@ -998,7 +998,7 @@
           "opponent_code": 40,
           "home": 1,
           "home_label": "h",
-          "finished": false
+          "finished": true
         }
       ],
       "gw10": [
@@ -1307,7 +1307,7 @@
           "opponent_code": 91,
           "home": 0,
           "home_label": "a",
-          "finished": false
+          "finished": true
         }
       ],
       "gw10": [
@@ -1925,7 +1925,7 @@
           "opponent_code": 94,
           "home": 0,
           "home_label": "a",
-          "finished": false
+          "finished": true
         }
       ],
       "gw10": [
@@ -2234,7 +2234,7 @@
           "opponent_code": 6,
           "home": 0,
           "home_label": "a",
-          "finished": false
+          "finished": true
         }
       ],
       "gw10": [
@@ -2543,7 +2543,7 @@
           "opponent_code": 88,
           "home": 0,
           "home_label": "a",
-          "finished": false
+          "finished": true
         }
       ],
       "gw10": [
@@ -2852,7 +2852,7 @@
           "opponent_code": 9,
           "home": 0,
           "home_label": "a",
-          "finished": false
+          "finished": true
         }
       ],
       "gw10": [
@@ -3161,7 +3161,7 @@
           "opponent_code": 31,
           "home": 1,
           "home_label": "h",
-          "finished": false
+          "finished": true
         }
       ],
       "gw10": [
@@ -3470,7 +3470,7 @@
           "opponent_code": 17,
           "home": 1,
           "home_label": "h",
-          "finished": false
+          "finished": true
         }
       ],
       "gw10": [
@@ -3779,7 +3779,7 @@
           "opponent_code": 54,
           "home": 1,
           "home_label": "h",
-          "finished": false
+          "finished": true
         }
       ],
       "gw10": [
@@ -4088,7 +4088,7 @@
           "opponent_code": 43,
           "home": 0,
           "home_label": "a",
-          "finished": false
+          "finished": true
         }
       ],
       "gw10": [
@@ -4397,7 +4397,7 @@
           "opponent_code": 36,
           "home": 1,
           "home_label": "h",
-          "finished": false
+          "finished": true
         }
       ],
       "gw10": [
@@ -4706,7 +4706,7 @@
           "opponent_code": 2,
           "home": 1,
           "home_label": "h",
-          "finished": false
+          "finished": true
         }
       ],
       "gw10": [
@@ -5633,7 +5633,7 @@
           "opponent_code": 1,
           "home": 1,
           "home_label": "h",
-          "finished": false
+          "finished": true
         }
       ],
       "gw10": [
@@ -5942,7 +5942,7 @@
           "opponent_code": 7,
           "home": 0,
           "home_label": "a",
-          "finished": false
+          "finished": true
         }
       ],
       "gw10": [
