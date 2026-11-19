@@ -46,9 +46,9 @@ async function loadRows() {
       def: r.def * RATING_SCALE, // lower is better
       points: r.points,
       goal_diff: r.goal_diff,
-      champion_pct: r.champion_pct,
-      top4_pct: r.top4_pct,
-      relegation_pct: r.relegation_pct,
+      champion_pct: r.champion_pct * 100,
+      top4_pct: r.top4_pct * 100,
+      relegation_pct: r.relegation_pct * 100,
       as_of_gw: r.as_of_gw,
     };
   });
