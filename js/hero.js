@@ -108,8 +108,8 @@ async function renderHighlights() {
   const titleFavourite = maxBy(ratings, 'champion_pct');
   const relegationFavourite = maxBy(ratings, 'relegation_pct');
 
-  setHighlight('titleOdds', teamsById, titleFavourite?.team_id, `${titleFavourite?.champion_pct.toFixed(1)}%`);
-  setHighlight('relegationOdds', teamsById, relegationFavourite?.team_id, `${relegationFavourite?.relegation_pct.toFixed(1)}%`);
+  setHighlight('titleOdds', teamsById, titleFavourite?.team_id, `${(titleFavourite?.champion_pct * 100).toFixed(1)}%`);
+  setHighlight('relegationOdds', teamsById, relegationFavourite?.team_id, `${(relegationFavourite?.relegation_pct * 100).toFixed(1)}%`);
 
   const performance = getXgPerformance(results);
   const over = performance[0];
