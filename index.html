@@ -1,308 +1,644 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-
-  <!-- Google tag (gtag.js) -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=G-MN3T3H8H46"></script>
-  <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
-
-    gtag('config', 'G-MN3T3H8H46');
-  </script>
-
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Premier League Power Index</title>
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&family=Lato:wght@400;700&display=swap" rel="stylesheet">
-  <script src="https://d3js.org/d3.v7.min.js"></script>
-  <link rel="stylesheet" href="css/style.css">
-  <link rel="stylesheet" href="css/style-team-summary.css">
-  <link rel="stylesheet" href="css/style-fixture-ticker.css">
-  <link rel="stylesheet" href="css/style-fixture-xg-table.css">
-  <link rel="stylesheet" href="css/style-match-forecasts.css">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Pitch Notes — Fantasy Football Stats &amp; Data</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/styles.css">
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
 </head>
 <body>
-  <div class="page-container">
-    <div class="dashboard-heading">
-      <h1> Premier League Power Index</h1>
-      <div class="subheading">
-       FIXTURE GUIDE AND MATCH PREDICTIONS <br>FOR ALL PREMIER LEAGUE TEAMS
+
+<div class="sticky-head">
+  <header class="topbar">
+    <div class="topbar-inner">
+      <div class="brand">
+        <span class="mark">v0.4</span>
+        <h1>Pitch Notes</h1>
+      </div>
+      <nav class="tabs" role="tablist" aria-label="Sections">
+        <button role="tab" aria-selected="true" data-tab="overview">Overview</button>
+        <button role="tab" aria-selected="false" data-tab="ratings">Team Ratings</button>
+        <button role="tab" aria-selected="false" data-tab="fixtures">Fixtures</button>
+        <button role="tab" aria-selected="false" data-tab="forecasts">Match Forecasts</button>
+        <button role="tab" aria-selected="false" data-tab="defcons">DefCons</button>
+        <button role="tab" aria-selected="false" data-tab="xg">Expected Goals</button>
+        <button role="tab" aria-selected="false" data-tab="ownership">Ownerships</button>
+        <button role="tab" aria-selected="false" data-tab="top10k">Top 10k</button>
+        <button role="tab" aria-selected="false" data-tab="sentiment">Sentiment</button>
+        <button role="tab" aria-selected="false" data-tab="gallery">Gallery</button>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Competition/Season options are populated from data/config.json at
+       load time — see main.js — so this stays empty in the markup. -->
+  <div class="filterbar">
+    <div class="filterbar-inner">
+      <div class="filter-field">
+        <label for="fCompetition">Competition</label>
+        <select id="fCompetition"></select>
+      </div>
+      <div class="filter-field">
+        <label for="fSeason">Season</label>
+        <select id="fSeason"></select>
+      </div>
+      <div class="filter-field">
+        <label for="fLastN">Last N matches</label>
+        <input type="number" id="fLastN" min="1" max="38" step="1" value="38" inputmode="numeric">
+        <label class="filter-check"><input type="checkbox" id="fSeasonOnly"> This season only</label>
       </div>
     </div>
-    <p class="intro">
-      Use the charts below to find out who has the easiest or hardest set of matches based on the <strong>Premier League Power Index (PPI)</strong>. The PPI is inspired by <strong>FiveThirtyEight's</strong> Soccer Power Index (SPI) and follows a very similar methology that computes Team Strength Ratings based on past performances using xG and Adjsuted Goals. Each team has an offense and defense rating which measure the expected goals scored/conceded against an average team in the leauge on neutral ground. Combined, these ratings create the Power Index (PPI).
-      <br>
-      <br>
-      <span class="intro-author">Created by @timbayer93</span>
-      <span class="intro-data-source">Data Sources | Fantasy Premier League | Fbref</span>
-    </p>
+  </div>
+</div>
 
-      <!-- Last Updated Section -->
-    <div class="last-updated-wrapper">
-      <div class="last-update-divider-line"></div>
-      <div class="last-updated">
-        <span class="update-indicator" id="update-indicator"></span>
-        Last Updated: <span id="last-updated-text">-</span>
-      </div>
-      <div class="last-update-divider-line"></div>
-    </div>
+<main>
 
-
-    <!-- Social Icons -->
-    <div class="socials">
-      <div class="social-icons">
-        <a href="https://x.com/timbayer93" target="_blank" aria-label="Twitter">
-          <img src="icons/x.svg" alt="Twitter" />
-        </a>
-        <a href="https://github.com/timbayer93" target="_blank" aria-label="GitHub">
-          <img src="icons/github.svg" alt="GitHub" />
-        </a>
-         <a href="https://youtube.com/@timbeau11" target="_blank" aria-label="YouTube">
-          <img src="icons/youtube.svg" alt="YouTube" />
-        </a>
-        <a href="https://www.instagram.com/timbayer93fc/" target="_blank" aria-label="Instagram">
-          <img src="icons/instagram.svg" alt="Instagram" />
-        </a>
-        <a href="https://www.twitch.com/timbeau11/" target="_blank" aria-label="Twitch">
-          <img src="icons/twitch.svg" alt="Twitch" />
-        </a>
-        <!-- Add more as needed -->
-      </div>
-    </div>
-
-    <!-- Team Summary -->
-    <!-- <div id="team-summary" class="team-summary"></div> -->
-    <div class="team-card-scroll-container">
-      <button class="scroll-btn left" id="scroll-left">&#10094;</button>
-      <div class="team-card-list" id="team-card-list"></div>
-      <button class="scroll-btn right" id="scroll-right">&#10095;</button>
-    </div>
-
-  
-    <!-- Fixture Ticker Config -->
-    <div class="ticker-config">
-      <div class="ticker-dashboard-header">Fixture Ticker</div>
-          <p class="ticker-description">
-              The below table ranks the fixtures of Premier League teams from 
-              <span class="favourable">most favourable</span> to 
-              <span class="unfavourable">least favourable</span> 
-              using the Premier League Power Index (PPI). The PPI is a measure of team strength and represents the percentage
-              of points a team would be expected to win against an avg. team on neutral ground. The higher the PPI the harder the fixture.
-          </p>
-      <!-- Controls -->
-        <div id="controls">
-          <div class="control-group">
-            <div class="number-input-controls" data-target="active-gw-input">
-              <button type="button" class="decrement">−</button>
-              <input type="number" id="active-gw-input" min="1" max="38">
-              <button type="button" class="increment">+</button>
-            </div>
-            <label for="active-gw-input">Select the current or future GW</label>
-          </div>
-          <div class="control-group">
-            <div class="number-input-controls" data-target="num-gws-input">
-              <button type="button" class="decrement">−</button>
-              <input type="number" id="num-gws-input" min="1" max="10" value="5">
-              <button type="button" class="increment">+</button>
-              <label for="num-gws-input">The number of GWs to show</label>
-              </div>
-          </div>
-
-          <div class="controls-wrapper">
-            <div class="control-group toggle">
-              <label>
-                <input type="checkbox" id="compact-toggle" />
-                Compact View
-              </label>
-            </div>
-            <div class="hover-info">
-              <div class="info-tooltip-hint">
-                <img src="icons/mouse-click.svg" alt="Mouse icon" />
-                <span>Tap or hover for more fixture info</span>
-              </div>
-            </div>
-          </div>
-      </div>
-    </div>
-
-
-    <!-- Fixture Ticker Table -->
-    <div class="fixture-ticker-container">
-      <div class="fixture-ticker-table-container">
-        <table id="fixture-ticker-table"></table>
-      </div>
-    </div>
-
-    <!-- Ticker Watermark -->
-    <div class="chart-watermark">
-      <div class="left">DESIGN | @timbayer93</div>
-      <div class="right">DATA | FANTASY PREMIER LEAGUE & FBREF</div>
-    </div>
-
-    <!-- Time Decay Toggle (below table) -->
-    <div class="notes-box">
-      <div class="notes-header">Notes:</div>
-      <div class="time-decay-toggle">
-        <label for="use-decay">
-          <input type="checkbox" id="use-decay" checked>
-          Apply a "Time Decay" modifier to the fixture difficulty ranking
-        </label>
-      </div>
-      <span class="decay-explainer">
-        The fixture difficulty uses a time decay which means fixtures "now" carry more weight than those in the future. E.g., GW1 fixtures are weighted higher than GW2 which in return are slightly higher weighted than GW3, and so on. If you like to view the difficulty of fixtures regardless of when they take place turn the toggle OFF.
-      </span>
-    </div>
-
-    <!-- Section Divider -->
-    <div class="section-divider"></div>
-
-    <!-- Fixture Expected Goals Config -->
-    <div class="fixture-xg-table-config">
-      <div class="fixture-xg-header">Forecasted Expected Goals & Clean Sheet Probabilities by Gameweek</div>
-      <p class="fixture-xg-description">
-        The below table ranks teams based on the total Expected Goals (xG) or the total Expected Clean Sheets (xCS) over the next n matches. Select between <span class="explainer-att"><strong>"Attack"</strong> to view Expected Goals</span> or <span class="explainer-def"><strong>"Defense"</strong> to view Clean Sheet probabilities.</span>
-      </p>
-
-      <div id="controls">
-
-        <!-- Row 1: Number inputs -->
-        <div class="controls-row">
-          <div class="control-group">
-            <div class="number-input-controls" data-target="active-gw-input-copy">
-              <button type="button" class="decrement">−</button>
-              <input type="number" id="active-gw-input-copy" min="1" max="38">
-              <button type="button" class="increment">+</button>
-            </div>
-            <label for="active-gw">Select the current or future GW</label>
-          </div>
-
-          <div class="control-group">
-            <div class="number-input-controls" data-target="num-gws-input-copy">
-              <button type="button" class="decrement">−</button>
-              <input type="number" id="num-gws-input-copy" min="1" max="10" value="5">
-              <button type="button" class="increment">+</button>
-              <label for="num-gws-input-copy">The number of GWs to show</label>
-            </div>
+  <!-- OVERVIEW -->
+  <section class="panel active" id="panel-overview">
+    <div class="hero">
+      <div class="gw" id="heroCompetition"></div>
+      <h2>A collection of fantasy stats by @timbayer93</h2>
+      <p>I started playing Fantasy Premier League (FPL) in 2011. I quickly got interested in the data behind football and FPL. I started in Excel with various fixture tickers, moved to Tableau then Pyhton and most recently built this site. Here some of the highlights, hope you enjoy and good luck!</p>
+      <div class="hero-highlights">
+        <div class="highlight-item">
+          <div class="crest-placeholder" id="titleOddsCrest">–</div>
+          <div class="highlight-text">
+            <div class="highlight-num" id="titleOddsNum">–</div>
+            <div class="highlight-team" id="titleOddsTeam">–</div>
+            <div class="highlight-lbl">Title odds</div>
           </div>
         </div>
-
-        <!-- Row 2: Attack/Defense toggle -->
-        <div class="controls-row">
-          <div class="metric-selector-container" id="metric-selector-toggle">
-            <div class="toggle-option" data-value="attack">ATTACK</div>
-            <div class="toggle-option" data-value="defense">DEFENSE</div>
+        <div class="highlight-item">
+          <div class="crest-placeholder" id="relegationOddsCrest">–</div>
+          <div class="highlight-text">
+            <div class="highlight-num" id="relegationOddsNum">–</div>
+            <div class="highlight-team" id="relegationOddsTeam">–</div>
+            <div class="highlight-lbl">Relegation odds</div>
           </div>
         </div>
-
-        <!-- Row 3: Compact view toggle + hover info -->
-        <div>
-          <div class="control-group toggle">
-            <label>
-              <input type="checkbox" id="compact-toggle-copy" />
-              Compact View
-            </label>
+        <div class="highlight-item">
+          <div class="crest-placeholder" id="overperformerCrest">–</div>
+          <div class="highlight-text">
+            <div class="highlight-num" id="overperformerNum">–</div>
+            <div class="highlight-team" id="overperformerTeam">–</div>
+            <div class="highlight-lbl">Biggest overperformer (xG)</div>
+            <div class="highlight-lbl">Actual GD vs. xGD</div>
           </div>
-
-          <div class="hover-info">
-            <div class="info-tooltip-hint">
-              <img src="icons/mouse-click.svg" alt="Mouse icon" />
-              <span>Tap or hover for more fixture info</span>
-            </div>
+        </div>
+        <div class="highlight-item">
+          <div class="crest-placeholder" id="underperformerCrest">–</div>
+          <div class="highlight-text">
+            <div class="highlight-num" id="underperformerNum">–</div>
+            <div class="highlight-team" id="underperformerTeam">–</div>
+            <div class="highlight-lbl">Biggest underperformer (xG)</div>
+            <div class="highlight-lbl">Actual GD vs. xGD</div>
           </div>
         </div>
       </div>
-      <div class="hover-info">↑↓ Click on the column header to sort the table </div>
     </div>
 
-    <!-- Fixture Expected Goals Table -->
-    <div class="fixture-expected-goals-container">
-      <div class="fixture-xg-gameweeks-label"></div> 
-      <div class="fixture-xg-table-container">
-        <table id="fixture-xg-table"></table>
+    <!-- KEY STATS (KPIs) -->
+    <div class="section-head">
+      <h3>Key stats</h3>
+      <div class="section-head-right">
+        <div class="segmented" id="statsMode" role="group" aria-label="Stats mode">
+          <button data-val="total" aria-pressed="true">Total</button>
+          <button data-val="perGame" aria-pressed="false">Per game</button>
+        </div>
+        <div class="segmented" id="windowMode" role="group" aria-label="Stats window">
+          <button data-val="season" aria-pressed="true">Season</button>
+          <button data-val="last380" aria-pressed="false">Last 38 GWs</button>
+        </div>
+      </div>
+    </div>
+    <div class="kpi-grid">
+      <div class="kpi-card">
+        <div class="num" id="kpiMatchesNum">–</div>
+        <div class="lbl">Matches played</div>
+        <div class="trend-wrap" id="kpiMatchesTrend"></div>
+      </div>
+      <div class="kpi-card">
+        <div class="num" id="kpiGoalsNum">–</div>
+        <div class="lbl" id="kpiGoalsLbl">Avg goals / game</div>
+        <div class="trend-wrap" id="kpiGoalsTrend"></div>
+      </div>
+      <div class="kpi-card">
+        <div class="num" id="kpiExpectedGoalsNum">–</div>
+        <div class="lbl" id="kpiExpectedGoalsLbl">Total xG</div>
+        <div class="trend-wrap" id="kpiExpectedGoalsTrend"></div>
+      </div>
+      <div class="kpi-card">
+        <div class="num" id="kpiCleanSheetsNum">–</div>
+        <div class="lbl" id="kpiCleanSheetsLbl">Total clean sheets</div>
+        <div class="trend-wrap" id="kpiCleanSheetsTrend"></div>
+      </div>
+      <div class="kpi-card">
+        <div class="num" id="kpiDcHitsNum">–</div>
+        <div class="lbl" id="kpiDcHitsLbl">Defensive contribution hits</div>
+        <div class="trend-wrap" id="kpiDcHitsTrend"></div>
+      </div>
+      <div class="kpi-card">
+        <div class="num" id="kpiDefconsNum">–</div>
+        <div class="lbl" id="kpiDefconsLbl">Total defensive contributions</div>
+        <div class="trend-wrap" id="kpiDefconsTrend"></div>
       </div>
     </div>
 
-     <!-- Chart Watermark -->
-    <div class="chart-watermark">
-      <div class="left">DESIGN | @timbayer93</div>
-      <div class="right">DATA | FBREF & FANTASY PREMIER LEAGUE</div>
+    <!-- TRENDS -->
+    <div class="section-head">
+      <h3>Trends</h3>
     </div>
 
-    <!-- XG (below table) -->
-    <div class="notes-box">
-      <div class="notes-header">Notes:</div>
-      <span class="xg-explainer">
-        Team Strength Ratings <strong>(OFF | DEF)</strong> are derived from historical matches using shot-based xG (fbref) and Adjusted Goals scored (i.e., goals are downweighted when the opponent had an on-field disadvantage such as red cards and goals late in a match when  already leading).
-        <br>
-        OFF: Offensive Team Strength representing the avg. number of goals is expected to score against the average team in the league on neutral ground (higher is better).
-        DEF: Defensive Team Strength representing the avg. number of goals is expected to concede against the average team in the league on neutral ground (lower is better).
-        <br>
-        <br>
-        Match Predictions are then made using Team Strength Ratings using a Poisson model. See individual match predictions below.
-      </span>
-    </div>
-
-    <!-- Section Divider -->
-    <div class="section-divider"></div>
-
-    <!-- Match Forecasts Config -->
-    <div class="match-forecasts-config">
-      <div class="match-forecasts-header">Match Forecasts</div>
-          <p class="match-forecasts-description"> 
-              For each upcoming match, we calculate the expected number of goals each team would score based on their Offense & Defense ratings, a home advantage and a league strength factor.
-              <br>
-              <br>
-              We then simulate match scores by using a Poisson distribution to get the full probability distribution for 0, 1, 2, 3, and 4+ goals for each team.
-          </p>
-          <label for="match-selector">Select Match:</label>
-          <select id="match-selector"></select>
-    </div>
-
-    <!-- Match Forecasts Matrix Header -->
-    <div class="match-forecasts-matrix-header"> </div>
-
-    <!-- Match Forecasts Matrix -->
-    <div class="match-forecasts-container">
-      <div class="match-forecasts-matrix-container">
-        <svg id="match-forecasts-matrix" viewBox="0 0 700 700" preserveAspectRatio="xMidYMid meet"></svg>
+    <h4 class="trend-group-title">Offense</h4>
+    <div class="trend-grid">
+      <div class="card trend-card">
+        <div class="trend-card-head">
+          <div class="trend-card-text">
+            <div class="trend-card-title">Goals</div>
+            <div class="trend-card-subtitle">Goals scored per match, 38-gameweek rolling average</div>
+          </div>
+          <div class="trend-card-value">
+            <div class="trend-card-num" id="trendNum-goals">–</div>
+            <div class="trend-card-delta" id="trendDelta-goals"></div>
+          </div>
+        </div>
+        <div class="chart-wrap small"><canvas id="trendChart-goals" role="img" aria-label="Goals trend over time"></canvas></div>
+      </div>
+      <div class="card trend-card">
+        <div class="trend-card-head">
+          <div class="trend-card-text">
+            <div class="trend-card-title">Expected Goals</div>
+            <div class="trend-card-subtitle">Expected goals (xG) per match: the quality of chances created, 38-gameweek rolling average</div>
+          </div>
+          <div class="trend-card-value">
+            <div class="trend-card-num" id="trendNum-xg">–</div>
+            <div class="trend-card-delta" id="trendDelta-xg"></div>
+          </div>
+        </div>
+        <div class="chart-wrap small"><canvas id="trendChart-xg" role="img" aria-label="Expected Goals trend over time"></canvas></div>
+      </div>
+      <div class="card trend-card">
+        <div class="trend-card-head">
+          <div class="trend-card-text">
+            <div class="trend-card-title">Home Advantage</div>
+            <div class="trend-card-subtitle">Share of matches won by the home team, drawn, or won by the away team, 38-gameweek rolling</div>
+          </div>
+          <div class="trend-card-value">
+          <div class="trend-card-caption">Home wins</div>
+            <div class="trend-card-num" id="trendNum-home_advantage">–</div>
+            <div class="trend-card-delta" id="trendDelta-home_advantage"></div>
+          </div>
+        </div>
+        <div class="chart-wrap small"><canvas id="trendChart-home_advantage" role="img" aria-label="Home Advantage trend over time"></canvas></div>
       </div>
     </div>
 
-    <!-- Chart Watermark -->
-    <div class="chart-watermark">
-      <div class="left">DESIGN | @timbayer93</div>
-      <div class="right">DATA | FBREF & FANTASY PREMIER LEAGUE</div>
+    <h4 class="trend-group-title">Defense</h4>
+    <div class="trend-grid">
+      <div class="card trend-card">
+        <div class="trend-card-head">
+          <div class="trend-card-text">
+            <div class="trend-card-title">Clean Sheets</div>
+            <div class="trend-card-subtitle">Clean sheets per match (both teams), 38-gameweek rolling average</div>
+          </div>
+          <div class="trend-card-value">
+            <div class="trend-card-num" id="trendNum-cs">–</div>
+            <div class="trend-card-delta" id="trendDelta-cs"></div>
+          </div>
+        </div>
+        <div class="chart-wrap small"><canvas id="trendChart-cs" role="img" aria-label="Clean Sheets trend over time"></canvas></div>
+      </div>
+      <div class="card trend-card">
+        <div class="trend-card-head">
+          <div class="trend-card-text">
+            <div class="trend-card-title">DefCon Hits</div>
+            <div class="trend-card-subtitle">Players reaching the DefCon threshold per match (both teams), 38-gameweek rolling average</div>
+          </div>
+          <div class="trend-card-value">
+            <div class="trend-card-num" id="trendNum-dc_hits">–</div>
+            <div class="trend-card-delta" id="trendDelta-dc_hits"></div>
+          </div>
+        </div>
+        <div class="chart-wrap small"><canvas id="trendChart-dc_hits" role="img" aria-label="DefCon Hits trend over time"></canvas></div>
+      </div>
+      <div class="card trend-card">
+        <div class="trend-card-head">
+          <div class="trend-card-text">
+            <div class="trend-card-title">DefCons</div>
+            <div class="trend-card-subtitle">Defensive contributions per match (both teams), 38-gameweek rolling average</div>
+          </div>
+          <div class="trend-card-value">
+            <div class="trend-card-num" id="trendNum-defcons">–</div>
+            <div class="trend-card-delta" id="trendDelta-defcons"></div>
+          </div>
+        </div>
+        <div class="chart-wrap small"><canvas id="trendChart-defcons" role="img" aria-label="DefCons trend over time"></canvas></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- TEAM RATINGS -->
+  <section class="panel" id="panel-ratings">
+    <div class="section-head">
+      <h3>Team Ratings</h3>
+      <span class="note" id="ratingsNote">click any header to sort</span>
+    </div>
+    <div class="table-scroll">
+      <table class="data-table" id="ratingsTable">
+        <thead>
+          <tr>
+            <th data-key="rank" class="sortable sticky-col" style="--stick-left:0px; width:60px; min-width:60px;">Rank<span class="arrow"></span></th>
+            <th data-key="team" class="sortable col-left sticky-col sticky-col--edge" style="--stick-left:60px;">Team<span class="arrow"></span></th>
+            <th data-key="n" class="sortable">Matches<span class="arrow"></span></th>
+            <th data-key="overall" class="sortable">Overall<span class="arrow"></span></th>
+            <th data-key="off" class="sortable">Offense<span class="arrow"></span></th>
+            <th data-key="def" class="sortable">Defense<span class="arrow"></span></th>
+            <th data-key="points" class="sortable">Points<span class="arrow"></span></th>
+            <th data-key="goal_diff" class="sortable">Goal Diff.<span class="arrow"></span></th>
+            <th data-key="champion_pct" class="sortable">Champions<span class="arrow"></span></th>
+            <th data-key="top4_pct" class="sortable">Top 4<span class="arrow"></span></th>
+            <th data-key="relegation_pct" class="sortable">Relegation<span class="arrow"></span></th>
+          </tr>
+        </thead>
+        <tbody></tbody>
+      </table>
+    </div>
+  </section>
+
+  <!-- FIXTURES -->
+  <section class="panel" id="panel-fixtures">
+    <div class="section-head">
+      <h3>Fixtures</h3>
+      <div class="section-head-right">
+        <span class="note" id="fixturesNote">difficulty from opponent rating</span>
+        <div class="segmented" id="fixturesLayout" role="group" aria-label="Fixtures layout">
+          <button data-val="runs" aria-pressed="true">Fixture Runs</button>
+          <button data-val="grid" aria-pressed="false">Fixture Tickers</button>
+        </div>
+      </div>
     </div>
 
-
-
-    <!-- Tooltips -->
-    <div id="tooltip" class="ticker-tooltip" style="display: none;"></div>
-    <div class="xg-table-tooltip" style="display:none;"></div>
-
-
-    <!-- Footer / Credits -->
-    <footer class="page-footer">
-      <div class="footer-content">
-        <p>DESIGN & DEV | TIM BAYER </p>
-        <!-- <p>DATA | <a href="https://theanalyst.com/articles/who-are-the-best-football-team-in-the-world-opta-power-rankings" target="_blank">OPTA POWER RANKINGS</a> AND <a href="https://fantasy.premierleague.com/" target="_blank">FANTASY PREMIER LEAGUE</a>.</p> -->
-        <p>INSPIRATION | FIVETHIRTYEIGHT </p>
-        <!-- <p>Built with ❤️ using D3.js | <a href="https://github.com/timbayer93" target="_blank">GitHub</a></p> -->
+    <!-- GRID: one column per gameweek -->
+    <div id="fixturesGridView" style="display:none;">
+      <div class="card" style="padding-bottom:0;">
+        <div class="card-head">
+          <div class="segmented" id="fixturesView" role="group" aria-label="Fixtures view">
+            <button data-val="difficulty" aria-pressed="true">Difficulty</button>
+            <button data-val="xg" aria-pressed="false">Expected Goals</button>
+            <button data-val="cs" aria-pressed="false">Clean Sheet Odds</button>
+            <button data-val="dc_hits" aria-pressed="false">DefCon Hits</button>
+          </div>
+          <div class="fixtures-controls">
+            <label>From GW <input type="number" id="fixturesStartGw"></label>
+            <label>Number of GWs <input type="number" id="fixturesNumGw" min="1" max="10"></label>
+          </div>
+        </div>
       </div>
-    </footer>
-  
+      <div class="table-scroll">
+        <table class="data-table fixtures-table" id="fixturesTable">
+          <thead><tr id="fixturesHeadRow"></tr></thead>
+          <tbody id="fixturesBody"></tbody>
+        </table>
+      </div>
+    </div>
+
+    <!-- RUNS: each team's easiest and hardest run of fixtures -->
+    <div id="fixturesRunsView">
+      <div class="card" style="padding-bottom:0;">
+        <div class="card-head">
+          <div class="segmented runs-mobile-toggle" id="runsMobileTab" role="group" aria-label="Which runs to show">
+            <button data-val="easiest" aria-pressed="true">Easiest</button>
+            <button data-val="hardest" aria-pressed="false">Hardest</button>
+          </div>
+          <div class="fixtures-controls">
+            <label>Run length <input type="number" id="runsLength" min="3" max="8"></label>
+          </div>
+        </div>
+      </div>
+      <div class="runs-layout" id="runsLayout" data-mobile-tab="easiest">
+      <div class="runs-panel runs-panel--easiest">
+        <h4 class="runs-panel-title" id="runsEasiestTitle">Easiest run</h4>
+        <div class="table-scroll">
+          <table class="data-table runs-table" id="runsEasiestTable">
+            <thead>
+              <tr>
+                <th class="sticky-col" style="--stick-left:0px; width:40px;">#</th>
+                <th data-key="team" class="sortable col-left sticky-col sticky-col--edge" style="--stick-left:40px; width:150px;">Team<span class="arrow"></span></th>
+                <th data-key="startGw" class="sortable col-left">Run<span class="arrow"></span></th>
+                <th data-key="avg" class="sortable" title="Average difficulty of the run. Lower = easier.">Avg<span class="arrow"></span></th>
+                <th class="col-left">Fixtures</th>
+              </tr>
+            </thead>
+            <tbody id="runsEasiestBody"></tbody>
+          </table>
+        </div>
+      </div>
+      <div class="runs-panel runs-panel--hardest">
+        <h4 class="runs-panel-title" id="runsHardestTitle">Hardest run</h4>
+        <div class="table-scroll">
+          <table class="data-table runs-table" id="runsHardestTable">
+            <thead>
+              <tr>
+                <th class="sticky-col" style="--stick-left:0px; width:40px;">#</th>
+                <th data-key="team" class="sortable col-left sticky-col sticky-col--edge" style="--stick-left:40px; width:150px;">Team<span class="arrow"></span></th>
+                <th data-key="startGw" class="sortable col-left">Run<span class="arrow"></span></th>
+                <th data-key="avg" class="sortable" title="Average difficulty of the run. Lower = easier.">Avg<span class="arrow"></span></th>
+                <th class="col-left">Fixtures</th>
+              </tr>
+            </thead>
+            <tbody id="runsHardestBody"></tbody>
+          </table>
+        </div>
+      </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- MATCH FORECASTS -->
+  <section class="panel" id="panel-forecasts">
+  <div class="section-head">
+    <h3>Match Forecast</h3>
+    <div class="section-head-right">
+      <span class="note" id="forecastsNote">GW fixtures</span>
+      <div class="segmented" id="forecastView" role="group" aria-label="Table or score matrix">
+        <button data-val="table" aria-pressed="true">Table</button>
+        <button data-val="matrix" aria-pressed="false">Score Matrix</button>
+      </div>
+    </div>
   </div>
 
-  <!-- Scripts -->
-  <script src="js/utils.js"></script>
-  <script src="js/helpers.js"></script>
-  <script src="js/team-summary.js"></script>
-  <script src="js/fixture-ticker.js"></script>
-  <script src="js/fixture-xg-table.js"></script>
-  <script src="js/match-forecasts.js"></script>
+  <!-- TABLE: next gameweek, one row per team -->
+  <div id="forecastTableView">
+  <div class="table-scroll">
+    <table class="data-table" id="forecastTable">
+      <thead>
+        <tr>
+          <th data-key="kickoff" class="sortable col-left">Kickoff<span class="arrow"></span></th>
+          <th data-key="team" class="sortable col-left">Team<span class="arrow"></span></th>
+          <th data-key="opponent" class="sortable col-left">Opponent<span class="arrow"></span></th>
+          <th data-key="xg" class="sortable" title="Projected expected goals">xG<span class="arrow"></span></th>
+          <th data-key="xga" class="sortable" title="Projected expected goals against (the opponent's xG)">xGA<span class="arrow"></span></th>
+          <th data-key="cs" class="sortable" title="Projected clean sheet probability">Clean sheet<span class="arrow"></span></th>
+          <th data-key="dcHits" class="sortable" title="Projected DefCon hits">DefCon hits<span class="arrow"></span></th>
+        </tr>
+      </thead>
+      <tbody id="forecastBody"></tbody>
+    </table>
+  </div>
+  </div>
 
-  </script>
+  <!-- SCORE MATRIX: one match at a time -->
+  <div id="forecastMatrixView" style="display:none;">
+  <div class="card">
+    <div class="card-head">
+      <label for="match-selector" style="font-size:13px; color:var(--ink-soft); font-family:'IBM Plex Mono', monospace;"></label>
+      <select id="match-selector"></select>
+    </div>
+    <div class="match-forecasts-container">
+      <div class="match-forecasts-matrix-header"></div>
+      <svg id="match-forecasts-matrix" style="width:100%; height:auto;"></svg>
+    </div>
+  </div>
+  </div>
+</section>
+
+  <!-- DEFENSIVE CONTRIBUTION -->
+  <section class="panel" id="panel-defcons">
+    <div class="section-head">
+      <h3>Defensive Contributions</h3>
+      <span class="note" id="defconsNote">last 38 matches per team</span>
+    </div>
+    <div class="card" style="padding-bottom:0;">
+      <div class="card-head">
+        <div class="segmented" id="defconsViewToggle" role="group" aria-label="DefCons view">
+          <button data-val="team" aria-pressed="true">Team</button>
+          <button data-val="player" aria-pressed="false">Player</button>
+        </div>
+      </div>
+    </div>
+
+    <div id="defconsTeamView">
+      <div class="card" style="padding-bottom:0;">
+        <div class="card-head">
+          <div class="segmented" id="defconsMode" role="group" aria-label="Actuals or projections">
+            <button data-val="actuals" aria-pressed="true">Actuals</button>
+            <button data-val="projections" aria-pressed="false">Projections</button>
+          </div>
+          <div class="segmented" id="defconsStatsMode" role="group" aria-label="Per game or total">
+            <button data-val="perGame" aria-pressed="true">Per game</button>
+            <button data-val="total" aria-pressed="false">Total</button>
+          </div>
+          <div class="fixtures-controls" id="defconsProjControls" style="display:none;">
+            <label>Gameweek <select id="defconsProjGw"></select></label>
+          </div>
+        </div>
+      </div>
+
+      <!-- ACTUALS -->
+      <div id="defconsActualsView">
+        <div class="table-scroll">
+          <table class="data-table defcons-table" id="defconsTable">
+            <thead>
+              <tr>
+                <th rowspan="2" class="sticky-col" style="--stick-left:0px; width:40px;">#</th>
+                <th rowspan="2" data-key="team" class="sortable col-left sticky-col sticky-col--edge" style="--stick-left:40px; width:140px;">Team<span class="arrow"></span></th>
+                <th colspan="3" class="group-header" id="defconsLastGwLabel">Last GW</th>
+                <th colspan="3" class="group-header" id="defconsWindowLabel">Last 38 matches</th>
+                <th colspan="2" class="group-header" id="defconsOppWindowLabel">Opponents (last 38 matches)</th>
+                <th rowspan="2" id="defconsNextLabel">Next</th>
+              </tr>
+              <tr>
+                <th>vs</th>
+                <th data-key="lastHits" class="sortable">Hits<span class="arrow"></span></th>
+                <th data-key="lastDefcons" class="sortable">DefCons<span class="arrow"></span></th>
+                <th data-key="hits" class="sortable"><span class="avg-label" data-base="Hits">Hits</span><span class="arrow"></span></th>
+                <th data-key="defcons" class="sortable"><span class="avg-label" data-base="DefCons">DefCons</span><span class="arrow"></span></th>
+                <th title="10-match moving average of DefCons, over the last 38 matches. A dashed vertical line marks the start of a new season.">Trend<span class="th-sub">last 38 matches</span></th>
+                <th data-key="oppHits" class="sortable"><span class="avg-label" data-base="Hits">Hits</span><span class="arrow"></span></th>
+                <th data-key="oppDefcons" class="sortable"><span class="avg-label" data-base="DefCons">DefCons</span><span class="arrow"></span></th>
+              </tr>
+            </thead>
+            <tbody id="defconsBody"></tbody>
+          </table>
+        </div>
+      </div>
+
+      <!-- PROJECTIONS: one gameweek, one row per team -->
+      <div id="defconsProjectionsView" style="display:none;">
+        <div class="table-scroll">
+          <table class="data-table" id="defconsProjTable">
+            <thead>
+              <tr>
+                <th class="sticky-col" style="--stick-left:0px; width:40px;">#</th>
+                <th data-key="team" class="sortable col-left sticky-col sticky-col--edge" style="--stick-left:40px; width:140px;">Team<span class="arrow"></span></th>
+                <th class="col-left">Opponent</th>
+                <th data-key="hits" class="sortable" title="Projected number of DefCon hits">Exp. hits<span class="arrow"></span></th>
+                <th data-key="defcons" class="sortable" title="Projected total defensive contributions">Proj. DefCons<span class="arrow"></span></th>
+                <th data-key="cs" class="sortable" title="Projected clean sheet probability">Clean sheet<span class="arrow"></span></th>
+              </tr>
+            </thead>
+            <tbody id="defconsProjBody"></tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+
+    <div id="defconsPlayerView" class="card" style="display:none;">
+      <div class="placeholder-box tall">Player view — coming soon<br>work in progress</div>
+    </div>
+  </section>
+
+  <!-- EXPECTED GOALS -->
+  <section class="panel" id="panel-xg">
+    <div class="section-head">
+      <h3>Expected Goals</h3>
+      <span class="note" id="xgNote">last 38 matches per team</span>
+    </div>
+    <div class="card" style="padding-bottom:0;">
+      <div class="card-head">
+        <div class="segmented" id="xgView" role="group" aria-label="Expected Goals view">
+          <button data-val="team" aria-pressed="true">Team</button>
+          <button data-val="player" aria-pressed="false">Player</button>
+        </div>
+      </div>
+    </div>
+
+    <div id="xgTeamView">
+      <div class="card" style="padding-bottom:0;">
+        <div class="card-head">
+          <div class="card-head-left">
+            <div class="segmented" id="xgLayout" role="group" aria-label="Scatter or table">
+              <button data-val="scatter" aria-pressed="true">Scatter</button>
+              <button data-val="table" aria-pressed="false">Table</button>
+            </div>
+            <label class="filter-check" title="Leaves out each team's best and worst match by xG difference (xG minus xGA), so one-off results don't skew the averages.">
+              <input type="checkbox" id="xgTrim"> Remove each team's best &amp; worst match
+            </label>
+          </div>
+          <div class="segmented" id="xgStatsMode" role="group" aria-label="Per game or total" style="display:none;">
+            <button data-val="perGame" aria-pressed="true">Per game</button>
+            <button data-val="total" aria-pressed="false">Total</button>
+          </div>
+        </div>
+      </div>
+
+      <!-- SCATTER -->
+      <div id="xgScatterView">
+        <div class="card xg-scatter-card">
+          <div class="xg-scatter-head">
+            <div class="xg-scatter-title">Offense vs defense</div>
+            <div class="xg-scatter-info" id="xgScatterInfo">Click a team to see how its xG created and conceded built up</div>
+          </div>
+          <div class="xg-scatter-coverage" id="xgScatterCoverage"></div>
+          <div id="xgScatter"></div>
+          <div class="xg-scatter-legend">Each logo is a team's average per match over the window. The dashed cross is the league average. Click a team to see how its average built up, match by match, to where it is now. The first few running averages (up to 4, fewer for short windows) are left out of the line, because an average of only 1 to 3 matches is mostly noise, so a short window shows fewer points.</div>
+        </div>
+      </div>
+
+      <!-- TABLE -->
+      <div id="xgTableView" style="display:none;">
+      <div class="table-scroll">
+        <table class="data-table" id="xgTable">
+          <thead>
+            <tr>
+              <th rowspan="2" class="sticky-col" style="--stick-left:0px; width:40px;">#</th>
+              <th rowspan="2" data-key="team" class="sortable col-left sticky-col sticky-col--edge" style="--stick-left:40px; width:140px;">Team<span class="arrow"></span></th>
+              <th colspan="4" class="group-header" id="xgLastGwLabel">Last GW</th>
+              <th colspan="3" class="group-header" id="xgWindowLabel">Last 38 matches (per match)</th>
+              <th colspan="2" class="group-header" title="Actual goals minus what the chances were worth. Offense: positive = scoring more than expected (good). Defense: positive = conceding more than expected (bad).">Goals − xG</th>
+              <th rowspan="2" title="10-match moving average of xG created (green) and xG conceded (orange), over the last 38 matches. A dashed vertical line marks the start of a new season.">Trend<span class="th-sub">last 38 matches</span></th>
+              <th colspan="3" class="group-header" id="xgNextLabel" title="Projected for the next gameweek (from the projections)">Next (proj.)</th>
+            </tr>
+            <tr>
+              <th>vs</th>
+              <th class="col-left">Score</th>
+              <th data-key="lastXg" class="sortable">xG<span class="arrow"></span></th>
+              <th data-key="lastXga" class="sortable">xGA<span class="arrow"></span></th>
+              <th data-key="xg" class="sortable">xG<span class="arrow"></span></th>
+              <th data-key="xga" class="sortable">xGA<span class="arrow"></span></th>
+              <th data-key="xgd" class="sortable">xGD<span class="arrow"></span></th>
+              <th data-key="attackDiff" class="sortable" title="Goals scored − xG. Positive = scoring more than the chances suggest (good).">Offense<span class="arrow"></span></th>
+              <th data-key="defenceDiff" class="sortable" title="Goals conceded − xGA. Positive = conceding more than the chances suggest (bad); negative = conceding fewer (good).">Defense<span class="arrow"></span></th>
+              <th>vs</th>
+              <th data-key="nextXg" class="sortable">xG<span class="arrow"></span></th>
+              <th data-key="nextXga" class="sortable">xGA<span class="arrow"></span></th>
+            </tr>
+          </thead>
+          <tbody id="xgBody"></tbody>
+        </table>
+      </div>
+      <p class="table-footnote">Trend: xG for (green) vs against (orange), 10-match average over the last 38 matches (dashed line = new season).</p>
+      </div>
+    </div>
+
+    <div id="xgPlayerView" class="card" style="display:none;">
+      <div class="placeholder-box tall">Player view — coming soon<br>work in progress</div>
+    </div>
+  </section>
+
+  <!-- OWNERSHIP -->
+  <section class="panel" id="panel-ownership">
+    <div class="section-head">
+      <h3>Ownership</h3>
+      <span class="note">work in progress</span>
+    </div>
+    <div class="card">
+      <div class="card-head">
+        <div class="segmented" id="ownershipView" role="group" aria-label="Ownership view">
+          <button data-val="team" aria-pressed="true">Team</button>
+          <button data-val="player" aria-pressed="false">Player</button>
+        </div>
+      </div>
+      <div class="placeholder-box tall" id="ownershipNote"></div>
+    </div>
+  </section>
+
+  <!-- SENTIMENT -->
+  <section class="panel" id="panel-sentiment">
+    <div class="section-head">
+      <h3>Sentiment</h3>
+      <span class="note">work in progress</span>
+    </div>
+    <div class="card">
+      <div class="placeholder-box tall">Sentiment trends — coming soon<br>work in progress</div>
+    </div>
+  </section>
+
+  <!-- TOP 10K -->
+  <section class="panel" id="panel-top10k">
+    <div class="section-head">
+      <h3>Top 10k</h3>
+      <span class="note">work in progress</span>
+    </div>
+    <div class="card">
+      <div class="placeholder-box tall">Top 10k — coming soon<br>work in progress</div>
+    </div>
+  </section>
+
+  <!-- GALLERY -->
+  <section class="panel" id="panel-gallery">
+    <div class="section-head">
+      <h3>Gallery</h3>
+      <span class="note">work in progress</span>
+    </div>
+    <div class="card">
+      <div class="placeholder-box tall">Gallery — coming soon<br>work in progress</div>
+    </div>
+  </section>
+
+</main>
+
+<footer>
+  Built by @timbayer93 · Follow for more:
+  <a href="https://x.com/timbayer93" target="_blank" rel="noopener noreferrer">Twitter</a> ·
+  <a href="https://github.com/timbayer93" target="_blank" rel="noopener noreferrer">GitHub</a>
+</footer>
+
+<!-- entry point — everything else is imported from here -->
+<script type="module" src="js/main.js"></script>
+
 </body>
 </html>
